@@ -1,0 +1,15 @@
+jobs:
+  spelling:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/prepare
+      - run: yarn tsc
+
+name: TypeScript Compile
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:

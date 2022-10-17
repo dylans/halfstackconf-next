@@ -1,0 +1,4 @@
+{
+  "dictionaries": ["css", "html", "node", "typescript"],
+  "ignorePaths": [".github", "node_modules"]
+}
