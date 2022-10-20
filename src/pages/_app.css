@@ -16,6 +16,7 @@ html {
   --color-dark: black;
   --color-emphasis: #d72027;
   --color-primary: #2e4b9f;
+  --color-faint: #909ab6;
   --color-subtle: #e8e8e8;
   --transition-medium: 350ms;
 }

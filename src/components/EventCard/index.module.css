@@ -1,0 +1,88 @@
+.eventCard {
+  display: block;
+  text-decoration: none;
+  transition: var(--transition-medium) transform;
+}
+
+.cardContents {
+  background: var(--color-backdrop);
+  box-shadow: 0 0 10px rgb(0 0 0 / 80%);
+  overflow: hidden;
+  position: relative;
+}
+
+.eventCard:hover {
+  transform: scale(1.02);
+}
+
+.background {
+  background-position: left;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.textContents {
+  margin-right: 33%;
+  padding: 2rem 0.5rem 3rem 3rem;
+  text-align: right;
+}
+
+.title,
+.description {
+  color: var(--color-bright);
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.date {
+  color: var(--color-faint);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 1.4em;
+}
+
+.thumbnail {
+  background-position: center;
+  background-size: cover;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30%;
+}
+
+.booker {
+  background: var(--color-bright);
+  background-image: url("./closeTagBlue.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto 50%;
+  border-radius: 999px;
+  color: var(--color-primary);
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  left: 1rem;
+  margin-top: -1rem;
+  padding: 0.75rem 3.75rem 0.75rem 1.75rem;
+  position: relative;
+  text-transform: uppercase;
+  transition: var(--transition-medium) background-color;
+}
+
+.eventCard:hover .booker {
+  background-color: var(--color-faint);
+}

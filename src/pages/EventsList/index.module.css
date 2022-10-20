@@ -1,0 +1,10 @@
+.eventsList {
+  background: var(--color-primary);
+}
+
+.eventCards {
+  margin: auto;
+  max-width: 1200px;
+  padding: 5rem;
+  width: 80%;
+}
