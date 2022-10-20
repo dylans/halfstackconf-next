@@ -1,0 +1,14 @@
+.bottom {
+  background: var(--color-backdrop);
+  color: var(--color-subtle);
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.bottom a {
+  color: var(--color-subtle);
+}
