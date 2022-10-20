@@ -1,0 +1,62 @@
+.newsletter {
+  background: var(--color-dark);
+  padding: 2rem 1rem 4rem;
+}
+
+.contents {
+  color: var(--color-bright);
+  margin: auto;
+  max-width: var(--width-body);
+}
+
+.h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.p {
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+  justify-content: stretch;
+  width: 100%;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.input {
+  background: var(--color-dark-medium);
+  border: none;
+  color: var(--color-bright);
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.nameArea {
+  flex-grow: 3;
+  margin-right: 2rem;
+}
+
+.emailArea {
+  flex-grow: 4;
+}
+
+.submit {
+  background: none;
+  border: none;
+}
+
+.submitIcon {
+  height: 3.5rem;
+  width: 3.5rem;
+}

@@ -1,5 +1,6 @@
 html,
-body {
+body,
+input {
   font-family: Europa, Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0;
@@ -20,6 +21,7 @@ html {
   --color-backdrop-tertiary: #2f2d2e;
   --color-bright: white;
   --color-dark: #2f2d2e;
+  --color-dark-medium: #595758;
   --color-emphasis: #d72027;
   --color-primary: #2e4b9f;
   --color-faint: #909ab6;
@@ -58,4 +60,8 @@ h5,
 h6 {
   font-size: inherit;
   padding: 0;
+}
+
+p {
+  margin: 0;
 }

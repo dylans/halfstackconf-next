@@ -1,5 +1,5 @@
 {
   "dictionaries": ["css", "html", "node", "typescript"],
   "ignorePaths": ["*.tsbuildinfo", ".github", "node_modules", "pnpm-lock.yaml"],
-  "words": ["HalfStack", "halfstackconf", "pnpm"]
+  "words": ["FNAME", "HalfStack", "halfstackconf", "pnpm"]
 }
