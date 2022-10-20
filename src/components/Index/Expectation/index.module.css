@@ -1,0 +1,42 @@
+.details {
+  background: url("./assets/viennaBackground.png");
+  background-size: cover;
+}
+
+.contents {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: var(--width-body);
+}
+
+.h2 {
+  font-size: 3.25rem;
+  text-transform: uppercase;
+}
+
+.p {
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bottomButton {
+  box-shadow: var(--box-shadow-dark);
+  margin: 2rem 1rem 3rem;
+}
+
+@media (min-width: 500px) {
+  .photos {
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem;
+  }
+}

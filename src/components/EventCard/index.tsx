@@ -59,7 +59,7 @@ export function EventCard({
         className={styles.booker}
         style={{ color: `var(${backgroundColor})` }}
       >
-        Book your Tickets <span role="presentation">{"/>"}</span>
+        Book your Tickets
       </div>
     </Link>
   );

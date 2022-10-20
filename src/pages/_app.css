@@ -1,6 +1,7 @@
 html,
 body {
   font-family: Europa, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
   margin: 0;
   padding: 0;
 }
@@ -10,6 +11,7 @@ body {
 }
 
 html {
+  --box-shadow-dark: 0 0 10px rgb(0 0 0 / 80%);
   --color-backdrop: #22366e;
   --color-backdrop-emphasized: #262262;
   --color-backdrop-quaternary: #d72027;
@@ -17,7 +19,7 @@ html {
   --color-backdrop-subtle: #5f80bf;
   --color-backdrop-tertiary: #2f2d2e;
   --color-bright: white;
-  --color-dark: black;
+  --color-dark: #2f2d2e;
   --color-emphasis: #d72027;
   --color-primary: #2e4b9f;
   --color-faint: #909ab6;

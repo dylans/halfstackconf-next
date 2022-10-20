@@ -1,4 +1,5 @@
 import { EventsList } from "../components/Index/EventsList";
+import { Expectation } from "../components/Index/Expectation";
 import { Intro } from "../components/Index/Intro";
 
 export default function Index() {
@@ -6,6 +7,7 @@ export default function Index() {
     <div>
       <Intro />
       <EventsList />
+      <Expectation />
     </div>
   );
 }
