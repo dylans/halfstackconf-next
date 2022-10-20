@@ -1,6 +1,6 @@
 .header {
   align-items: center;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid var(--color-border-subtle);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,13 +24,13 @@
 .link {
   border-bottom: 6px solid transparent;
   border-top: 6px solid transparent;
-  color: #2e4b9f;
+  color: var(--color-text-primary);
   font-weight: bold;
   text-decoration: none;
 }
 
 .link:hover {
-  border-bottom: 6px solid #d72027;
+  border-bottom: 6px solid var(--color-emphasis);
 }
 
 @media (min-width: 500px) {

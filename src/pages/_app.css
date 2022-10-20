@@ -9,10 +9,10 @@ body {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+html {
+  --color-emphasis: #d72027;
+  --color-text-primary: #2e4b9f;
+  --color-border-subtle: #e8e8e8;
 }
 
 @font-face {
