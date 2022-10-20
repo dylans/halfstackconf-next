@@ -1,5 +1,5 @@
-import { EventsList } from "./EventsList";
-import { Intro } from "./Intro";
+import { EventsList } from "../components/Index/EventsList";
+import { Intro } from "../components/Index/Intro";
 
 export default function Index() {
   return (

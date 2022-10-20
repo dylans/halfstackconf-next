@@ -1,4 +1,4 @@
-import { EventCard } from "../../components/EventCard";
+import { EventCard } from "../../EventCard";
 import londonBackground from "./assets/londonBackground.png";
 import londonThumbnail from "./assets/londonThumbnail.jpg";
 import styles from "./index.module.css";
