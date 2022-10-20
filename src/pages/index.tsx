@@ -1,3 +1,9 @@
-export default function Home() {
-  return <div>Hello, world!</div>;
+import { Intro } from "./Intro";
+
+export default function Index() {
+  return (
+    <div>
+      <Intro />
+    </div>
+  );
 }

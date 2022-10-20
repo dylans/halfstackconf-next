@@ -11,6 +11,9 @@ body {
 
 html {
   --color-backdrop: #22366e;
+  --color-backdrop-light: #5f80bf;
+  --color-bright: white;
+  --color-dark: black;
   --color-emphasis: #d72027;
   --color-primary: #2e4b9f;
   --color-subtle: #e8e8e8;
