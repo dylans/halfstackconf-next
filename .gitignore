@@ -9,5 +9,3 @@
 /node_modules
 /out/
 next-env.d.ts
-yarn-debug.log*
-yarn-error.log*

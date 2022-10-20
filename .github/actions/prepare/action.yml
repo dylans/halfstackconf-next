@@ -5,9 +5,12 @@ name: Prepare
 runs:
   using: "composite"
   steps:
+    - uses: pnpm/action-setup@v2
+      with:
+        version: 7.13.6
     - uses: actions/setup-node@v3
       with:
-        cache: "yarn"
+        cache: "pnpm"
         node-version: "18"
-    - run: yarn install --frozen-lockfile
+    - run: pnpm install --frozen-lockfile
       shell: bash

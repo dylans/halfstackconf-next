@@ -1,12 +1,12 @@
 jobs:
-  tsc:
+  lint-spelling:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/prepare
-      - run: pnpm tsc
+      - run: pnpm lint:spelling
 
-name: TypeScript Compile
+name: Lint Spelling
 
 on:
   push:

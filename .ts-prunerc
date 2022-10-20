@@ -1,4 +1,4 @@
 {
   "error": true,
-  "skip": "src/pages"
+  "ignore": "src/pages"
 }

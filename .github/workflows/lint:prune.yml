@@ -1,12 +1,12 @@
 jobs:
-  tsc:
+  lint-prune:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/prepare
-      - run: pnpm tsc
+      - run: pnpm lint:prune
 
-name: TypeScript Compile
+name: Lint Prune
 
 on:
   push:
