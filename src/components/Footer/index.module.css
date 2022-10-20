@@ -1,0 +1,38 @@
+.iconLinks {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.icon {
+  height: 2rem;
+  transition: var(--transition-medium) opacity;
+  width: 2rem;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.textLinks {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.bottom {
+  background: var(--color-backdrop);
+  color: var(--color-subtle);
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.bottom a {
+  color: var(--color-subtle);
+}

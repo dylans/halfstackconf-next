@@ -1,8 +1,9 @@
 import Image from "next/future/image";
 import Link from "next/link";
 
-import styles from "./Header.module.css";
-import logo from "./logo.svg";
+import logo from "../logo.svg";
+import { TextLink } from "../TextLink";
+import styles from "./index.module.css";
 
 const links = [
   ["Past Events", "/events"],
@@ -20,9 +21,9 @@ export function Header() {
       </Link>
       <div className={styles.links}>
         {links.map(([children, href]) => (
-          <Link className={styles.link} key={href} href={href}>
+          <TextLink key={href} href={href}>
             {children}
-          </Link>
+          </TextLink>
         ))}
       </div>
     </nav>

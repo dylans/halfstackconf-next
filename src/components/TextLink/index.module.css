@@ -1,0 +1,13 @@
+.textLink {
+  border-bottom: 6px solid transparent;
+  border-top: 6px solid transparent;
+  color: var(--color-primary);
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  text-decoration: none;
+  transition: var(--transition-medium) border-color;
+}
+
+.textLink:hover {
+  border-bottom: 6px solid var(--color-emphasis);
+}

@@ -21,18 +21,6 @@
   text-transform: uppercase;
 }
 
-.link {
-  border-bottom: 6px solid transparent;
-  border-top: 6px solid transparent;
-  color: var(--color-primary);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.link:hover {
-  border-bottom: 6px solid var(--color-emphasis);
-}
-
 @media (min-width: 500px) {
   .links {
     flex-direction: row;

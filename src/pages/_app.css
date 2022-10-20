@@ -14,6 +14,7 @@ html {
   --color-emphasis: #d72027;
   --color-primary: #2e4b9f;
   --color-subtle: #e8e8e8;
+  --transition-medium: 350ms;
 }
 
 @font-face {
