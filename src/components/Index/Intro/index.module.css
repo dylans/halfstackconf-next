@@ -1,5 +1,5 @@
 .intro {
-  background: var(--color-backdrop-light) url("./background.jpg") no-repeat;
+  background: var(--color-backdrop-subtle) url("./background.jpg") no-repeat;
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;

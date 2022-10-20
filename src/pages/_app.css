@@ -11,7 +11,11 @@ body {
 
 html {
   --color-backdrop: #22366e;
-  --color-backdrop-light: #5f80bf;
+  --color-backdrop-emphasized: #262262;
+  --color-backdrop-quaternary: #d72027;
+  --color-backdrop-secondary: #2b9d57;
+  --color-backdrop-subtle: #5f80bf;
+  --color-backdrop-tertiary: #2f2d2e;
   --color-bright: white;
   --color-dark: black;
   --color-emphasis: #d72027;

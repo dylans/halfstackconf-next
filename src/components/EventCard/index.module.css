@@ -1,11 +1,11 @@
 .eventCard {
   display: block;
+  position: relative;
   text-decoration: none;
   transition: var(--transition-medium) transform;
 }
 
 .cardContents {
-  background: var(--color-backdrop);
   box-shadow: 0 0 10px rgb(0 0 0 / 80%);
   overflow: hidden;
   position: relative;
@@ -26,9 +26,18 @@
 }
 
 .textContents {
+  position: relative;
+}
+
+.leftToRight .textContents {
   margin-right: 33%;
   padding: 2rem 0.5rem 3rem 3rem;
   text-align: right;
+}
+
+.rightToLeft .textContents {
+  margin-left: 33%;
+  padding: 2rem 3rem 3rem 0.5rem;
 }
 
 .title,
@@ -59,28 +68,38 @@
   background-size: cover;
   bottom: 0;
   position: absolute;
-  right: 0;
   top: 0;
   width: 30%;
 }
 
+.leftToRight .thumbnail {
+  right: 0;
+}
+
+.rightToLeft .thumbnail {
+  left: 0;
+}
+
 .booker {
   background: var(--color-bright);
-  background-image: url("./closeTagBlue.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: auto 50%;
   border-radius: 999px;
+  bottom: -1.75rem;
   color: var(--color-primary);
   display: inline-block;
   font-size: 1.4rem;
   font-weight: bold;
-  left: 1rem;
-  margin-top: -50%;
-  padding: 0.75rem 3.75rem 0.75rem 1.75rem;
-  position: relative;
+  padding: 0.75rem 1.75rem;
+  position: absolute;
   text-transform: uppercase;
   transition: var(--transition-medium) background-color;
+}
+
+.leftToRight .booker {
+  left: 1rem;
+}
+
+.rightToLeft .booker {
+  right: 1rem;
 }
 
 .eventCard:hover .booker {
