@@ -2,6 +2,7 @@ import clsx from "clsx";
 import { StaticImageData } from "next/future/image";
 import Link from "next/link";
 
+import { RoundLink } from "../RoundLink";
 import styles from "./index.module.css";
 
 export interface EventCardProps {
@@ -55,12 +56,12 @@ export function EventCard({
           style={{ backgroundImage: `url('${thumbnail.src}')` }}
         />
       </div>
-      <div
+      <RoundLink
         className={styles.booker}
         style={{ color: `var(${backgroundColor})` }}
       >
         Book your Tickets
-      </div>
+      </RoundLink>
     </Link>
   );
 }
