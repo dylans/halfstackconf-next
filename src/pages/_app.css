@@ -23,6 +23,7 @@ html {
   --color-faint: #909ab6;
   --color-subtle: #e8e8e8;
   --transition-medium: 350ms;
+  --width-body: 75rem;
 }
 
 @font-face {

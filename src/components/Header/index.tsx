@@ -15,17 +15,19 @@ const links = [
 
 export function Header() {
   return (
-    <nav className={styles.header}>
-      <Link href="/">
-        <Image alt="HalfStack" className={styles.logo} src={logo} />
-      </Link>
-      <div className={styles.links}>
-        {links.map(([children, href]) => (
-          <TextLink key={href} href={href}>
-            {children}
-          </TextLink>
-        ))}
+    <header className={styles.header}>
+      <div className={styles.contents}>
+        <Link href="/">
+          <Image alt="HalfStack" className={styles.logo} src={logo} />
+        </Link>
+        <nav className={styles.links}>
+          {links.map(([children, href]) => (
+            <TextLink key={href} href={href}>
+              {children}
+            </TextLink>
+          ))}
+        </nav>
       </div>
-    </nav>
+    </header>
   );
 }
