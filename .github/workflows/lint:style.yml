@@ -1,0 +1,15 @@
+jobs:
+  lint-style:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/prepare
+      - run: pnpm lint:style
+
+name: Lint Style
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
