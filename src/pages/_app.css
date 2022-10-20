@@ -1,5 +1,6 @@
 html,
 body {
+  font-family: Europa;
   margin: 0;
   padding: 0;
 }
@@ -12,4 +13,24 @@ body {
   html {
     color-scheme: dark;
   }
+}
+
+@font-face {
+  font-family: "Europa";
+  font-style: normal;
+  src: url("/fonts/Europa-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Europa";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/Europa-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Europa";
+  font-style: normal;
+  font-weight: lighter;
+  src: url("/fonts/Europa-Light.woff") format("woff");
 }
