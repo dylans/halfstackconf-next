@@ -3,15 +3,17 @@ import Head from "next/head";
 import { Banner } from "../../../components/Banner";
 import { BannerText } from "../../../components/BannerText";
 import { BodyArea } from "../../../components/BodyArea";
+import { SponsorStacksList } from "../../../components/SponsorStacksList";
 import { Text } from "../../../components/Text";
 import { getEventData, getEvents, getEventYears } from "../../../data";
 import { ReturnedParams, ReturnedProps } from "../../../utils";
 import styles from "./index.module.css";
 
 export default function EventYear({
-  event,
   date,
+  event,
   name,
+  sponsors,
   year,
 }: ReturnedProps<typeof getStaticProps>) {
   return (
@@ -28,6 +30,8 @@ export default function EventYear({
         <Text as="h2" fontSize="large">
           HalfStack {name} {year} - {date}
         </Text>
+
+        <SponsorStacksList {...sponsors} />
       </BodyArea>
     </>
   );

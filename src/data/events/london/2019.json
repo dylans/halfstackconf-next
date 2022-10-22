@@ -3,19 +3,116 @@
   "sponsors": {
     "complete": [
       {
-        "image": "/logos/sitepen.svg",
+        "href": "https://sitepen.com",
         "name": "Sitepen",
-        "url": "https://sitepen.com"
+        "src": "/logos/sitepen.svg"
       },
       {
-        "image": "/logos/orangejellyfish.svg",
+        "href": "https://orangejellyfish.com",
         "name": "Orange Jellyfish",
-        "url": "https://orangejellyfish.com"
+        "src": "/logos/orangejellyfish.svg"
       },
       {
-        "image": "/logos/ag-grid.svg",
+        "href": "https://www.ag-grid.com",
         "name": "ag-grid",
-        "url": "https://www.ag-grid.com"
+        "src": "/logos/ag-grid.svg"
+      }
+    ],
+    "large": [
+      { "name": "CMD", "href": "https://cmdhq.io", "src": "/logos/cmd.svg" },
+      {
+        "name": "Dazn",
+        "href": "https://engineering.dazn.com",
+        "src": "/logos/dazn.svg"
+      },
+      {
+        "name": "Twilio",
+        "href": "https://twilio.com",
+        "src": "/logos/twilio.svg"
+      },
+      {
+        "name": "Mod Streaming",
+        "href": "https://modstreaming.com",
+        "src": "/logos/modstreaming.jpg"
+      }
+    ],
+    "medium": [
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      }
+    ],
+    "small": [
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      },
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      },
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      },
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      },
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      },
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      },
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      },
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      },
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      },
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      },
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      },
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      },
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
+      },
+      {
+        "href": "",
+        "name": "",
+        "src": "/logos/.svg"
       }
     ]
   }

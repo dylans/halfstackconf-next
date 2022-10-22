@@ -1,0 +1,17 @@
+.sponsorsList {
+  margin: auto;
+  max-width: var(--width-body);
+  text-align: center;
+}
+
+.takeMeTop {
+  margin: 3rem 1rem;
+}
+
+.bottomText {
+  margin: 3rem 1rem;
+}
+
+.takeMeBottom {
+  margin: 0 1rem;
+}

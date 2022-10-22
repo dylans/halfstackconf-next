@@ -1,7 +1,11 @@
 import { promises as fs } from "node:fs";
 import * as path from "node:path";
 
-import { EventData, EventDataCurrent, EventDataDefault } from "./types";
+import {
+  EventDataCurrent,
+  EventDataDefault,
+  EventDataHistorical,
+} from "./types";
 
 const dataDirectory = path.join(process.cwd(), "src/data");
 const eventsDirectory = path.join(dataDirectory, "events");
@@ -19,7 +23,7 @@ export async function getEventYears(event: string) {
 export async function getEventData(
   event: string,
   year: number
-): Promise<EventData>;
+): Promise<EventDataHistorical>;
 export async function getEventData(
   event: string,
   year: "current"
