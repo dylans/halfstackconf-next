@@ -43,7 +43,7 @@ export function SponsorStack({ sponsors, stack }: SponsorStackProps) {
   return (
     <div className={styles.sponsorsList}>
       <Text as="h3" fontSize="large" key={stack}>
-        {label} Sponsors
+        {label} Stack Sponsors
       </Text>
       <div className={clsx(styles.sponsors, areaClassName)}>
         {sponsors.map(({ name, href, src }) => (

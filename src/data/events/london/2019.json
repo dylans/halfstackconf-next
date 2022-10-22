@@ -37,82 +37,74 @@
       }
     ],
     "medium": [
-      {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
-      }
+      { "name": "DHD", "href": "https://wearedhd.com", "src": "/logos/dhd.svg" }
     ],
     "small": [
+      { "name": "Tito", "href": "https://ti.to/", "src": "/logos/tito.svg" },
       {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
+        "name": "Mozilla",
+        "href": "https://www.mozilla.org/",
+        "src": "/logos/mozilla.svg"
       },
       {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
+        "name": "JS Fiddle",
+        "href": "https://jsfiddle.net/",
+        "src": "/logos/jsfiddle-logo.jpg"
       },
       {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
+        "name": "Survive JS",
+        "href": "https://survivejs.com/",
+        "src": "/logos/survivejs.svg"
       },
       {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
+        "href": "https://skillsmatter.com/groups/54-laug",
+        "name": "Skills Matter",
+        "src": "/logos/skillsmatter.jpg"
       },
       {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
+        "name": "Open JS Foundation",
+        "href": "https://openjsf.org/",
+        "src": "/logos/openjsfoundation.svg"
       },
       {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
+        "name": "Qcon London",
+        "href": "http://bit.ly/2wfP2Ps",
+        "src": "/logos/qconlondon.jpg"
       },
       {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
+        "name": "CityJSConf",
+        "href": "https://cityjsconf.org/",
+        "src": "/logos/cityjsconf.svg"
       },
       {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
+        "name": "JS Monthly London",
+        "href": "https://www.meetup.com/js-monthly/",
+        "src": "/logos/jsmonthly.jpg"
       },
       {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
+        "name": "React Finland",
+        "href": "https://react-finland.fi/",
+        "src": "/logos/reactfinland.svg"
       },
       {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
+        "name": "InfoQ",
+        "href": "https://infoq.com/",
+        "src": "/logos/infoq.jpg"
       },
       {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
+        "name": "JS Nation",
+        "href": "https://jsnation.com",
+        "src": "/logos/jsnation.svg"
       },
       {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
+        "name": "React Advanced",
+        "href": "https://reactadvanced.com",
+        "src": "/logos/reactadvanced.svg"
       },
       {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
-      },
-      {
-        "href": "",
-        "name": "",
-        "src": "/logos/.svg"
+        "name": "State of the Browser",
+        "href": "https://2019.stateofthebrowser.com",
+        "src": "/logos/stateofthebrowser.svg"
       }
     ]
   }

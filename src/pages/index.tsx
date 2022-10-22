@@ -4,9 +4,12 @@ import { EventsList } from "../components/Index/EventsList";
 import { Expectation } from "../components/Index/Expectation";
 import { Intro } from "../components/Index/Intro";
 import { Newsletter } from "../components/Index/Newsletter";
-import { Sponsors } from "../components/Index/Sponsors";
+import { SponsorStacksList } from "../components/SponsorStacksList";
+import { ReturnedProps } from "../utils";
 
-export default function Index() {
+export default function Index({
+  sponsors,
+}: ReturnedProps<typeof getStaticProps>) {
   return (
     <>
       <Head>
@@ -16,7 +19,15 @@ export default function Index() {
       <EventsList />
       <Expectation />
       <Newsletter />
-      <Sponsors />
+      <SponsorStacksList {...sponsors} />;
     </>
   );
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      sponsors: (await import("../data/sponsors.json")).default,
+    },
+  };
 }
