@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "next/core-web-vitals",
+    "plugin:jsx-a11y/recommended",
     "plugin:typescript-sort-keys/recommended",
     "plugin:react/jsx-runtime",
     "prettier",
@@ -36,7 +37,13 @@ module.exports = {
     tsconfigRootDir: __dirname,
     project: ["./tsconfig.json"],
   },
-  plugins: ["@typescript-eslint", "simple-import-sort", "typescript-sort-keys"],
+  plugins: [
+    "@typescript-eslint",
+    "jsx-a11y",
+    "react",
+    "simple-import-sort",
+    "typescript-sort-keys",
+  ],
   root: true,
   rules: {
     "simple-import-sort/exports": "error",
