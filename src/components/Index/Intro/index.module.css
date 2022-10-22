@@ -13,7 +13,26 @@
 }
 
 .introText {
+  font-size: var(--font-size-medium);
   margin: auto;
   max-width: 70rem;
   position: relative;
+}
+
+@media (min-width: 350px) {
+  .introText {
+    font-size: var(--font-size-large);
+  }
+}
+
+@media (min-width: 500px) {
+  .introText {
+    font-size: var(--font-size-extra-large);
+  }
+}
+
+@media (min-width: 700px) {
+  .introText {
+    font-size: var(--font-size-banner);
+  }
 }

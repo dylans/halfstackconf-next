@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Image from "next/future/image";
 import Link from "next/link";
+import React from "react";
 
 import { RoundLink } from "../../RoundLink";
 import { Text } from "../../Text";
@@ -216,7 +217,7 @@ export function Sponsors() {
       </Text>
       <RoundLink
         as={Link}
-        className={styles.takeMe}
+        className={styles.takeMeTop}
         href="/spon"
         variant="shadow"
       >
@@ -224,7 +225,7 @@ export function Sponsors() {
       </RoundLink>
       {Object.entries(sponsors).map(
         ([stack, { areaClassName, buttonSize, companies }]) => (
-          <>
+          <React.Fragment key={stack}>
             <Text as="h3" fontSize="large" key={stack}>
               {stack} Sponsors
             </Text>
@@ -254,14 +255,19 @@ export function Sponsors() {
                 <RoundLink size={buttonSize}>Why not</RoundLink>
               </Link>
             </div>
-          </>
+          </React.Fragment>
         )
       )}
       <Text as="div" className={styles.bottomText}>
         There are loads of great reasons to sponsor a HalfStack conference this
         year. Want to find out more?
       </Text>
-      <RoundLink as={Link} href="/spon" variant="shadow">
+      <RoundLink
+        as={Link}
+        className={styles.takeMeBottom}
+        href="/spon"
+        variant="shadow"
+      >
         Take me to the sponsors page
       </RoundLink>
     </div>

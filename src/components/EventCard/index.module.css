@@ -26,18 +26,8 @@
 }
 
 .textContents {
+  padding: 0.5rem 1rem 2.5rem;
   position: relative;
-}
-
-.leftToRight .textContents {
-  margin-right: 33%;
-  padding: 2rem 0.5rem 3rem 3rem;
-  text-align: right;
-}
-
-.rightToLeft .textContents {
-  margin-left: 33%;
-  padding: 2rem 3rem 3rem 0.5rem;
 }
 
 .title,
@@ -46,8 +36,14 @@
 }
 
 .title {
+  font-size: var(--font-size-medium);
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.date,
+.description {
+  font-size: var(--font-size-small);
 }
 
 .date {
@@ -58,12 +54,7 @@
 }
 
 .thumbnail {
-  background-position: center;
-  background-size: cover;
-  bottom: 0;
-  position: absolute;
-  top: 0;
-  width: 30%;
+  display: none;
 }
 
 .leftToRight .thumbnail {
@@ -80,14 +71,59 @@
   position: absolute;
 }
 
+.leftToRight .textContents {
+  text-align: right;
+}
+
 .leftToRight .booker {
-  left: 1rem;
+  right: 0.5rem;
 }
 
 .rightToLeft .booker {
-  right: 1rem;
+  left: 0.5rem;
 }
 
 .eventCard:hover .booker {
   background-color: var(--color-faint);
+}
+
+@media (min-width: 700px) {
+  .title {
+    font-size: var(--font-size-large);
+  }
+
+  .date,
+  .description {
+    font-size: var(--font-size-medium);
+  }
+
+  .leftToRight .textContents {
+    margin-right: 33%;
+    padding: 2rem 0.5rem 3rem 3rem;
+  }
+
+  .rightToLeft .textContents {
+    margin-left: 33%;
+    padding: 2rem 3rem 3rem 0.5rem;
+  }
+
+  .thumbnail {
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 30%;
+  }
+
+  .leftToRight .booker {
+    left: 1rem;
+    right: initial;
+  }
+
+  .rightToLeft .booker {
+    left: initial;
+    right: 1rem;
+  }
 }

@@ -1,6 +1,8 @@
 .expectation {
   background: url("./assets/viennaBackground.png");
   background-size: cover;
+  padding: 1rem;
+  position: relative;
 }
 
 .contents {
@@ -12,7 +14,7 @@
 }
 
 .h2 {
-  margin: 2rem 1rem 1rem;
+  margin: 2rem 0 1rem;
   text-transform: uppercase;
 }
 
@@ -23,20 +25,21 @@
 
 .photos {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
+  height: 10rem;
+  justify-content: center;
+  margin: 2rem;
+  position: relative;
+  width: 100%;
+}
+
+.photo {
+  object-fit: contain;
+  width: 50%;
 }
 
 .bottomButton {
   box-shadow: var(--box-shadow-dark);
   margin: 2rem 1rem 3rem;
-}
-
-@media (min-width: 500px) {
-  .photos {
-    flex-direction: row;
-    gap: 2rem;
-    justify-content: center;
-    margin: 2rem;
-  }
 }

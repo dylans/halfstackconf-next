@@ -34,10 +34,12 @@ export function Expectation() {
         <div className={styles.photos}>
           <Image
             alt="Two conference speakers with dog masks on"
+            className={styles.photo}
             src={whatToExpect1}
           />
           <Image
             alt="Three smiling conference attendees with VR headsets on"
+            className={styles.photo}
             src={whatToExpect2}
           />
         </div>

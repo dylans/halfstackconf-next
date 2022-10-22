@@ -19,6 +19,7 @@
 
 .form {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
   justify-content: stretch;
   width: 100%;
@@ -39,15 +40,6 @@
   width: 100%;
 }
 
-.nameArea {
-  flex-grow: 3;
-  margin-right: 2rem;
-}
-
-.emailArea {
-  flex-grow: 4;
-}
-
 .submit {
   background: none;
   border: none;
@@ -56,4 +48,19 @@
 .submitIcon {
   height: 3.5rem;
   width: 3.5rem;
+}
+
+@media (min-width: 700px) {
+  .form {
+    flex-direction: row;
+  }
+
+  .nameArea {
+    flex-grow: 3;
+    margin-right: 2rem;
+  }
+
+  .emailArea {
+    flex-grow: 4;
+  }
 }

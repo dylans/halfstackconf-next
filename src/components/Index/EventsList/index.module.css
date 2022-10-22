@@ -2,6 +2,7 @@
   background: var(--color-primary);
   background-image: url("./assets/londonEye.png");
   background-size: cover;
+  padding-bottom: 2rem;
 }
 
 .eventCards {
@@ -10,5 +11,11 @@
   gap: 6em;
   margin: auto;
   max-width: var(--width-body);
-  padding: 5rem;
+  padding: 1rem;
+}
+
+@media (min-width: 700px) {
+  .eventCards {
+    padding: 5rem 0;
+  }
 }

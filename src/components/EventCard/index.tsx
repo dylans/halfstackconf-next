@@ -48,13 +48,13 @@ export function EventCard({
           style={{ backgroundImage: `url('${background.src}')` }}
         />
         <div className={styles.textContents}>
-          <Text as="div" className={styles.title} fontSize="large">
+          <Text as="div" className={styles.title}>
             {title}
           </Text>
-          <Text as="div" className={styles.date} fontSize="medium">
+          <Text as="div" className={styles.date}>
             {date}
           </Text>
-          <Text as="div" className={styles.description} fontSize="medium">
+          <Text as="div" className={styles.description}>
             {description}
           </Text>
         </div>
