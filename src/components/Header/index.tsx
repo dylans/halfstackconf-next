@@ -6,7 +6,7 @@ import { TextLink } from "../TextLink";
 import styles from "./index.module.css";
 
 const links = [
-  ["Past Events", "/events"],
+  ["Past Events", "/pastevents"],
   ["Sponsorships", "/spon"],
   ["Blog", "https://medium.com/@halfstackconf"],
   ["Contact", "/contact"],

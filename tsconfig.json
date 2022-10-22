@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "target": "ES2021",
     "allowJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -13,7 +12,8 @@
     "noEmit": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "target": "ES2021"
   },
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "src"]

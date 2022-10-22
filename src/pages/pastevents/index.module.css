@@ -1,0 +1,16 @@
+.pastEvents {
+  text-align: center;
+}
+
+.items {
+  padding: 0 0 2rem;
+}
+
+.item {
+  list-style-type: none;
+  padding: 0;
+}
+
+.link {
+  color: var(--color-primary);
+}

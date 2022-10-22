@@ -1,0 +1,18 @@
+{
+  "london": {
+    "name": "London",
+    "years": [2017, 2018, 2019]
+  },
+  "newyork": {
+    "name": "New York",
+    "years": [2019]
+  },
+  "phoenix": {
+    "name": "Phoenix",
+    "years": [2020]
+  },
+  "vienna": {
+    "name": "Vienna",
+    "years": [2019]
+  }
+}
