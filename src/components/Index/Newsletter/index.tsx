@@ -15,11 +15,11 @@ export function Newsletter() {
           Subscribe to receive updates about once a month from HalfStack.
         </Text>
         <form
-          className={styles.form}
           action="//halfstackconf.us13.list-manage.com/subscribe/post?u=847c7b2749adac7c367eadbd1&amp;id=48709f23c2"
+          className={styles.form}
           method="post"
-          target="_blank"
           noValidate
+          target="_blank"
         >
           <div className={styles.nameArea}>
             <Text
@@ -31,10 +31,10 @@ export function Newsletter() {
               Name
             </Text>
             <Text
-              as="input"
-              fontSize="medium"
               aria-required
+              as="input"
               className={styles.input}
+              fontSize="medium"
               name="FNAME"
               type="text"
             />
@@ -49,10 +49,10 @@ export function Newsletter() {
               Email
             </Text>
             <Text
-              as="input"
-              fontSize="medium"
               aria-required
+              as="input"
               className={styles.input}
+              fontSize="medium"
               name="EMAIL"
               type="email"
             />
@@ -60,8 +60,8 @@ export function Newsletter() {
           <button className={styles.submit} type="submit">
             <Image
               alt="Submit"
-              sizes="3.5rem"
               className={styles.submitIcon}
+              sizes="3.5rem"
               src={checkButton}
             />
           </button>

@@ -3,6 +3,7 @@ module.exports = {
     "eslint:recommended",
     "next/core-web-vitals",
     "plugin:typescript-sort-keys/recommended",
+    "plugin:react/jsx-runtime",
     "prettier",
   ],
   overrides: [
@@ -40,5 +41,11 @@ module.exports = {
   rules: {
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",
+    "react/jsx-sort-props": "error",
+  },
+  settings: {
+    react: {
+      version: "detect",
+    },
   },
 };

@@ -56,7 +56,7 @@ export function Expectation() {
           access to our HalfStack Online events until we can safely have
           in-person events again.
         </Text>
-        <RoundLink as="a" href="/pastevents" className={styles.bottomButton}>
+        <RoundLink as="a" className={styles.bottomButton} href="/pastevents">
           Take me to past events
         </RoundLink>
       </div>

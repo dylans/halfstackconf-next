@@ -16,6 +16,7 @@
     "eslint-config-next": "12.3.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jsonc": "^2.4.0",
+    "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
     "husky": "^8.0.1",

@@ -12,6 +12,7 @@ specifiers:
   eslint-config-next: 12.3.1
   eslint-config-prettier: ^8.5.0
   eslint-plugin-jsonc: ^2.4.0
+  eslint-plugin-react: ^7.31.10
   eslint-plugin-simple-import-sort: ^8.0.0
   eslint-plugin-typescript-sort-keys: ^2.1.0
   husky: ^8.0.1
@@ -47,6 +48,7 @@ devDependencies:
   eslint-config-next: 12.3.1_z4bbprzjrhnsfa24uvmcbu7f5q
   eslint-config-prettier: 8.5.0_eslint@8.25.0
   eslint-plugin-jsonc: 2.4.0_eslint@8.25.0
+  eslint-plugin-react: 7.31.10_eslint@8.25.0
   eslint-plugin-simple-import-sort: 8.0.0_eslint@8.25.0
   eslint-plugin-typescript-sort-keys: 2.1.0_ukgdydjtebaxmxfqp5v5ulh64y
   husky: 8.0.1

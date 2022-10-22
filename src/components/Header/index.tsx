@@ -22,7 +22,7 @@ export function Header() {
         </Link>
         <nav className={styles.links}>
           {links.map(([children, href]) => (
-            <TextLink key={href} href={href}>
+            <TextLink href={href} key={href}>
               {children}
             </TextLink>
           ))}

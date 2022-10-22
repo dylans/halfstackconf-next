@@ -19,11 +19,11 @@ export function Footer() {
       <div className={styles.iconLinks}>
         {icons.map(([alt, src]) => (
           <a
-            href="https://twitter.com/halfstackconf"
             className={styles.icon}
+            href="https://twitter.com/halfstackconf"
             key={alt}
-            target="_blank"
             rel="noreferrer"
+            target="_blank"
           >
             <Image alt={alt} className={styles.icon} src={src} />
           </a>
@@ -37,7 +37,7 @@ export function Footer() {
       <Text as="div" className={styles.bottom} fontSize="extra-small">
         Copyright © Open Web Conferences, LLC, {new Date().getFullYear()}. All
         rights reserved. Site design by{" "}
-        <a href="https://wearedhd.com" target="_blank" rel="noreferrer">
+        <a href="https://wearedhd.com" rel="noreferrer" target="_blank">
           David Henderson Design
         </a>
         .
