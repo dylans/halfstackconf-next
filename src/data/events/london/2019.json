@@ -1,0 +1,22 @@
+{
+  "date": "22nd of November",
+  "sponsors": {
+    "complete": [
+      {
+        "image": "/logos/sitepen.svg",
+        "name": "Sitepen",
+        "url": "https://sitepen.com"
+      },
+      {
+        "image": "/logos/orangejellyfish.svg",
+        "name": "Orange Jellyfish",
+        "url": "https://orangejellyfish.com"
+      },
+      {
+        "image": "/logos/ag-grid.svg",
+        "name": "ag-grid",
+        "url": "https://www.ag-grid.com"
+      }
+    ]
+  }
+}

@@ -5,11 +5,18 @@ import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
 import { BodyArea } from "../../components/BodyArea";
 import { Text } from "../../components/Text";
+import {
+  getEventData,
+  getEvents as getEvents,
+  getEventYears,
+} from "../../data";
+import { ReturnedProps } from "../../utils";
 import styles from "./index.module.css";
 
 export default function PastEvents({
-  events,
-}: Awaited<ReturnType<typeof getStaticProps>>["props"]) {
+  eventsData,
+}: ReturnedProps<typeof getStaticProps>) {
+  console.log({ eventsData });
   return (
     <>
       <Head>
@@ -19,9 +26,9 @@ export default function PastEvents({
         <BannerText>Past Events</BannerText>
       </Banner>
       <BodyArea className={styles.pastEvents}>
-        {Object.entries(events).map(([slug, { name, years }]) => (
+        {eventsData.map(([event, { name, years }]) => (
           <>
-            <Text as="h2" fontSize="large" key={slug}>
+            <Text as="h2" fontSize="large" key={event}>
               {name}
             </Text>
             <ul className={styles.items}>
@@ -29,7 +36,7 @@ export default function PastEvents({
                 .sort((a, b) => b - a)
                 .map((year) => (
                   <Text as="li" className={styles.item} key={year}>
-                    <Link className={styles.link} href={`/${slug}/${year}`}>
+                    <Link className={styles.link} href={`/${event}/${year}`}>
                       HalfStack {name} {year}
                     </Link>
                   </Text>
@@ -43,9 +50,20 @@ export default function PastEvents({
 }
 
 export async function getStaticProps() {
+  const events = await getEvents();
+  const eventsData = await Promise.all(
+    events.map(async (event) => {
+      const [defaultData, years] = await Promise.all([
+        getEventData(event, "default"),
+        getEventYears(event),
+      ]);
+      return [event, { ...defaultData, years }] as const;
+    })
+  );
+
   return {
     props: {
-      events: (await import("../../data/events.json")).default,
+      eventsData,
     },
   };
 }

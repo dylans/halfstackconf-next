@@ -1,0 +1,13 @@
+.bannerImageArea {
+  height: 10rem;
+  margin-bottom: 1rem;
+  position: relative;
+  width: 100%;
+}
+
+.bannerImage {
+  color: white;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}

@@ -33,7 +33,7 @@ const sponsors = {
         "https://careers.choicehotels.com/careers",
         "/logos/choicehotels.svg",
       ],
-      ["agGrid", "https://ag-grid.com", "/logos/aggrid.svg"],
+      ["ag-grid", "https://ag-grid.com", "/logos/ag-grid.svg"],
       ["EventHandler", "https://eventhandler.co.il", "/logos/eventhandler.svg"],
       ["Workiva", "https://workiva.com", "/logos/workiva.svg"],
       ["Lowe's", "https://lowes.com", "/logos/lowes.svg"],
