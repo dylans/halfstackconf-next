@@ -1,7 +1,7 @@
 import Head from "next/head";
 
-import { BodyArea } from "../components/BodyArea";
-import { Text } from "../components/Text";
+import { BodyArea } from "../../components/BodyArea";
+import { Text } from "../../components/Text";
 import styles from "./index.module.css";
 
 const sections = {
