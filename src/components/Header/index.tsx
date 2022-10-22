@@ -7,8 +7,8 @@ import styles from "./index.module.css";
 
 const links = [
   ["Past Events", "/events"],
-  ["Sponsorships", "/sponsorships"],
-  ["Blog", "/blog"],
+  ["Sponsorships", "/spon"],
+  ["Blog", "https://medium.com/@halfstackconf"],
   ["Contact", "/contact"],
   ["FAQs", "/faqs"],
 ];

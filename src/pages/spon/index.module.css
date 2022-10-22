@@ -1,0 +1,30 @@
+.sponsorship {
+  text-align: center;
+}
+
+.reasons {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.reason {
+  margin: 0 2rem 2rem 0;
+  padding: 0 1rem;
+}
+
+.reason::marker {
+  content: "/>";
+  font-weight: bold;
+}
+
+.callToAction {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  .reasons {
+    columns: 2;
+  }
+}

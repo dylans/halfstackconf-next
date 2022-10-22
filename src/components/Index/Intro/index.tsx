@@ -1,12 +1,10 @@
-import { Text } from "../../Text";
-import styles from "./index.module.css";
+import { Banner } from "../../Banner";
+import { BannerText } from "../../BannerText";
 
 export function Intro() {
   return (
-    <div className={styles.intro}>
-      <Text as="h1" className={styles.introText}>
-        Welcome to HalfStack
-      </Text>
-    </div>
+    <Banner>
+      <BannerText>Welcome to HalfStack</BannerText>
+    </Banner>
   );
 }

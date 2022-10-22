@@ -1,0 +1,25 @@
+.bannerText {
+  font-size: var(--font-size-medium);
+  line-height: 1;
+  margin: auto;
+  max-width: 70rem;
+  position: relative;
+}
+
+@media (min-width: 350px) {
+  .bannerText {
+    font-size: var(--font-size-large);
+  }
+}
+
+@media (min-width: 500px) {
+  .bannerText {
+    font-size: var(--font-size-extra-large);
+  }
+}
+
+@media (min-width: 700px) {
+  .bannerText {
+    font-size: var(--font-size-banner);
+  }
+}
