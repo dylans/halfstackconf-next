@@ -1,3 +1,82 @@
+.footer {
+  padding-top: 2rem;
+}
+
+.cityscapeLink {
+  display: block;
+  margin: 1rem auto;
+  position: relative;
+}
+
+.cityscapeLink::after {
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  transition: var(--transition-medium) left, var(--transition-medium) width;
+  width: 0;
+}
+
+.cityscapeLink:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.cityscapeOnlineLink::after {
+  background: var(--color-backdrop-subtle);
+}
+
+.charlotte::after {
+  background: var(--color-city-charlotte);
+}
+
+.london::after {
+  background: var(--color-city-london);
+}
+
+.newquay::after {
+  background: var(--color-city-newquay);
+}
+
+.newYork::after {
+  background: var(--color-city-newyork);
+}
+
+.phoenix::after {
+  background: var(--color-city-phoenix);
+}
+
+.telAviv::after {
+  background: var(--color-city-telaviv);
+}
+
+.vienna::after {
+  background: var(--color-city-vienna);
+}
+
+.cityscapeOnlineImage {
+  height: 7rem;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.cityscapeFirst,
+.cityscapes {
+  margin: auto;
+  max-width: var(--width-body);
+}
+
+.cityscapes {
+  display: flex;
+  padding: 2rem 0;
+}
+
+.cityscapeImage {
+  height: 4rem;
+  width: 100%;
+}
+
 .iconLinks {
   align-items: center;
   display: flex;

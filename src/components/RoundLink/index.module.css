@@ -4,18 +4,19 @@
   color: var(--color-dark);
   display: inline-block;
   font-weight: bold;
-  padding: 0.75rem 1.75rem;
   text-decoration: none;
   text-transform: uppercase;
   transition: var(--transition-medium) background-color;
 }
 
-.roundLink.sizeMedium {
-  font-size: var(--font-size-medium);
-}
-
 .roundLink.sizeSmall {
   font-size: var(--font-size-small);
+  padding: 0.5rem 1rem;
+}
+
+.roundLink.sizeMedium {
+  font-size: var(--font-size-medium);
+  padding: 0.75rem 1.75rem;
 }
 
 .roundLink:hover {

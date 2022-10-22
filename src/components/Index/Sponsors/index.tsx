@@ -68,7 +68,7 @@ const sponsors = {
   },
   Medium: {
     areaClassName: styles.sponsorsMedium,
-    buttonSize: "medium",
+    buttonSize: "small",
     companies: [
       ["20i", "https://www.20i.com", "/logos/20i.svg"],
       ["DHD", "https://wearedhd.com", "/logos/dhd.svg"],
