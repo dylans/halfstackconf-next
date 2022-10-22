@@ -24,6 +24,7 @@ export interface EventDataDefault {
 
 export interface EventDataHistorical {
   date: string;
+  otherEvents: Record<string, number[]>;
   sponsors: EventSponsors;
 }
 

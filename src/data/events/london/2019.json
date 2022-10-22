@@ -1,5 +1,11 @@
 {
   "date": "22nd of November",
+  "otherEvents": {
+    "london": [2018, 2017],
+    "newyork": [2019],
+    "phoenix": [2020],
+    "vienna": [2019]
+  },
   "sponsors": {
     "complete": [
       {
