@@ -4,7 +4,6 @@ import Link from "next/link";
 import { Banner } from "../../../components/Banner";
 import { BannerText } from "../../../components/BannerText";
 import { BodyArea } from "../../../components/BodyArea";
-import { Column } from "../../../components/Col";
 import { Grid } from "../../../components/Grid";
 import { SponsorStacksList } from "../../../components/SponsorStacksList";
 import { Text } from "../../../components/Text";
