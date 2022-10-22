@@ -10,17 +10,36 @@ export interface MinimumProps {
 
 export interface RoundLinkProps extends MinimumProps {
   [i: string]: unknown;
-  as?: keyof JSX.IntrinsicElements | React.ComponentType<MinimumProps>;
+  as?: React.ElementType | React.ComponentType<MinimumProps>;
+  size?: RoundLinkSize;
+  variant?: "default" | "shadow";
 }
+
+export type RoundLinkSize = keyof typeof sizeStyles;
+
+const sizeStyles = {
+  medium: styles.sizeMedium,
+  small: styles.sizeSmall,
+};
 
 export function RoundLink({
   as: As = "div",
   children,
   className,
+  size = "medium",
+  variant,
   ...props
 }: RoundLinkProps) {
   return (
-    <As {...props} className={clsx(className, styles.roundLink)}>
+    <As
+      {...props}
+      className={clsx(
+        className,
+        styles.roundLink,
+        sizeStyles[size],
+        variant === "shadow" && styles.shadow
+      )}
+    >
       {children} <span role="presentation">{"/>"}</span>
     </As>
   );

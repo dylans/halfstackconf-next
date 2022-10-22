@@ -3,7 +3,6 @@
   border-radius: 9999px;
   color: var(--color-dark);
   display: inline-block;
-  font-size: 1.4rem;
   font-weight: bold;
   padding: 0.75rem 1.75rem;
   text-decoration: none;
@@ -11,6 +10,18 @@
   transition: var(--transition-medium) background-color;
 }
 
+.roundLink.sizeMedium {
+  font-size: var(--font-size-medium);
+}
+
+.roundLink.sizeSmall {
+  font-size: var(--font-size-small);
+}
+
 .roundLink:hover {
   background-color: var(--color-subtle);
+}
+
+.shadow {
+  box-shadow: var(--box-shadow-dark);
 }

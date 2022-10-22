@@ -1,19 +1,23 @@
 .fontExtraSmall {
-  font-size: 0.8rem;
+  font-size: var(--font-size-extra-small);
 }
 
 .fontSmall {
-  font-size: 1rem;
+  font-size: var(--font-size-small);
 }
 
 .fontMedium {
-  font-size: 1.4rem;
+  font-size: var(--font-size-medium);
 }
 
 .fontLarge {
-  font-size: 2.8rem;
+  font-size: var(--font-size-large);
 }
 
 .fontExtraLarge {
-  font-size: 7rem;
+  font-size: var(--font-size-extra-large);
+}
+
+.fontBanner {
+  font-size: var(--font-size-banner);
 }

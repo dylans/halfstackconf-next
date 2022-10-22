@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="100px" viewBox="0 0 300 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>ioc logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#000000" x="0" y="0" width="300" height="100"></rect>
+        <text id="Isle-of-Code" font-family="Helvetica" font-size="40" font-weight="normal" fill="#FFFFFF">
+            <tspan x="36" y="56">Isle of Code</tspan>
+        </text>
+        <text id="Software-Development" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+            <tspan x="76" y="76">Software Development Partners</tspan>
+        </text>
+    </g>
+</svg>

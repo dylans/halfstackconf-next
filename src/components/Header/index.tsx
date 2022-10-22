@@ -1,7 +1,7 @@
 import Image from "next/future/image";
 import Link from "next/link";
 
-import logo from "../logo.svg";
+import logo from "../../assets/logo.svg";
 import { TextLink } from "../TextLink";
 import styles from "./index.module.css";
 

@@ -12,6 +12,7 @@ export type TextProps<As extends React.ElementType> = {
 export type FontSize = keyof typeof fontStyles;
 
 const fontStyles = {
+  banner: styles.fontBanner,
   "extra-small": styles.fontExtraSmall,
   small: styles.fontSmall,
   medium: styles.fontMedium,

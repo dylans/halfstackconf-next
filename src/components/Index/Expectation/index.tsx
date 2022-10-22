@@ -8,7 +8,7 @@ import styles from "./index.module.css";
 
 export function Expectation() {
   return (
-    <div className={styles.details}>
+    <div className={styles.expectation}>
       <div className={styles.contents}>
         <Text as="h2" className={styles.h2} fontSize="large">
           What to Expect
