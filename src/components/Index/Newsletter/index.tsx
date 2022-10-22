@@ -1,5 +1,6 @@
 import Image from "next/future/image";
 
+import { Text } from "../../Text";
 import checkButton from "./assets/checkButton.png";
 import styles from "./index.module.css";
 
@@ -7,10 +8,12 @@ export function Newsletter() {
   return (
     <div className={styles.newsletter}>
       <div className={styles.contents}>
-        <h2 className={styles.h2}>Newsletter</h2>
-        <p className={styles.p}>
+        <Text as="h2" className={styles.h2} fontSize="large">
+          Newsletter
+        </Text>
+        <Text as="p" className={styles.p}>
           Subscribe to receive updates about once a month from HalfStack.
-        </p>
+        </Text>
         <form
           className={styles.form}
           action="//halfstackconf.us13.list-manage.com/subscribe/post?u=847c7b2749adac7c367eadbd1&amp;id=48709f23c2"
@@ -19,10 +22,17 @@ export function Newsletter() {
           noValidate
         >
           <div className={styles.nameArea}>
-            <label className={styles.label} htmlFor="FNAME">
+            <Text
+              as="label"
+              className={styles.label}
+              fontSize="small"
+              htmlFor="FNAME"
+            >
               Name
-            </label>
-            <input
+            </Text>
+            <Text
+              as="input"
+              fontSize="medium"
               aria-required
               className={styles.input}
               name="FNAME"
@@ -30,10 +40,17 @@ export function Newsletter() {
             />
           </div>
           <div className={styles.emailArea}>
-            <label className={styles.label} htmlFor="EMAIL">
+            <Text
+              as="label"
+              className={styles.label}
+              fontSize="small"
+              htmlFor="EMAIL"
+            >
               Email
-            </label>
-            <input
+            </Text>
+            <Text
+              as="input"
+              fontSize="medium"
               aria-required
               className={styles.input}
               name="EMAIL"

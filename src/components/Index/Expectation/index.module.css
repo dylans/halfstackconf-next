@@ -12,12 +12,11 @@
 }
 
 .h2 {
-  font-size: 3.25rem;
+  margin: 2rem 1rem 1rem;
   text-transform: uppercase;
 }
 
 .p {
-  font-size: 1.3rem;
   font-weight: 900;
   margin: 1rem 0;
 }

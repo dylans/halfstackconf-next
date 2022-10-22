@@ -10,12 +10,10 @@
 }
 
 .h2 {
-  font-size: 3rem;
   text-transform: uppercase;
 }
 
 .p {
-  font-size: 1.3rem;
   margin-bottom: 3rem;
 }
 
@@ -36,7 +34,6 @@
   background: var(--color-dark-medium);
   border: none;
   color: var(--color-bright);
-  font-size: 1.3rem;
   padding: 0.5rem 1rem;
   text-transform: uppercase;
   width: 100%;

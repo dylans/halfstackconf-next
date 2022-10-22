@@ -3,6 +3,7 @@ import { StaticImageData } from "next/future/image";
 import Link from "next/link";
 
 import { RoundLink } from "../RoundLink";
+import { Text } from "../Text";
 import styles from "./index.module.css";
 
 export interface EventCardProps {
@@ -47,9 +48,15 @@ export function EventCard({
           style={{ backgroundImage: `url('${background.src}')` }}
         />
         <div className={styles.textContents}>
-          <div className={styles.title}>{title}</div>
-          <div className={styles.date}>{date}</div>
-          <div className={styles.description}>{description}</div>
+          <Text as="div" className={styles.title} fontSize="large">
+            {title}
+          </Text>
+          <Text as="div" className={styles.date} fontSize="medium">
+            {date}
+          </Text>
+          <Text as="div" className={styles.description} fontSize="medium">
+            {description}
+          </Text>
         </div>
         <div
           className={styles.thumbnail}

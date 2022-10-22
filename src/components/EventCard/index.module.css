@@ -46,21 +46,15 @@
 }
 
 .title {
-  font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .date {
   color: var(--color-faint);
-  font-size: 1.5rem;
   font-weight: 700;
   margin: 1rem 0;
   text-transform: uppercase;
-}
-
-.description {
-  font-size: 1.4em;
 }
 
 .thumbnail {

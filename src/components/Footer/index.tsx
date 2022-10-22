@@ -1,5 +1,6 @@
 import Image from "next/future/image";
 
+import { Text } from "../Text";
 import { TextLink } from "../TextLink";
 import facebookIcon from "./facebook-icon.png";
 import styles from "./index.module.css";
@@ -33,14 +34,14 @@ export function Footer() {
         <TextLink href="/faqs">FAQs</TextLink>
         <TextLink href="/contact">Contact Us</TextLink>
       </div>
-      <div className={styles.bottom}>
+      <Text as="div" className={styles.bottom} fontSize="extra-small">
         Copyright © Open Web Conferences, LLC, {new Date().getFullYear()}. All
         rights reserved. Site design by{" "}
         <a href="https://wearedhd.com" target="_blank" rel="noreferrer">
           David Henderson Design
         </a>
         .
-      </div>
+      </Text>
     </footer>
   );
 }
