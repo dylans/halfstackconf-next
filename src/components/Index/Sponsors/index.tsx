@@ -199,7 +199,7 @@ const sponsors = {
       ["codebar", "http://codebar.io/", "/logos/codebar.svg"],
     ],
   },
-};
+} as const;
 
 export function Sponsors() {
   return (
@@ -257,6 +257,13 @@ export function Sponsors() {
           </>
         )
       )}
+      <Text as="div" className={styles.bottomText}>
+        There are loads of great reasons to sponsor a HalfStack conference this
+        year. Want to find out more?
+      </Text>
+      <RoundLink as={Link} href="/spon" variant="shadow">
+        Take me to the sponsors page
+      </RoundLink>
     </div>
   );
 }
