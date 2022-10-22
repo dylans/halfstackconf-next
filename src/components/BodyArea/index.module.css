@@ -1,0 +1,5 @@
+.bodyArea {
+  margin: auto;
+  max-width: var(--width-body);
+  padding: 1rem;
+}

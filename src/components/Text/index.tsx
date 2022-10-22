@@ -22,7 +22,6 @@ const fontStyles = {
 
 export const Text = <As extends React.ElementType = "span">({
   as,
-  children,
   className,
   fontSize = "medium",
   ...props
@@ -33,8 +32,6 @@ export const Text = <As extends React.ElementType = "span">({
     <As
       className={clsx(className, styles.text, fontStyles[fontSize])}
       {...props}
-    >
-      {children}
-    </As>
+    />
   );
 };
