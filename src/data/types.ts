@@ -11,8 +11,13 @@ export interface EventSponsors {
   small: SponsorData[];
 }
 
-export interface EventDataCurrent {
+export interface EventDataBase {
+  date: string;
   sponsors: EventSponsors;
+}
+
+export interface EventDataCurrent extends EventDataBase {
+  location: string;
   year: number;
 }
 
@@ -28,10 +33,8 @@ export interface EventVideo {
   title: string;
 }
 
-export interface EventDataHistorical {
-  date: string;
+export interface EventDataHistorical extends EventDataBase {
   otherEvents: Record<string, number[]>;
-  sponsors: EventSponsors;
   videos: EventVideo[];
 }
 

@@ -1,0 +1,12 @@
+.labeledIcon {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.label {
+  color: var(--color-primary);
+  font-weight: bold;
+  text-align: center;
+}

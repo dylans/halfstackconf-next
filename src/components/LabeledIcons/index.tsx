@@ -1,0 +1,32 @@
+import clsx from "clsx";
+import Image from "next/future/image";
+import React from "react";
+
+import { Columns } from "../Columns";
+import { Text } from "../Text";
+import styles from "./index.module.css";
+
+export interface LabeledIcon {
+  icon: string;
+  label: string;
+}
+
+export interface LabeledIconsProps {
+  className?: string;
+  icons: LabeledIcon[];
+}
+
+export function LabeledIcons({ className, icons }: LabeledIconsProps) {
+  return (
+    <Columns className={clsx(styles.labeledIcons, className)}>
+      {icons.map(({ icon, label }) => (
+        <div className={styles.labeledIcon} key={label}>
+          <Image alt="" height={110} src={icon} width={110} />
+          <Text as="div" className={styles.label}>
+            {label}
+          </Text>
+        </div>
+      ))}
+    </Columns>
+  );
+}
