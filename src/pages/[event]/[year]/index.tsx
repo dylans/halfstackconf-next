@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Banner } from "../../../components/Banner";
 import { BannerText } from "../../../components/BannerText";
 import { BodyArea } from "../../../components/BodyArea";
-import { Grid } from "../../../components/Grid";
+import { Columns } from "../../../components/Columns";
 import { SponsorStacksList } from "../../../components/SponsorStacksList";
 import { Text } from "../../../components/Text";
 import { getEventData, getEvents, getEventYears } from "../../../data";
@@ -25,15 +25,14 @@ export default function EventYear({
         <title>{`HalfStack ${name} ${year}`}</title>
       </Head>
       <Banner background={`${event}.png`}>
-        <BannerText>{name}</BannerText>
-        <Text fontSize="large">{year}</Text>
+        <BannerText>Past Events</BannerText>
       </Banner>
 
       <BodyArea className={styles.event}>
         <Text as="h2" className={styles.h2} fontSize="large">
           HalfStack {name} {year} - {date}
         </Text>
-        <Grid>
+        <Columns className={styles.topColumns}>
           <div>
             <Text as="h3" fontSize="medium">
               Recap
@@ -53,7 +52,7 @@ export default function EventYear({
                   <Text as="li" fontSize="small" key={otherYear}>
                     <Link
                       className={styles.otherEventLink}
-                      href={`/${otherEvent.name}/${otherYear}`}
+                      href={`/${otherEvent.event}/${otherYear}`}
                     >
                       HalfStack {otherEvent.name} {otherYear}
                     </Link>
@@ -62,7 +61,11 @@ export default function EventYear({
               )}
             </ul>
           </div>
-        </Grid>
+        </Columns>
+
+        <Text as="h2" className={styles.h2} fontSize="large">
+          Videos
+        </Text>
 
         <SponsorStacksList {...sponsors} />
       </BodyArea>
