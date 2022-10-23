@@ -113,5 +113,80 @@
         "src": "/logos/stateofthebrowser.svg"
       }
     ]
-  }
+  },
+  "videos": [
+    {
+      "by": "DHD",
+      "label": "recap",
+      "href": "https://youtu.be/nKc9lTYuNjo",
+      "thumbnail": "/london/2019/dhd-recap.png",
+      "title": "HalfStack London 2019 Recap Video"
+    },
+    {
+      "by": "Chris Heilmann, Microsoft",
+      "href": "https://halfstackconf.streameventlive.com/embed/74",
+      "thumbnail": "/speakers/christian-heilmann.png",
+      "title": "Reconsidering Open Web Tooling"
+    },
+    {
+      "thumbnail": "/speakers/lily-hoskin.jpg",
+      "href": "https://halfstackconf.streameventlive.com/embed/75",
+      "by": "Lily Hoskin, Helix Centre",
+      "title": "Adding Machine Learning to Plants"
+    },
+    {
+      "thumbnail": "/speakers/daniel-van-berzon.png",
+      "href": "https://halfstackconf.streameventlive.com/embed/76",
+      "by": "Daniel van Berzon, Ocasta ",
+      "title": "Readable code - Available without prescription"
+    },
+    {
+      "thumbnail": "/speakers/jonathan-fielding.jpg",
+      "href": "https://halfstackconf.streameventlive.com/embed/77",
+      "by": "Jonathan Fielding, Uswitch",
+      "title": "Being Eco-friendly with JavaScript"
+    },
+    {
+      "thumbnail": "/speakers/chris-dowling.jpg",
+      "href": "https://halfstackconf.streameventlive.com/embed/78",
+      "by": "Chris Dowling, Unmade",
+      "title": "Saving the World With SVG"
+    },
+    {
+      "thumbnail": "/speakers/rob-bateman.png",
+      "href": "https://halfstackconf.streameventlive.com/embed/79",
+      "by": "Rob Bateman, Freelancer",
+      "title": "Lets Recurse!"
+    },
+    {
+      "thumbnail": "/speakers/niels-leenheer.jpg",
+      "href": "https://halfstackconf.streameventlive.com/embed/80",
+      "by": "Niels Leenheer, Salonhub",
+      "title": "JavaScript On Microcontrollers"
+    },
+    {
+      "thumbnail": "/speakers/suz-hinton.jpg",
+      "href": "https://halfstackconf.streameventlive.com/embed/81",
+      "by": "Suz Hinton, Stripe",
+      "title": "Adventures in Reinventing Interfaces"
+    },
+    {
+      "thumbnail": "/speakers/dylan-schiemann.jpg",
+      "href": "https://halfstackconf.streameventlive.com/embed/82",
+      "by": "Dylan Schiemann, SitePen",
+      "title": "Yoda, Web, Spock Reloaded"
+    },
+    {
+      "thumbnail": "/speakers/richard-bultitude.jpg",
+      "href": "https://halfstackconf.streameventlive.com/embed/83",
+      "by": "Richard Bultitude",
+      "title": "Making the Conditional Orchestra"
+    },
+    {
+      "thumbnail": "/speakers/jo-franchetti.jpg",
+      "href": "https://halfstackconf.streameventlive.com/embed/84",
+      "by": "Jo Franchetti",
+      "title": "An Early Christmas Surprise"
+    }
+  ]
 }

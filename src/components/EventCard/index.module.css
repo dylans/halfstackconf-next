@@ -1,20 +1,3 @@
-.eventCard {
-  display: block;
-  position: relative;
-  text-decoration: none;
-  transition: var(--transition-medium) transform;
-}
-
-.cardContents {
-  box-shadow: var(--box-shadow-dark);
-  overflow: hidden;
-  position: relative;
-}
-
-.eventCard:hover {
-  transform: scale(1.02);
-}
-
 .background {
   background-position: left;
   background-size: cover;
@@ -65,22 +48,8 @@
   left: 0;
 }
 
-.booker {
-  bottom: -1.75rem;
-  color: var(--color-primary);
-  position: absolute;
-}
-
 .leftToRight .textContents {
   text-align: right;
-}
-
-.leftToRight .booker {
-  right: 0.5rem;
-}
-
-.rightToLeft .booker {
-  left: 0.5rem;
 }
 
 .eventCard:hover .booker {

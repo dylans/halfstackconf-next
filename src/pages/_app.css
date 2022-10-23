@@ -14,11 +14,14 @@ input {
 html {
   --box-shadow-dark: 0 0 10px rgb(0 0 0 / 80%);
   --color-backdrop: #22366e;
-  --color-backdrop-emphasized: #262262;
-  --color-backdrop-quaternary: #d72027;
-  --color-backdrop-secondary: #2b9d57;
   --color-backdrop-subtle: #5f80bf;
-  --color-backdrop-tertiary: #2f2d2e;
+  --color-backdrop-charlotte: #2b9d57;
+  --color-backdrop-london: #22366e;
+  --color-backdrop-newquay: #22366e;
+  --color-backdrop-newyork: #2f2d2e;
+  --color-backdrop-phoenix: #262262;
+  --color-backdrop-telaviv: #22366e;
+  --color-backdrop-vienna: #d72027;
   --color-bright: white;
   --color-city-charlotte: #abd9ba;
   --color-city-london: #ebf0f7;

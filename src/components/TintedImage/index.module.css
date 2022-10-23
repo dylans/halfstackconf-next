@@ -1,0 +1,11 @@
+.overlay {
+  background: rgb(0 0 255 / 20%);
+  height: 100%;
+  width: 100%;
+}
+
+.image {
+  background-position: center center;
+  object-fit: cover;
+  opacity: 0.8;
+}

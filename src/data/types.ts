@@ -1,5 +1,3 @@
-// Todo: use Zod to enforce all these!
-
 export interface SponsorData {
   href: string;
   name: string;
@@ -22,10 +20,19 @@ export interface EventDataDefault {
   name: string;
 }
 
+export interface EventVideo {
+  by: string;
+  href: string;
+  label?: string;
+  thumbnail: string;
+  title: string;
+}
+
 export interface EventDataHistorical {
   date: string;
   otherEvents: Record<string, number[]>;
   sponsors: EventSponsors;
+  videos: EventVideo[];
 }
 
 export interface EventDataJoined

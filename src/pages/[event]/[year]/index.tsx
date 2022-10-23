@@ -7,6 +7,7 @@ import { BodyArea } from "../../../components/BodyArea";
 import { Columns } from "../../../components/Columns";
 import { SponsorStacksList } from "../../../components/SponsorStacksList";
 import { Text } from "../../../components/Text";
+import { VideoCard } from "../../../components/VideoCard";
 import { getEventData, getEvents, getEventYears } from "../../../data";
 import { ReturnedParams, ReturnedProps } from "../../../utils";
 import styles from "./index.module.css";
@@ -17,6 +18,7 @@ export default function EventYear({
   name,
   otherEvents,
   sponsors,
+  videos,
   year,
 }: ReturnedProps<typeof getStaticProps>) {
   return (
@@ -46,7 +48,7 @@ export default function EventYear({
             <Text as="h3" fontSize="medium">
               Other Past Events
             </Text>
-            <ul className={styles.ul}>
+            <ul className={styles.eventsList}>
               {otherEvents.map((otherEvent) =>
                 otherEvent.otherYears.map((otherYear) => (
                   <Text as="li" fontSize="small" key={otherYear}>
@@ -66,6 +68,11 @@ export default function EventYear({
         <Text as="h2" className={styles.h2} fontSize="large">
           Videos
         </Text>
+        <ul className={styles.videosList}>
+          {videos.map((video) => (
+            <VideoCard className={styles.videoCard} key={video.by} {...video} />
+          ))}
+        </ul>
 
         <SponsorStacksList {...sponsors} />
       </BodyArea>

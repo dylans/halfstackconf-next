@@ -19,7 +19,7 @@ import styles from "./index.module.css";
 const events = [
   {
     background: londonBackground,
-    backgroundColor: "--color-backdrop",
+    backgroundColor: "--color-backdrop-london",
     date: "16th of November, 2022",
     description:
       "Our first fully indoor event since COVID in Shoreditch in November.",
@@ -30,7 +30,7 @@ const events = [
   },
   {
     background: phoenixBackground,
-    backgroundColor: "--color-backdrop-emphasized",
+    backgroundColor: "--color-backdrop-phoenix",
     date: "3rd of February, 2023",
     description:
       "The second HalfStack Phoenix at the Majestic Theater Gilbert.",
@@ -40,7 +40,7 @@ const events = [
   },
   {
     background: telAvivBackground,
-    backgroundColor: "--color-backdrop-primary",
+    backgroundColor: "--color-backdrop-telaviv",
     date: "TBD 2023",
     description:
       "Delayed to 2023 due to COVID-19. The first HalfStack Tel Aviv will happen as soon as it's safe to have in-person events again. Tickets now available for an incredible day of JS!",
@@ -50,7 +50,7 @@ const events = [
   },
   {
     background: charlotteBackground,
-    backgroundColor: "--color-backdrop-secondary",
+    backgroundColor: "--color-backdrop-charlotte",
     date: "TBD 2023",
     description:
       "The first ever HalfStack Charlotte event. Tickets now available for an incredible day of JS! New date TBD in 2023 due to COVID-19.",
@@ -60,7 +60,7 @@ const events = [
   },
   {
     background: newYorkBackground,
-    backgroundColor: "--color-backdrop-tertiary",
+    backgroundColor: "--color-backdrop-newyork",
     date: "TBD August 2023",
     description:
       "Delayed to 2023 due to COVID-19. We'll let you know when we know more.",
@@ -70,7 +70,7 @@ const events = [
   },
   {
     background: viennaBackground,
-    backgroundColor: "--color-backdrop-quaternary",
+    backgroundColor: "--color-backdrop-vienna",
     date: "TBD 2023",
     description:
       "Delayed due to COVID-19. HalfStack Vienna will return in 2023 at Ankersaal near the Hauptbahnof",
@@ -80,10 +80,10 @@ const events = [
   },
   {
     background: newquayBackground,
-    backgroundColor: "--color-backdrop",
+    backgroundColor: "--color-backdrop-newquay",
     date: "23rd of June, 2023",
     description:
-      "We just concluded our first event in Newuay after a two-year COVID-induced delay. Stay tuned for details for our plans for 2023!",
+      "We just concluded our first event in Newquay after a two-year COVID-induced delay. Stay tuned for details for our plans for 2023!",
     href: "/newquay",
     title: "HalfStack at the Beach (Newquay)",
     thumbnail: newquayThumbnail,

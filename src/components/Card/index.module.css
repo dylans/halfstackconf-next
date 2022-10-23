@@ -1,0 +1,38 @@
+.card {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  transition: var(--transition-medium) transform;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.cardContents {
+  box-shadow: var(--box-shadow-dark);
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.bottom {
+  color: var(--color-primary);
+  position: absolute;
+}
+
+.sizeMedium .bottom {
+  bottom: -1.75rem;
+}
+
+.sizeSmall .bottom {
+  bottom: -1.25rem;
+}
+
+.leftToRight .bottom {
+  right: 0.5rem;
+}
+
+.rightToLeft .bottom {
+  left: 0.5rem;
+}
