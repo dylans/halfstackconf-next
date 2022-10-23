@@ -86,7 +86,12 @@ export function SessionCard({
         </details>
         <div className={styles.socialLinks}>
           {socials.map(({ icon, href }) => (
-            <Link className={styles.socialLink} href={href} key={href}>
+            <Link
+              className={styles.socialLink}
+              href={href}
+              key={href}
+              target="_blank"
+            >
               <Image
                 alt={`${by}'s ${icon}`}
                 height={32}
