@@ -11,6 +11,7 @@
 
 .image {
   object-fit: cover;
+  user-select: none;
 }
 
 .description {

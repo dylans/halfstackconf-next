@@ -14,3 +14,4 @@ pnpm install
 - Move EventsList events data to a JSON file, and semi-automate CSS vars and backgrounds
 - Fix lint warnings
 - Consolidate icons into public/icons
+- Set up `~/` tsconfig path prefixes

@@ -1,6 +1,5 @@
 import Image from "next/future/image";
 import Head from "next/head";
-import Link from "next/link";
 
 import { Anchor } from "../../components/Anchor";
 import { Banner } from "../../components/Banner";
@@ -9,6 +8,7 @@ import { BodyArea } from "../../components/BodyArea";
 import { Expectation } from "../../components/Expectation";
 import { LabeledIcons } from "../../components/LabeledIcons";
 import { SecondaryBanner } from "../../components/SecondaryBanner";
+import { SessionsList } from "../../components/SessionsList";
 import { SplitPromo } from "../../components/SplitPromo";
 import { SponsorStacksList } from "../../components/SponsorStacksList";
 import { Text } from "../../components/Text";
@@ -19,6 +19,7 @@ import styles from "./index.module.css";
 export default function Event({
   date,
   description,
+  sessions,
   event,
   location,
   name,
@@ -75,6 +76,8 @@ export default function Event({
         Visit our <Anchor href="/cfp">CfP page</Anchor> for more information on
         proposing your amazing HalfStack session!
       </SecondaryBanner>
+
+      <SessionsList sessions={sessions} />
 
       <SponsorStacksList {...sponsors} />
     </>

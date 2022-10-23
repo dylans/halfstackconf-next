@@ -1,3 +1,11 @@
 .anchor {
   color: inherit;
 }
+
+.variantInline {
+  text-decoration: none;
+}
+
+.variantUnderlined {
+  text-decoration: underline;
+}

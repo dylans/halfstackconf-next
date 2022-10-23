@@ -9,6 +9,7 @@
   color: white;
   height: 100%;
   object-fit: contain;
+  user-select: none;
   width: 100%;
 }
 

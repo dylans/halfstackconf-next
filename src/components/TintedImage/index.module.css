@@ -1,6 +1,7 @@
 .overlay {
   background: rgb(0 0 255 / 20%);
   height: 100%;
+  user-select: none;
   width: 100%;
 }
 

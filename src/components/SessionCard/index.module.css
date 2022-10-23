@@ -1,0 +1,52 @@
+.image {
+  display: none;
+}
+
+.textContents {
+  padding: 2rem;
+}
+
+.by,
+.summary {
+  font-weight: bold;
+}
+
+.details {
+  margin: 1rem 0 2rem;
+}
+
+.summary {
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.rightToLeft .socialLinks {
+  justify-content: flex-end;
+}
+
+@media (min-width: 700px) {
+  .image {
+    display: initial;
+    height: 100%;
+    position: absolute;
+    user-select: none;
+    width: 33%;
+  }
+
+  .rightToLeft .image {
+    right: 0;
+  }
+
+  .leftToRight .textContents {
+    margin-left: 33%;
+  }
+
+  .rightToLeft .textContents {
+    margin-right: 33%;
+  }
+}

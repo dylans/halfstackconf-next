@@ -8,3 +8,7 @@ export type ReturnedProps<Getter extends (...args: never) => unknown> = Awaited<
 > extends { props: infer Props }
   ? Props
   : never;
+
+export function hashify(text: string) {
+  return text.toLowerCase().replaceAll(" ", "-");
+}

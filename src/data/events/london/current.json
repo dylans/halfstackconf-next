@@ -5,6 +5,196 @@
     "Mostly from the greater London area and the UK"
   ],
   "location": "Cafe 1001, London",
+  "sessions": [
+    {
+      "description": [
+        "Browser extensions were a huge mess until not so long ago.",
+        "Today with new WebExtensions API they are much more accessible and we can develop extensions that work inside all major browsers and share the same codebase.",
+        "Other than intro into this new API, you will also hear about concepts, gotchas and ideas on how to use web extensions to enhance user experience for your website or app.",
+        "Also for those old school folks a secret guest will make an appearance.",
+        "Clippy, the MS assistant will now invade and help out directly from your browser of choice."
+      ],
+      "by": "Ante Baric",
+      "socials": [
+        { "icon": "twitter", "href": "https://twitter.com/capJavert" }
+      ],
+      "title": "TL;DR Into Browser Extensions with Clippy"
+    },
+    {
+      "description": [
+        "The web is full of wonderful content, great distractions and media we should be able to access in an easy fashion.",
+        "And yet, we find ourselves often in a situation where we see something, but we can't access it.",
+        "Or when we access it, we end up in interstitial, popup and redirection hell.",
+        "Using only the developer tools that browsers come with, you can work around most of these barriers.",
+        "Let's talk about some ways you can customise the web to be your web and not the one people want to force upon you."
+      ],
+      "by": "Chris Heilmann",
+      "socials": [
+        { "icon": "site", "href": "https://christianheilmann.com" },
+        { "icon": "twitter", "href": "https://twitter.com/codepo8" }
+      ],
+      "title": "Cheatcodes for the Web"
+    },
+    {
+      "description": [
+        "We're not quite ready yet to announce contents here, but we know it's going to be great!"
+      ],
+      "by": "Earth to Abigail",
+      "socials": [
+        { "icon": "site", "href": "https://earthtoabigail.com" },
+        { "icon": "instagram", "href": "https://instagram.com/mynah_m" },
+        { "icon": "twitter", "href": "https://twitter.com/EarthAbigail" }
+      ],
+      "title": "To Be Announced"
+    },
+    {
+      "description": [
+        "When someone who is less technical sees a terminal in use, they can feel intimidated and overwhelmed.",
+        "Excellent!",
+        "The reality is that the command line should intimidate users and let them realise they aren't technical enough.",
+        "",
+        "",
+        "In this talk, Kevin will share insights on how to make CLIs less approachable and accessible.",
+        "We'll discuss how considering UX on the command line can allow users to feel less powerful as they interact with tools designed in less discoverable and approachable ways.",
+        "Let's help our users to need us more."
+      ],
+      "by": "Kevin Cunningham",
+      "socials": [
+        { "icon": "site", "href": "https://kevincunningham.co.uk" },
+        { "icon": "github", "href": "https://github.com/doingandlearning" },
+        { "icon": "twitter", "href": "https://twitter.com/dolearning" },
+        {
+          "icon": "youtube",
+          "href": "https://www.youtube.com/channel/UCtzNXx0YjJFvAuAPL9ZjQOw"
+        }
+      ],
+      "title": "CLIs *Not* Built For Humans"
+    },
+    {
+      "description": [
+        "We all love playing games, and the classics never grow old.",
+        "Here we will take the classic game of pong, and scale it up to be a multiplayer experience.",
+        "We will battle not only the challenge of building a multiplayer game in a serverless way using a variety of AWS services.",
+        "We aim to live code, deploy and game - all if the Wifi holds out of course!"
+      ],
+      "by": "James Allardice and Ross Greenhalf",
+      "socials": [
+        { "icon": "twitter", "href": "https://twitter.com/james_allardice" },
+        { "icon": "twitter", "href": "https://twitter.com/mobdevross" }
+      ],
+      "title": "Massive Multiplayer Game"
+    },
+    {
+      "description": [
+        "We're not quite ready yet to announce contents here, but we know it's going to be great!"
+      ],
+      "by": "Jo Franchetti",
+      "socials": [
+        { "icon": "glitch", "href": "https://glitch.com/@JoFranchetti" },
+        { "icon": "medium", "href": "https://jofranchetti.medium.com" },
+        {
+          "icon": "linkedin",
+          "href": "https://www.linkedin.com/in/jofranchetti"
+        },
+        { "icon": "twitter", "href": "https://twitter.com/ThisIsJoFrank" }
+      ],
+      "title": "To Be Announced"
+    },
+    {
+      "description": [
+        "From setting the <body> in motion to turning the web console into a stage, this session will depict a series of experiments on how choreography may provide alternative insights into how web environments are designed and programmed."
+      ],
+      "by": "Joana Chicau",
+      "socials": [
+        { "icon": "site", "href": "https://joanachicau.com" },
+        { "icon": "twitter", "href": "https://twitter.com/BChicau" }
+      ],
+      "title": "Dancing Browsers"
+    },
+    {
+      "description": [
+        "This session will cover:",
+        "",
+        "Building a lexer, Pratt parser and evaluator from scratch in TypeScript",
+        "",
+        "Creating a REPL",
+        "",
+        "Packaging the final evaluator in WebAssembly and deploying it online",
+        "",
+        "",
+        "It's a fun experiment, and showcases that, more often than not, programming languages are built in other programming languages!"
+      ],
+      "by": "Leo Riviera",
+      "socials": [
+        { "icon": "github", "href": "https://github.com/leoriviera" },
+        { "icon": "linkedin", "href": "https://linkedin.com/in/leoriviera" }
+      ],
+      "title": "Building a Language in TypeScript"
+    },
+    {
+      "description": [
+        "What's an ORM? An Object-Relational Mapping tool (ORM) is a library to map a SQL table to a Class.",
+        "Most ORMs force users to structure their code into Model objects that include both data access and business logic.",
+        "Once upon a time, I did several projects using ORMs as I followed the common belief that those simplify the development and maintenance of projects.",
+        "I was wrong.",
+        "",
+        "",
+        "ORMs are often a hurdle to overcome for the most complex part of a project.",
+        "As the next stop of my journey, I recommended people to use the native languages of their databases, e.g. SQL.",
+        "This works great for the most part but it creates quite a struggle: there is a lot of boilerplate code to write that can be quite tedious.",
+        "I was wrong, again.",
+        "",
+        "",
+        "Today I'm presenting you something new."
+      ],
+      "by": "Matteo Collina",
+      "socials": [
+        { "icon": "twitter", "href": "https://twitter.com/matteocollina" }
+      ],
+      "title": "I Would Never Use an ORM"
+    },
+    {
+      "description": [
+        "After some time searching for the best programming language for my projects, I wondered: is there a programming language that does not use any English keyword?",
+        "Of course, the short answer is no, but where do all the other non-English-based programming languages hide?",
+        "How did we end up using that idiom for writing code?",
+        "Let's explore these questions during this session!"
+      ],
+      "by": "Michele Riva",
+      "socials": [
+        { "icon": "twitter", "href": "https://twitter.com/MicheleRivaCode" }
+      ],
+      "title": "Are All Programming Languages in English?"
+    },
+    {
+      "description": [
+        "Design systems are everywhere nowadays.",
+        "It seems like everyone has one, from tech giants to scrappy startups, all with evocative names such as \"Carbon\", \"Lightning\" and \"US Government Web Design System\".",
+        "But what even is a design system?",
+        "If you've ever asked that question, the answer you heard was probably packed full of industry buzzwords such as \"a shared visual language\" that \"tells your brand's story\", and \"a single source of truth\" that \"reduces redundancy\", whatever that means.",
+        "",
+        "",
+        "In this talk, Steph cuts through the BS by critically examining the definition of design systems via the medium of memes, with the hope that by exploring the merits and flaws of defining memes as a type of design system, we might come that bit closer to understanding the true essence of what a design system actually is."
+      ],
+      "by": "Stephanie Shaw",
+      "socials": [
+        { "icon": "github", "href": "https://github.com/stephshawbeamery" },
+        { "icon": "medium", "href": "https://medium.com/@steph.beamery" }
+      ],
+      "title": "Are Memes a Design System?"
+    },
+    {
+      "description": [
+        "Nodysseus is a browser-based visual programming language that draws inspiration from the node-based editors geared towards non-programmers prevalent in the game and VFX industries.",
+        "After a brief overview of those editors, we'll explore the design and technical choices that set Nodysseus apart (including, of course, why it's browser-based and client-only) and look at some of the fun things we can create."
+      ],
+      "by": "Ulysses Popple",
+      "socials": [
+        { "icon": "twitter", "href": "https://twitter.com/ulyssesdottweet" }
+      ],
+      "title": "Introducing Nodysseus"
+    }
+  ],
   "sponsors": {
     "complete": [
       {

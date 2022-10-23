@@ -57,14 +57,16 @@ export const Card = <As extends React.ElementType>({
       >
         {children}
       </div>
-      <RoundLink
-        className={styles.bottom}
-        size={size}
-        style={{ color: `var(${backgroundColor})` }}
-        variant={size === "small" ? "shadow" : "default"}
-      >
-        {bottom}
-      </RoundLink>
+      {bottom && (
+        <RoundLink
+          className={styles.bottom}
+          size={size}
+          style={{ color: `var(${backgroundColor})` }}
+          variant={size === "small" ? "shadow" : "default"}
+        >
+          {bottom}
+        </RoundLink>
+      )}
     </As>
   );
 };

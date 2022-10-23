@@ -16,9 +16,32 @@ export interface EventDataBase {
   sponsors: EventSponsors;
 }
 
+export type EventSocialIcon =
+  | "blog"
+  | "facebook"
+  | "github"
+  | "glitch"
+  | "linkedin"
+  | "medium"
+  | "twitter"
+  | "youtube";
+
+export interface EventSocial {
+  href: string;
+  icon: EventSocialIcon;
+}
+
+export interface EventSession {
+  by: string;
+  description: string[];
+  socials: EventSocial[];
+  title: string;
+}
+
 export interface EventDataCurrent extends EventDataBase {
   description: string[];
   location: string;
+  sessions: EventSession[];
   year: number;
 }
 

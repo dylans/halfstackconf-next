@@ -5,6 +5,10 @@
   gap: 1rem;
 }
 
+.icon {
+  user-select: none;
+}
+
 .label {
   color: var(--color-primary);
   font-weight: bold;

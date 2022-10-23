@@ -20,7 +20,13 @@ export function LabeledIcons({ className, icons }: LabeledIconsProps) {
     <Columns className={clsx(styles.labeledIcons, className)}>
       {icons.map(({ icon, label }) => (
         <div className={styles.labeledIcon} key={label}>
-          <Image alt="" height={110} src={icon} width={110} />
+          <Image
+            alt=""
+            className={styles.icon}
+            height={110}
+            src={icon}
+            width={110}
+          />
           <Text as="div" className={styles.label} fontSize="large">
             {label}
           </Text>

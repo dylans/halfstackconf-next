@@ -2,12 +2,15 @@ import clsx from "clsx";
 
 import styles from "./index.module.css";
 
-export type TextProps<As extends React.ElementType> = {
+export interface TextPropsBase<As extends React.ElementType> {
   as?: As;
   children?: React.ReactNode;
   className?: string;
   fontSize?: FontSize;
-} & React.ComponentPropsWithoutRef<As>;
+}
+
+export type TextProps<As extends React.ElementType> = TextPropsBase<As> &
+  Omit<React.ComponentPropsWithoutRef<As>, keyof TextPropsBase<As>>;
 
 export type FontSize = keyof typeof fontStyles;
 

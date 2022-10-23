@@ -13,11 +13,6 @@
   position: relative;
 }
 
-.title,
-.description {
-  color: var(--color-bright);
-}
-
 .title {
   font-size: var(--font-size-large);
   font-weight: bold;
@@ -46,10 +41,6 @@
 
 .rightToLeft .thumbnail {
   left: 0;
-}
-
-.leftToRight .textContents {
-  text-align: right;
 }
 
 .eventCard:hover .booker {
