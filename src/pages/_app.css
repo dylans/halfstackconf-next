@@ -12,6 +12,7 @@ input {
 }
 
 html {
+  --box-shadow-banner: 15px 0 30px rgb(0 0 0 / 30%);
   --box-shadow-dark: 0 0 10px rgb(0 0 0 / 80%);
   --color-backdrop: #22366e;
   --color-backdrop-subtle: #5f80bf;

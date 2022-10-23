@@ -1,10 +1,14 @@
 import Image from "next/future/image";
 import Head from "next/head";
+import Link from "next/link";
 
+import { Anchor } from "../../components/Anchor";
 import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
 import { BodyArea } from "../../components/BodyArea";
+import { Expectation } from "../../components/Expectation";
 import { LabeledIcons } from "../../components/LabeledIcons";
+import { SecondaryBanner } from "../../components/SecondaryBanner";
 import { SplitPromo } from "../../components/SplitPromo";
 import { SponsorStacksList } from "../../components/SponsorStacksList";
 import { Text } from "../../components/Text";
@@ -61,6 +65,16 @@ export default function Event({
       </BodyArea>
 
       <SplitPromo description={description} src="/backgrounds/attendance.jpg" />
+
+      <Expectation>
+        Quick update: We&apos;ve changed the date from the 18th to the 16th to
+        avoid colliding with another conference in London on the 17th and 18th.
+      </Expectation>
+
+      <SecondaryBanner title="Call for Proposals">
+        Visit our <Anchor href="/cfp">CfP page</Anchor> for more information on
+        proposing your amazing HalfStack session!
+      </SecondaryBanner>
 
       <SponsorStacksList {...sponsors} />
     </>

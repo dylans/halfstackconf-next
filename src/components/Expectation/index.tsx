@@ -1,12 +1,16 @@
 import Image from "next/future/image";
 
-import { RoundLink } from "../../RoundLink";
-import { Text } from "../../Text";
+import { RoundLink } from "../RoundLink";
+import { Text } from "../Text";
 import whatToExpect1 from "./assets/whatToExpect1.jpg";
 import whatToExpect2 from "./assets/whatToExpect2.jpg";
 import styles from "./index.module.css";
 
-export function Expectation() {
+export interface ExpectationProps {
+  children?: React.ReactNode;
+}
+
+export function Expectation({ children }: ExpectationProps) {
   return (
     <div className={styles.expectation}>
       <div className={styles.contents}>
@@ -31,6 +35,11 @@ export function Expectation() {
           provides an intimate feeling where each attendee has time to meet one
           another.
         </Text>
+        {children && (
+          <Text as="p" className={styles.p} fontSize="medium">
+            {children}
+          </Text>
+        )}
         <div className={styles.photos}>
           <div className={styles.photoArea}>
             <Image

@@ -1,0 +1,11 @@
+.secondaryBanner {
+  background: var(--color-backdrop);
+  color: var(--color-bright);
+  position: relative;
+  text-align: center;
+}
+
+.contents {
+  padding: 3rem 2rem 4rem;
+  position: relative;
+}

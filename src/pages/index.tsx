@@ -1,7 +1,7 @@
 import Head from "next/head";
 
+import { Expectation } from "../components/Expectation";
 import { EventsList } from "../components/Index/EventsList";
-import { Expectation } from "../components/Index/Expectation";
 import { Intro } from "../components/Index/Intro";
 import { Newsletter } from "../components/Index/Newsletter";
 import { SponsorStacksList } from "../components/SponsorStacksList";

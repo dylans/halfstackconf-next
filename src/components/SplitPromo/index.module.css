@@ -1,8 +1,10 @@
 .splitPromo {
   background: var(--color-primary);
+  overflow: hidden;
 }
 
 .imageArea {
+  box-shadow: var(--box-shadow-banner);
   display: none;
   position: relative;
 }
