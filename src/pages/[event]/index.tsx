@@ -4,6 +4,7 @@ import Head from "next/head";
 import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
 import { BodyArea } from "../../components/BodyArea";
+import { SponsorStacksList } from "../../components/SponsorStacksList";
 import { Text } from "../../components/Text";
 import { getEventData, getEvents } from "../../data";
 import { ReturnedParams, ReturnedProps } from "../../utils";
@@ -12,6 +13,7 @@ import styles from "./index.module.css";
 export default function Event({
   event,
   name,
+  sponsors,
   year,
 }: ReturnedProps<typeof getStaticProps>) {
   return (
@@ -35,6 +37,8 @@ export default function Event({
       </Banner>
 
       <BodyArea className={styles.event}>hi</BodyArea>
+
+      <SponsorStacksList {...sponsors} />
     </>
   );
 }

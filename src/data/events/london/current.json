@@ -1,3 +1,95 @@
 {
+  "sponsors": {
+    "complete": [
+      {
+        "name": "Living Spec",
+        "href": "https://livingspec.com",
+        "src": "/logos/livingspec.svg"
+      },
+      {
+        "name": "Twilio",
+        "href": "https://twilio.com",
+        "src": "/logos/twilio.svg"
+      },
+      {
+        "name": "BUOM!",
+        "href": "https://buom.app",
+        "src": "/logos/buom.png"
+      },
+      {
+        "name": "Utopia",
+        "href": "https://utopiamusic.com",
+        "src": "/logos/utopia.svg"
+      },
+      {
+        "name": "Salesforce",
+        "href": "https://salesforce.com/tech",
+        "src": "/logos/salesforce.svg"
+      }
+    ],
+    "large": [
+      { "name": "CMD", "href": "https://cmdhq.io", "src": "/logos/cmd.svg" },
+      {
+        "name": "Beamery",
+        "href": "https://beamery.com",
+        "src": "/logos/beamery.svg"
+      },
+      {
+        "name": "Platformatic",
+        "href": "https://platformatic.dev",
+        "src": "/logos/platformatic.svg"
+      },
+      {
+        "name": "Mod Streaming",
+        "href": "https://modstreaming.com",
+        "src": "/logos/modstreaming.jpg"
+      }
+    ],
+    "medium": [
+      {
+        "name": "DHD",
+        "href": "https://wearedhd.com",
+        "src": "/logos/dhd.svg"
+      },
+      {
+        "name": "Mozilla",
+        "href": "https://www.mozilla.org/",
+        "src": "/logos/mozilla.svg"
+      },
+      {
+        "name": "Salesbricks",
+        "href": "https://www.salesbricks.com",
+        "src": "/logos/salesbricks.svg"
+      },
+      {
+        "name": "Interval",
+        "href": "https://interval.com",
+        "src": "/logos/interval.png"
+      }
+    ],
+    "small": [
+      {
+        "name": "Orange Jellyfish",
+        "href": "https://orangejellyfish.com",
+        "src": "/logos/orangejellyfish.svg"
+      },
+      {
+        "name": "Open JS Foundation",
+        "href": "https://openjsf.org/",
+        "src": "/logos/openjsfoundation.svg"
+      },
+      {
+        "name": "Sticker Mule",
+        "href": "https://mule.to/p38e",
+        "src": "/logos/stickermule.svg"
+      },
+      { "name": "Tito", "href": "https://ti.to/", "src": "/logos/tito.svg" },
+      {
+        "name": "codebar",
+        "href": "http://codebar.io/",
+        "src": "/logos/codebar.svg"
+      }
+    ]
+  },
   "year": 2022
 }
