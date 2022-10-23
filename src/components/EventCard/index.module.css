@@ -19,7 +19,7 @@
 }
 
 .title {
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-large);
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -58,7 +58,7 @@
 
 @media (min-width: 700px) {
   .title {
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-extra-large);
   }
 
   .date,

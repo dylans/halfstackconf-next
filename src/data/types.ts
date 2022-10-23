@@ -17,6 +17,7 @@ export interface EventDataBase {
 }
 
 export interface EventDataCurrent extends EventDataBase {
+  description: string[];
   location: string;
   year: number;
 }

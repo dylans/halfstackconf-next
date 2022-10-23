@@ -1,6 +1,5 @@
 import clsx from "clsx";
 import Image from "next/future/image";
-import React from "react";
 
 import { Columns } from "../Columns";
 import { Text } from "../Text";
@@ -22,7 +21,7 @@ export function LabeledIcons({ className, icons }: LabeledIconsProps) {
       {icons.map(({ icon, label }) => (
         <div className={styles.labeledIcon} key={label}>
           <Image alt="" height={110} src={icon} width={110} />
-          <Text as="div" className={styles.label}>
+          <Text as="div" className={styles.label} fontSize="large">
             {label}
           </Text>
         </div>

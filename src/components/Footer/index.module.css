@@ -114,3 +114,15 @@
 .bottom a {
   color: var(--color-subtle);
 }
+
+@media (min-width: 700px) {
+  .iconLinks,
+  .textLinks {
+    gap: 1rem;
+  }
+
+  .textLinks {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

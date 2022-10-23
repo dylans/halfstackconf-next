@@ -9,7 +9,7 @@ export default function Contact() {
       <Head>
         <title>HalfStack | Contact Us</title>
       </Head>
-      <Text as="h1" fontSize="large">
+      <Text as="h1" fontSize="extra-large">
         Contact Us
       </Text>
       <iframe

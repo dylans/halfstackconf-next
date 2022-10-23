@@ -37,12 +37,13 @@ html {
   --color-primary: #2e4b9f;
   --color-faint: #909ab6;
   --color-subtle: #e8e8e8;
-  --font-size-banner: 7rem;
   --font-size-extra-small: 0.8rem;
   --font-size-small: 1.05rem;
   --font-size-medium: 1.4rem;
-  --font-size-large: 3.5rem;
-  --font-size-extra-large: 4.2rem;
+  --font-size-large: 2.1rem;
+  --font-size-extra-large: 3.5rem;
+  --font-size-banner: 4.2rem;
+  --font-size-banner-large: 7rem;
   --transition-medium: 350ms;
   --width-body: 75rem;
 }

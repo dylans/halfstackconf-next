@@ -1,0 +1,31 @@
+.splitPromo {
+  background: var(--color-primary);
+}
+
+.imageArea {
+  display: none;
+  position: relative;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.description {
+  color: var(--color-bright);
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+@media (min-width: 900px) {
+  .imageArea {
+    display: initial;
+  }
+
+  .description {
+    padding: 10rem 30% 10rem 5rem;
+  }
+}

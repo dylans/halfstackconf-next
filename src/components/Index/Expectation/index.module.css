@@ -25,21 +25,34 @@
 
 .photos {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 1rem;
-  height: 10rem;
   justify-content: center;
-  margin: 2rem;
+  margin: 2rem 2rem 4rem;
+  width: 100%;
+}
+
+.photoArea {
+  height: 10rem;
   position: relative;
   width: 100%;
 }
 
 .photo {
   object-fit: contain;
-  width: 50%;
 }
 
 .bottomButton {
   box-shadow: var(--box-shadow-dark);
   margin: 2rem 1rem 3rem;
+}
+
+@media (min-width: 700px) {
+  .photos {
+    flex-direction: row;
+  }
+
+  .photoArea {
+    height: 15rem;
+  }
 }

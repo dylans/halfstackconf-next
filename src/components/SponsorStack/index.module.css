@@ -1,3 +1,7 @@
+.sponsorsList {
+  padding-bottom: 2rem;
+}
+
 .sponsors {
   display: flex;
   flex-wrap: wrap;

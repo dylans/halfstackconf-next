@@ -45,7 +45,7 @@ export default function Sponsorship() {
         </BannerText>
       </Banner>
       <BodyArea className={styles.sponsorship}>
-        <Text as="h2" className={styles.h2} fontSize="large">
+        <Text as="h2" className={styles.h2} fontSize="extra-large">
           Why Sponsor?
         </Text>
         <ul className={styles.reasons}>

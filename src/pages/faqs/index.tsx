@@ -41,13 +41,13 @@ export default function FAQs() {
       <Head>
         <title>HalfStack | FAQs</title>
       </Head>
-      <Text as="h1" fontSize="large">
+      <Text as="h1" fontSize="extra-large">
         Frequently Asked Questions
       </Text>
       <div className={styles.entries}>
         {Object.entries(sections).map(([question, answer]) => (
           <div key={question}>
-            <Text as="h2" fontSize="medium">
+            <Text as="h2" fontSize="large">
               {question}
             </Text>
             <Text as="p">{answer}</Text>

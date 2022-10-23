@@ -5,6 +5,7 @@ import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
 import { BodyArea } from "../../components/BodyArea";
 import { LabeledIcons } from "../../components/LabeledIcons";
+import { SplitPromo } from "../../components/SplitPromo";
 import { SponsorStacksList } from "../../components/SponsorStacksList";
 import { Text } from "../../components/Text";
 import { getEventData, getEvents } from "../../data";
@@ -12,8 +13,9 @@ import { ReturnedParams, ReturnedProps } from "../../utils";
 import styles from "./index.module.css";
 
 export default function Event({
-  event,
   date,
+  description,
+  event,
   location,
   name,
   sponsors,
@@ -36,7 +38,7 @@ export default function Event({
           </div>
           {name}
         </BannerText>
-        <Text fontSize="large">{year}</Text>
+        <Text fontSize="extra-large">{year}</Text>
       </Banner>
 
       <BodyArea className={styles.eventInfo}>
@@ -57,6 +59,8 @@ export default function Event({
           ]}
         />
       </BodyArea>
+
+      <SplitPromo description={description} src="/backgrounds/attendance.jpg" />
 
       <SponsorStacksList {...sponsors} />
     </>

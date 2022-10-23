@@ -1,5 +1,5 @@
 .bannerText {
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-large);
   line-height: 1;
   margin: auto;
   max-width: 70rem;
@@ -8,18 +8,18 @@
 
 @media (min-width: 350px) {
   .bannerText {
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-extra-large);
   }
 }
 
 @media (min-width: 700px) {
   .bannerText {
-    font-size: var(--font-size-extra-large);
+    font-size: var(--font-size-banner);
   }
 }
 
 @media (min-width: 900px) {
   .bannerText {
-    font-size: var(--font-size-banner);
+    font-size: var(--font-size-banner-large);
   }
 }

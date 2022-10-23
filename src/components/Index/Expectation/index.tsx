@@ -10,7 +10,7 @@ export function Expectation() {
   return (
     <div className={styles.expectation}>
       <div className={styles.contents}>
-        <Text as="h2" className={styles.h2} fontSize="large">
+        <Text as="h2" className={styles.h2} fontSize="extra-large">
           What to Expect
         </Text>
         <Text as="p" className={styles.p} fontSize="medium">
@@ -32,18 +32,24 @@ export function Expectation() {
           another.
         </Text>
         <div className={styles.photos}>
-          <Image
-            alt="Two conference speakers with dog masks on"
-            className={styles.photo}
-            src={whatToExpect1}
-          />
-          <Image
-            alt="Three smiling conference attendees with VR headsets on"
-            className={styles.photo}
-            src={whatToExpect2}
-          />
+          <div className={styles.photoArea}>
+            <Image
+              alt="Two conference speakers with dog masks on"
+              className={styles.photo}
+              fill
+              src={whatToExpect1}
+            />
+          </div>
+          <div className={styles.photoArea}>
+            <Image
+              alt="Three smiling conference attendees with VR headsets on"
+              className={styles.photo}
+              fill
+              src={whatToExpect2}
+            />
+          </div>
         </div>
-        <Text as="h2" className={styles.h2} fontSize="large">
+        <Text as="h2" className={styles.h2} fontSize="extra-large">
           COVID-19 Policy
         </Text>
         <Text as="p" className={styles.p} fontSize="medium">

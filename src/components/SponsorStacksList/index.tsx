@@ -14,7 +14,7 @@ export function SponsorStacksList({
 }: EventSponsors) {
   return (
     <div className={styles.sponsorsList}>
-      <Text as="h2" fontSize="extra-large" id="spon">
+      <Text as="h2" fontSize="banner" id="spon">
         Our Wonderful Sponsors
       </Text>
       <Text as="p">

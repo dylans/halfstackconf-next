@@ -27,14 +27,9 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 900px) {
+  .contents,
   .links {
-    flex-direction: row;
-  }
-}
-
-@media (min-width: 700px) {
-  .contents {
     flex-direction: row;
   }
 
