@@ -1,5 +1,5 @@
 import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useMemo } from "react";
 
 import { EventGeolocation } from "../../data/types";
 import { Text } from "../Text";
@@ -27,7 +27,7 @@ export function FindUs({ geolocation }: FindUsProps) {
   );
 
   const onLoad = useCallback((map: google.maps.Map) => {
-    map.setOptions(createMapOptions("blue"));
+    map.setOptions(createMapOptions());
 
     new google.maps.Marker({
       position: { lat: 51.52036, lng: -0.07319200000006276 },

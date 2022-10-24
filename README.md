@@ -6,6 +6,19 @@
 pnpm install
 ```
 
+### Local Development
+
+```shell
+pnpm dev
+```
+
+### Building a Static Site
+
+```shell
+pnpm build
+pnpm start`
+```
+
 ## TODO
 
 - Investigate a more full design system backer such as Chakra UI, Stitches, Vanilla Extract, ...

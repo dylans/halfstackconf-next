@@ -18,6 +18,7 @@ export function Header() {
     <header className={styles.header}>
       <div className={styles.contents}>
         <Link href="/">
+          {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment */}
           <Image alt="HalfStack" className={styles.logo} src={logo} />
         </Link>
         <nav className={styles.links}>

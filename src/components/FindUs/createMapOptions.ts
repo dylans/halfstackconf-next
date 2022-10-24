@@ -1,4 +1,4 @@
-export const createMapOptions = (color: string) => ({
+export const createMapOptions = () => ({
   mapTypeControl: false,
   scrollwheel: false,
   streetViewControl: false,

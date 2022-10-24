@@ -1,8 +1,4 @@
-import Image from "next/future/image";
-
-import { RoundLink } from "../RoundLink";
 import { Text } from "../Text";
-import { TintedImage } from "../TintedImage";
 import styles from "./index.module.css";
 
 export interface SecondaryBannerProps {
