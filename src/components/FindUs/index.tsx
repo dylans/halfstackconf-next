@@ -25,23 +25,15 @@ export function FindUs({ geolocation }: FindUsProps) {
     () => ({ lat: geolocation[0], lng: geolocation[1] }),
     [geolocation]
   );
-  console.log({ center, geolocation });
-
-  const [, setMap] = useState<google.maps.Map>();
 
   const onLoad = useCallback((map: google.maps.Map) => {
     map.setOptions(createMapOptions("blue"));
-    setMap(map);
 
     new google.maps.Marker({
       position: { lat: 51.52036, lng: -0.07319200000006276 },
       map: map,
       icon: "/icons/pin-london.png",
     });
-  }, []);
-
-  const onUnmount = useCallback(() => {
-    setMap(undefined);
   }, []);
 
   return (
@@ -54,7 +46,6 @@ export function FindUs({ geolocation }: FindUsProps) {
           center={center}
           mapContainerStyle={containerStyle}
           onLoad={onLoad}
-          onUnmount={onUnmount}
         />
       )}
     </>

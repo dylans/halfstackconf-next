@@ -18,3 +18,4 @@ pnpm install
 - Add end-to-end test for accessibility
 - Fix console warnings
 - Add end-to-end test for console warnings
+- Add .env file setup for Google Maps API key
