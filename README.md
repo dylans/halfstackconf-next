@@ -16,7 +16,7 @@ pnpm dev
 
 ```shell
 pnpm build
-pnpm start`
+pnpm start
 ```
 
 ## TODO
