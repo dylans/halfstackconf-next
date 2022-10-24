@@ -15,3 +15,6 @@ pnpm install
 - Fix lint warnings
 - Consolidate icons into public/icons
 - Set up `~/` tsconfig path prefixes
+- Add end-to-end test for accessibility
+- Fix console warnings
+- Add end-to-end test for console warnings

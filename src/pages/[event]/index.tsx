@@ -6,6 +6,7 @@ import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
 import { BodyArea } from "../../components/BodyArea";
 import { Expectation } from "../../components/Expectation";
+import { FindUs } from "../../components/FindUs";
 import { LabeledIcons } from "../../components/LabeledIcons";
 import { SecondaryBanner } from "../../components/SecondaryBanner";
 import { SessionsList } from "../../components/SessionsList";
@@ -20,6 +21,7 @@ export default function Event({
   afterparty = "Afterparty",
   date,
   description,
+  geolocation,
   sessions,
   event,
   location,
@@ -81,6 +83,8 @@ export default function Event({
       <SessionsList sessions={sessions} />
 
       <SponsorStacksList {...sponsors} />
+
+      <FindUs geolocation={geolocation} />
     </>
   );
 }

@@ -76,7 +76,11 @@ export function SessionCard({
           </Text>
           <Text as="p">
             {description.map((line, i) =>
-              line ? <React.Fragment key={i}>{line} </React.Fragment> : <br />
+              line ? (
+                <React.Fragment key={i}>{line} </React.Fragment>
+              ) : (
+                <br key={i} />
+              )
             )}
           </Text>
         </details>

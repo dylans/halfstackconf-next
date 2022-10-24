@@ -38,9 +38,12 @@ export interface EventSession {
   title: string;
 }
 
+export type EventGeolocation = [number, number];
+
 export interface EventDataCurrent extends EventDataBase {
   afterparty?: string;
   description: string[];
+  geolocation: EventGeolocation;
   location: string;
   sessions: EventSession[];
   year: number;
