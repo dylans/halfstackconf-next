@@ -17,6 +17,7 @@ import { ReturnedParams, ReturnedProps } from "../../utils";
 import styles from "./index.module.css";
 
 export default function Event({
+  afterparty = "Afterparty",
   date,
   description,
   sessions,
@@ -59,7 +60,7 @@ export default function Event({
             },
             {
               icon: "/icons/balloon.png",
-              label: "Afterparty",
+              label: afterparty,
             },
           ]}
         />

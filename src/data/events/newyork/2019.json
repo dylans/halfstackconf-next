@@ -1,3 +1,14 @@
 {
-  "date": "August 23rd"
+  "date": "August 23rd",
+  "otherEvents": {
+    "london": [2019, 2018, 2017],
+    "vienna": [2019]
+  },
+  "sponsors": {
+    "complete": [],
+    "large": [],
+    "medium": [],
+    "small": []
+  },
+  "videos": []
 }

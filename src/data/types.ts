@@ -39,6 +39,7 @@ export interface EventSession {
 }
 
 export interface EventDataCurrent extends EventDataBase {
+  afterparty?: string;
   description: string[];
   location: string;
   sessions: EventSession[];

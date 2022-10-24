@@ -16,7 +16,6 @@ import styles from "./index.module.css";
 export default function PastEvents({
   eventsData,
 }: ReturnedProps<typeof getStaticProps>) {
-  console.log({ eventsData });
   return (
     <>
       <Head>
