@@ -4,10 +4,9 @@ import Head from "next/head";
 import { Anchor } from "../../components/Anchor";
 import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
-import { BodyArea } from "../../components/BodyArea";
+import { EventSummary } from "../../components/EventSummary";
 import { Expectation } from "../../components/Expectation";
 import { FindUs } from "../../components/FindUs";
-import { LabeledIcons } from "../../components/LabeledIcons";
 import { SecondaryBanner } from "../../components/SecondaryBanner";
 import { SessionsList } from "../../components/SessionsList";
 import { SplitPromo } from "../../components/SplitPromo";
@@ -49,24 +48,7 @@ export default function Event({
         <Text fontSize="extra-large">{year}</Text>
       </Banner>
 
-      <BodyArea className={styles.eventInfo}>
-        <LabeledIcons
-          icons={[
-            {
-              icon: "/icons/location.png",
-              label: location,
-            },
-            {
-              icon: "/icons/calendar.png",
-              label: date,
-            },
-            {
-              icon: "/icons/balloon.png",
-              label: afterparty,
-            },
-          ]}
-        />
-      </BodyArea>
+      <EventSummary afterparty={afterparty} date={date} location={location} />
 
       <SplitPromo description={description} src="/backgrounds/attendance.jpg" />
 

@@ -1,6 +1,4 @@
 .expectation {
-  background: url("./assets/viennaBackground.png");
-  background-size: cover;
   padding: 1rem;
   position: relative;
 }
