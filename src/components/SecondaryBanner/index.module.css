@@ -1,5 +1,5 @@
 .secondaryBanner {
-  background: var(--color-backdrop);
+  background: var(--color-primary);
   color: var(--color-bright);
   position: relative;
   text-align: center;

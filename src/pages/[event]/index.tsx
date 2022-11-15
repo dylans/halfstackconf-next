@@ -4,6 +4,7 @@ import Head from "next/head";
 import { Anchor } from "../../components/Anchor";
 import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
+import { ColorMode } from "../../components/ColorMode";
 import { EventSummary } from "../../components/EventSummary";
 import { Expectation } from "../../components/Expectation";
 import { FindUs } from "../../components/FindUs";
@@ -29,7 +30,7 @@ export default function Event({
   year,
 }: ReturnedProps<typeof getStaticProps>) {
   return (
-    <>
+    <ColorMode mode={event}>
       <Head>
         <title>{`HalfStack | ${name}`}</title>
       </Head>
@@ -67,7 +68,7 @@ export default function Event({
       <SponsorStacksList {...sponsors} />
 
       <FindUs geolocation={geolocation} />
-    </>
+    </ColorMode>
   );
 }
 
