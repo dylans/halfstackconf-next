@@ -67,7 +67,7 @@ export default function Event({
 
       <SponsorStacksList {...sponsors} />
 
-      <FindUs geolocation={geolocation} />
+      {geolocation && <FindUs geolocation={geolocation} />}
     </ColorMode>
   );
 }
