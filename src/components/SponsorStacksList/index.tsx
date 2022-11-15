@@ -12,11 +12,8 @@ export function SponsorStacksList({
   medium,
   small,
 }: EventSponsors) {
-  return (
-    <div className={styles.sponsorsList}>
-      <Text as="h2" fontSize="banner" id="spon">
-        Our Wonderful Sponsors
-      </Text>
+  const blurb = (
+    <>
       <Text as="p">
         Our conferences wouldn&apos;t be possible without the generous support
         of our sponsors.
@@ -32,6 +29,25 @@ export function SponsorStacksList({
       >
         Take me to the sponsors page
       </RoundLink>
+    </>
+  );
+
+  if (!complete.length && !large.length && !medium.length && !small.length) {
+    return (
+      <div className={styles.sponsorsList}>
+        <Text as="h2" fontSize="banner" id="spon">
+          Sponsoring HalfStack
+        </Text>
+        {blurb}
+      </div>
+    );
+  }
+
+  return (
+    <div className={styles.sponsorsList}>
+      <Text as="h2" fontSize="banner" id="spon">
+        Our Wonderful Sponsors
+      </Text>
 
       <SponsorStack sponsors={complete} stack="complete" />
       <SponsorStack sponsors={large} stack="large" />

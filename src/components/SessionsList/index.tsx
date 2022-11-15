@@ -12,6 +12,10 @@ export interface SessionsListProps {
 }
 
 export function SessionsList({ className, sessions }: SessionsListProps) {
+  if (!sessions.length) {
+    return null;
+  }
+
   return (
     <BodyArea className={clsx(styles.sessionsList, className)}>
       <Text as="h2" className={styles.h2} fontSize="banner">
