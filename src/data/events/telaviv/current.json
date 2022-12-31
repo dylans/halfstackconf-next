@@ -1,7 +1,7 @@
 {
   "afterparty": "Afterparty (includes JS Pub Quiz!)",
   "catchphrase": "Delayed to 2023 due to COVID-19. The first HalfStack Tel Aviv will happen as soon as it's safe to have in-person events again. Tickets now available for an incredible day of JS!",
-  "date": "TBD 2023",
+  "date": "28th of November 2023",
   "description": [
     "Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the Tel Aviv area, with some from other parts of the world"
@@ -10,10 +10,94 @@
   "location": "TBD",
   "sessions": [],
   "sponsors": {
-    "complete": [],
-    "large": [],
-    "medium": [],
-    "small": []
+    "complete": [
+      {
+        "href": "https://www.eventhandler.co.il//",
+        "src": "/logos/eventhandler.svg",
+        "name": "EventHandler"
+      },
+      {
+        "href": "https://salesforce.com/tech",
+        "src": "/logos/salesforce.svg",
+        "name": "Salesforce Engineering"
+      }
+    ],
+    "large": [
+      {
+        "href": "https://www.wix.engineering/",
+        "src": "/logos/wixengineering.svg",
+        "name": "Wix Engineering"
+      }
+    ],
+    "medium": [
+      {
+        "href": "https://wearedhd.com/",
+        "src": "/logos/dhd.svg",
+        "name": "DHD"
+      },
+      {
+        "href": "https://www.mozilla.org/",
+        "src": "/logos/mozilla.svg",
+        "name": "Mozilla"
+      }
+    ],
+    "small": [
+      {
+        "href": "https://balsamiq.com/",
+        "src": "/logos/balsamiq.svg",
+        "name": "Balsamiq"
+      },
+      {
+        "href": "https://snyk.io/",
+        "src": "/logos/snyk.svg",
+        "name": "Snyk"
+      },
+      {
+        "href": "https://ti.to/",
+        "src": "/logos/tito.svg",
+        "name": "Tito"
+      },
+      {
+        "href": "https://openjsf.org/",
+        "src": "/logos/openjsfoundation.svg",
+        "name": "Open JS Foundation"
+      },
+      {
+        "href": "http://bit.ly/2wfP2Ps",
+        "src": "/logos/qconlondon.jpg",
+        "name": "Qcon London"
+      },
+      {
+        "href": "https://graphql-finland.fi/",
+        "src": "/logos/graphqlFinland.svg",
+        "name": "Graphhql Finland"
+      },
+      {
+        "href": "https://infoq.com/",
+        "src": "/logos/infoq.jpg",
+        "name": "InfoQ"
+      },
+      {
+        "href": "https://www.meetup.com/Hodash-Dev/",
+        "src": "/logos/hodash.png",
+        "name": "Hodash Dev"
+      },
+      {
+        "href": "https://www.jsisrael.com/",
+        "src": "/logos/javascriptisrael.svg",
+        "name": "JavaScript Israel"
+      },
+      {
+        "href": "https://reactgraphql.academy/",
+        "src": "/logos/reactgraphqlacademy.svg",
+        "name": "React GraphQL Academy"
+      },
+      {
+        "href": "https://manning.com/",
+        "src": "/logos/manning.svg",
+        "name": "Manning Publications"
+      }
+    ]
   },
   "year": 2023
 }

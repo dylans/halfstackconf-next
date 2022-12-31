@@ -87,7 +87,8 @@ function getDataFor(title) {
       src: a
         .querySelector("img")
         .getAttribute("src")
-        .replace("assets/images", "logos"),
+        .replace("assets/images", "logos")
+        .replace(/^logos/, "/logos"),
       name: a.querySelector("img").getAttribute("alt"),
     }));
 }
