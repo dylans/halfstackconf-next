@@ -9,7 +9,6 @@ export interface EventsListProps {
 export interface EventListData {
   date: string;
   description: string;
-  href: string;
   name: string;
   title: string;
 }
