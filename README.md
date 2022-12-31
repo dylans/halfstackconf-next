@@ -72,8 +72,11 @@ function getBy(tag, title) {
 }
 
 function getDataFor(title) {
-  heading = getBy("h3", title);
-  row = heading.nextElementSibling;
+  const heading = getBy("h3", title);
+  const row = heading?.nextElementSibling;
+  if (!row) {
+    return undefined;
+  }
 
   return [...row.querySelectorAll("a")]
     .filter((a) => !a.textContent.includes("Why not"))

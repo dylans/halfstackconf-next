@@ -1,18 +1,82 @@
 {
   "afterparty": "Afterparty (includes JS Pub Quiz!)",
-  "date": "TBD 2023",
+  "date": "28th of April 2023",
   "description": [
-    "Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
-    "Mostly from the North Carolina area, with some from throughout the US, Europe and the UK"
+    "The first ever HalfStack Charlotte event.",
+    "Tickets now available for an incredible day of JS!"
   ],
   "geolocation": [35.2271, -80.8431],
   "location": "Charlotte, North Carolina",
   "sessions": [],
   "sponsors": {
-    "complete": [],
-    "large": [],
-    "medium": [],
-    "small": []
+    "complete": [
+      {
+        "href": "https://livingspec.com",
+        "src": "/logos/livingspec.svg",
+        "name": "Living Spec"
+      },
+      {
+        "href": "https://www.lowes.com",
+        "src": "/logos/lowes.svg",
+        "name": "Lowe's"
+      },
+      {
+        "href": "https://www.wix.com/velo",
+        "src": "/logos/wixengineering.svg",
+        "name": "Wix"
+      }
+    ],
+    "large": [
+      {
+        "href": "https://www.mark43.com",
+        "src": "/logos/mark43.svg",
+        "name": "Mark43"
+      },
+      {
+        "href": "https://induro.io/",
+        "src": "/logos/induro.svg",
+        "name": "Induro"
+      },
+      {
+        "href": "https://modstreaming.com",
+        "src": "/logos/modstreaming.jpg",
+        "name": "Modstreaming"
+      }
+    ],
+    "medium": [
+      {
+        "href": "https://wearedhd.com",
+        "src": "/logos/dhd.svg",
+        "name": "DHD"
+      }
+    ],
+    "small": [
+      {
+        "href": "https://ti.to/",
+        "src": "/logos/tito.svg",
+        "name": "Tito"
+      },
+      {
+        "href": "https://www.oddbird.net",
+        "src": "/logos/oddbird.svg",
+        "name": "OddBird"
+      },
+      {
+        "href": "https://www.mozilla.org/",
+        "src": "/logos/mozilla.svg",
+        "name": "Mozilla"
+      },
+      {
+        "href": "https://sigconsult.com",
+        "src": "/logos/sigconsult.svg",
+        "name": "Signature Consultants"
+      },
+      {
+        "href": "https://openjsf.org/",
+        "src": "/logos/openjsfoundation.svg",
+        "name": "Open JS Foundation"
+      }
+    ]
   },
   "year": 2023
 }

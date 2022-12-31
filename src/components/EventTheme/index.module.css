@@ -9,7 +9,9 @@
 .charlotte {
   --background-full: url("/backgrounds/charlotte/full.png");
   --background-outline: url("/backgrounds/charlotte/outline.png");
+  --background-pattern: url("/backgrounds/charlotte/pattern.png");
   --background-thumbnail: url("/backgrounds/charlotte/thumbnail.jpg");
+  --color-backdrop-subtle: #72be8d;
   --color-faint: #abd9ba;
   --color-primary: #2b9d57;
 }
