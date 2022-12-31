@@ -4,8 +4,8 @@ import Head from "next/head";
 import { Anchor } from "../../components/Anchor";
 import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
-import { ColorMode } from "../../components/ColorMode";
 import { EventSummary } from "../../components/EventSummary";
+import { EventTheme } from "../../components/EventTheme";
 import { Expectation } from "../../components/Expectation";
 import { FindUs } from "../../components/FindUs";
 import { SecondaryBanner } from "../../components/SecondaryBanner";
@@ -30,18 +30,18 @@ export default function Event({
   year,
 }: ReturnedProps<typeof getStaticProps>) {
   return (
-    <ColorMode mode={event}>
+    <EventTheme event={event}>
       <Head>
         <title>{`HalfStack | ${name}`}</title>
       </Head>
-      <Banner background={`${event}.png`}>
+      <Banner background={`${event}/full.png`}>
         <BannerText>
           <div className={styles.bannerImageArea}>
             <Image
               alt=""
               className={styles.bannerImage}
               fill
-              src={`/outlines/${event}.png`}
+              src={`/backgrounds/${event}/skyline.png`}
             />
           </div>
           {name}
@@ -68,7 +68,7 @@ export default function Event({
       <SponsorStacksList {...sponsors} />
 
       {geolocation && <FindUs geolocation={geolocation} />}
-    </ColorMode>
+    </EventTheme>
   );
 }
 

@@ -8,6 +8,7 @@ import { SponsorStacksList } from "../components/SponsorStacksList";
 import { ReturnedProps } from "../utils";
 
 export default function Index({
+  events,
   sponsors,
 }: ReturnedProps<typeof getStaticProps>) {
   return (
@@ -16,7 +17,7 @@ export default function Index({
         <title>HalfStack | Open Web Conferences</title>
       </Head>
       <Intro />
-      <EventsList />
+      <EventsList events={events} />
       <Expectation />
       <Newsletter />
       <SponsorStacksList {...sponsors} />;
@@ -27,6 +28,7 @@ export default function Index({
 export async function getStaticProps() {
   return {
     props: {
+      events: (await import("../data/events.json")).default,
       sponsors: (await import("../data/sponsors.json")).default,
     },
   };

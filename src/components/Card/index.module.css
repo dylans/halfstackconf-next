@@ -31,13 +31,13 @@
 }
 
 .leftToRight .bottom {
-  right: 0.5rem;
+  left: 1.5rem;
 }
 
-.rightToLeft {
+.leftToRight {
   text-align: right;
 }
 
 .rightToLeft .bottom {
-  left: 0.5rem;
+  right: 1.5rem;
 }

@@ -1,7 +1,11 @@
 .background {
+  background-image: var(--background-outline);
   background-position: left;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: var(--color-primary);
   bottom: 0;
+  color: var(--color-faint);
   left: 0;
   position: absolute;
   top: 0;
@@ -9,19 +13,20 @@
 }
 
 .textContents {
+  font-weight: bold;
   padding: 0.5rem 1rem 2.5rem;
   position: relative;
 }
 
 .title {
   font-size: var(--font-size-large);
-  font-weight: bold;
   text-transform: uppercase;
 }
 
 .date,
 .description {
   font-size: var(--font-size-small);
+  text-shadow: 0 0 5px var(--color-primary), 0 0 5px var(--color-primary);
 }
 
 .date {
@@ -57,6 +62,10 @@
     font-size: var(--font-size-medium);
   }
 
+  .description {
+    padding-bottom: 1rem;
+  }
+
   .leftToRight .textContents {
     margin-right: 33%;
     padding: 2rem 0.5rem 3rem 3rem;
@@ -68,6 +77,7 @@
   }
 
   .thumbnail {
+    background-image: var(--background-thumbnail);
     background-position: center;
     background-size: cover;
     bottom: 0;

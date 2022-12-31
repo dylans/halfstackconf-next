@@ -1,0 +1,73 @@
+.belgrade {
+  --background-full: url("/backgrounds/belgrade/full.png");
+  --background-outline: url("/backgrounds/belgrade/outline.png");
+  --background-thumbnail: url("/backgrounds/belgrade/thumbnail.jpg");
+  --color-faint: #fadddf;
+  --color-primary: #c0343a;
+}
+
+.charlotte {
+  --background-full: url("/backgrounds/charlotte/full.png");
+  --background-outline: url("/backgrounds/charlotte/outline.png");
+  --background-thumbnail: url("/backgrounds/charlotte/thumbnail.jpg");
+  --color-faint: #abd9ba;
+  --color-primary: #2b9d57;
+}
+
+.london,
+.london-on-the-thames {
+  --background-full: url("/backgrounds/london/full.png");
+  --background-outline: url("/backgrounds/london/outline.png");
+  --background-thumbnail: url("/backgrounds/london/thumbnail.jpg");
+  --color-faint: #ebf0f7;
+  --color-primary: #22366e;
+}
+
+.newquay {
+  --background-full: url("/backgrounds/newquay/full.png");
+  --background-outline: url("/backgrounds/newquay/outline.png");
+  --background-thumbnail: url("/backgrounds/newquay/thumbnail.jpg");
+  --color-faint: #e4e4ec;
+  --color-primary: #22366e;
+}
+
+.newyork {
+  --background-full: url("/backgrounds/newyork/full.png");
+  --background-outline: url("/backgrounds/newyork/outline.png");
+  --background-thumbnail: url("/backgrounds/newyork/thumbnail.jpg");
+  --color-faint: #cbcbcb;
+  --color-primary: #2f2d2e;
+}
+
+.online {
+  --background-full: url("/backgrounds/online/full.png");
+  --background-outline: url("/backgrounds/online/outline.png");
+  --background-thumbnail: url("/backgrounds/online/thumbnail.jpg");
+  --color-faint: #9cb0d9;
+  --color-primary: #2f2d2e;
+}
+
+.phoenix {
+  --background-full: url("/backgrounds/phoenix/full.png");
+  --background-outline: url("/backgrounds/phoenix/outline.png");
+  --background-thumbnail: url("/backgrounds/phoenix/thumbnail.jpg");
+  --color-faint: #e4e4ec;
+  --color-primary: #262262;
+}
+
+.telaviv {
+  --background-full: url("/backgrounds/telaviv/full.png");
+  --background-outline: url("/backgrounds/telaviv/outline.png");
+  --background-thumbnail: url("/backgrounds/telaviv/thumbnail.jpg");
+  --color-faint: #9cb0d9;
+  --color-primary: #22366e;
+}
+
+.vienna {
+  --background-full: url("/backgrounds/vienna/full.png");
+  --background-outline: url("/backgrounds/vienna/outline.png");
+  --background-thumbnail: url("/backgrounds/vienna/thumbnail.jpg");
+  --color-backdrop-subtle: #e78689;
+  --color-faint: #fadddf;
+  --color-primary: #d72027;
+}
