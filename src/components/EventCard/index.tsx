@@ -1,16 +1,14 @@
 import clsx from "clsx";
 import Link from "next/link";
 
+import { EventDataJoined } from "../../data/types";
 import { Card, CardDirection } from "../Card";
 import { Text } from "../Text";
 import styles from "./index.module.css";
 
 export interface EventCardProps {
-  date: string;
-  description: string;
   direction: CardDirection;
-  name: string;
-  title: string;
+  event: EventDataJoined;
 }
 
 const directionStyles = {
@@ -19,11 +17,8 @@ const directionStyles = {
 };
 
 export function EventCard({
-  date,
-  description,
+  event: { catchphrase, date, description, name, slug },
   direction,
-  name,
-  title,
 }: EventCardProps) {
   return (
     <Card
@@ -31,18 +26,18 @@ export function EventCard({
       bottom="Book your Tickets"
       className={clsx(styles.eventCard, directionStyles[direction])}
       direction={direction}
-      href={`/${name}`}
+      href={`/${slug}`}
     >
       <div className={styles.background} />
       <div className={styles.textContents}>
         <Text as="div" className={styles.title}>
-          {title}
+          {name}
         </Text>
         <Text as="div" className={styles.date}>
           {date}
         </Text>
         <Text as="div" className={styles.description}>
-          {description}
+          {catchphrase ?? description.join(" ")}
         </Text>
       </div>
       <div className={styles.thumbnail} />

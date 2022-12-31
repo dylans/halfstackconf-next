@@ -13,35 +13,37 @@ import { SessionsList } from "../../components/SessionsList";
 import { SplitPromo } from "../../components/SplitPromo";
 import { SponsorStacksList } from "../../components/SponsorStacksList";
 import { Text } from "../../components/Text";
-import { getEventData, getEvents } from "../../data";
+import { getEventDataCurrentAndDefault, getEvents } from "../../data";
 import { ReturnedParams, ReturnedProps } from "../../utils";
 import styles from "./index.module.css";
 
 export default function Event({
-  afterparty = "Afterparty",
-  date,
-  description,
-  geolocation,
-  sessions,
-  event,
-  location,
-  name,
-  sponsors,
-  year,
+  event: {
+    afterparty = "Afterparty",
+    date,
+    description,
+    geolocation,
+    sessions,
+    location,
+    name,
+    slug,
+    sponsors,
+    year,
+  },
 }: ReturnedProps<typeof getStaticProps>) {
   return (
-    <EventTheme event={event}>
+    <EventTheme event={slug}>
       <Head>
         <title>{`HalfStack | ${name}`}</title>
       </Head>
-      <Banner background={`${event}/full.png`}>
+      <Banner background={`${slug}/full.png`}>
         <BannerText>
           <div className={styles.bannerImageArea}>
             <Image
               alt=""
               className={styles.bannerImage}
               fill
-              src={`/backgrounds/${event}/skyline.png`}
+              src={`/backgrounds/${slug}/skyline.png`}
             />
           </div>
           {name}
@@ -75,12 +77,10 @@ export default function Event({
 export async function getStaticProps({
   params: { event },
 }: ReturnedParams<typeof getStaticPaths>) {
-  const [currentData, defaultData] = await Promise.all([
-    getEventData(event, "current"),
-    getEventData(event, "default"),
-  ]);
   return {
-    props: { ...currentData, ...defaultData, event },
+    props: {
+      event: await getEventDataCurrentAndDefault(event),
+    },
   };
 }
 

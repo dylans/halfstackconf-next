@@ -12,6 +12,14 @@
   text-transform: uppercase;
 }
 
+.sizeMedium {
+  padding: 3rem 2rem;
+}
+
+.sizeLarge {
+  padding: 7rem 2rem;
+}
+
 .introText {
   font-size: var(--font-size-medium);
   margin: auto;

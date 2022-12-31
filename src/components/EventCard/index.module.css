@@ -23,7 +23,7 @@
 }
 
 .date,
-.description {
+.catchphrase {
   font-size: var(--font-size-small);
   text-shadow: 0 0 5px var(--color-primary), 0 0 5px var(--color-primary);
 }
@@ -57,20 +57,22 @@
   }
 
   .date,
-  .description {
+  .catchphrase {
     font-size: var(--font-size-medium);
   }
 
-  .description {
+  .catchphrase {
     padding-bottom: 1rem;
   }
 
   .leftToRight .textContents {
+    text-align: right;
     margin-right: 33%;
     padding: 2rem 0.5rem 3rem 3rem;
   }
 
   .rightToLeft .textContents {
+    text-align: left;
     margin-left: 33%;
     padding: 2rem 3rem 3rem 0.5rem;
   }

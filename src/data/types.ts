@@ -42,6 +42,7 @@ export type EventGeolocation = [number, number];
 
 export interface EventDataCurrent extends EventDataBase {
   afterparty?: string;
+  catchphrase?: string;
   description: string[];
   geolocation?: EventGeolocation;
   location: string;
@@ -50,6 +51,7 @@ export interface EventDataCurrent extends EventDataBase {
 }
 
 export interface EventDataDefault {
+  catchphrase?: string;
   name: string;
 }
 
@@ -66,7 +68,10 @@ export interface EventDataHistorical extends EventDataBase {
   videos: EventVideo[];
 }
 
-export interface EventDataJoined
+export interface EventDataJoined extends EventDataCurrent, EventDataDefault {
+  slug: string;
+}
+
+export interface EventDataComplete
   extends EventDataHistorical,
-    EventDataCurrent,
-    EventDataDefault {}
+    EventDataJoined {}

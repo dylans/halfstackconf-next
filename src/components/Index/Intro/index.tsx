@@ -3,7 +3,7 @@ import { BannerText } from "../../BannerText";
 
 export function Intro() {
   return (
-    <Banner>
+    <Banner size="large">
       <BannerText>Welcome to HalfStack</BannerText>
     </Banner>
   );
