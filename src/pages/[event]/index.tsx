@@ -41,7 +41,7 @@ export default function Event({
               alt=""
               className={styles.bannerImage}
               fill
-              src={`/outlines/london.png`}
+              src={`/outlines/${event}.png`}
             />
           </div>
           {name}

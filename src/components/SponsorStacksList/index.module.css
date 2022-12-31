@@ -1,6 +1,5 @@
 .sponsorsList {
-  /* todo: make dynamic on event name */
-  background-image: url("/patterns/london.png");
+  background-image: var(--pattern-background);
   background-size: cover;
   background-position: center center;
   margin: auto;

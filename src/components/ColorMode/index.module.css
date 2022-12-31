@@ -1,39 +1,47 @@
 .charlotte {
   --color-primary: #2b9d57;
   --color-faint: #abd9ba;
+  --pattern-background: url("/patterns/charlotte.png");
 }
 
 .london {
   --color-primary: #22366e;
   --color-faint: #ebf0f7;
+  --pattern-background: url("/patterns/london.png");
 }
 
 .newquay {
   --color-primary: #22366e;
   --color-faint: #e4e4ec;
+  --pattern-background: url("/patterns/newquay.png");
 }
 
 .newyork {
   --color-primary: #2f2d2e;
   --color-faint: #cbcbcb;
+  --pattern-background: url("/patterns/newyork.png");
 }
 
 .online {
   --color-primary: #2f2d2e;
   --color-faint: #9cb0d9;
+  --pattern-background: url("/patterns/online.png");
 }
 
 .phoenix {
   --color-primary: #262262;
   --color-faint: #e4e4ec;
+  --pattern-background: url("/patterns/phoenix.png");
 }
 
 .telaviv {
   --color-primary: #22366e;
   --color-faint: #9cb0d9;
+  --pattern-background: url("/patterns/telaviv.png");
 }
 
 .vienna {
   --color-primary: #d72027;
   --color-faint: #fadddf;
+  --pattern-background: url("/patterns/vienna.png");
 }
