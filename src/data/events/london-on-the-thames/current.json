@@ -7,12 +7,244 @@
   ],
   "geolocation": [51.52036, -0.07319200000006276],
   "location": "Cafe 1001, London",
-  "sessions": [],
+  "sessions": [
+    {
+      "by": "Jo Franchetti",
+      "description": [
+        "During the pandemic we've all been feeling pretty isolated, and we've all been doing our best and wearing masks. But what if everyone wearing masks cuts off your ability to converse? Jo's lil mum relies on lip reading and clear sounds to understand what people are saying. But Jo, of course, wants her to stay safe. So the thought occurred. Can we make a live caption display fit into a mask so that she can read what Joe is saying",
+        "This talk will cover how to build a wearable LED display, how to build a web app which uses AI to convert speech to text and how to compress that text into a scrolling pixel font to send to the display",
+        "We'll be using Node, JavaScript and some C, Azure Cognitive Services and MQTT."
+      ],
+      "socials": [
+        {
+          "href": "https://glitch.com/@JoFranchetti",
+          "icon": "glitch"
+        },
+        {
+          "href": "https://jofranchetti.medium.com/",
+          "icon": "medium"
+        },
+        {
+          "href": "https://www.linkedin.com/in/jofranchetti",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://twitter.com/ThisIsJoFrank",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Wearable Live Captions"
+    },
+    {
+      "by": "Andrea Verlicchi",
+      "description": [
+        "Responsive images done right can lower your website LCP and be a money saver. But doing this right can be complex and require lots of math and other considerations. Through many years as a performance architect helping e-commerce teams getting them right, Andrea has managed to automate all the optimisation process in a customer-driven way. In this talk he'll explain best practices and demonstrate using the open-source project he created, with the typical splash of humourous HalfStack demos."
+      ],
+      "socials": [
+        {
+          "href": "https://www.andreaverlicchi.eu/",
+          "icon": "blog"
+        },
+        {
+          "href": "https://twitter.com/verlok",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Get speedy with responsive images automation"
+    },
+    {
+      "by": "Earth to Abigail",
+      "description": [
+        "Live coding is a new direction in electronic music and video",
+        "Live coders expose and rewire the innards of software while it generates improvised music and/or visuals.",
+        "All code manipulation is projected for all to see. Live coding works across musical genres, and has been seen in concert halls, late-night jazz bars, as well as algoraves.",
+        "",
+        "Sonic Pi is a live coding environment built specifically for creating music.",
+        "It's based in the Ruby programming language and it's primary aim is to provide a fun and approachable way to learn how to code while stimulating creativity.",
+        "Though Sonic Pi is an educational tool, it is still a powerful tool and has been used by professional live coders around the globe",
+        "",
+        "In their performances, Earth to Abigail likes to take advantage of Sonic Pi's easily readable language to emphasize the poetic capabilities that code can provide but that is often overlooked.",
+        "In this kind of creative context, code has not only a utilitarian purpose but also a poetic one, complementing the music it creates."
+      ],
+      "socials": [
+        {
+          "href": "https://earthtoabigail.com/",
+          "icon": "blog"
+        },
+        {
+          "href": "https://instagram.com/mynah_m",
+          "icon": "instagram"
+        },
+        {
+          "href": "https://twitter.com/EarthAbigail",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Live Coding Music with Sonic Pi"
+    },
+    {
+      "by": "David Whitney",
+      "description": [
+        "In this session we'll talk about TDD in JavaScript, without the dogma, without the buzzwords, in simple clear examples, using Visual Studio Code, Jest and Wallaby.js",
+        "We'll cover tooling, the TDD mindset, organisational patterns, naming, data driven tests, refactoring tests, and the one most important skill in testing – learning to test the characteristics of your code, not your implementations",
+        "",
+        "This talk is perfect for people who have never done TDD before, struggle to understand it's value, or feel held back by brittle tests that feel like mud",
+        "",
+        "It's the summation of 15 years of teaching testing across static and dynamically typed languages, and I promise, even if you think you know testing there's something in here for you",
+        "Live coding included!"
+      ],
+      "socials": [
+        {
+          "href": "http://www.davidwhitney.co.uk/",
+          "icon": "blog"
+        },
+        {
+          "href": "https://twitter.com/david_whitney",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Writing Tests That Don't Suck - Test Driven Development in JavaScript"
+    },
+    {
+      "by": "Carly Richmond",
+      "description": [
+        "In the age of data overload, it is difficult to build applications that make it easier for users to identify key trends and insights. However, with a lack of design experience or the need to fulfil the demand to deliver value quickly, many teams use data grids to present all data for users to consume. While building financial systems and dashboards, Carly learned that grids are not always the right tool for the job. And Carly has built a lot of them! We tend to over-leverage grids instead of discovering the true objective of our users and suggesting the right control for the job. This leads to information overload for users as they try to figure out what data is truly relevant and useful",
+        "",
+        "In this session, Carly will make the case for collaborating with users to find the right control to use. Carly will also share a series of data grid behaviour antipatterns that suggest it is not the right control for you and suggest potential charts or controls to improve the user experience along with examples written for React using libraries such as Recharts, Elastic Charts, Highcharts, Nivo and AG Grid."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/CarlyLRichmond",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Oh No! Not Another Data Grid!"
+    },
+    {
+      "by": "Dylan Schiemann",
+      "description": [
+        "A humourous look at how Dylan repeatedly predicts the future, from the growth of JavaScript to COVID and masks. Maybe learn a few techniques to become your own very Nostradamus and wow your friends."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/dylans",
+          "icon": "twitter"
+        }
+      ],
+      "title": "On Being Nostradamus"
+    },
+    {
+      "by": "Chris Reddington",
+      "description": [
+        "Being a developer is hard. From knowing the building blocks of programming, through to keeping on top of the latest languages and frameworks. That’s before we even think about running systems in production... But at some point, we’ve all uttered those words ‘It works on my machine’. Or, may have looked up code snippets from our favourite search engine.",
+        "",
+        "What if there was a better way for both? In this demo-led session, Chris will introduce GitHub Codespaces and GitHub Copilot, explaining how they can improve your developer experience and make you even more productive!"
+      ],
+      "socials": [
+        {
+          "href": "https://www.cloudwithchris.com/",
+          "icon": "blog"
+        },
+        {
+          "href": "https://linkedin.com/in/chrisreddington",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://twitter.com/reddobowen",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.youtube.com/c/cloudwithchris",
+          "icon": "youtube"
+        }
+      ],
+      "title": "From 'It works on my machine' to 'It was written by a machine' - GitHub Codespaces & Copilot"
+    }
+  ],
   "sponsors": {
-    "complete": [],
-    "large": [],
-    "medium": [],
-    "small": []
+    "complete": [
+      {
+        "href": "https://livingspec.com",
+        "src": "/logos/livingspec.svg",
+        "name": "Living Spec"
+      },
+      {
+        "href": "https://twilio.com",
+        "src": "/logos/twilio.svg",
+        "name": "Twilio"
+      },
+      {
+        "href": "https://buom.app",
+        "src": "/logos/buom.png",
+        "name": "BUOM"
+      },
+      {
+        "href": "https://utopiamusic.com",
+        "src": "/logos/utopia.svg",
+        "name": "Utopia Music"
+      },
+      {
+        "href": "https://salesforce.com/tech",
+        "src": "/logos/salesforce.svg",
+        "name": "Salesforce Engineering"
+      }
+    ],
+    "large": [
+      {
+        "href": "https://cmdhq.io",
+        "src": "/logos/cmd.svg",
+        "name": "Cmd"
+      },
+      {
+        "href": "https://beamery.com",
+        "src": "/logos/beamery.svg",
+        "name": "Beamery"
+      },
+      {
+        "href": "https://modstreaming.com",
+        "src": "/logos/modstreaming.jpg",
+        "name": "Modstreaming"
+      }
+    ],
+    "medium": [
+      {
+        "href": "https://wearedhd.com",
+        "src": "/logos/dhd.svg",
+        "name": "DHD"
+      },
+      {
+        "href": "https://www.mozilla.org",
+        "src": "/logos/mozilla.svg",
+        "name": "Mozilla"
+      }
+    ],
+    "small": [
+      {
+        "href": "https://orangejellyfish.com",
+        "src": "/logos/orangejellyfish.svg",
+        "name": "Orange Jellyfish"
+      },
+      {
+        "href": "https://openjsf.org",
+        "src": "/logos/openjsfoundation.svg",
+        "name": "OpenJS Foundation"
+      },
+      {
+        "href": "https://mule.to/p38d",
+        "src": "/logos/stickermule.svg",
+        "name": "Sticker Mule"
+      },
+      {
+        "href": "https://ti.to",
+        "src": "/logos/tito.svg",
+        "name": "Tito"
+      },
+      {
+        "href": "http://codebar.io",
+        "src": "/logos/codebar.svg",
+        "name": "codebar"
+      }
+    ]
   },
   "trailer": "https://www.youtube.com/embed/gzGujmr5Kpg",
   "year": 2022

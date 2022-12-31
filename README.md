@@ -66,14 +66,16 @@ cardData = cardElements.map((card) => ({
 
 ```js
 function getBy(tag, title) {
-  return Array.from(document.querySelectorAll(tag)).find(
-    (element) => element.textContent === title
+  return Array.from(document.querySelectorAll(tag)).find((element) =>
+    element.textContent.includes(title)
   );
 }
 
 function getDataFor(title) {
-  const heading = getBy("h3", title);
-  const row = heading?.nextElementSibling;
+  const row =
+    getBy("h3", title)?.nextElementSibling ??
+    getBy("h4", title)?.nextElementSibling;
+  console.log({ row }, "from", title, getBy("h3", title));
   if (!row) {
     return undefined;
   }
@@ -91,10 +93,10 @@ function getDataFor(title) {
 }
 
 sponsors = {
-  complete: getDataFor("Complete Stack Sponsors"),
-  large: getDataFor("Large Stack Sponsors"),
-  medium: getDataFor("Medium Stack Sponsors"),
-  small: getDataFor("Small Stack Sponsors"),
-  community: getDataFor("Community Partners"),
+  complete: getDataFor("Complete Stack"),
+  large: getDataFor("Large Stack"),
+  medium: getDataFor("Medium Stack"),
+  small: getDataFor("Small Stack"),
+  community: getDataFor("Community"),
 };
 ```
