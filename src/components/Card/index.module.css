@@ -1,4 +1,5 @@
 .card {
+  background-color: var(--color-primary);
   display: block;
   position: relative;
   text-decoration: none;
@@ -34,7 +35,7 @@
   left: 1.5rem;
 }
 
-.leftToRight {
+.rightToLeft {
   text-align: right;
 }
 

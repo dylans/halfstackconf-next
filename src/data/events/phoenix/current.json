@@ -7,12 +7,166 @@
   ],
   "geolocation": [33.317108, -111.688454],
   "location": "Majestic Theater, Gilbert",
-  "sessions": [],
+  "sessions": [
+    {
+      "by": "Tiger Oakes and Daphne Liu",
+      "description": [
+        "We've been dating for 7 years, and people ask us how we managed to stay together for so long. Our answers are: communication, transparency, and teamwork, all of which: we automated!",
+        "We want to show you how to build various tools using Node.js, APIs, and the Internet of Things, to make it easier to collaborate and set up routines. We'll bring our dynamic working together with conference speaking and improv experience to teach you about home automation while making you laugh a lot."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/Not_Woods",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://twitter.com/thebetterdaphne",
+          "icon": "twitter"
+        }
+      ],
+      "title": "How we automated our relationship"
+    },
+    {
+      "by": "Todd Libby",
+      "description": [
+        "Deceptive patterns (also known as \"dark patterns\") are all over the Web. We'll speak to the accessibility impact deceptive patterns have as well as Todd's introduction to taking these patterns, anti-patterns and his work in the W3C to have these published in WCAG 3."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/toddlibby",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Deceptive Patterns and FAST"
+    },
+    {
+      "by": "Bekah Rice",
+      "description": [
+        "Testing your digital products with real people is the only real way to see if what you've built actually works. The problem is, many of us just don't have the time or budget to run a full-scale usability test. Still, it's always better to do some testing rather than none. We'll cover all the basics for running your own short, successful usability tests on a shoestring budget, using just a few basic resources."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/bekahble",
+          "icon": "twitter"
+        }
+      ],
+      "title": "DIY Usability Testing When You Have No Time and No Budget"
+    },
+    {
+      "by": "William Blankenship",
+      "description": [
+        "GraphQL is still a nascent technology. Bringing it into an organization, you may find many who've heard of it in name only. In this talk William will share the mental models he's used to quickly \"upload\" context to other folks to prime conversations around GraphQL."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/retrohack3r",
+          "icon": "twitter"
+        }
+      ],
+      "title": "GraphQL Mental Models"
+    }
+  ],
   "sponsors": {
-    "complete": [],
-    "large": [],
-    "medium": [],
-    "small": []
+    "complete": [
+      {
+        "href": "https://livingspec.com/",
+        "src": "/logos/livingspec.svg",
+        "name": "Living Spec"
+      },
+      {
+        "href": "https://salesforce.com/tech",
+        "src": "/logos/salesforce.svg",
+        "name": "Salesforce Engineering"
+      },
+      {
+        "href": "https://nrwl.io",
+        "src": "/logos/nrwl.svg",
+        "name": "Nrwl"
+      },
+      {
+        "href": "https://www.wix.com/velo",
+        "src": "/logos/wixengineering.svg",
+        "name": "Wix"
+      }
+    ],
+    "large": [
+      {
+        "href": "https://sitepen.com/",
+        "src": "/logos/sitepen.svg",
+        "name": "SitePen"
+      }
+    ],
+    "medium": [
+      {
+        "href": "https://www.salesbricks.com/",
+        "src": "/logos/salesbricks.svg",
+        "name": "Salesbricks"
+      },
+      {
+        "href": "https://interval.com/",
+        "src": "/logos/interval.png",
+        "name": "Interval"
+      },
+      {
+        "href": "https://iceddev.com/",
+        "src": "/logos/iceddev.svg",
+        "name": "Iced.dev"
+      },
+      {
+        "href": "https://wearedhd.com/",
+        "src": "/logos/dhd.svg",
+        "name": "DHD"
+      },
+      {
+        "href": "https://www.mozilla.org/",
+        "src": "/logos/mozilla.svg",
+        "name": "Mozilla"
+      }
+    ],
+    "small": [
+      {
+        "href": "https://dolby.io",
+        "src": "/logos/dolbyio.png",
+        "name": "Dolby.io"
+      },
+      {
+        "href": "https://ti.to",
+        "src": "/logos/tito.svg",
+        "name": "Tito"
+      },
+      {
+        "href": "http://codebar.io",
+        "src": "/logos/codebar.svg",
+        "name": "codebar"
+      },
+      {
+        "href": "https://openjsf.org/",
+        "src": "/logos/openjsfoundation.svg",
+        "name": "Open JS Foundation"
+      }
+    ],
+    "community": [
+      {
+        "href": "https://www.meetup.com/Phoenix-TypeScript/",
+        "src": "/logos/phxts.svg",
+        "name": "PHX TS"
+      },
+      {
+        "href": "https://www.meetup.com/Phoenix-JavaScript/",
+        "src": "/logos/phxjs.svg",
+        "name": "PHX JS"
+      },
+      {
+        "href": "https://oct2023.desertcodecamp.com/home",
+        "src": "/logos/desertcodecamp.png",
+        "name": "Desert Code Camp"
+      },
+      {
+        "href": "https://www.thecoderschool.com/locations/gilbert/",
+        "src": "/logos/thecoderschool.png",
+        "name": "theCoderSchool Gilbert"
+      }
+    ]
   },
   "year": 2023
 }

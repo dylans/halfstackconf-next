@@ -1,6 +1,5 @@
 .eventsList {
   background: var(--color-primary);
-  background-image: url("./assets/londonEye.png");
   background-size: cover;
   padding-bottom: 2rem;
 }

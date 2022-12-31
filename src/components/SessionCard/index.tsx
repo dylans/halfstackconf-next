@@ -49,11 +49,9 @@ export function SessionCard({
   return (
     <Card
       as="li"
-      backgroundColor={
-        direction === "left-to-right" ? "--color-primary" : "--color-backdrop"
-      }
       className={clsx(directionStyles[direction], className)}
       direction={direction}
+      id={hash}
     >
       <TintedImage className={styles.image} src={`/speakers/${hash}.jpg`} />
       <div className={styles.textContents}>

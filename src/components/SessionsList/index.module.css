@@ -1,3 +1,7 @@
+.sessionsList {
+  background-image: var(--background-pattern);
+}
+
 .h2 {
   text-align: center;
 }
@@ -7,4 +11,12 @@
   flex-direction: column;
   gap: 4rem;
   padding-left: 0;
+}
+
+.sessionCard:nth-of-type(2n) {
+  background: var(--color-backdrop);
+}
+
+.sessionCard:nth-of-type(2n + 1) {
+  background: var(--color-primary);
 }
