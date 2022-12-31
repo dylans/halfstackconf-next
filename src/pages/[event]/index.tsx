@@ -28,6 +28,7 @@ export default function Event({
     name,
     slug,
     sponsors,
+    trailer,
     year,
   },
 }: ReturnedProps<typeof getStaticProps>) {
@@ -51,7 +52,12 @@ export default function Event({
         <Text fontSize="extra-large">{year}</Text>
       </Banner>
 
-      <EventSummary afterparty={afterparty} date={date} location={location} />
+      <EventSummary
+        afterparty={afterparty}
+        date={date}
+        location={location}
+        trailer={trailer}
+      />
 
       <SplitPromo description={description} src="/backgrounds/attendance.jpg" />
 

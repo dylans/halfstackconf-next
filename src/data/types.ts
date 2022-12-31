@@ -47,6 +47,7 @@ export interface EventDataCurrent extends EventDataBase {
   geolocation?: EventGeolocation;
   location: string;
   sessions: EventSession[];
+  trailer?: string;
   year: number;
 }
 
