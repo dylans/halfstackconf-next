@@ -1,11 +1,3 @@
-.belgrade {
-  --background-full: url("/backgrounds/belgrade/full.png");
-  --background-outline: url("/backgrounds/belgrade/outline.png");
-  --background-thumbnail: url("/backgrounds/belgrade/thumbnail.jpg");
-  --color-faint: #fadddf;
-  --color-primary: #c0343a;
-}
-
 .charlotte {
   --background-full: url("/backgrounds/charlotte/full.png");
   --background-outline: url("/backgrounds/charlotte/outline.png");
