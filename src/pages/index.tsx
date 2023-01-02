@@ -1,6 +1,8 @@
 import Head from "next/head";
 
 import { Expectation } from "../components/Expectation";
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
 import { EventsList } from "../components/Index/EventsList";
 import { Intro } from "../components/Index/Intro";
 import { Newsletter } from "../components/Index/Newsletter";
@@ -17,11 +19,13 @@ export default function Index({
       <Head>
         <title>HalfStack | Open Web Conferences</title>
       </Head>
+      <Header />
       <Intro />
       <EventsList events={events} />
       <Expectation />
       <Newsletter />
       <SponsorStacksList {...sponsors} />;
+      <Footer />
     </>
   );
 }

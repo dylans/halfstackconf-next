@@ -1,7 +1,10 @@
 .eventInfo {
-  background-image: var(--background-pattern);
+  background-image: var(--background-outline);
   background-size: cover;
   background-position: center center;
+}
+
+.contents {
   padding: 5rem 2rem;
 }
 

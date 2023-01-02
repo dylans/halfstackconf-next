@@ -5,6 +5,8 @@ import { Banner } from "../../../components/Banner";
 import { BannerText } from "../../../components/BannerText";
 import { BodyArea } from "../../../components/BodyArea";
 import { Columns } from "../../../components/Columns";
+import { Footer } from "../../../components/Footer";
+import { Header } from "../../../components/Header";
 import { SponsorStacksList } from "../../../components/SponsorStacksList";
 import { Text } from "../../../components/Text";
 import { VideoCard } from "../../../components/VideoCard";
@@ -26,6 +28,7 @@ export default function EventYear({
       <Head>
         <title>{`HalfStack ${name} ${year}`}</title>
       </Head>
+      <Header />
       <Banner background={`${event}.png`}>
         <BannerText>Past Events</BannerText>
       </Banner>
@@ -76,6 +79,7 @@ export default function EventYear({
 
         <SponsorStacksList {...sponsors} />
       </BodyArea>
+      <Footer />
     </>
   );
 }

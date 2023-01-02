@@ -2,7 +2,7 @@ import clsx from "clsx";
 import Image from "next/future/image";
 import Link from "next/link";
 
-import { Text } from "../Text";
+import { CopyrightFooter } from "../CopyrightFooter";
 import { TextLink } from "../TextLink";
 import cityscapeCharlotte from "./assets/cityscapeCharlotte.png";
 import cityscapeLondon from "./assets/cityscapeLondon.png";
@@ -83,14 +83,7 @@ export function Footer() {
         <TextLink href="/faqs">FAQs</TextLink>
         <TextLink href="/contact">Contact Us</TextLink>
       </div>
-      <Text as="div" className={styles.bottom} fontSize="extra-small">
-        Copyright © Open Web Conferences, LLC, {new Date().getFullYear()}. All
-        rights reserved. Site design by{" "}
-        <a href="https://wearedhd.com" rel="noreferrer" target="_blank">
-          David Henderson Design
-        </a>
-        .
-      </Text>
+      <CopyrightFooter />
     </footer>
   );
 }

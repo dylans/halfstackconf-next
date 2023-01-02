@@ -1,4 +1,10 @@
+.findUs {
+  background: var(--color-primary);
+  color: var(--color-bright);
+  padding: 2rem 0 4rem;
+}
+
 .h2 {
-  margin-top: 6rem;
+  margin: 2rem;
   text-align: center;
 }

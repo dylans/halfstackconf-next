@@ -1,6 +1,8 @@
 import Head from "next/head";
 
 import { BodyArea } from "../../components/BodyArea";
+import { Footer } from "../../components/Footer";
+import { Header } from "../../components/Header";
 import { Text } from "../../components/Text";
 import styles from "./index.module.css";
 
@@ -37,23 +39,27 @@ const sections = {
 
 export default function FAQs() {
   return (
-    <BodyArea>
+    <>
       <Head>
         <title>HalfStack | FAQs</title>
       </Head>
-      <Text as="h1" fontSize="extra-large">
-        Frequently Asked Questions
-      </Text>
-      <div className={styles.entries}>
-        {Object.entries(sections).map(([question, answer]) => (
-          <div key={question}>
-            <Text as="h2" fontSize="large">
-              {question}
-            </Text>
-            <Text as="p">{answer}</Text>
-          </div>
-        ))}
-      </div>
-    </BodyArea>
+      <Header />
+      <BodyArea>
+        <Text as="h1" fontSize="extra-large">
+          Frequently Asked Questions
+        </Text>
+        <div className={styles.entries}>
+          {Object.entries(sections).map(([question, answer]) => (
+            <div key={question}>
+              <Text as="h2" fontSize="large">
+                {question}
+              </Text>
+              <Text as="p">{answer}</Text>
+            </div>
+          ))}
+        </div>
+      </BodyArea>
+      <Footer />
+    </>
   );
 }

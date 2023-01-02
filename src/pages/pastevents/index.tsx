@@ -4,6 +4,8 @@ import Link from "next/link";
 import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
 import { BodyArea } from "../../components/BodyArea";
+import { Footer } from "../../components/Footer";
+import { Header } from "../../components/Header";
 import { Text } from "../../components/Text";
 import {
   getEventData,
@@ -21,6 +23,7 @@ export default function PastEvents({
       <Head>
         <title>HalfStack | Past Events</title>
       </Head>
+      <Header />
       <Banner>
         <BannerText>Past Events</BannerText>
       </Banner>
@@ -44,6 +47,7 @@ export default function PastEvents({
           </>
         ))}
       </BodyArea>
+      <Footer />
     </>
   );
 }

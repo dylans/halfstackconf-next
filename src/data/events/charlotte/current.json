@@ -5,10 +5,7 @@
     "The first ever HalfStack Charlotte event.",
     "Tickets now available for an incredible day of JS!"
   ],
-  "map": {
-    "geolocation": [35.2271, -80.8431],
-    "pin": [35.2271, -80.8431]
-  },
+  "geolocation": [35.2271, -80.8431],
   "location": "Charlotte, North Carolina",
   "sessions": [],
   "sponsors": {

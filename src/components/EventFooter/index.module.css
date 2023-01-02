@@ -1,0 +1,76 @@
+.eventFooter {
+  background-color: var(--color-primary);
+  color: var(--color-bright);
+}
+
+.cityscape {
+  position: relative;
+  margin: auto;
+  height: 10rem;
+  width: 22rem;
+}
+
+.cityscapeImage {
+  max-height: 100%;
+  max-width: 100%;
+  opacity: 0.5;
+}
+
+.iconLinks {
+  align-items: flex-start;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.icon {
+  height: 2rem;
+  transition: var(--transition-medium) opacity;
+  width: 2rem;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.textLinks {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.textLink {
+  color: var(--color-bright);
+}
+
+@media (min-width: 700px) {
+  .contents {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .iconLinks {
+    justify-content: flex-start;
+  }
+
+  .iconLinks,
+  .ticketsLink {
+    width: 20%;
+  }
+
+  .iconLinks,
+  .textLinks {
+    gap: 1rem;
+  }
+
+  .textLinks {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .ticketsLink {
+    text-align: right;
+  }
+}

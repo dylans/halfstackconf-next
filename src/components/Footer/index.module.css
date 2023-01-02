@@ -85,6 +85,8 @@
 }
 
 .icon {
+  background: var(--color-primary);
+  border-radius: 100%;
   height: 2rem;
   transition: var(--transition-medium) opacity;
   width: 2rem;
@@ -102,7 +104,7 @@
 }
 
 .bottom {
-  background: var(--color-backdrop);
+  background: var(--color-primary);
   color: var(--color-subtle);
   letter-spacing: 1px;
   padding: 1.5rem;

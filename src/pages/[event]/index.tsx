@@ -4,10 +4,12 @@ import Head from "next/head";
 import { Anchor } from "../../components/Anchor";
 import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
+import { EventFooter } from "../../components/EventFooter";
 import { EventSummary } from "../../components/EventSummary";
 import { EventTheme } from "../../components/EventTheme";
 import { Expectation } from "../../components/Expectation";
 import { FindUs } from "../../components/FindUs";
+import { Header } from "../../components/Header";
 import { SecondaryBanner } from "../../components/SecondaryBanner";
 import { SessionsList } from "../../components/SessionsList";
 import { SplitPromo } from "../../components/SplitPromo";
@@ -22,10 +24,10 @@ export default function Event({
     afterparty = "Afterparty",
     date,
     description,
-    sessions,
+    geolocation,
     location,
-    map,
     name,
+    sessions,
     slug,
     sponsors,
     trailer,
@@ -37,6 +39,7 @@ export default function Event({
       <Head>
         <title>{`HalfStack | ${name}`}</title>
       </Head>
+      <Header />
       <Banner background={`${slug}/full.png`}>
         <BannerText>
           <div className={styles.bannerImageArea}>
@@ -75,7 +78,9 @@ export default function Event({
 
       <SponsorStacksList {...sponsors} />
 
-      {map && <FindUs map={map} slug={slug} />}
+      <FindUs geolocation={geolocation} slug={slug} />
+
+      <EventFooter slug={slug} />
     </EventTheme>
   );
 }

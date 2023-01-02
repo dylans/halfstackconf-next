@@ -5,6 +5,7 @@ import { RoundLink } from "../RoundLink";
 import { SponsorStack } from "../SponsorStack";
 import { Text } from "../Text";
 import styles from "./index.module.css";
+import { SponsorsArea } from "./SponsorsArea";
 
 export function SponsorStacksList({
   complete,
@@ -33,22 +34,11 @@ export function SponsorStacksList({
   );
 
   if (!complete.length && !large.length && !medium.length && !small.length) {
-    return (
-      <div className={styles.sponsorsList}>
-        <Text as="h2" fontSize="banner" id="spon">
-          Sponsoring HalfStack
-        </Text>
-        {blurb}
-      </div>
-    );
+    return <SponsorsArea title="Sponsoring HalfStack">{blurb}</SponsorsArea>;
   }
 
   return (
-    <div className={styles.sponsorsList}>
-      <Text as="h2" fontSize="banner" id="spon">
-        Our Wonderful Sponsors
-      </Text>
-
+    <SponsorsArea title="Our Wonderful Sponsors">
       <SponsorStack sponsors={complete} stack="complete" />
       <SponsorStack sponsors={large} stack="large" />
       <SponsorStack sponsors={medium} stack="medium" />
@@ -66,6 +56,6 @@ export function SponsorStacksList({
       >
         Take me to the sponsors page
       </RoundLink>
-    </div>
+    </SponsorsArea>
   );
 }

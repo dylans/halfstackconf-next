@@ -3,6 +3,8 @@ import Head from "next/head";
 import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
 import { BodyArea } from "../../components/BodyArea";
+import { Footer } from "../../components/Footer";
+import { Header } from "../../components/Header";
 import { RoundLink } from "../../components/RoundLink";
 import { Text } from "../../components/Text";
 import styles from "./index.module.css";
@@ -38,6 +40,7 @@ export default function Sponsorship() {
       <Head>
         <title>HalfStack | Sponsorship</title>
       </Head>
+      <Header />
       <Banner>
         <BannerText>
           Sponsorship
@@ -62,6 +65,7 @@ export default function Sponsorship() {
         </ul>
         {callToAction}
       </BodyArea>
+      <Footer />
     </>
   );
 }

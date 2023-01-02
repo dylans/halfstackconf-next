@@ -7,10 +7,7 @@
     "Mostly from the Phoenix area, with some from throughout the US, Europe and the UK"
   ],
   "location": "Majestic Theater, Gilbert",
-  "map": {
-    "geolocation": [33.317108, -111.688454],
-    "pin": [33.317108, -111.688454]
-  },
+  "geolocation": [33.317108, -111.688454],
   "sessions": [
     {
       "by": "Tiger Oakes and Daphne Liu",

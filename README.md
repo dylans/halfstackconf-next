@@ -39,6 +39,10 @@ pnpm start
 #### Existing Event Data
 
 ```js
+Array.from(document.querySelectorAll(".img.overlay")).forEach((overlay) =>
+  overlay.remove()
+);
+
 cardElements = [...document.querySelectorAll(".speaker")];
 
 cardElements.forEach((card) => {
