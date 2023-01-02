@@ -1,6 +1,6 @@
 .splitPromo {
   background-color: var(--color-primary);
-  background-image: url("/patterns/split-promo-pattern.png");
+  background-image: var(--background-pattern);
   background-position: center center;
   background-size: cover;
   overflow: hidden;

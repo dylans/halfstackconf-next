@@ -38,14 +38,19 @@ export interface EventSession {
   title: string;
 }
 
-export type EventGeolocation = [number, number];
+export interface EventMap {
+  geolocation: EventLocation;
+  pin: EventLocation;
+}
+
+export type EventLocation = [number, number];
 
 export interface EventDataCurrent extends EventDataBase {
   afterparty?: string;
   catchphrase?: string;
   description: string[];
-  geolocation?: EventGeolocation;
   location: string;
+  map: EventMap;
   sessions: EventSession[];
   trailer?: string;
   year: number;

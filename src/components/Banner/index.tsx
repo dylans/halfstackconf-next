@@ -25,7 +25,7 @@ export function Banner({
   return (
     <div
       className={clsx(styles.banner, sizeStyles[size], className)}
-      style={{ backgroundImage: `url('/backgrounds/${background}')` }}
+      style={{ backgroundImage: `url('/events/${background}')` }}
     >
       {children}
     </div>

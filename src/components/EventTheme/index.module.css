@@ -1,8 +1,9 @@
 .charlotte {
-  --background-full: url("/backgrounds/charlotte/full.png");
-  --background-outline: url("/backgrounds/charlotte/outline.png");
-  --background-pattern: url("/backgrounds/charlotte/pattern.png");
-  --background-thumbnail: url("/backgrounds/charlotte/thumbnail.jpg");
+  --background-full: url("/events/charlotte/full.png");
+  --background-outline: url("/events/charlotte/outline.png");
+  --background-outline-alt: url("/events/charlotte/outline-alt.png");
+  --background-pattern: url("/events/charlotte/pattern.png");
+  --background-thumbnail: url("/events/charlotte/thumbnail.jpg");
   --color-backdrop-subtle: #72be8d;
   --color-faint: #abd9ba;
   --color-primary: #2b9d57;
@@ -10,58 +11,66 @@
 
 .london,
 .london-on-the-thames {
-  --background-full: url("/backgrounds/london/full.png");
-  --background-outline: url("/backgrounds/london/outline.png");
-  --background-thumbnail: url("/backgrounds/london/thumbnail.jpg");
+  --background-full: url("/events/london/full.png");
+  --background-outline: url("/events/london/outline.png");
+  --background-outline-alt: url("/events/london/outline-alt.png");
+  --background-pattern: url("/events/london/pattern.png");
+  --background-thumbnail: url("/events/london/thumbnail.jpg");
   --color-faint: #ebf0f7;
   --color-primary: #22366e;
 }
 
 .newquay {
-  --background-full: url("/backgrounds/newquay/full.png");
-  --background-outline: url("/backgrounds/newquay/outline.png");
-  --background-thumbnail: url("/backgrounds/newquay/thumbnail.jpg");
+  --background-full: url("/events/newquay/full.png");
+  --background-outline: url("/events/newquay/outline.png");
+  --background-outline-alt: url("/events/newquay/outline-alt.png");
+  --background-thumbnail: url("/events/newquay/thumbnail.jpg");
   --color-faint: #e4e4ec;
   --color-primary: #22366e;
 }
 
 .newyork {
-  --background-full: url("/backgrounds/newyork/full.png");
-  --background-outline: url("/backgrounds/newyork/outline.png");
-  --background-thumbnail: url("/backgrounds/newyork/thumbnail.jpg");
+  --background-full: url("/events/newyork/full.png");
+  --background-outline: url("/events/newyork/outline.png");
+  --background-outline-alt: url("/events/newyork/outline-alt.png");
+  --background-thumbnail: url("/events/newyork/thumbnail.jpg");
   --color-faint: #cbcbcb;
   --color-primary: #2f2d2e;
 }
 
 .online {
-  --background-full: url("/backgrounds/online/full.png");
-  --background-outline: url("/backgrounds/online/outline.png");
-  --background-thumbnail: url("/backgrounds/online/thumbnail.jpg");
+  --background-full: url("/events/online/full.png");
+  --background-outline: url("/events/online/outline.png");
+  --background-outline-alt: url("/events/online/outline-alt.png");
+  --background-thumbnail: url("/events/online/thumbnail.jpg");
   --color-faint: #9cb0d9;
   --color-primary: #2f2d2e;
 }
 
 .phoenix {
-  --background-full: url("/backgrounds/phoenix/full.png");
-  --background-outline: url("/backgrounds/phoenix/outline.png");
-  --background-pattern: url("/backgrounds/phoenix/pattern.png");
-  --background-thumbnail: url("/backgrounds/phoenix/thumbnail.jpg");
+  --background-full: url("/events/phoenix/full.png");
+  --background-outline: url("/events/phoenix/outline.png");
+  --background-outline-alt: url("/events/phoenix/outline-alt.png");
+  --background-pattern: url("/events/phoenix/pattern.png");
+  --background-thumbnail: url("/events/phoenix/thumbnail.jpg");
   --color-faint: #e4e4ec;
   --color-primary: #262262;
 }
 
 .telaviv {
-  --background-full: url("/backgrounds/telaviv/full.png");
-  --background-outline: url("/backgrounds/telaviv/outline.png");
-  --background-thumbnail: url("/backgrounds/telaviv/thumbnail.jpg");
+  --background-full: url("/events/telaviv/full.png");
+  --background-outline: url("/events/telaviv/outline.png");
+  --background-outline-alt: url("/events/telaviv/outline-alt.png");
+  --background-thumbnail: url("/events/telaviv/thumbnail.jpg");
   --color-faint: #9cb0d9;
   --color-primary: #22366e;
 }
 
 .vienna {
-  --background-full: url("/backgrounds/vienna/full.png");
-  --background-outline: url("/backgrounds/vienna/outline.png");
-  --background-thumbnail: url("/backgrounds/vienna/thumbnail.jpg");
+  --background-full: url("/events/vienna/full.png");
+  --background-outline: url("/events/vienna/outline.png");
+  --background-outline-alt: url("/events/vienna/outline-alt.png");
+  --background-thumbnail: url("/events/vienna/thumbnail.jpg");
   --color-backdrop-subtle: #e78689;
   --color-faint: #fadddf;
   --color-primary: #d72027;

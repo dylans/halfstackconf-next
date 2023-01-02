@@ -23,8 +23,8 @@ export default function CFP() {
 
         <Text as="p" className={styles.p}>
           The new HalfStack CfP process is a significant change from traditional
-          CfP after having time to reflect on what we like and dislike about CfP
-          during covid.
+          CfP after having time to reflect on what we like and dislike about
+          CfPs during COVID.
         </Text>
 
         <Text as="p" className={styles.p}>

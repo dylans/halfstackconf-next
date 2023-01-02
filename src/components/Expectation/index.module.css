@@ -1,4 +1,8 @@
 .expectation {
+  background-image: var(--background-outline-alt);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 1rem;
   position: relative;
 }

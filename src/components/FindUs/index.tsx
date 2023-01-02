@@ -1,21 +1,22 @@
 import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
 import { useCallback, useMemo } from "react";
 
-import { EventGeolocation } from "../../data/types";
+import { EventMap } from "../../data/types";
 import { Text } from "../Text";
 import { createMapOptions } from "./createMapOptions";
 import styles from "./index.module.css";
+
+export interface FindUsProps {
+  map: EventMap;
+  slug: string;
+}
 
 const containerStyle = {
   width: "100%",
   height: "400px",
 };
 
-export interface FindUsProps {
-  geolocation: EventGeolocation;
-}
-
-export function FindUs({ geolocation }: FindUsProps) {
+export function FindUs({ map: { geolocation, pin }, slug }: FindUsProps) {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
     googleMapsApiKey: "AIzaSyAF3YU1nrEkOHd_kmrvTmOtlyTQMjPmRlk",
@@ -26,15 +27,18 @@ export function FindUs({ geolocation }: FindUsProps) {
     [geolocation]
   );
 
-  const onLoad = useCallback((map: google.maps.Map) => {
-    map.setOptions(createMapOptions());
+  const onLoad = useCallback(
+    (map: google.maps.Map) => {
+      map.setOptions(createMapOptions());
 
-    new google.maps.Marker({
-      position: { lat: 51.52036, lng: -0.07319200000006276 },
-      map: map,
-      icon: "/icons/pin-london.png",
-    });
-  }, []);
+      new google.maps.Marker({
+        position: { lat: pin[0], lng: pin[1] },
+        map: map,
+        icon: `/events/${slug}/map-pin.png`,
+      });
+    },
+    [slug, pin]
+  );
 
   return (
     <>

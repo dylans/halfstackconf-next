@@ -22,9 +22,9 @@ export default function Event({
     afterparty = "Afterparty",
     date,
     description,
-    geolocation,
     sessions,
     location,
+    map,
     name,
     slug,
     sponsors,
@@ -44,7 +44,7 @@ export default function Event({
               alt=""
               className={styles.bannerImage}
               fill
-              src={`/backgrounds/${slug}/skyline.png`}
+              src={`/events/${slug}/skyline.png`}
             />
           </div>
           {name}
@@ -59,7 +59,7 @@ export default function Event({
         trailer={trailer}
       />
 
-      <SplitPromo description={description} src="/backgrounds/attendance.jpg" />
+      <SplitPromo description={description} src="/events/attendance.jpg" />
 
       <Expectation>
         Quick update: We&apos;ve changed the date from the 18th to the 16th to
@@ -75,7 +75,7 @@ export default function Event({
 
       <SponsorStacksList {...sponsors} />
 
-      {geolocation && <FindUs geolocation={geolocation} />}
+      {map && <FindUs map={map} slug={slug} />}
     </EventTheme>
   );
 }
