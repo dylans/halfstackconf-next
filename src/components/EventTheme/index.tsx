@@ -1,10 +1,14 @@
+import clsx from "clsx";
+
+import styles from "./index.module.css";
+
 export interface EventThemeProps {
   children: React.ReactNode;
   event: string;
 }
 
-import styles from "./index.module.css";
-
 export function EventTheme({ children, event }: EventThemeProps) {
-  return <div className={styles[event]}>{children}</div>;
+  return (
+    <div className={clsx(styles.eventTheme, styles[event])}>{children}</div>
+  );
 }

@@ -1,7 +1,6 @@
 .textLink {
   border-bottom: 6px solid transparent;
   border-top: 6px solid transparent;
-  color: var(--color-primary);
   font-size: var(--font-size-small);
   font-weight: bold;
   text-decoration: none;

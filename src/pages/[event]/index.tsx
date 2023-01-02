@@ -39,7 +39,7 @@ export default function Event({
       <Head>
         <title>{`HalfStack | ${name}`}</title>
       </Head>
-      <Header />
+      <Header variant="inverted" />
       <Banner background={`${slug}/full.png`}>
         <BannerText>
           <div className={styles.bannerImageArea}>
