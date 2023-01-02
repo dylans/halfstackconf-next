@@ -27,7 +27,7 @@ export function Expectation({ children }: ExpectationProps) {
           food, drinks, talks, swag, and community. Hosted by London’s
           longest-lived JavaScript meetup group, HalfStack now extends beyond
           London to other cities including Vienna, Phoenix, Charlotte, Tel Aviv,
-          Newquay, and New York. And online due to COVID.
+          Newquay, and New York.
         </Text>
         <Text as="p" className={styles.p} fontSize="medium">
           HalfStack carefully curates talks that inspire and inform the audience
@@ -68,10 +68,7 @@ export function Expectation({ children }: ExpectationProps) {
         </Text>
         <Text as="p" className={styles.p} fontSize="medium">
           COVID-19 refund policy: Full refunds are available up to 7 days prior
-          to a scheduled in-person event. If you choose to keep your HalfStack
-          ticket until the rescheduled date, we will provide you with free
-          access to our HalfStack Online events until we can safely have
-          in-person events again.
+          to a scheduled in-person event.
         </Text>
         <RoundLink as="a" className={styles.bottomButton} href="/pastevents">
           Take me to past events

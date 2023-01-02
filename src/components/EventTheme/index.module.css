@@ -46,15 +46,6 @@
   --color-primary-dark: #151414;
 }
 
-.online {
-  --background-full: url("/events/online/full.png");
-  --background-outline: url("/events/online/outline.png");
-  --background-outline-alt: url("/events/online/outline-alt.png");
-  --background-thumbnail: url("/events/online/thumbnail.jpg");
-  --color-faint: #9cb0d9;
-  --color-primary: #2f2d2e;
-}
-
 .phoenix {
   --background-full: url("/events/phoenix/full.png");
   --background-outline: url("/events/phoenix/outline.png");

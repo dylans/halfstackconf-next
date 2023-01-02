@@ -30,9 +30,7 @@ const sections = {
       <br />
       <br />
       COVID-19 refund policy: Full refunds are available up to 7 days prior to a
-      scheduled in-person event. If you choose to keep your HalfStack ticket
-      until the rescheduled date, we will provide you with free access to our
-      HalfStack Online events until we can safely have in-person events again.
+      scheduled in-person event.
     </>
   ),
 };
