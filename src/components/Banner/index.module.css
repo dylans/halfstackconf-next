@@ -1,15 +1,28 @@
 .banner {
-  background: var(--color-backdrop-subtle) no-repeat;
-  background-blend-mode: multiply;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   color: var(--color-bright);
   font-weight: bold;
   letter-spacing: 0.05em;
-  padding: 3rem 2rem;
+  position: relative;
+}
+
+.contents {
+  padding: 2rem;
   position: relative;
   text-align: center;
   text-transform: uppercase;
+}
+
+.colorOverlay {
+  background: var(--color-backdrop-subtle);
+  height: 100%;
+  left: 0;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .sizeMedium {
@@ -18,29 +31,4 @@
 
 .sizeLarge {
   padding: 7rem 2rem;
-}
-
-.introText {
-  font-size: var(--font-size-medium);
-  margin: auto;
-  max-width: 70rem;
-  position: relative;
-}
-
-@media (min-width: 350px) {
-  .introText {
-    font-size: var(--font-size-large);
-  }
-}
-
-@media (min-width: 500px) {
-  .introText {
-    font-size: var(--font-size-extra-large);
-  }
-}
-
-@media (min-width: 700px) {
-  .introText {
-    font-size: var(--font-size-banner);
-  }
 }

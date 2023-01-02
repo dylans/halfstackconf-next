@@ -27,7 +27,8 @@ export function Banner({
       className={clsx(styles.banner, sizeStyles[size], className)}
       style={{ backgroundImage: `url('/events/${background}')` }}
     >
-      {children}
+      <div className={styles.colorOverlay} />
+      <div className={styles.contents}>{children}</div>
     </div>
   );
 }
