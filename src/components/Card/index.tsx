@@ -27,6 +27,7 @@ const directionStyles = {
 const sizeStyles = {
   small: styles.sizeSmall,
   medium: styles.sizeMedium,
+  large: styles.sizeLarge,
 };
 
 export const Card = <As extends React.ElementType>({
