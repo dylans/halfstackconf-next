@@ -1,0 +1,17 @@
+.ticketsOffer {
+  gap: 2rem;
+  padding: 1rem 1rem 0;
+}
+
+.left {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+@media (min-width: 1200px) {
+  .ticketsOffer {
+    padding: 0;
+  }
+}

@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { Expectation } from "../components/Expectation";
+import { ExpectationPhotos } from "../components/ExpectationPhotos";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { EventsList } from "../components/Index/EventsList";
@@ -22,7 +22,7 @@ export default function Index({
       <Header />
       <Intro />
       <EventsList events={events} />
-      <Expectation />
+      <ExpectationPhotos />
       <Newsletter />
       <SponsorStacksList {...sponsors} />;
       <Footer />

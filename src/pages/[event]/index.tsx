@@ -7,7 +7,7 @@ import { BannerText } from "../../components/BannerText";
 import { EventFooter } from "../../components/EventFooter";
 import { EventSummary } from "../../components/EventSummary";
 import { EventTheme } from "../../components/EventTheme";
-import { Expectation } from "../../components/Expectation";
+import { ExpectationPhotos } from "../../components/ExpectationPhotos";
 import { FindUs } from "../../components/FindUs";
 import { Header } from "../../components/Header";
 import { SecondaryBanner } from "../../components/SecondaryBanner";
@@ -64,7 +64,29 @@ export default function Event({
 
       <SplitPromo description={description} src="/events/attendance.jpg" />
 
-      <Expectation />
+      <ExpectationPhotos>
+        <Text as="h2" className={styles.h2} fontSize="extra-large">
+          What to Expect
+        </Text>
+        <Text as="p" className={styles.p} fontSize="medium">
+          HalfStack events are fun, creative single track JavaScript events
+          hosted in relaxed environments. HalfStack provides authentic, high
+          value experiences for all attendees.
+        </Text>
+        <Text as="p" className={styles.p} fontSize="medium">
+          The priority for HalfStack is the attendee experience, with great
+          food, drinks, talks, swag, and community. Hosted by London’s
+          longest-lived JavaScript meetup group, HalfStack now extends beyond
+          London to other cities including Vienna, Phoenix, Charlotte, Tel Aviv,
+          Newquay, and New York.
+        </Text>
+        <Text as="p" className={styles.p} fontSize="medium">
+          HalfStack carefully curates talks that inspire and inform the audience
+          in a highly interactive and entertaining manner. Each HalfStack event
+          provides an intimate feeling where each attendee has time to meet one
+          another.
+        </Text>
+      </ExpectationPhotos>
 
       <SecondaryBanner title="Call for Proposals">
         Visit our <Anchor href="/cfp">CfP page</Anchor> for more information on
