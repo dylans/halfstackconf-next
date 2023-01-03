@@ -2,10 +2,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: var(--color-bright);
   font-weight: bold;
   letter-spacing: 0.05em;
   position: relative;
+  --color-text: var(--color-bright);
 }
 
 .contents {

@@ -12,7 +12,7 @@ export interface EventSponsors {
 }
 
 export interface EventDataBase {
-  date: string;
+  date?: string;
   sponsors: EventSponsors;
 }
 
@@ -33,7 +33,7 @@ export interface EventSocial {
 
 export interface EventSession {
   by: string;
-  description: string[];
+  description?: string[];
   socials: EventSocial[];
   title: string;
 }

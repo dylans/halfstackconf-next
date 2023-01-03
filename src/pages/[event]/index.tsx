@@ -22,7 +22,7 @@ import styles from "./index.module.css";
 export default function Event({
   event: {
     afterparty = "Afterparty",
-    date,
+    date = "TBD",
     description,
     geolocation,
     location,
@@ -64,10 +64,7 @@ export default function Event({
 
       <SplitPromo description={description} src="/events/attendance.jpg" />
 
-      <Expectation>
-        Quick update: We&apos;ve changed the date from the 18th to the 16th to
-        avoid colliding with another conference in London on the 17th and 18th.
-      </Expectation>
+      <Expectation />
 
       <SecondaryBanner title="Call for Proposals">
         Visit our <Anchor href="/cfp">CfP page</Anchor> for more information on

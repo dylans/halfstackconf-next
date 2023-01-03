@@ -18,6 +18,7 @@ export interface RoundLinkProps extends MinimumProps {
 export type RoundLinkSize = keyof typeof sizeStyles;
 
 const sizeStyles = {
+  large: styles.sizeLarge,
   medium: styles.sizeMedium,
   small: styles.sizeSmall,
 };

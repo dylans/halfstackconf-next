@@ -19,9 +19,7 @@ export function SplitPromo({ className, description, src }: SplitPromoProps) {
       </div>
       <div className={styles.description}>
         {description.map((child) => (
-          <Text fontSize="large" key={child}>
-            {child}
-          </Text>
+          <Text key={child}>{child}</Text>
         ))}
       </div>
     </Columns>

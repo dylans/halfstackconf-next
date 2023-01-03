@@ -4,6 +4,7 @@
   background-position: center center;
   background-size: cover;
   overflow: hidden;
+  --color-text: var(--color-bright);
 }
 
 .imageArea {
@@ -19,6 +20,7 @@
 
 .description {
   color: var(--color-bright);
+  font-size: var(--font-size-medium);
   display: flex;
   flex-direction: column;
   font-weight: bold;
@@ -32,6 +34,7 @@
   }
 
   .description {
-    padding: 5rem 30% 5rem 5rem;
+    font-size: var(--font-size-large);
+    padding: 3rem 30% 3rem 3rem;
   }
 }

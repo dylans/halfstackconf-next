@@ -1,7 +1,7 @@
 .findUs {
   background: var(--color-primary);
-  color: var(--color-bright);
   padding: 2rem 0 4rem;
+  --color-text: var(--color-bright);
 }
 
 .h2 {

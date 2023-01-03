@@ -10,7 +10,6 @@ import styles from "./index.module.css";
 const links = [
   ["Past Events", "/pastevents"],
   ["Sponsorships", "/spon"],
-  ["Blog", "https://medium.com/@halfstackconf"],
   ["Contact", "/contact"],
   ["FAQs", "/faqs"],
 ];

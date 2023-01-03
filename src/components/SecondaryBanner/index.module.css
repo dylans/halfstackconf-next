@@ -3,9 +3,9 @@
   background-image: var(--background-outline);
   background-position: center center;
   background-size: contain;
-  color: var(--color-bright);
   position: relative;
   text-align: center;
+  --color-text: var(--color-bright);
 }
 
 .contents {

@@ -12,7 +12,7 @@
   "sponsors": {
     "complete": [
       {
-        "href": "https://www.eventhandler.co.il//",
+        "href": "https://www.eventhandler.co.il",
         "src": "/logos/eventhandler.svg",
         "name": "EventHandler"
       },
@@ -24,41 +24,41 @@
     ],
     "large": [
       {
-        "href": "https://www.wix.engineering/",
+        "href": "https://www.wix.engineering",
         "src": "/logos/wixengineering.svg",
         "name": "Wix Engineering"
       }
     ],
     "medium": [
       {
-        "href": "https://wearedhd.com/",
+        "href": "https://wearedhd.com",
         "src": "/logos/dhd.svg",
         "name": "DHD"
       },
       {
-        "href": "https://www.mozilla.org/",
+        "href": "https://www.mozilla.org",
         "src": "/logos/mozilla.svg",
         "name": "Mozilla"
       }
     ],
     "small": [
       {
-        "href": "https://balsamiq.com/",
+        "href": "https://balsamiq.com",
         "src": "/logos/balsamiq.svg",
         "name": "Balsamiq"
       },
       {
-        "href": "https://snyk.io/",
+        "href": "https://snyk.io",
         "src": "/logos/snyk.svg",
         "name": "Snyk"
       },
       {
-        "href": "https://ti.to/",
+        "href": "https://ti.to",
         "src": "/logos/tito.svg",
         "name": "Tito"
       },
       {
-        "href": "https://openjsf.org/",
+        "href": "https://openjsf.org",
         "src": "/logos/openjsfoundation.svg",
         "name": "Open JS Foundation"
       },
@@ -68,32 +68,32 @@
         "name": "Qcon London"
       },
       {
-        "href": "https://graphql-finland.fi/",
+        "href": "https://graphql-finland.fi",
         "src": "/logos/graphqlFinland.svg",
         "name": "Graphhql Finland"
       },
       {
-        "href": "https://infoq.com/",
+        "href": "https://infoq.com",
         "src": "/logos/infoq.jpg",
         "name": "InfoQ"
       },
       {
-        "href": "https://www.meetup.com/Hodash-Dev/",
+        "href": "https://www.meetup.com/Hodash-Dev",
         "src": "/logos/hodash.png",
         "name": "Hodash Dev"
       },
       {
-        "href": "https://www.jsisrael.com/",
+        "href": "https://www.jsisrael.com",
         "src": "/logos/javascriptisrael.svg",
         "name": "JavaScript Israel"
       },
       {
-        "href": "https://reactgraphql.academy/",
+        "href": "https://reactgraphql.academy",
         "src": "/logos/reactgraphqlacademy.svg",
         "name": "React GraphQL Academy"
       },
       {
-        "href": "https://manning.com/",
+        "href": "https://manning.com",
         "src": "/logos/manning.svg",
         "name": "Manning Publications"
       }

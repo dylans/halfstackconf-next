@@ -27,6 +27,7 @@ const callToAction = (
     as="a"
     className={styles.callToAction}
     href="https://docs.google.com/forms/d/e/1FAIpQLSeKnyG1yon8UfBRVDQ3JT-MHK_4D8QRKEgPLcNELajC4sn3Pw/viewform"
+    size="large"
     target="_blank"
     variant="shadow"
   >

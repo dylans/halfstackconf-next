@@ -22,6 +22,7 @@ html {
   --color-emphasis: #d72027;
   --color-primary: #2e4b9f;
   --color-primary-dark: #273a70;
+  --color-text: var(--color-primary);
   --color-faint: #909ab6;
   --color-subtle: #e8e8e8;
   --font-size-extra-small: 0.8rem;

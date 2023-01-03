@@ -8,5 +8,5 @@
 }
 
 .textLink:hover {
-  border-bottom: 6px solid var(--color-emphasis);
+  border-bottom: 6px solid var(--color-backdrop-subtle);
 }

@@ -11,15 +11,19 @@ import { Text } from "../Text";
 import { TintedImage } from "../TintedImage";
 import styles from "./index.module.css";
 
-export interface SessionCardProps extends EventSession {
-  className?: string;
-  direction?: CardDirection;
-}
-
 const directionStyles = {
   "left-to-right": styles.leftToRight,
   "right-to-left": styles.rightToLeft,
 };
+
+const defaultDescription = [
+  "We're not quite ready yet to announce contents here, but we know it's going to be great!",
+];
+
+export interface SessionCardProps extends EventSession {
+  className?: string;
+  direction?: CardDirection;
+}
 
 export function SessionCard({
   by,
@@ -73,7 +77,7 @@ export function SessionCard({
             {title}
           </Text>
           <Text as="p">
-            {description.map((line, i) =>
+            {(description ?? defaultDescription).map((line, i) =>
               line ? (
                 <React.Fragment key={i}>{line} </React.Fragment>
               ) : (

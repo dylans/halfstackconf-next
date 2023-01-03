@@ -1,16 +1,11 @@
 import Image from "next/future/image";
 
-import { RoundLink } from "../RoundLink";
 import { Text } from "../Text";
 import whatToExpect1 from "./assets/whatToExpect1.jpg";
 import whatToExpect2 from "./assets/whatToExpect2.jpg";
 import styles from "./index.module.css";
 
-export interface ExpectationProps {
-  children?: React.ReactNode;
-}
-
-export function Expectation({ children }: ExpectationProps) {
+export function Expectation() {
   return (
     <div className={styles.expectation}>
       <div className={styles.contents}>
@@ -35,11 +30,6 @@ export function Expectation({ children }: ExpectationProps) {
           provides an intimate feeling where each attendee has time to meet one
           another.
         </Text>
-        {children && (
-          <Text as="p" className={styles.p} fontSize="medium">
-            {children}
-          </Text>
-        )}
         <div className={styles.photos}>
           <div className={styles.photoArea}>
             <Image
@@ -58,21 +48,6 @@ export function Expectation({ children }: ExpectationProps) {
             />
           </div>
         </div>
-        <Text as="h2" className={styles.h2} fontSize="extra-large">
-          COVID-19 Policy
-        </Text>
-        <Text as="p" className={styles.p} fontSize="medium">
-          Due to COVID-19, all in-person indoor HalfStack events originally
-          scheduled from March 2020 were postponed indefinitely and we&apos;re
-          in the process of cautiously reopening.
-        </Text>
-        <Text as="p" className={styles.p} fontSize="medium">
-          COVID-19 refund policy: Full refunds are available up to 7 days prior
-          to a scheduled in-person event.
-        </Text>
-        <RoundLink as="a" className={styles.bottomButton} href="/pastevents">
-          Take me to past events
-        </RoundLink>
       </div>
     </div>
   );

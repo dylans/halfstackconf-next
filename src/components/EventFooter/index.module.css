@@ -3,6 +3,10 @@
   color: var(--color-bright);
 }
 
+.contents {
+  padding: 0 1rem;
+}
+
 .cityscape {
   position: relative;
   margin: auto;
@@ -44,6 +48,11 @@
   color: var(--color-bright);
 }
 
+.ticketsLink {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 @media (min-width: 700px) {
   .contents {
     align-items: center;
@@ -57,12 +66,16 @@
 
   .iconLinks,
   .ticketsLink {
-    width: 20%;
+    width: 25%;
   }
 
   .iconLinks,
   .textLinks {
     gap: 1rem;
+  }
+
+  .ticketsLink {
+    margin-bottom: 0;
   }
 
   .textLinks {
@@ -72,5 +85,11 @@
 
   .ticketsLink {
     text-align: right;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contents {
+    padding: 0;
   }
 }

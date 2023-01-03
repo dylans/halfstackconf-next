@@ -1,3 +1,7 @@
+.eventTheme {
+  --color-text: var(--color-primary);
+}
+
 .charlotte {
   --background-full: url("/events/charlotte/full.png");
   --background-outline: url("/events/charlotte/outline.png");
@@ -6,8 +10,8 @@
   --background-thumbnail: url("/events/charlotte/thumbnail.jpg");
   --color-backdrop-subtle: #72be8d;
   --color-faint: #abd9ba;
-  --color-primary: #2b9d57;
-  --color-primary-dark: #236c3f;
+  --color-primary: #1e7640;
+  --color-primary-dark: #154427;
 }
 
 .london,
@@ -19,7 +23,7 @@
   --background-thumbnail: url("/events/london/thumbnail.jpg");
   --color-backdrop-subtle: #2a45a3;
   --color-faint: #ebf0f7;
-  --color-primary: #2f4d9c;
+  --color-primary: #22366e;
   --color-primary-dark: #22356e;
 }
 
@@ -61,6 +65,7 @@
   --background-full: url("/events/telaviv/full.png");
   --background-outline: url("/events/telaviv/outline.png");
   --background-outline-alt: url("/events/telaviv/outline-alt.png");
+  --background-pattern: url("/events/telaviv/pattern.png");
   --background-thumbnail: url("/events/telaviv/thumbnail.jpg");
   --color-backdrop-subtle: #324d9c;
   --color-faint: #9cb0d9;
@@ -76,6 +81,6 @@
   --background-thumbnail: url("/events/vienna/thumbnail.jpg");
   --color-backdrop-subtle: #e78689;
   --color-faint: #fadddf;
-  --color-primary: #d72027;
-  --color-primary-dark: #b61117;
+  --color-primary: #b41c21;
+  --color-primary-dark: #8b0f13;
 }

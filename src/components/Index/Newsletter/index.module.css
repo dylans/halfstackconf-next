@@ -4,9 +4,9 @@
 }
 
 .contents {
-  color: var(--color-bright);
   margin: auto;
   max-width: var(--width-body);
+  --color-text: var(--color-bright);
 }
 
 .h2 {

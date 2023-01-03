@@ -45,11 +45,6 @@
   object-fit: contain;
 }
 
-.bottomButton {
-  box-shadow: var(--box-shadow-dark);
-  margin: 2rem 1rem 3rem;
-}
-
 @media (min-width: 700px) {
   .photos {
     flex-direction: row;

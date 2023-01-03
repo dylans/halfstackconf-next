@@ -38,9 +38,6 @@
       "title": "Cheatcodes for the Web"
     },
     {
-      "description": [
-        "We're not quite ready yet to announce contents here, but we know it's going to be great!"
-      ],
       "by": "Earth to Abigail",
       "socials": [
         { "icon": "site", "href": "https://earthtoabigail.com" },
@@ -87,9 +84,6 @@
       "title": "Massive Multiplayer Game"
     },
     {
-      "description": [
-        "We're not quite ready yet to announce contents here, but we know it's going to be great!"
-      ],
       "by": "Jo Franchetti",
       "socials": [
         { "icon": "glitch", "href": "https://glitch.com/@JoFranchetti" },
@@ -100,7 +94,7 @@
         },
         { "icon": "twitter", "href": "https://twitter.com/ThisIsJoFrank" }
       ],
-      "title": "To Be Announced"
+      "title": "A Serverless Séance - Weird Websockets and Petrifying Pub/Sub"
     },
     {
       "description": [

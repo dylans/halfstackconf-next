@@ -21,10 +21,10 @@ pnpm start
 
 ## TODO
 
+- Google Maps isn't using the page's theme colors
 - Investigate a more full design system backer such as Chakra UI, Stitches, Vanilla Extract, ...
 - Use Zod to enforce parsing of JSON
 - Expand ESLint field sorting to JSON and TS type literals
-- Move EventsList events data to a JSON file, and semi-automate CSS vars and backgrounds
 - Fix lint warnings
 - Consolidate icons into public/icons
 - Set up `~/` tsconfig path prefixes
