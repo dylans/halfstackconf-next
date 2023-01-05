@@ -54,63 +54,65 @@ export function SessionCard({
   };
 
   return (
-    <Card
-      as="li"
-      className={clsx(
-        styles.sessionCard,
-        directionStyles[direction],
-        className
-      )}
-      direction={direction}
-      id={hash}
-    >
-      <TintedImage className={styles.image} src={`/speakers/${hash}.jpg`} />
-      <div className={styles.textContents}>
-        <Text
-          as={Anchor}
-          className={styles.by}
-          fontSize="large"
-          href={"#" + hash}
-          variant="inline"
-        >
-          {by}
-        </Text>
-        <details className={styles.details} open={open}>
+    <>
+      <div className={styles.hasher} id={hash} />
+      <Card
+        as="li"
+        className={clsx(
+          styles.sessionCard,
+          directionStyles[direction],
+          className
+        )}
+        direction={direction}
+      >
+        <TintedImage className={styles.image} src={`/speakers/${hash}.jpg`} />
+        <div className={styles.textContents}>
           <Text
-            as="summary"
-            className={styles.summary}
-            onClick={setHashAndExpand}
+            as={Anchor}
+            className={styles.by}
+            fontSize="large"
+            href={"#" + hash}
+            variant="inline"
           >
-            {title}
+            {by}
           </Text>
-          <Text as="p">
-            {(description ?? defaultDescription).map((line, i) =>
-              line ? (
-                <React.Fragment key={i}>{line} </React.Fragment>
-              ) : (
-                <br key={i} />
-              )
-            )}
-          </Text>
-        </details>
-        <div className={styles.socialLinks}>
-          {socials.map(({ icon, href }) => (
-            <Link
-              className={styles.socialLink}
-              href={href}
-              key={href}
-              target="_blank"
+          <details className={styles.details} open={open}>
+            <Text
+              as="summary"
+              className={styles.summary}
+              onClick={setHashAndExpand}
             >
-              <Image
-                alt={`${by}'s ${icon}`}
-                height={32}
-                src={`/icons/${icon}.png`}
-                width={32}
-              />
-            </Link>
-          ))}
+              {title}
+            </Text>
+            <Text as="p">
+              {(description ?? defaultDescription).map((line, i) =>
+                line ? (
+                  <React.Fragment key={i}>{line} </React.Fragment>
+                ) : (
+                  <br key={i} />
+                )
+              )}
+            </Text>
+          </details>
+          <div className={styles.socialLinks}>
+            {socials.map(({ icon, href }) => (
+              <Link
+                className={styles.socialLink}
+                href={href}
+                key={href}
+                target="_blank"
+              >
+                <Image
+                  alt={`${by}'s ${icon}`}
+                  height={32}
+                  src={`/icons/${icon}.png`}
+                  width={32}
+                />
+              </Link>
+            ))}
+          </div>
         </div>
-      </div>
-    </Card>
+      </Card>
+    </>
   );
 }

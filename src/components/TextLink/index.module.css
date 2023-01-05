@@ -7,6 +7,7 @@
   transition: var(--transition-medium) border-color;
 }
 
-.textLink:hover {
+.textLink:hover,
+.hovering {
   border-bottom: 6px solid var(--color-backdrop-subtle);
 }

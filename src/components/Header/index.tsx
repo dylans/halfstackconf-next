@@ -44,7 +44,12 @@ export function Header({ variant = "default" }: HeaderProps) {
         </Link>
         <nav className={styles.links}>
           {links.map(([children, href]) => (
-            <TextLink className={styles.textLink} href={href} key={href}>
+            <TextLink
+              className={styles.textLink}
+              hovering={href === router.asPath}
+              href={href}
+              key={href}
+            >
               {children}
             </TextLink>
           ))}
