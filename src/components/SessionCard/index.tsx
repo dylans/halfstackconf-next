@@ -54,7 +54,7 @@ export function SessionCard({
   };
 
   return (
-    <>
+    <div className={styles.cardArea}>
       <div className={styles.hasher} id={hash} />
       <Card
         as="li"
@@ -113,6 +113,6 @@ export function SessionCard({
           </div>
         </div>
       </Card>
-    </>
+    </div>
   );
 }
