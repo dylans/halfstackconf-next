@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 
+import styles from "./useTitoWidget.module.css";
+
 interface TitoWidgetProps {
+  className?: string;
   event: string;
 }
 
@@ -27,7 +30,7 @@ export function useTitoWidget(event: string) {
   }, []);
 
   return loaded ? (
-    <tito-widget event={event}></tito-widget>
+    <tito-widget className={styles.titoWidget} event={event}></tito-widget>
   ) : (
     <div>loading...</div>
   );
