@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Image from "next/future/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 
 import { EventSession } from "../../data/types";
@@ -35,16 +36,18 @@ export function SessionCard({
 }: SessionCardProps) {
   const hash = hashify(by);
   const [open, setOpen] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
-    if (by === globalThis.location.hash.slice(1)) {
+    if (hash === globalThis.location.hash.slice(1)) {
       setOpen(true);
     }
-  }, [by]);
+  }, [hash]);
 
   const setHashAndExpand = (event: React.SyntheticEvent) => {
     setOpen((previous) => !previous);
-    window.history.replaceState({}, "", "#" + hash);
+
+    void router.push("#" + hash);
 
     // https://github.com/facebook/react/issues/15486#issuecomment-873516817
     event.preventDefault();
@@ -53,7 +56,11 @@ export function SessionCard({
   return (
     <Card
       as="li"
-      className={clsx(directionStyles[direction], className)}
+      className={clsx(
+        styles.sessionCard,
+        directionStyles[direction],
+        className
+      )}
       direction={direction}
       id={hash}
     >
