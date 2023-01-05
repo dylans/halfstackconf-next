@@ -1,7 +1,7 @@
 .eventsList {
   background: var(--color-primary);
   background-size: cover;
-  padding-bottom: 2rem;
+  padding: 2rem;
 }
 
 .eventCards {
@@ -13,8 +13,8 @@
   padding: 1rem;
 }
 
-@media (min-width: 700px) {
-  .eventCards {
-    padding: 5rem 0;
+@media (min-width: 1200px) {
+  .eventsList {
+    padding: 2rem 0 2rem;
   }
 }
