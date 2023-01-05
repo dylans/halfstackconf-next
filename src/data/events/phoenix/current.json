@@ -74,6 +74,47 @@
         }
       ],
       "title": "GraphQL Mental Models"
+    },
+    {
+      "by": "Chris DeMars",
+      "description": [
+        "The A/B test! We've all thought it: \"What's the point? How much configuration do we need?\" If you're familiar with the scientific method, those steps carve out the path to experimentation and A/B testing. Everyone loves a good hypothesis right? I know I do. Melding the world of science and software can help alleviate the stresses of experiments and help to maximize impact of every feature. In this talk we will journey through what an A/B test is, defining goals for A/B testing your app, and rolling out features based on successful experiments."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/saltnburnem",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Demystifying The Dreaded A/B Test"
+    },
+    {
+      "by": "Lucia Cerchie",
+      "description": [
+        "Over a third of respondents to a StackOverflow survey professed to a dread of learning Apache Kafka. Nevertheless, with a curious mindset and the right resources, we have the tools to succeed in learning Kafka. The comedian Tracy Morgan notes, \"If there’s one thing I’ve learned in my life, it’s that curiosity might kill cats, but it doesn’t kill people.\" Take the plunge with me and together we will conquer concepts like events and topics, producers and consumers.",
+        "We'll gain confidence through learning about partitions and brokers and how to use Kafka in the cloud. We'll go over the different configurations for producers and consumers, and how these configurations affect application behavior. Then, accompany me on a code walkthrough and see how we build and run producers and consumers in Node.js with the node-rdkafka client.",
+        "You'll be leaving with a spark of excitement, knowing you have neutralized your dread, and that you are now firmly within the two-thirds of StackOverflow respondents who are comfortable learning Apache Kafka."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/CerchieLucia",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Beginning Apache Kafka® for JavaScript Developers"
+    },
+    {
+      "by": "Luis Montes",
+      "description": [
+        "Luis has delighted us in the past with practical sessions like a banjo playing skeleton robot controlled via Web Bluetooth because why not. Details for this session will be announced soon"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/montelsu",
+          "icon": "twitter"
+        }
+      ],
+      "title": "TBD (Something ridiculous with obscure web APIs and robotics)"
     }
   ],
   "sponsors": {
