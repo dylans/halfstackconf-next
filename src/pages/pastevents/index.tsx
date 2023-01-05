@@ -29,7 +29,7 @@ export default function PastEvents({
       </Banner>
       <BodyArea className={styles.pastEvents}>
         {eventsData
-          .filter(([_, { years }]) => years.length)
+          .filter(([, { years }]) => years.length)
           .map(([event, { name, years }]) => (
             <>
               <Text as="h2" fontSize="large" key={event}>

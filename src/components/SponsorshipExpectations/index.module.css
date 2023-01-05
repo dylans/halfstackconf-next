@@ -1,0 +1,51 @@
+.sponsorshipExpectations {
+  padding: 2rem;
+}
+
+.contents {
+  display: flex;
+  gap: 2rem;
+}
+
+.p {
+  margin: 1rem 0;
+}
+
+.photoArea {
+  height: 50%;
+  width: 100%;
+  position: relative;
+}
+
+.photo {
+  object-fit: contain;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+@media (min-width: 700px) {
+  .contents {
+    gap: 10%;
+  }
+
+  .expectations,
+  .photos {
+    width: 45%;
+  }
+
+  .photos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links {
+    flex-direction: row;
+    gap: 2rem;
+    margin: 2rem;
+  }
+}

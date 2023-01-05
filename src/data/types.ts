@@ -16,6 +16,8 @@ export interface EventDataBase {
   sponsors?: EventSponsors;
 }
 
+export type EventGeoLocation = [number, number];
+
 export type EventSocialIcon =
   | "blog"
   | "facebook"
@@ -38,7 +40,11 @@ export interface EventSession {
   title: string;
 }
 
-export type EventGeoLocation = [number, number];
+export interface EventSponsorship {
+  available?: boolean;
+  currency?: string;
+  expectations: string[];
+}
 
 export interface EventDataCurrent extends EventDataBase {
   afterparty?: string;
@@ -47,6 +53,7 @@ export interface EventDataCurrent extends EventDataBase {
   geolocation: EventGeoLocation;
   location: string;
   sessions: EventSession[];
+  sponsorship: EventSponsorship;
   trailer?: string;
   year: number;
 }

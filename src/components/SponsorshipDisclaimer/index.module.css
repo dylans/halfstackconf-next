@@ -1,0 +1,20 @@
+.sponsorshipDisclaimer {
+  background-image: var(--background-outline-alt);
+  background-size: cover;
+  background-position: left;
+}
+
+.bodyArea {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .bodyArea {
+    padding: 2rem 0;
+  }
+}

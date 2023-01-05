@@ -1,0 +1,8 @@
+.invertedArea {
+  background-color: var(--color-primary);
+  background-image: var(--background-pattern);
+  background-position: center center;
+  background-size: cover;
+  color: var(--color-text);
+  --color-text: var(--color-bright);
+}

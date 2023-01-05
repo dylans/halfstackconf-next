@@ -1,3 +1,11 @@
 {
-  "name": "Charlotte"
+  "name": "Charlotte",
+  "sponsorship": {
+    "expectations": [
+      "An authentic, high value experience for attendees and sponsors focused on UI-centric JavaScript and web development.",
+      "The top priority for HalfStack is the attendee experience, with great food, drinks, talks, swag, and community. Hosted by London’s longest-lived JavaScript meetup group, HalfStack is a UI-centric, one-day single track conference.",
+      "HalfStack carefully curates talks that inspire and inform the audience in a highly interactive and entertaining manner. An intimate feeling where each attendee has time to meet one another; maximum capacity for HalfStack Charlotte is 200 attendees.",
+      "Organizations are invited to help our event through sponsorship. Choose from our sponsor levels or propose your own."
+    ]
+  }
 }

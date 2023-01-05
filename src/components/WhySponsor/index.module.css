@@ -1,0 +1,32 @@
+.whySponsor {
+  background-image: var(--background-outline);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.h2 {
+  margin: 2rem;
+}
+
+.reasons {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.reason {
+  margin: 0 2rem 2rem 0;
+  padding: 0 1rem;
+}
+
+.reason::marker {
+  content: "/>";
+  font-weight: bold;
+}
+
+@media (min-width: 700px) {
+  .reasons {
+    columns: 2;
+  }
+}

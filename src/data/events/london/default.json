@@ -1,3 +1,13 @@
 {
-  "name": "HalfStack on the Shore(ditch) (London)"
+  "name": "HalfStack on the Shore(ditch) (London)",
+  "sponsorship": {
+    "available": true,
+    "currency": "£",
+    "expectations": [
+      "An authentic, high value experience for attendees and sponsors focused on creative JavaScript and web development.",
+      "The top priority for HalfStack is the attendee experience, with great food, drinks, talks, swag, and community.",
+      "HalfStack carefully curates talks that inspire and inform the audience in a highly interactive and entertaining manner. An intimate feeling where each attendee has time to meet one another",
+      "Organizations are invited to help our event through sponsorship. Choose from our sponsor levels or propose your own."
+    ]
+  }
 }

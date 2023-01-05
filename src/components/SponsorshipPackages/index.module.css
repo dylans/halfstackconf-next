@@ -1,0 +1,29 @@
+.sponsorshipPackages {
+  padding: 2rem;
+}
+
+.h2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sponsorshipPackage {
+  flex-basis: calc(50% - 2rem);
+  list-style-type: none;
+  padding: 2rem 0 0;
+  margin: 0;
+}
+
+.benefit {
+  margin: 0.5rem 0;
+}
+
+@media (min-width: 700px) {
+  .contents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+  }
+}

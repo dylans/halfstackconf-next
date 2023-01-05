@@ -1,18 +1,12 @@
 import clsx from "clsx";
 import Image from "next/future/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 import { TextLink } from "../TextLink";
 import logo from "./assets/logo.svg";
 import logoInverted from "./assets/logoInverted.svg";
 import styles from "./index.module.css";
-
-const links = [
-  ["Past Events", "/pastevents"],
-  ["Sponsorships", "/spon"],
-  ["Contact", "/contact"],
-  ["FAQs", "/faqs"],
-];
 
 const variants = {
   default: {
@@ -32,7 +26,15 @@ export interface HeaderProps {
 }
 
 export function Header({ variant = "default" }: HeaderProps) {
+  const router = useRouter();
+  const event = router.query.event as string;
   const { className, logo } = variants[variant];
+  const links = [
+    ["Past Events", "/pastevents"],
+    ["Sponsorships", event ? `/${event}/spon` : "/spon"],
+    ["Contact", "/contact"],
+    ["FAQs", "/faqs"],
+  ];
 
   return (
     <header className={clsx(styles.header, className)}>
