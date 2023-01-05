@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import React from "react";
 
 import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
@@ -31,7 +32,7 @@ export default function PastEvents({
         {eventsData
           .filter(([, { years }]) => years.length)
           .map(([event, { name, years }]) => (
-            <>
+            <React.Fragment key={name}>
               <Text as="h2" fontSize="large" key={event}>
                 {name}
               </Text>
@@ -46,7 +47,7 @@ export default function PastEvents({
                     </Text>
                   ))}
               </ul>
-            </>
+            </React.Fragment>
           ))}
       </BodyArea>
       <Footer />
