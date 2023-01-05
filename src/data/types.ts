@@ -13,6 +13,7 @@ export interface EventSponsors {
 
 export interface EventDataBase {
   date?: string;
+  sponsors?: EventSponsors;
 }
 
 export type EventSocialIcon =
@@ -46,7 +47,6 @@ export interface EventDataCurrent extends EventDataBase {
   geolocation: EventGeoLocation;
   location: string;
   sessions: EventSession[];
-  sponsors: EventSponsors;
   trailer?: string;
   year: number;
 }
@@ -66,7 +66,6 @@ export interface EventVideo {
 
 export interface EventDataHistorical extends EventDataBase {
   otherEvents: Record<string, number[]>;
-  sponsors?: EventSponsors;
   videos: EventVideo[];
 }
 
