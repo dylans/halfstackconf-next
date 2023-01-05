@@ -4,6 +4,20 @@
     "200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the greater London area and the UK"
   ],
+  "faqs": [
+    [
+      "What's the plan with COVID-19?",
+      "In September we'll again host an event at a venue that is outdoors and open air with plenty of space. We encourage you to get vaccinated and take a covid test prior to attending the event."
+    ],
+    [
+      "Does HalfStack London sell out?",
+      "Yes, we love our venue but we're constrained by its size. Get your ticket early to save and avoid disappointment!"
+    ],
+    [
+      "Where should I stay?",
+      "The Fulham Beach Club has several hotels and many Airbnb within walking distance, or it's a short walk to the district and overground tube lines."
+    ]
+  ],
   "geolocation": [51.52036, -0.07319200000006276],
   "location": "Cafe 1001, London",
   "sessions": [

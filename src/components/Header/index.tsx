@@ -22,19 +22,23 @@ const variants = {
 export type HeaderVariant = keyof typeof variants;
 
 export interface HeaderProps {
+  links?: [string, string][];
   variant?: HeaderVariant;
 }
 
-export function Header({ variant = "default" }: HeaderProps) {
+const defaultLinks: [string, string][] = [
+  ["Past Events", "/pastevents"],
+  ["Sponsorships", "/spon"],
+  ["Contact", "/contact"],
+  ["FAQs", "/faqs"],
+];
+
+export function Header({
+  links = defaultLinks,
+  variant = "default",
+}: HeaderProps) {
   const router = useRouter();
-  const event = router.query.event as string;
   const { className, logo } = variants[variant];
-  const links = [
-    ["Past Events", "/pastevents"],
-    ["Sponsorships", event ? `/${event}/spon` : "/spon"],
-    ["Contact", "/contact"],
-    ["FAQs", "/faqs"],
-  ];
 
   return (
     <header className={clsx(styles.header, className)}>

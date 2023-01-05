@@ -6,6 +6,12 @@
     "Up to 200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the Vienna area, with some from throughout the Europe, the UK, and the US"
   ],
+  "faqs": [
+    [
+      "Where should I stay?",
+      "If you're not from Vienna, note that HalfStack Vienna is near the HbF (main train station). Vienna has many hotels and Airbnb options that are well connected via subways, trains, and buses."
+    ]
+  ],
   "geolocation": [48.171534, 16.390938],
   "location": "Ankersaal, Absberggasse 27, 1100 Vienna",
   "sessions": [],

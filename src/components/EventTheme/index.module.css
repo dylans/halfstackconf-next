@@ -56,6 +56,7 @@
   --background-outline-alt: url("/events/phoenix/outline-alt.png");
   --background-pattern: url("/events/phoenix/pattern.png");
   --background-thumbnail: url("/events/phoenix/thumbnail.jpg");
+  --color-backdrop-subtle: #524ca6;
   --color-faint: #e4e4ec;
   --color-primary: #262262;
   --color-primary-dark: #252347;
@@ -67,7 +68,7 @@
   --background-outline-alt: url("/events/telaviv/outline-alt.png");
   --background-pattern: url("/events/telaviv/pattern.png");
   --background-thumbnail: url("/events/telaviv/thumbnail.jpg");
-  --color-backdrop-subtle: #324d9c;
+  --color-backdrop-subtle: #5073df;
   --color-faint: #9cb0d9;
   --color-primary: #324d9c;
   --color-primary-dark: #28396a;

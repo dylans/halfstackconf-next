@@ -2,29 +2,32 @@ import Head from "next/head";
 
 import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
+import { EventFAQs } from "../../components/EventFAQs";
 import { EventFooter } from "../../components/EventFooter";
 import { EventHeader } from "../../components/EventHeader";
 import { EventTheme } from "../../components/EventTheme";
-import { ExpectationPhotos } from "../../components/ExpectationPhotos";
-import { TicketsOffer } from "../../components/TicketsOffer";
+import { Text } from "../../components/Text";
 import { getEventDataCurrentAndDefault, getEvents } from "../../data";
 import { ReturnedParams, ReturnedProps } from "../../utils";
-import styles from "./tickets.module.css";
 
-export default function Tickets({
-  event: { name, slug, year },
+export default function Spon({
+  event: { faqs, name, slug, year },
 }: ReturnedProps<typeof getStaticProps>) {
   return (
     <EventTheme event={slug}>
       <Head>
-        <title>{`HalfStack | ${name} Tickets`}</title>
+        <title>{`HalfStack | ${name} Sponsorship`}</title>
       </Head>
       <EventHeader slug={slug} />
       <Banner background={`${slug}/full.png`}>
-        <BannerText>Tickets</BannerText>
+        <BannerText>FAQs</BannerText>
+        <Text fontSize="extra-large">
+          {name} {year}
+        </Text>
       </Banner>
-      <TicketsOffer slug={slug} year={year} />
-      <ExpectationPhotos className={styles.expectationPhotos} />
+
+      <EventFAQs faqs={faqs} />
+
       <EventFooter slug={slug} />
     </EventTheme>
   );

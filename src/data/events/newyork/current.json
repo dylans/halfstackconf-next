@@ -6,6 +6,16 @@
     "200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the greater London area and the UK"
   ],
+  "faqs": [
+    [
+      "Where is HalfStack NYC?",
+      "HalfStack NYC is being hosted by American Express in their event space near the World Trade Center, with beautiful views towards the Statue of Liberty!"
+    ],
+    [
+      "Where should I stay?",
+      "If you are not local to NYC, we recommend staying in the financial district near the World Trade Center"
+    ]
+  ],
   "geolocation": [40.712517, -74.015704],
   "location": "To be announced",
   "sessions": [],

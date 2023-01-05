@@ -1,17 +1,23 @@
 import Head from "next/head";
+import React from "react";
 
 import { BodyArea } from "../../components/BodyArea";
+import { FAQsList } from "../../components/FAQs";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { Text } from "../../components/Text";
-import styles from "./index.module.css";
 
-const sections = {
-  "Why 7 HalfStack Events?":
+const faqs: [string, React.ReactNode][] = [
+  [
+    "Why 7 HalfStack Events?",
     "We wanted to bring HalfStack beyond London to other great JavaScript communities. If you're interested in bringing HalfStack to your city, let us know!",
-  "Does HalfStack include paid vendor pitches?":
+  ],
+  [
+    "Does HalfStack include paid vendor pitches?",
     "No, never. Occasionally a company that has a talk accepted also chooses to sponsor HalfStack, but we have a strict policy decoupling sponsorships from speakers.",
-  "Do you sell my contact information to sponsors or send annoying emails?": (
+  ],
+  [
+    "Do you sell my contact information to sponsors or send annoying emails?",
     <>
       Never. We will send you a few emails with information about the event, and
       one email after the event with follow-up information. Beyond that, if you
@@ -20,9 +26,10 @@ const sections = {
         monthly HalfStack newsletter
       </a>
       .
-    </>
-  ),
-  "What is your position on COVID-19?": (
+    </>,
+  ],
+  [
+    "What is your position on COVID-19?",
     <>
       Due to COVID-19, all in-person indoor HalfStack events originally
       scheduled from March 2020 were postponed indefinitely and we&apos;re in
@@ -31,9 +38,9 @@ const sections = {
       <br />
       COVID-19 refund policy: Full refunds are available up to 7 days prior to a
       scheduled in-person event.
-    </>
-  ),
-};
+    </>,
+  ],
+];
 
 export default function FAQs() {
   return (
@@ -46,16 +53,7 @@ export default function FAQs() {
         <Text as="h1" fontSize="extra-large">
           Frequently Asked Questions
         </Text>
-        <div className={styles.entries}>
-          {Object.entries(sections).map(([question, answer]) => (
-            <div key={question}>
-              <Text as="h2" fontSize="large">
-                {question}
-              </Text>
-              <Text as="p">{answer}</Text>
-            </div>
-          ))}
-        </div>
+        <FAQsList faqs={faqs} />
       </BodyArea>
       <Footer />
     </>

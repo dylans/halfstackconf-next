@@ -4,27 +4,24 @@ import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
 import { EventFooter } from "../../components/EventFooter";
 import { EventHeader } from "../../components/EventHeader";
+import { EventSchedule } from "../../components/EventSchedule";
 import { EventTheme } from "../../components/EventTheme";
-import { ExpectationPhotos } from "../../components/ExpectationPhotos";
-import { TicketsOffer } from "../../components/TicketsOffer";
 import { getEventDataCurrentAndDefault, getEvents } from "../../data";
 import { ReturnedParams, ReturnedProps } from "../../utils";
-import styles from "./tickets.module.css";
 
-export default function Tickets({
-  event: { name, slug, year },
+export default function Schedule({
+  event: { name, packet, schedule, slug },
 }: ReturnedProps<typeof getStaticProps>) {
   return (
     <EventTheme event={slug}>
       <Head>
-        <title>{`HalfStack | ${name} Tickets`}</title>
+        <title>{`HalfStack | ${name} Schedule`}</title>
       </Head>
       <EventHeader slug={slug} />
       <Banner background={`${slug}/full.png`}>
-        <BannerText>Tickets</BannerText>
+        <BannerText>Schedule</BannerText>
       </Banner>
-      <TicketsOffer slug={slug} year={year} />
-      <ExpectationPhotos className={styles.expectationPhotos} />
+      <EventSchedule packet={packet} schedule={schedule} slug={slug} />
       <EventFooter slug={slug} />
     </EventTheme>
   );

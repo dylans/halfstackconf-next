@@ -50,8 +50,11 @@ export interface EventDataCurrent extends EventDataBase {
   afterparty?: string;
   catchphrase?: string;
   description: string[];
+  faqs?: [string, string][];
   geolocation: EventGeoLocation;
   location: string;
+  packet?: string;
+  schedule: string;
   sessions: EventSession[];
   sponsorship: EventSponsorship;
   trailer?: string;

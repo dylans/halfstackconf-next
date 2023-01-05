@@ -1,19 +1,19 @@
 import Head from "next/head";
 
-import { Banner } from "../../../components/Banner";
-import { BannerText } from "../../../components/BannerText";
-import { EventFooter } from "../../../components/EventFooter";
-import { EventSummary } from "../../../components/EventSummary";
-import { EventTheme } from "../../../components/EventTheme";
-import { Header } from "../../../components/Header";
-import { SponsorshipDisclaimer } from "../../../components/SponsorshipDisclaimer";
-import { SponsorshipExpectations } from "../../../components/SponsorshipExpectations";
-import { SponsorshipPackages } from "../../../components/SponsorshipPackages";
-import { Text } from "../../../components/Text";
-import { WhySponsor } from "../../../components/WhySponsor";
-import { getEventDataCurrentAndDefault, getEvents } from "../../../data";
-import { getProspectusUri } from "../../../urls";
-import { ReturnedParams, ReturnedProps } from "../../../utils";
+import { Banner } from "../../components/Banner";
+import { BannerText } from "../../components/BannerText";
+import { EventFooter } from "../../components/EventFooter";
+import { EventHeader } from "../../components/EventHeader";
+import { EventSummary } from "../../components/EventSummary";
+import { EventTheme } from "../../components/EventTheme";
+import { SponsorshipDisclaimer } from "../../components/SponsorshipDisclaimer";
+import { SponsorshipExpectations } from "../../components/SponsorshipExpectations";
+import { SponsorshipPackages } from "../../components/SponsorshipPackages";
+import { Text } from "../../components/Text";
+import { WhySponsor } from "../../components/WhySponsor";
+import { getEventDataCurrentAndDefault, getEvents } from "../../data";
+import { getProspectusUri } from "../../urls";
+import { ReturnedParams, ReturnedProps } from "../../utils";
 
 export default function Spon({
   event: {
@@ -36,7 +36,7 @@ export default function Spon({
       <Head>
         <title>{`HalfStack | ${name} Sponsorship`}</title>
       </Head>
-      <Header variant="inverted" />
+      <EventHeader slug={slug} />
       <Banner background={`${slug}/full.png`}>
         <BannerText>Sponsorship</BannerText>
         <Text fontSize="extra-large">

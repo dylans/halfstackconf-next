@@ -6,6 +6,12 @@
     "Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the Tel Aviv area, with some from other parts of the world"
   ],
+  "faqs": [
+    [
+      "Where should I stay?",
+      "The venue for HalfStack Tel Aviv 2023 is to be determined. We recommend staying near the conference venue once we finalize the details."
+    ]
+  ],
   "geolocation": [32.0494524, 34.7746208],
   "location": "TBD",
   "sessions": [],
