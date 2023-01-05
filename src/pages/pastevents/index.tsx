@@ -28,24 +28,26 @@ export default function PastEvents({
         <BannerText>Past Events</BannerText>
       </Banner>
       <BodyArea className={styles.pastEvents}>
-        {eventsData.map(([event, { name, years }]) => (
-          <>
-            <Text as="h2" fontSize="large" key={event}>
-              {name}
-            </Text>
-            <ul className={styles.items}>
-              {years
-                .sort((a, b) => b - a)
-                .map((year) => (
-                  <Text as="li" className={styles.item} key={year}>
-                    <Link className={styles.link} href={`/${event}/${year}`}>
-                      HalfStack {name} {year}
-                    </Link>
-                  </Text>
-                ))}
-            </ul>
-          </>
-        ))}
+        {eventsData
+          .filter(([_, { years }]) => years.length)
+          .map(([event, { name, years }]) => (
+            <>
+              <Text as="h2" fontSize="large" key={event}>
+                {name}
+              </Text>
+              <ul className={styles.items}>
+                {years
+                  .sort((a, b) => b - a)
+                  .map((year) => (
+                    <Text as="li" className={styles.item} key={year}>
+                      <Link className={styles.link} href={`/${event}/${year}`}>
+                        HalfStack {name} {year}
+                      </Link>
+                    </Text>
+                  ))}
+              </ul>
+            </>
+          ))}
       </BodyArea>
       <Footer />
     </>

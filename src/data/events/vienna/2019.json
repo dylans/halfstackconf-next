@@ -1,0 +1,96 @@
+{
+  "date": "19th of September",
+  "otherEvents": {
+    "london": [2018, 2017],
+    "newyork": [2019],
+    "phoenix": [2020],
+    "vienna": [2019]
+  },
+
+  "videos": [
+    {
+      "by": "DHD",
+      "href": "https://www.youtube.com/embed/fz1llGUlcc4",
+      "thumbnail": "/recaps/london-2019.png",
+      "title": "HalfStack Vienna 2019 Recap Video"
+    },
+    {
+      "by": "Christian Heilmann (@codepo8) Microsoft",
+      "href": "https://halfstackconf.streameventlive.com/embed/68",
+      "thumbnail": "/speakers/christian-heilmann.png",
+      "title": "Into the web multiverse"
+    },
+    {
+      "by": "Christian Grail (@cgrail) SAP",
+      "href": "https://halfstackconf.streameventlive.com/embed/72",
+      "thumbnail": "/speakers/christian-grail.jpg",
+      "title": "Live Coding: Augmented Reality Game with WebXR"
+    },
+    {
+      "by": "Natalia Tepluhina (@N_Tepluhina) VueJS and GitLab",
+      "href": "https://halfstackconf.streameventlive.com/embed/71",
+      "thumbnail": "/speakers/natalia-tepluhina.jpg",
+      "title": "The Magic of RxJS"
+    },
+    {
+      "by": "Stephen Cook (@stephencookdev) Thread",
+      "href": "https://halfstackconf.streameventlive.com/embed/62",
+      "thumbnail": "/speakers/stephen-cook.jpg",
+      "title": "Beyond 100% CSS Mario Kart"
+    },
+    {
+      "by": "Ramon Huidobro (@SenorHuidobro) Freelancer",
+      "href": "https://halfstackconf.streameventlive.com/embed/64",
+      "thumbnail": "/speakers/ramon-huidobro.jpg",
+      "title": "Just go for it: The story of dance-mat.js"
+    },
+    {
+      "by": "Katrin Freihofner (@ka_trin_f)",
+      "href": "https://halfstackconf.streameventlive.com/embed/65",
+      "thumbnail": "/speakers/katrin-freihofner.jpg",
+      "title": "Design Systems are more than a collection of components and colors"
+    },
+    {
+      "by": "Stefan Baumgartner (@ddprrt) DynaTrace and ScriptConf",
+      "href": "https://halfstackconf.streameventlive.com/embed/61",
+      "thumbnail": "/speakers/stefan-baumgartner.jpg",
+      "title": "JAMStackin'"
+    },
+    {
+      "by": "Niels Leenheer (@html5test) Salonhub",
+      "href": "https://halfstackconf.streameventlive.com/embed/63",
+      "thumbnail": "/speakers/niels-leenheer.jpg",
+      "title": "JavaScript on microcontrollers"
+    },
+    {
+      "by": "Eva Lettner (@eva_trostlos) xxxldigital and Women && Code",
+      "href": "https://halfstackconf.streameventlive.com/embed/69",
+      "thumbnail": "/speakers/eva-lettner.jpg",
+      "title": "Life lessons learned by running a successful side project"
+    },
+    {
+      "by": "George Mandis (@georgemandis) SnapTortoise",
+      "href": "https://halfstackconf.streameventlive.com/embed/70",
+      "thumbnail": "/speakers/george-mandis.jpg",
+      "title": "Self-Portraits in JavaScript"
+    },
+    {
+      "by": "Rob Bateman (@robnet) Freelancer",
+      "href": "https://halfstackconf.streameventlive.com/embed/59",
+      "thumbnail": "/speakers/rob-bateman.png",
+      "title": "Lets Recurse!"
+    },
+    {
+      "by": "Dylan Schiemann (@dylans) SitePen",
+      "href": "https://halfstackconf.streameventlive.com/embed/66",
+      "thumbnail": "/speakers/dylan-schiemann.jpg",
+      "title": "Yoda, Web, Spock"
+    },
+    {
+      "by": "Tony Edwards (@tonyedwardspz) Software Cornwall",
+      "href": "https://halfstackconf.streameventlive.com/embed/60",
+      "thumbnail": "/speakers/tony-edwards.jpg",
+      "title": "Beats, Rhymes, and Unit Tests"
+    }
+  ]
+}

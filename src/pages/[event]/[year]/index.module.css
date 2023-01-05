@@ -1,11 +1,16 @@
+.event {
+  background-image: var(--background-outline);
+  background-size: contain;
+  background-repeat: repeat;
+}
+
 .h2 {
+  margin: 4rem;
   text-align: center;
 }
 
-@media (min-width: 700px) {
-  .topColumns {
-    gap: 5rem;
-  }
+.topColumns {
+  padding: 0 1rem;
 }
 
 .eventsList {
@@ -21,8 +26,7 @@
 }
 
 .videosList {
-  padding-bottom: 5rem;
-  padding-left: 0;
+  padding: 0 1rem 5rem;
 }
 
 .videoCard {
@@ -30,6 +34,9 @@
 }
 
 @media (min-width: 700px) {
+  .topColumns {
+    gap: 5rem;
+  }
   .videosList {
     display: flex;
     flex-wrap: wrap;

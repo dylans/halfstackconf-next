@@ -33,6 +33,7 @@ pnpm start
 - Add end-to-end test for console warnings
 - Add .env file setup for Google Maps API key
 - Switch background patterns and icons to SVGs, so we can use currentColor
+- Make "Other Past Events" data dynamic
 
 ### Handy Scripts
 
@@ -104,4 +105,32 @@ sponsors = {
   small: getDataFor("Small Stack"),
   community: getDataFor("Community"),
 };
+```
+
+#### Past Event Data
+
+```js
+Array.from(document.querySelectorAll("div.img.overlay")).forEach((overlay) =>
+  overlay?.remove()
+);
+
+title = document.querySelector("h4").textContent;
+year = title.match(/\d{4}/)[0];
+date = title.split(year)[1].replace("-", "").trim();
+
+videos = Array.from(document.querySelectorAll(".row a.article")).map(
+  (article) => ({
+    by: article.querySelector(".Name").textContent,
+    href: article.getAttribute("video-url"),
+    thumbnail: article
+      .querySelector(".img[style]")
+      .style["background-image"].split("url(")[1]
+      ?.replace(/'|"|\)/gi, "")
+      .replace("/assets/images/pastevents", ""),
+    title: article.querySelector(".Title").textContent,
+  })
+);
+
+data = { date, videos };
+JSON.stringify(data, null, 4);
 ```
