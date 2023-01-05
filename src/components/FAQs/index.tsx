@@ -1,6 +1,3 @@
-import Link from "next/link";
-
-import { BodyArea } from "../BodyArea";
 import { Text } from "../Text";
 import styles from "./index.module.css";
 
