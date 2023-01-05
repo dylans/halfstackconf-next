@@ -49,6 +49,7 @@ export interface EventSponsorship {
 export interface EventDataCurrent extends EventDataBase {
   afterparty?: string;
   catchphrase?: string;
+  code: string;
   description: string[];
   faqs?: [string, string][];
   geolocation: EventGeoLocation;

@@ -16,10 +16,16 @@ declare global {
   }
 }
 
+let added = false;
+
 export function useTitoWidget(event: string) {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
+    if (added) {
+      return;
+    }
+
     const script = document.createElement("script");
     script.setAttribute("async", "async");
     script.setAttribute("src", "https://js.tito.io/v2");
@@ -27,6 +33,7 @@ export function useTitoWidget(event: string) {
       setLoaded(true);
     });
     document.head.appendChild(script);
+    added = true;
   }, []);
 
   return loaded ? (

@@ -5,12 +5,11 @@ import styles from "./index.module.css";
 import { useTitoWidget } from "./useTitoWidget";
 
 export interface TicketsOfferProps {
-  slug: string;
-  year: number;
+  code: string;
 }
 
-export function TicketsOffer({ slug, year }: TicketsOfferProps) {
-  const tito = useTitoWidget(`halfstack/halfstack-${slug}-${year}`);
+export function TicketsOffer({ code }: TicketsOfferProps) {
+  const tito = useTitoWidget(`halfstack/${code}`);
 
   return (
     <BodyArea>

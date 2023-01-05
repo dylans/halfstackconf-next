@@ -12,7 +12,7 @@ import { ReturnedParams, ReturnedProps } from "../../utils";
 import styles from "./tickets.module.css";
 
 export default function Tickets({
-  event: { name, slug, year },
+  event: { code, name, slug },
 }: ReturnedProps<typeof getStaticProps>) {
   return (
     <EventTheme event={slug}>
@@ -23,7 +23,7 @@ export default function Tickets({
       <Banner background={`${slug}/full.png`}>
         <BannerText>Tickets</BannerText>
       </Banner>
-      <TicketsOffer slug={slug} year={year} />
+      <TicketsOffer code={code} />
       <ExpectationPhotos className={styles.expectationPhotos} />
       <EventFooter slug={slug} />
     </EventTheme>
