@@ -142,9 +142,9 @@
     ],
     "large": [
       {
-        "href": "https://sitepen.com/",
-        "src": "/logos/sitepen.svg",
-        "name": "SitePen"
+        "href": "https://wearedhd.com/",
+        "src": "/logos/dhd.svg",
+        "name": "DHD"
       }
     ],
     "medium": [
@@ -162,11 +162,6 @@
         "href": "https://iceddev.com/",
         "src": "/logos/iceddev.svg",
         "name": "Iced.dev"
-      },
-      {
-        "href": "https://wearedhd.com/",
-        "src": "/logos/dhd.svg",
-        "name": "DHD"
       },
       {
         "href": "https://www.mozilla.org/",
