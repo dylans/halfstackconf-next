@@ -89,7 +89,7 @@ export default function EventYear({
           </>
         )}
 
-        {sponsors && <SponsorStacksList {...sponsors} />}
+        {sponsors && <SponsorStacksList {...sponsors} slug={event} />}
       </BodyArea>
       <Footer />
     </EventTheme>
