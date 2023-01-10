@@ -69,20 +69,3 @@ You should also see suggestions from TypeScript in your editor.
 
 See [`.github/CONTRIBUTING.md`](./.github/CONTRIBUTING.md).
 Thanks! 💖
-
-### TODO
-
-- Set up `~/` tsconfig path prefixes
-- Add end-to-end test for accessibility
-- Add end-to-end test for console warnings
-- Add .env file setup for Google Maps API key
-- Switch background patterns and icons to SVGs, so we can use currentColor
-- Make "Other Past Events" data dynamic
-- Use tRPC or similar to optimize data needs per-page
-- Runbooks for:
-  - Making a new event
-  - Marking an event as completed
-  - Opening sponsorship for an event
-  - Making a new year of an event (and moving the previous to historical)
-  - Adding a trailer for an event
-  - Removing an event
