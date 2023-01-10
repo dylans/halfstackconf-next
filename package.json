@@ -6,8 +6,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
+  "description": "The next version of halfstackconf.com. ✨",
   "devDependencies": {
-    "@types/node": "18.11.0",
+    "@types/node": "18.11.18",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
