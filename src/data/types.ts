@@ -83,7 +83,3 @@ export interface EventDataHistorical extends EventDataBase {
 export interface EventDataJoined extends EventDataCurrent, EventDataDefault {
   slug: string;
 }
-
-export interface EventDataComplete
-  extends EventDataHistorical,
-    EventDataJoined {}
