@@ -72,15 +72,8 @@ Thanks! 💖
 
 ### TODO
 
-- Google Maps isn't using the page's theme colors
-- Investigate a more full design system backer such as Chakra UI, Stitches, Vanilla Extract, ...
-- Use Zod to enforce parsing of JSON
-- Expand ESLint field sorting to JSON and TS type literals
-- Fix lint warnings
-- Consolidate icons into public/icons
 - Set up `~/` tsconfig path prefixes
 - Add end-to-end test for accessibility
-- Fix console warnings
 - Add end-to-end test for console warnings
 - Add .env file setup for Google Maps API key
 - Switch background patterns and icons to SVGs, so we can use currentColor
