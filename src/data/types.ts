@@ -12,9 +12,11 @@ export interface EventSponsors {
 }
 
 export interface EventDataBase {
-  date: string;
-  sponsors: EventSponsors;
+  date?: string;
+  sponsors?: EventSponsors;
 }
+
+export type EventGeoLocation = [number, number];
 
 export type EventSocialIcon =
   | "blog"
@@ -33,23 +35,35 @@ export interface EventSocial {
 
 export interface EventSession {
   by: string;
-  description: string[];
+  description?: string[];
   socials: EventSocial[];
   title: string;
 }
 
-export type EventGeolocation = [number, number];
+export interface EventSponsorship {
+  available?: boolean;
+  currency?: string;
+  expectations: string[];
+}
 
 export interface EventDataCurrent extends EventDataBase {
   afterparty?: string;
+  catchphrase?: string;
+  code: string;
   description: string[];
-  geolocation?: EventGeolocation;
+  faqs?: [string, string][];
+  geolocation: EventGeoLocation;
   location: string;
+  packet?: string;
+  schedule: string;
   sessions: EventSession[];
+  sponsorship: EventSponsorship;
+  trailer?: string;
   year: number;
 }
 
 export interface EventDataDefault {
+  catchphrase?: string;
   name: string;
 }
 
@@ -66,7 +80,6 @@ export interface EventDataHistorical extends EventDataBase {
   videos: EventVideo[];
 }
 
-export interface EventDataJoined
-  extends EventDataHistorical,
-    EventDataCurrent,
-    EventDataDefault {}
+export interface EventDataJoined extends EventDataCurrent, EventDataDefault {
+  slug: string;
+}

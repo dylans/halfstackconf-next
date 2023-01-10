@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Image from "next/future/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 
 import { EventSession } from "../../data/types";
@@ -11,15 +12,19 @@ import { Text } from "../Text";
 import { TintedImage } from "../TintedImage";
 import styles from "./index.module.css";
 
-export interface SessionCardProps extends EventSession {
-  className?: string;
-  direction?: CardDirection;
-}
-
 const directionStyles = {
   "left-to-right": styles.leftToRight,
   "right-to-left": styles.rightToLeft,
 };
+
+const defaultDescription = [
+  "We're not quite ready yet to announce contents here, but we know it's going to be great!",
+];
+
+export interface SessionCardProps extends EventSession {
+  className?: string;
+  direction?: CardDirection;
+}
 
 export function SessionCard({
   by,
@@ -31,77 +36,83 @@ export function SessionCard({
 }: SessionCardProps) {
   const hash = hashify(by);
   const [open, setOpen] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
-    if (by === globalThis.location.hash.slice(1)) {
+    if (hash === globalThis.location.hash.slice(1)) {
       setOpen(true);
     }
-  }, [by]);
+  }, [hash]);
 
   const setHashAndExpand = (event: React.SyntheticEvent) => {
     setOpen((previous) => !previous);
-    window.history.replaceState({}, "", "#" + hash);
+
+    void router.push("#" + hash);
 
     // https://github.com/facebook/react/issues/15486#issuecomment-873516817
     event.preventDefault();
   };
 
   return (
-    <Card
-      as="li"
-      backgroundColor={
-        direction === "left-to-right" ? "--color-primary" : "--color-backdrop"
-      }
-      className={clsx(directionStyles[direction], className)}
-      direction={direction}
-    >
-      <TintedImage className={styles.image} src={`/speakers/${hash}.jpg`} />
-      <div className={styles.textContents}>
-        <Text
-          as={Anchor}
-          className={styles.by}
-          fontSize="large"
-          href={"#" + hash}
-          variant="inline"
-        >
-          {by}
-        </Text>
-        <details className={styles.details} open={open}>
+    <div className={styles.cardArea}>
+      <div className={styles.hasher} id={hash} />
+      <Card
+        as="li"
+        className={clsx(
+          styles.sessionCard,
+          directionStyles[direction],
+          className
+        )}
+        direction={direction}
+      >
+        <TintedImage className={styles.image} src={`/speakers/${hash}.jpg`} />
+        <div className={styles.textContents}>
           <Text
-            as="summary"
-            className={styles.summary}
-            onClick={setHashAndExpand}
+            as={Anchor}
+            className={styles.by}
+            fontSize="large"
+            href={"#" + hash}
+            variant="inline"
           >
-            {title}
+            {by}
           </Text>
-          <Text as="p">
-            {description.map((line, i) =>
-              line ? (
-                <React.Fragment key={i}>{line} </React.Fragment>
-              ) : (
-                <br key={i} />
-              )
-            )}
-          </Text>
-        </details>
-        <div className={styles.socialLinks}>
-          {socials.map(({ icon, href }) => (
-            <Link
-              className={styles.socialLink}
-              href={href}
-              key={href}
-              target="_blank"
+          <details className={styles.details} open={open}>
+            <Text
+              as="summary"
+              className={styles.summary}
+              onClick={setHashAndExpand}
             >
-              <Image
-                alt={`${by}'s ${icon}`}
-                height={32}
-                src={`/icons/${icon}.png`}
-                width={32}
-              />
-            </Link>
-          ))}
+              {title}
+            </Text>
+            <Text as="p">
+              {(description ?? defaultDescription).map((line, i) =>
+                line ? (
+                  <React.Fragment key={i}>{line} </React.Fragment>
+                ) : (
+                  <br key={i} />
+                )
+              )}
+            </Text>
+          </details>
+          <div className={styles.socialLinks}>
+            {socials.map(({ icon, href }) => (
+              <Link
+                className={styles.socialLink}
+                href={href}
+                key={href}
+                target="_blank"
+              >
+                <Image
+                  alt={`${by}'s ${icon}`}
+                  height={32}
+                  src={`/icons/${icon}.png`}
+                  width={32}
+                />
+              </Link>
+            ))}
+          </div>
         </div>
-      </div>
-    </Card>
+      </Card>
+    </div>
   );
 }

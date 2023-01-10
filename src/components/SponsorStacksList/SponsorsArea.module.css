@@ -1,0 +1,16 @@
+.sponsorsArea {
+  background-image: var(--background-pattern);
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 4rem;
+}
+
+.contents {
+  margin: auto;
+  max-width: var(--width-body);
+  text-align: center;
+}
+
+.title {
+  padding: 2rem 0;
+}

@@ -4,6 +4,8 @@ import { Anchor } from "../../components/Anchor";
 import { Banner } from "../../components/Banner";
 import { BannerText } from "../../components/BannerText";
 import { BodyArea } from "../../components/BodyArea";
+import { Footer } from "../../components/Footer";
+import { Header } from "../../components/Header";
 import { Text } from "../../components/Text";
 import styles from "./index.module.css";
 
@@ -13,6 +15,7 @@ export default function CFP() {
       <Head>
         <title>HalfStack | CFP</title>
       </Head>
+      <Header />
       <Banner>
         <BannerText>CFP</BannerText>
       </Banner>
@@ -23,8 +26,8 @@ export default function CFP() {
 
         <Text as="p" className={styles.p}>
           The new HalfStack CfP process is a significant change from traditional
-          CfP after having time to reflect on what we like and dislike about CfP
-          during covid.
+          CfP after having time to reflect on what we like and dislike about
+          CfPs during COVID.
         </Text>
 
         <Text as="p" className={styles.p}>
@@ -69,6 +72,7 @@ export default function CFP() {
           issues.
         </Text>
       </BodyArea>
+      <Footer />
     </>
   );
 }

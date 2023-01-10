@@ -1,0 +1,93 @@
+.eventFooter {
+  background-color: var(--color-primary);
+  color: var(--color-bright);
+  padding-top: 3rem;
+}
+
+.contents {
+  padding: 1rem;
+}
+
+.cityscape {
+  height: 10rem;
+  margin: auto;
+  position: relative;
+  width: 22rem;
+}
+
+.cityscapeImage {
+  max-height: 100%;
+  max-width: 100%;
+  opacity: 0.5;
+}
+
+.iconLinks {
+  align-items: flex-start;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.icon {
+  height: 2rem;
+  transition: var(--transition-medium) opacity;
+  width: 2rem;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.textLinks {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.textLink {
+  color: var(--color-bright);
+}
+
+.ticketsLink {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  .contents {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .iconLinks {
+    justify-content: flex-start;
+  }
+
+  .iconLinks,
+  .ticketsLink {
+    width: 25%;
+  }
+
+  .iconLinks,
+  .textLinks {
+    gap: 1rem;
+  }
+
+  .ticketsLink {
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .textLinks {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contents {
+    padding: 1rem 0;
+  }
+}

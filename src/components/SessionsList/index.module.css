@@ -1,4 +1,9 @@
+.sessionsList {
+  background-image: var(--background-pattern);
+}
+
 .h2 {
+  margin: 3rem 0;
   text-align: center;
 }
 
@@ -6,5 +11,19 @@
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  padding-left: 0;
+  padding: 0 3rem;
+}
+
+.sessionCard:nth-of-type(2n) {
+  background: var(--color-backdrop);
+}
+
+.sessionCard:nth-of-type(2n + 1) {
+  background: var(--color-primary);
+}
+
+@media (min-width: 1200px) {
+  .sessions {
+    padding: 0;
+  }
 }

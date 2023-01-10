@@ -1,3 +1,11 @@
 {
-  "name": "Tel Aviv"
+  "name": "Tel Aviv",
+  "sponsorship": {
+    "expectations": [
+      "An authentic, high value experience for attendees and sponsors focused on creative JavaScript and web development.",
+      "The top priority for HalfStack is the attendee experience, with great food, drinks, talks, swag, and community. Hosted by London’s longest-lived JavaScript meetup group, HalfStack is a one-day, single track creative JavaScript and web celebration.",
+      "HalfStack carefully curates talks that inspire and inform the audience in a highly interactive and entertaining manner. An intimate feeling where each attendee has time to meet one another; maximum capacity for HalfStack Tel Aviv is 300 attendees.",
+      "Organizations are invited to help our event through sponsorship. Choose from our sponsor levels or propose your own."
+    ]
+  }
 }

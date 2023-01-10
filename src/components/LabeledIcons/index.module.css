@@ -6,12 +6,14 @@
 }
 
 .icon {
-  /* todo: switch this to SVGs */
+  background: var(--color-primary);
+  border-radius: 100%;
   user-select: none;
 }
 
 .label {
   color: var(--color-primary);
+  font-size: var(--font-size-medium);
   font-weight: bold;
   text-align: center;
 }
@@ -19,7 +21,7 @@
 @media (max-width: 700px) {
   .labeledIcons {
     display: flex;
-    gap: 4rem;
     flex-direction: column;
+    gap: 4rem;
   }
 }

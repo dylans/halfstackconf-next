@@ -3,3 +3,9 @@
   max-width: var(--width-body);
   padding: 1rem;
 }
+
+@media (min-width: 350px) {
+  .bodyArea {
+    padding: 1rem 0;
+  }
+}

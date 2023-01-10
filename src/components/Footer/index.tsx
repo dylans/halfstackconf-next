@@ -2,13 +2,12 @@ import clsx from "clsx";
 import Image from "next/future/image";
 import Link from "next/link";
 
-import { Text } from "../Text";
+import { CopyrightFooter } from "../CopyrightFooter";
 import { TextLink } from "../TextLink";
 import cityscapeCharlotte from "./assets/cityscapeCharlotte.png";
 import cityscapeLondon from "./assets/cityscapeLondon.png";
 import cityscapeNewquay from "./assets/cityscapeNewquay.png";
 import cityscapeNewYork from "./assets/cityscapeNewYork.png";
-import cityscapeOnline from "./assets/cityscapeOnline.png";
 import cityscapePhoenix from "./assets/cityscapePhoenix.png";
 import cityscapeTelAviv from "./assets/cityscapeTelAviv.png";
 import cityscapeVienna from "./assets/cityscapeVienna.png";
@@ -36,19 +35,6 @@ const icons = [
 export function Footer() {
   return (
     <footer className={styles.footer}>
-      <div className={styles.cityscapeFirst}>
-        <Link
-          className={clsx(styles.cityscapeOnlineLink, styles.cityscapeLink)}
-          href="/online"
-        >
-          <Image
-            alt="Cityscape including many famous buildings"
-            className={styles.cityscapeOnlineImage}
-            sizes="40vw"
-            src={cityscapeOnline}
-          />
-        </Link>
-      </div>
       <div className={styles.cityscapes}>
         {cityscapes.map(([alt, className, href, src]) => (
           <Link
@@ -79,18 +65,17 @@ export function Footer() {
         ))}
       </div>
       <div className={styles.textLinks}>
-        <TextLink href="/code-of-conduct">Code of Conduct</TextLink>
-        <TextLink href="/faqs">FAQs</TextLink>
-        <TextLink href="/contact">Contact Us</TextLink>
+        <TextLink className={styles.textLink} href="/code-of-conduct">
+          Code of Conduct
+        </TextLink>
+        <TextLink className={styles.textLink} href="/faqs">
+          FAQs
+        </TextLink>
+        <TextLink className={styles.textLink} href="/contact">
+          Contact Us
+        </TextLink>
       </div>
-      <Text as="div" className={styles.bottom} fontSize="extra-small">
-        Copyright © Open Web Conferences, LLC, {new Date().getFullYear()}. All
-        rights reserved. Site design by{" "}
-        <a href="https://wearedhd.com" rel="noreferrer" target="_blank">
-          David Henderson Design
-        </a>
-        .
-      </Text>
+      <CopyrightFooter />
     </footer>
   );
 }

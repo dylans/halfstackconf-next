@@ -1,13 +1,13 @@
 .textLink {
   border-bottom: 6px solid transparent;
   border-top: 6px solid transparent;
-  color: var(--color-primary);
   font-size: var(--font-size-small);
   font-weight: bold;
   text-decoration: none;
   transition: var(--transition-medium) border-color;
 }
 
-.textLink:hover {
-  border-bottom: 6px solid var(--color-emphasis);
+.textLink:hover,
+.hovering {
+  border-bottom: 6px solid var(--color-backdrop-subtle);
 }

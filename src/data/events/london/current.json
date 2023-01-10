@@ -1,11 +1,28 @@
 {
+  "catchphrase": "We just concluded our first original HalfStack event since COVID. We'll return in November, 2023. Stay tuned!",
+  "code": "halfstack-uk-events-2022",
   "date": "Wednesday 16th November 2022",
   "description": [
     "200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the greater London area and the UK"
   ],
+  "faqs": [
+    [
+      "What's the plan with COVID-19?",
+      "We're planning to hire out the entire venue during the day. Everyone should be prepared to provide proof of vaccination or a recent negative covid test."
+    ],
+    [
+      "Why the new date?",
+      "A large web and JS focused conference scheduled their event for our original date, so we moved two days earlier so our attendees and speakers could participate in both events."
+    ],
+    [
+      "Does HalfStack London sell out?",
+      "Yes, we love our venue but we're constrained by its size. Get your ticket early to save and avoid disappointment!"
+    ]
+  ],
   "geolocation": [51.52036, -0.07319200000006276],
   "location": "Cafe 1001, London",
+  "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late! We're also expecting to have an optional informal afternoon of full on Saturday, so join us then if time permits!",
   "sessions": [
     {
       "description": [
@@ -37,9 +54,6 @@
       "title": "Cheatcodes for the Web"
     },
     {
-      "description": [
-        "We're not quite ready yet to announce contents here, but we know it's going to be great!"
-      ],
       "by": "Earth to Abigail",
       "socials": [
         { "icon": "site", "href": "https://earthtoabigail.com" },
@@ -86,9 +100,6 @@
       "title": "Massive Multiplayer Game"
     },
     {
-      "description": [
-        "We're not quite ready yet to announce contents here, but we know it's going to be great!"
-      ],
       "by": "Jo Franchetti",
       "socials": [
         { "icon": "glitch", "href": "https://glitch.com/@JoFranchetti" },
@@ -99,7 +110,7 @@
         },
         { "icon": "twitter", "href": "https://twitter.com/ThisIsJoFrank" }
       ],
-      "title": "To Be Announced"
+      "title": "A Serverless Séance - Weird Websockets and Petrifying Pub/Sub"
     },
     {
       "description": [

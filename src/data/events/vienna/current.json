@@ -1,17 +1,120 @@
 {
-  "date": "TBD 2023, 10am - Late",
+  "afterparty": "Afterparty (includes JS Pub Quiz!)",
+  "catchphrase": "Delayed due to COVID-19. HalfStack Vienna will return in 2023 at Ankersaal near the Hauptbahnhof.",
+  "code": "halfstack-vienna-2023",
+  "date": "15th of September 2023, 10am - Late",
   "description": [
     "Up to 200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the Vienna area, with some from throughout the Europe, the UK, and the US"
   ],
+  "faqs": [
+    [
+      "Where should I stay?",
+      "If you're not from Vienna, note that HalfStack Vienna is near the HbF (main train station). Vienna has many hotels and Airbnb options that are well connected via subways, trains, and buses."
+    ]
+  ],
   "geolocation": [48.171534, 16.390938],
   "location": "Ankersaal, Absberggasse 27, 1100 Vienna",
+  "schedule": "Plan to arrive between 09:00 and 09:30 on the 18th of September & stay late for an amazing day of JavaScript goodness!",
   "sessions": [],
   "sponsors": {
     "complete": [],
-    "large": [],
-    "medium": [],
-    "small": []
+    "large": [
+      {
+        "href": "http://modstreaming.com/",
+        "src": "/logos/modstreaming.jpg",
+        "name": "Modstreaming"
+      }
+    ],
+    "medium": [
+      {
+        "href": "https://wearedhd.com/",
+        "src": "/logos/dhd.svg",
+        "name": "DHD"
+      },
+      {
+        "href": "https://futuresync.co.uk/",
+        "src": "/logos/futuresync.svg",
+        "name": "Future Sync"
+      }
+    ],
+    "small": [
+      {
+        "href": "https://ti.to/",
+        "src": "/logos/tito.svg",
+        "name": "Tito"
+      },
+      {
+        "href": "https://www.mozilla.org/",
+        "src": "/logos/mozilla.svg",
+        "name": "Mozilla"
+      },
+      {
+        "href": "https://kontent.ai/",
+        "src": "/logos/kontent.svg",
+        "name": "Kentico Kontent"
+      },
+      {
+        "href": "https://www.meetup.com/ReactVienna/",
+        "src": "/logos/reactvienna.svg",
+        "name": "React Vienna"
+      },
+      {
+        "href": "http://stickermule.com/supports/halfstack20-sponsorship",
+        "src": "/logos/stickermule.svg",
+        "name": "Sticker Mule"
+      },
+      {
+        "href": "https://survivejs.com/",
+        "src": "/logos/survivejs.svg",
+        "name": "Survive JS"
+      },
+      {
+        "href": "https://jsfiddle.net/",
+        "src": "/logos/jsfiddle-logo.jpg",
+        "name": "JS Fiddle"
+      },
+      {
+        "href": "https://openjsf.org/",
+        "src": "/logos/openjsfoundation.svg",
+        "name": "Open JS Foundation"
+      },
+      {
+        "href": "http://bit.ly/2wfP2Ps",
+        "src": "/logos/qconlondon.png",
+        "name": "Qcon London"
+      },
+      {
+        "href": "https://www.meetup.com/js-monthly/",
+        "src": "/logos/jsmonthly.jpg",
+        "name": "JS Monthly London"
+      },
+      {
+        "href": "https://react-finland.fi/",
+        "src": "/logos/reactfinland.svg",
+        "name": "Graphhql Finland"
+      },
+      {
+        "href": "https://infoq.com/",
+        "src": "/logos/infoq.jpg",
+        "name": "Infoq"
+      },
+      {
+        "href": "https://jsnation.com/",
+        "src": "/logos/jsnation.svg",
+        "name": "JS Nation"
+      },
+      {
+        "href": "https://virtuslab.com/",
+        "src": "/logos/virtuslab.svg",
+        "name": "Virtus Lab"
+      },
+      {
+        "href": "https://scriptconf.org/",
+        "src": "/logos/scriptconf.svg",
+        "name": "ScriptConf"
+      }
+    ]
   },
   "year": 2023
 }

@@ -1,0 +1,107 @@
+{
+  "date": "16th of November",
+  "otherEvents": {
+    "london": [2018, 2017],
+    "newyork": [2019],
+    "phoenix": [2020],
+    "vienna": [2019]
+  },
+  "videos": [
+    {
+      "by": "Chris Heilmann, Microsoft",
+      "href": "https://halfstackconf.streameventlive.com/embed/26",
+      "thumbnail": "/speakers/christian-heilmann.png",
+      "title": "Bringing best practices front and centre"
+    },
+    {
+      "by": "Ada Rose Cannon, Samsung",
+      "href": "https://halfstackconf.streameventlive.com/embed/25",
+      "thumbnail": "/speakers/ada-rose-edwards.jpg",
+      "title": "The present and future of VR on the Web"
+    },
+    {
+      "by": "Alex Lakatos, Nexmo",
+      "href": "https://halfstackconf.streameventlive.com/embed/31",
+      "thumbnail": "/speakers/alex-lakatos.jpg",
+      "title": "Building Bots with JavaScript"
+    },
+    {
+      "by": "Anna Migas, Lunar Logic",
+      "href": "https://halfstackconf.streameventlive.com/embed/27",
+      "thumbnail": "/speakers/anna-migas.jpg",
+      "title": "Fast But Not Furious: Debugging User Interaction Performance Issues"
+    },
+    {
+      "by": "Liliana Kastilio, Snyk",
+      "href": "https://halfstackconf.streameventlive.com/embed/28",
+      "thumbnail": "/speakers/liliana-kastilio.jpg",
+      "title": "npm install disaster-waiting-to-happen"
+    },
+    {
+      "by": "Andrico Karoulla, Trint",
+      "href": "https://halfstackconf.streameventlive.com/embed/24",
+      "thumbnail": "/speakers/andrico-karoulla.jpg",
+      "title": "Enter ES2018"
+    },
+    {
+      "by": "Stephen Cook, Onfido",
+      "href": "https://halfstackconf.streameventlive.com/embed/29",
+      "thumbnail": "/speakers/stephen-cook.jpg",
+      "title": "100% CSS Mario Kart"
+    },
+    {
+      "by": "Sean McGee, Esri UK",
+      "href": "https://halfstackconf.streameventlive.com/embed/18",
+      "thumbnail": "/speakers/sean-mcgee.jpg",
+      "title": "Buying a House with JavaScript"
+    },
+    {
+      "by": "Jonathan Fielding, Snyk",
+      "href": "https://halfstackconf.streameventlive.com/embed/22",
+      "thumbnail": "/speakers/jonathan-fielding.jpg",
+      "title": "Home Automation with JavaScript"
+    },
+    {
+      "by": "Rob Bateman, The Away Foundation",
+      "href": "https://halfstackconf.streameventlive.com/embed/23",
+      "thumbnail": "/speakers/rob-bateman.jpg",
+      "title": "Reanimating the Web"
+    },
+    {
+      "by": "Carolyn Stransky, Blacklane",
+      "href": "https://halfstackconf.streameventlive.com/embed/21",
+      "thumbnail": "/speakers/carolyn-stransky.jpg",
+      "title": "The Most Important UI: You"
+    },
+    {
+      "by": "Tom Dye, SitePen, Dylan Schiemann, SitePen",
+      "href": "https://halfstackconf.streameventlive.com/embed/30",
+      "thumbnail": "/speakers/dylan-schiemann.jpg",
+      "title": "Cats vs. Dogs"
+    },
+    {
+      "by": "Cameron Diver, Balena, Theodor Gherzan, Balena",
+      "href": "https://halfstackconf.streameventlive.com/embed/19",
+      "thumbnail": "/speakers/cameron-driver.jpg",
+      "title": "JavaScript at the edge"
+    },
+    {
+      "by": "Jani Eväkallio, Formidable",
+      "href": "https://halfstackconf.streameventlive.com/embed/20",
+      "thumbnail": "/speakers/jani-evakallio.jpg",
+      "title": "This Talk Is About You"
+    },
+    {
+      "by": "Tony Edwards, Software Cornwall",
+      "href": "https://halfstackconf.streameventlive.com/embed/33",
+      "thumbnail": "/speakers/tony-edwards.jpg",
+      "title": "Beats, Rhymes & Unit Tests"
+    },
+    {
+      "by": "Joe Hart, Blend Media",
+      "href": "https://halfstackconf.streameventlive.com/embed/32",
+      "thumbnail": "/speakers/joe-hart.jpg",
+      "title": "Alpha, Beta, Gamer: Dev Mode"
+    }
+  ]
+}

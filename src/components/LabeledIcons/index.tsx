@@ -27,7 +27,7 @@ export function LabeledIcons({ className, icons }: LabeledIconsProps) {
             src={icon}
             width={110}
           />
-          <Text as="div" className={styles.label} fontSize="large">
+          <Text as="div" className={styles.label}>
             {label}
           </Text>
         </div>

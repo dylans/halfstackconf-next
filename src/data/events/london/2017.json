@@ -1,0 +1,95 @@
+{
+  "date": "17th of November",
+  "otherEvents": {
+    "london": [2018, 2019],
+    "newyork": [2019],
+    "phoenix": [2020],
+    "vienna": [2019]
+  },
+  "videos": [
+    {
+      "by": "Dominik Kundel, Twilio",
+      "href": "https://halfstackconf.streameventlive.com/embed/4",
+      "thumbnail": "/speakers/dominik-kundel.jpg",
+      "title": "Coffee.js? How I hacked my coffee machine using JavaScript"
+    },
+    {
+      "by": "Jani Eväkallio, Formidable",
+      "href": "https://halfstackconf.streameventlive.com/embed/5",
+      "thumbnail": "/speakers/jani-evakallio.jpg",
+      "title": "Love poems to JavaScript, Part 1"
+    },
+    {
+      "by": "Mihai Cîrlănaru",
+      "href": "https://halfstackconf.streameventlive.com/embed/14",
+      "thumbnail": "/speakers/mihai-cirlanaru.jpg",
+      "title": "Empowering Web Applications with Speech Recognition"
+    },
+    {
+      "by": "Chris Heilmann, Microsoft",
+      "href": "https://halfstackconf.streameventlive.com/embed/7",
+      "thumbnail": "/speakers/chris-heilmann.jpg",
+      "title": "Sacrificing the golden calf of 'coding'"
+    },
+    {
+      "by": "Forbes Lindesay, Changepage",
+      "href": "https://halfstackconf.streameventlive.com/embed/9",
+      "thumbnail": "/speakers/forbes-lindsay.jpg",
+      "title": "Practical browser automation for fun and profit"
+    },
+    {
+      "by": "Anna Migas",
+      "href": "https://halfstackconf.streameventlive.com/embed/3",
+      "thumbnail": "/speakers/anna-migas.jpg",
+      "title": "Make your animations perform well"
+    },
+    {
+      "by": "Niels Leenheer",
+      "href": "https://halfstackconf.streameventlive.com/embed/15",
+      "thumbnail": "/speakers/niels-leenheer.jpg",
+      "title": "Having fun with JavaScript and Bluetooth"
+    },
+    {
+      "by": "Jani Eväkallio, Formidable",
+      "href": "https://halfstackconf.streameventlive.com/embed/12",
+      "thumbnail": "/speakers/jani-evakallio.jpg",
+      "title": "Love poems to JavaScript, Part 2"
+    },
+    {
+      "by": "Jonathan Fielding",
+      "href": "https://halfstackconf.streameventlive.com/embed/8",
+      "thumbnail": "/speakers/jonathan-fielding.jpg",
+      "title": "Converting a JS library from ES5 to ES6, benefits and the pitfalls"
+    },
+    {
+      "by": "Sean McGee, Esri UK",
+      "href": "https://halfstackconf.streameventlive.com/embed/16",
+      "thumbnail": "/speakers/sean-mcgee.jpg",
+      "title": "The Exciting World of 3D"
+    },
+    {
+      "by": "Jani Eväkallio, Formidable",
+      "href": "https://halfstackconf.streameventlive.com/embed/10",
+      "thumbnail": "/speakers/jani-evakallio.jpg",
+      "title": "Love poems to JavaScript, Part 3"
+    },
+    {
+      "by": "Dylan Schiemann, SitePen",
+      "href": "https://halfstackconf.streameventlive.com/embed/6",
+      "thumbnail": "/speakers/dylan-schiemann.jpg",
+      "title": "Fear and Loathing in JavaScript"
+    },
+    {
+      "by": "Sandeep Singh",
+      "href": "https://halfstackconf.streameventlive.com/embed/13",
+      "thumbnail": "/speakers/sandeep-singh.jpg",
+      "title": "Data Visualisations and GraphQL"
+    },
+    {
+      "by": "Ruth John",
+      "href": "https://halfstackconf.streameventlive.com/embed/17",
+      "thumbnail": "/speakers/ruth-john.png",
+      "title": "How to be a Web AV Artist"
+    }
+  ]
+}

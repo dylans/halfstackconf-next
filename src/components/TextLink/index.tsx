@@ -5,8 +5,14 @@ import styles from "./index.module.css";
 
 export interface TextLinkProps extends React.PropsWithChildren<LinkProps> {
   className?: string;
+  hovering?: boolean;
 }
 
-export function TextLink({ className, ...props }: TextLinkProps) {
-  return <Link className={clsx(styles.textLink, className)} {...props} />;
+export function TextLink({ className, hovering, ...props }: TextLinkProps) {
+  return (
+    <Link
+      className={clsx(styles.textLink, hovering && styles.hovering, className)}
+      {...props}
+    />
+  );
 }

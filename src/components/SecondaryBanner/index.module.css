@@ -1,8 +1,12 @@
 .secondaryBanner {
-  background: var(--color-primary);
-  color: var(--color-bright);
+  background-color: var(--color-primary);
+  background-image: var(--background-outline);
+  background-position: center center;
+  background-size: contain;
   position: relative;
   text-align: center;
+
+  --color-text: var(--color-bright);
 }
 
 .contents {

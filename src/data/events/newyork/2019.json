@@ -10,5 +10,84 @@
     "medium": [],
     "small": []
   },
-  "videos": []
+  "videos": [
+    {
+      "by": "Una Kravets (@una) Google",
+      "href": "",
+      "thumbnail": "/speakers/una-kravets.jpg",
+      "title": "To be announced..."
+    },
+    {
+      "by": "Christopher Ng (@chrisrng) LinkedIn",
+      "href": "https://halfstackconf.streameventlive.com/embed/46",
+      "thumbnail": "/speakers/christopher-ng.jpg",
+      "title": "Weird `display: flex`, but OK?"
+    },
+    {
+      "by": "Bekah Rice (@bekahble) True Matter",
+      "href": "https://halfstackconf.streameventlive.com/embed/47",
+      "thumbnail": "/speakers/bekah-rice.jpg",
+      "title": "Coding accessibility: Best practices from the front lines"
+    },
+    {
+      "by": "Brian Platz (@bplatz) Fluree",
+      "href": "https://halfstackconf.streameventlive.com/embed/48",
+      "thumbnail": "/speakers/brian-platz.jpg",
+      "title": "Time-traveling reactive JavaScript apps"
+    },
+    {
+      "by": "Tierney Cyren (@bitandbang) Microsoft",
+      "href": "https://halfstackconf.streameventlive.com/embed/49",
+      "thumbnail": "/speakers/tierney-cyren.jpg",
+      "title": "Automating your vulnerabilities away"
+    },
+    {
+      "by": "Jyoti Bishnoi (@methodiva) Not A Bot Studio",
+      "href": "https://halfstackconf.streameventlive.com/embed/50",
+      "thumbnail": "/speakers/jyoti-bishnoi.jpg",
+      "title": "Storytelling with Hand Puppets in AR, on the web!"
+    },
+    {
+      "by": "Milecia McGregor (@FlippedCoding) Flipped Coding",
+      "href": "https://halfstackconf.streameventlive.com/embed/51",
+      "thumbnail": "/speakers/milecia-mcgregor.jpg",
+      "title": "Using machine learning to improve UI/UX"
+    },
+    {
+      "by": "Luis Montes (@monteslu) IcedDev",
+      "href": "https://halfstackconf.streameventlive.com/embed/52",
+      "thumbnail": "/speakers/luis-montes.jpg",
+      "title": "Surviving the apocalypse with PWAs"
+    },
+    {
+      "by": "Jen Looper (@jenlooper) Microsoft",
+      "href": "https://halfstackconf.streameventlive.com/embed/53",
+      "thumbnail": "/speakers/jen-looper.jpg",
+      "title": "Machine learning for poets: The eMiLy app"
+    },
+    {
+      "by": "Ruth John (@Rumyra) live:js",
+      "href": "https://halfstackconf.streameventlive.com/embed/54",
+      "thumbnail": "/speakers/ruth-john.png",
+      "title": "Your browser is your studio"
+    },
+    {
+      "by": "Niels Leenheer (@html5test) Salonhub",
+      "href": "https://halfstackconf.streameventlive.com/embed/55",
+      "thumbnail": "/speakers/niels-leenheer.jpg",
+      "title": "JavaScript on microcontrollers"
+    },
+    {
+      "by": "Rene Rubalcava (@odoenet) Esri",
+      "href": "https://halfstackconf.streameventlive.com/embed/56",
+      "thumbnail": "/speakers/rene-rubalcava.png",
+      "title": "Listening to maps"
+    },
+    {
+      "by": "Dylan Schiemann (@dylans) SitePen",
+      "href": "https://halfstackconf.streameventlive.com/embed/57",
+      "thumbnail": "/speakers/dylan-schiemann.jpg",
+      "title": "Yoda, Web, Spock"
+    }
+  ]
 }

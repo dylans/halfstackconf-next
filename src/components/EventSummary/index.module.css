@@ -1,6 +1,14 @@
 .eventInfo {
-  background-image: url("/patterns/white-decorative.png");
-  background-size: cover;
+  background-image: var(--background-outline);
   background-position: center center;
+  background-size: cover;
+}
+
+.contents {
   padding: 5rem 2rem;
+}
+
+.trailer {
+  display: block;
+  margin: 3rem auto 0;
 }

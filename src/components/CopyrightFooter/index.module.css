@@ -1,0 +1,13 @@
+.copyrightFooter {
+  background: var(--color-primary-dark);
+  color: var(--color-subtle);
+  letter-spacing: 1px;
+  padding: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.copyrightFooter a {
+  color: var(--color-subtle);
+}

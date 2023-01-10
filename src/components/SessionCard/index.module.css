@@ -1,3 +1,12 @@
+.cardArea {
+  position: relative;
+}
+
+.hasher {
+  margin-top: -5rem;
+  position: absolute;
+}
+
 .image {
   display: none;
 }

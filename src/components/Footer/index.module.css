@@ -23,10 +23,6 @@
   width: 100%;
 }
 
-.cityscapeOnlineLink::after {
-  background: var(--color-backdrop-subtle);
-}
-
 .charlotte::after {
   background: var(--color-city-charlotte);
 }
@@ -55,20 +51,10 @@
   background: var(--color-city-vienna);
 }
 
-.cityscapeOnlineImage {
-  height: 7rem;
-  max-width: 100%;
-  object-fit: contain;
-}
-
-.cityscapeFirst,
-.cityscapes {
-  margin: auto;
-  max-width: var(--width-body);
-}
-
 .cityscapes {
   display: flex;
+  margin: auto;
+  max-width: var(--width-body);
   padding: 2rem 0;
 }
 
@@ -85,6 +71,8 @@
 }
 
 .icon {
+  background: var(--color-primary);
+  border-radius: 100%;
   height: 2rem;
   transition: var(--transition-medium) opacity;
   width: 2rem;
@@ -101,8 +89,12 @@
   padding: 1rem;
 }
 
+.textLink {
+  color: var(--color-primary);
+}
+
 .bottom {
-  background: var(--color-backdrop);
+  background: var(--color-primary);
   color: var(--color-subtle);
   letter-spacing: 1px;
   padding: 1.5rem;

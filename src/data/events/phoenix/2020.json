@@ -1,0 +1,17 @@
+{
+  "date": "16th of November",
+  "otherEvents": {
+    "london": [2018, 2017],
+    "newyork": [2019],
+    "phoenix": [2020],
+    "vienna": [2019]
+  },
+  "videos": [
+    {
+      "by": "DHD",
+      "href": "https://www.youtube.com/embed/7xeWudDmPec",
+      "thumbnail": "/recaps/phoenix-2020.png",
+      "title": "HalfStack Phoenix 2020 Recap Video"
+    }
+  ]
+}

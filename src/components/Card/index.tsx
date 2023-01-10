@@ -27,12 +27,12 @@ const directionStyles = {
 const sizeStyles = {
   small: styles.sizeSmall,
   medium: styles.sizeMedium,
+  large: styles.sizeLarge,
 };
 
 export const Card = <As extends React.ElementType>({
   as,
   className,
-  backgroundColor = "--color-backdrop",
   bottom,
   children,
   direction = "left-to-right",
@@ -51,17 +51,11 @@ export const Card = <As extends React.ElementType>({
       )}
       {...props}
     >
-      <div
-        className={styles.cardContents}
-        style={{ backgroundColor: `var(${backgroundColor})` }}
-      >
-        {children}
-      </div>
+      <div className={styles.cardContents}>{children}</div>
       {bottom && (
         <RoundLink
           className={styles.bottom}
           size={size}
-          style={{ color: `var(${backgroundColor})` }}
           variant={size === "small" ? "shadow" : "default"}
         >
           {bottom}

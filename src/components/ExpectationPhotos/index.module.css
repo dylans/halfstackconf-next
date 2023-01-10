@@ -1,0 +1,56 @@
+.expectation {
+  background-image: var(--background-outline-alt);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+  position: relative;
+}
+
+.contents {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: var(--width-body);
+}
+
+.h2 {
+  margin: 2rem 0 1rem;
+  text-transform: uppercase;
+}
+
+.p {
+  font-weight: 900;
+  margin: 1rem 0;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 2rem 4rem;
+  user-select: none;
+  width: 100%;
+}
+
+.photoArea {
+  height: 10rem;
+  position: relative;
+  width: 100%;
+}
+
+.photo {
+  object-fit: contain;
+}
+
+@media (min-width: 700px) {
+  .photos {
+    flex-direction: row;
+  }
+
+  .photoArea {
+    height: 15rem;
+  }
+}

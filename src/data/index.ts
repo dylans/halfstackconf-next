@@ -5,6 +5,7 @@ import {
   EventDataCurrent,
   EventDataDefault,
   EventDataHistorical,
+  EventDataJoined,
 } from "./types";
 
 const dataDirectory = path.join(process.cwd(), "src/data");
@@ -41,4 +42,15 @@ export async function getEventData(
       await fs.readFile(path.join(eventsDirectory, event, `${year}.json`))
     ).toString()
   ) as unknown;
+}
+
+export async function getEventDataCurrentAndDefault(
+  slug: string
+): Promise<EventDataJoined> {
+  const [currentData, defaultData] = await Promise.all([
+    getEventData(slug, "current"),
+    getEventData(slug, "default"),
+  ]);
+
+  return { ...currentData, ...defaultData, slug };
 }
