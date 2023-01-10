@@ -1,8 +1,8 @@
 .background {
   background-image: var(--background-outline);
   background-position: left;
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: contain;
   bottom: 0;
   left: 0;
   position: absolute;
@@ -65,15 +65,15 @@
   }
 
   .leftToRight .textContents {
-    text-align: right;
     margin-right: 33%;
     padding: 2rem 0.5rem 3rem 3rem;
+    text-align: right;
   }
 
   .rightToLeft .textContents {
-    text-align: left;
     margin-left: 33%;
     padding: 2rem 3rem 3rem 0.5rem;
+    text-align: left;
   }
 
   .thumbnail {
