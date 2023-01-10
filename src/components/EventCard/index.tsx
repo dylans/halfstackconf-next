@@ -1,7 +1,8 @@
 import clsx from "clsx";
 import Link from "next/link";
 
-import { EventDataJoined } from "../../data/types";
+import { EventDataJoined } from "~/data/types";
+
 import { Card, CardDirection } from "../Card";
 import { Text } from "../Text";
 import styles from "./index.module.css";

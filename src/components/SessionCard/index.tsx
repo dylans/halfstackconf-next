@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 
-import { EventSession } from "../../data/types";
+import { EventSession } from "~/data/types";
+
 import { hashify } from "../../utils";
 import { Anchor } from "../Anchor";
 import { Card, CardDirection } from "../Card";

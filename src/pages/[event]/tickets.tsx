@@ -1,12 +1,13 @@
 import Head from "next/head";
 
-import { Banner } from "../../components/Banner";
-import { BannerText } from "../../components/BannerText";
-import { EventFooter } from "../../components/EventFooter";
-import { EventHeader } from "../../components/EventHeader";
-import { EventTheme } from "../../components/EventTheme";
-import { ExpectationPhotos } from "../../components/ExpectationPhotos";
-import { TicketsOffer } from "../../components/TicketsOffer";
+import { Banner } from "~/components/Banner";
+import { BannerText } from "~/components/BannerText";
+import { EventFooter } from "~/components/EventFooter";
+import { EventHeader } from "~/components/EventHeader";
+import { EventTheme } from "~/components/EventTheme";
+import { ExpectationPhotos } from "~/components/ExpectationPhotos";
+import { TicketsOffer } from "~/components/TicketsOffer";
+
 import { getEventDataCurrentAndDefault, getEvents } from "../../data";
 import { ReturnedParams, ReturnedProps } from "../../utils";
 import styles from "./tickets.module.css";

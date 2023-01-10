@@ -2,7 +2,8 @@ import clsx from "clsx";
 import Image from "next/future/image";
 import Link from "next/link";
 
-import { SponsorData } from "../../data/types";
+import { SponsorData } from "~/data/types";
+
 import { RoundLink } from "../RoundLink";
 import { Text } from "../Text";
 import styles from "./index.module.css";

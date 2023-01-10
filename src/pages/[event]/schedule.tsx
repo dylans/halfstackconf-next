@@ -1,11 +1,12 @@
 import Head from "next/head";
 
-import { Banner } from "../../components/Banner";
-import { BannerText } from "../../components/BannerText";
-import { EventFooter } from "../../components/EventFooter";
-import { EventHeader } from "../../components/EventHeader";
-import { EventSchedule } from "../../components/EventSchedule";
-import { EventTheme } from "../../components/EventTheme";
+import { Banner } from "~/components/Banner";
+import { BannerText } from "~/components/BannerText";
+import { EventFooter } from "~/components/EventFooter";
+import { EventHeader } from "~/components/EventHeader";
+import { EventSchedule } from "~/components/EventSchedule";
+import { EventTheme } from "~/components/EventTheme";
+
 import { getEventDataCurrentAndDefault, getEvents } from "../../data";
 import { ReturnedParams, ReturnedProps } from "../../utils";
 

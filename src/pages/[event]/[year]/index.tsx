@@ -1,16 +1,17 @@
 import Head from "next/head";
 import Link from "next/link";
 
-import { Banner } from "../../../components/Banner";
-import { BannerText } from "../../../components/BannerText";
-import { BodyArea } from "../../../components/BodyArea";
-import { Columns } from "../../../components/Columns";
-import { EventHeader } from "../../../components/EventHeader";
-import { EventTheme } from "../../../components/EventTheme";
-import { Footer } from "../../../components/Footer";
-import { SponsorStacksList } from "../../../components/SponsorStacksList";
-import { Text } from "../../../components/Text";
-import { VideoCard } from "../../../components/VideoCard";
+import { Banner } from "~/components/Banner";
+import { BannerText } from "~/components/BannerText";
+import { BodyArea } from "~/components/BodyArea";
+import { Columns } from "~/components/Columns";
+import { EventHeader } from "~/components/EventHeader";
+import { EventTheme } from "~/components/EventTheme";
+import { Footer } from "~/components/Footer";
+import { SponsorStacksList } from "~/components/SponsorStacksList";
+import { Text } from "~/components/Text";
+import { VideoCard } from "~/components/VideoCard";
+
 import { getEventData, getEvents, getEventYears } from "../../../data";
 import { ReturnedParams, ReturnedProps } from "../../../utils";
 import styles from "./index.module.css";

@@ -2,7 +2,8 @@ import clsx from "clsx";
 import Link from "next/link";
 import React from "react";
 
-import { EventVideo } from "../../data/types";
+import { EventVideo } from "~/data/types";
+
 import { Card } from "../Card";
 import { Text } from "../Text";
 import { TintedImage } from "../TintedImage";

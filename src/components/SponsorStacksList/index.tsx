@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-import { EventSponsors } from "../../data/types";
+import { EventSponsors } from "~/data/types";
+
 import { RoundLink } from "../RoundLink";
 import { SponsorStack } from "../SponsorStack";
 import { Text } from "../Text";

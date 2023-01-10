@@ -1,12 +1,13 @@
 import Head from "next/head";
 
-import { Anchor } from "../../components/Anchor";
-import { Banner } from "../../components/Banner";
-import { BannerText } from "../../components/BannerText";
-import { BodyArea } from "../../components/BodyArea";
-import { Footer } from "../../components/Footer";
-import { Header } from "../../components/Header";
-import { Text } from "../../components/Text";
+import { Anchor } from "~/components/Anchor";
+import { Banner } from "~/components/Banner";
+import { BannerText } from "~/components/BannerText";
+import { BodyArea } from "~/components/BodyArea";
+import { Footer } from "~/components/Footer";
+import { Header } from "~/components/Header";
+import { Text } from "~/components/Text";
+
 import styles from "./index.module.css";
 
 export default function CFP() {
