@@ -8,11 +8,11 @@ import styles from "./index.module.css";
 
 export interface SessionsListProps {
   className?: string;
-  sessions: EventSession[];
+  sessions: EventSession[] | undefined;
 }
 
 export function SessionsList({ className, sessions }: SessionsListProps) {
-  if (!sessions.length) {
+  if (!sessions?.length) {
     return null;
   }
 
