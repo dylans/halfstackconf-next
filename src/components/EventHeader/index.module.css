@@ -8,8 +8,8 @@
 }
 
 .headerInverted {
-  color: var(--color-bright);
   background: var(--color-primary);
+  color: var(--color-bright);
 }
 
 .contents {

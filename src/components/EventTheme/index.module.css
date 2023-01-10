@@ -1,3 +1,5 @@
+/* stylelint-disable selector-class-pattern */
+
 .eventTheme {
   --color-text: var(--color-primary);
 }

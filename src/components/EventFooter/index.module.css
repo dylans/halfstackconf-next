@@ -9,9 +9,9 @@
 }
 
 .cityscape {
-  position: relative;
-  margin: auto;
   height: 10rem;
+  margin: auto;
+  position: relative;
   width: 22rem;
 }
 
@@ -50,8 +50,8 @@
 }
 
 .ticketsLink {
-  text-align: center;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 @media (min-width: 700px) {
@@ -77,15 +77,12 @@
 
   .ticketsLink {
     margin-bottom: 0;
+    text-align: right;
   }
 
   .textLinks {
     flex-direction: row;
     justify-content: center;
-  }
-
-  .ticketsLink {
-    text-align: right;
   }
 }
 

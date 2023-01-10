@@ -4,6 +4,7 @@
   background-position: center center;
   background-size: cover;
   overflow: hidden;
+
   --color-text: var(--color-bright);
 }
 
@@ -20,9 +21,9 @@
 
 .description {
   color: var(--color-bright);
-  font-size: var(--font-size-medium);
   display: flex;
   flex-direction: column;
+  font-size: var(--font-size-medium);
   font-weight: bold;
   gap: 2rem;
   padding: 2rem;

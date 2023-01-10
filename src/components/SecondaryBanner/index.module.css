@@ -5,6 +5,7 @@
   background-size: contain;
   position: relative;
   text-align: center;
+
   --color-text: var(--color-bright);
 }
 

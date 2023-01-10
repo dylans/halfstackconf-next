@@ -4,5 +4,6 @@
   background-position: center center;
   background-size: cover;
   color: var(--color-text);
+
   --color-text: var(--color-bright);
 }

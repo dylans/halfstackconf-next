@@ -1,7 +1,7 @@
 .sponsorsArea {
   background-image: var(--background-pattern);
-  background-size: cover;
   background-position: center center;
+  background-size: cover;
   padding-bottom: 4rem;
 }
 

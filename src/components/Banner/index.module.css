@@ -5,6 +5,7 @@
   font-weight: bold;
   letter-spacing: 0.05em;
   position: relative;
+
   --color-text: var(--color-bright);
 }
 

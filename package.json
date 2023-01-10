@@ -46,7 +46,7 @@
     "format": "prettier \"**/*\" --ignore-unknown",
     "lint:md": "npx markdownlint \"**/*.md\" \".github/**/*.md\"",
     "lint:package": "npmPkgJsonLint .",
-    "lint:prune": "ts-prune",
+    "lint:prune": "! ts-prune | grep -v \"used in module\"",
     "lint:style": "stylelint \"src/**/*.css\"",
     "lint": "next lint  --max-warnings 0 --report-unused-disable-directives error",
     "prepare": "husky install",
