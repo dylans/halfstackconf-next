@@ -8,7 +8,7 @@ import styles from "./index.module.css";
 import { SponsorsArea } from "./SponsorsArea";
 
 export interface SponsorStacksListProps extends EventSponsors {
-  slug: string;
+  slug?: string;
 }
 
 export function SponsorStacksList({

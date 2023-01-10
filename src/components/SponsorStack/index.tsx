@@ -8,7 +8,7 @@ import { Text } from "../Text";
 import styles from "./index.module.css";
 
 export interface SponsorStackProps {
-  slug: string;
+  slug?: string;
   sponsors: SponsorData[];
   stack: SponsorStackSize;
 }
@@ -65,7 +65,7 @@ export function SponsorStack({ slug, sponsors, stack }: SponsorStackProps) {
         ))}
         <Link
           className={clsx(styles.sponsor, styles.promo)}
-          href={`${slug}/spon`}
+          href={slug ? `${slug}/spon` : "/spon"}
           target="_blank"
         >
           <Text>Want to sponsor?</Text>
