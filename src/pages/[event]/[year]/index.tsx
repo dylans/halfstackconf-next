@@ -39,44 +39,55 @@ export default function EventYear({
           HalfStack {name} {year} - {date}
         </Text>
         <Columns className={styles.topColumns}>
-          <div>
+          <div className={styles.recapColumn}>
             <Text as="h3" fontSize="medium">
               Recap
             </Text>
             <Text>
               HalfStack {year} was an amazing event with an incredible speaker
-              lineup. View the videos and relive HalfStack {year}!
+              lineup.{" "}
+              {videos && <>View the videos and relive HalfStack {year}!</>}
             </Text>
           </div>
-          <div>
-            <Text as="h3" fontSize="medium">
-              Other Past Events
-            </Text>
-            <ul className={styles.eventsList}>
-              {otherEvents.map((otherEvent) =>
-                otherEvent.otherYears.map((otherYear) => (
-                  <Text as="li" fontSize="small" key={otherYear}>
-                    <Link
-                      className={styles.otherEventLink}
-                      href={`/${otherEvent.event}/${otherYear}`}
-                    >
-                      HalfStack {otherEvent.name} {otherYear}
-                    </Link>
-                  </Text>
-                ))
-              )}
-            </ul>
-          </div>
+          {otherEvents && (
+            <div>
+              <Text as="h3" fontSize="medium">
+                Other Past Events
+              </Text>
+              <ul className={styles.eventsList}>
+                {otherEvents.map((otherEvent) =>
+                  otherEvent.otherYears.map((otherYear) => (
+                    <Text as="li" fontSize="small" key={otherYear}>
+                      <Link
+                        className={styles.otherEventLink}
+                        href={`/${otherEvent.event}/${otherYear}`}
+                      >
+                        HalfStack {otherEvent.name} {otherYear}
+                      </Link>
+                    </Text>
+                  ))
+                )}
+              </ul>
+            </div>
+          )}
         </Columns>
 
-        <Text as="h2" className={styles.h2} fontSize="large">
-          Videos
-        </Text>
-        <ul className={styles.videosList}>
-          {videos.map((video) => (
-            <VideoCard className={styles.videoCard} key={video.by} {...video} />
-          ))}
-        </ul>
+        {videos && (
+          <>
+            <Text as="h2" className={styles.h2} fontSize="large">
+              Videos
+            </Text>
+            <ul className={styles.videosList}>
+              {videos.map((video) => (
+                <VideoCard
+                  className={styles.videoCard}
+                  key={video.by}
+                  {...video}
+                />
+              ))}
+            </ul>
+          </>
+        )}
 
         {sponsors && <SponsorStacksList {...sponsors} />}
       </BodyArea>
@@ -93,13 +104,17 @@ export async function getStaticProps({
     getEventData(event, +year),
   ]);
 
-  const otherEvents = await Promise.all(
-    Object.entries(yearData.otherEvents).map(async ([event, otherYears]) => ({
-      event,
-      name: (await getEventData(event, "default")).name,
-      otherYears,
-    }))
-  );
+  const otherEvents = yearData.otherEvents
+    ? await Promise.all(
+        Object.entries(yearData.otherEvents).map(
+          async ([event, otherYears]) => ({
+            event,
+            name: (await getEventData(event, "default")).name,
+            otherYears,
+          })
+        )
+      )
+    : null;
 
   return {
     props: { ...defaultData, ...yearData, event, otherEvents, year },

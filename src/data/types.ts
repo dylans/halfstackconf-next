@@ -5,10 +5,10 @@ export interface SponsorData {
 }
 
 export interface EventSponsors {
-  complete: SponsorData[];
-  large: SponsorData[];
-  medium: SponsorData[];
-  small: SponsorData[];
+  complete: SponsorData[] | undefined;
+  large: SponsorData[] | undefined;
+  medium: SponsorData[] | undefined;
+  small: SponsorData[] | undefined;
 }
 
 export interface EventDataBase {
@@ -76,8 +76,8 @@ export interface EventVideo {
 }
 
 export interface EventDataHistorical extends EventDataBase {
-  otherEvents: Record<string, number[]>;
-  videos: EventVideo[];
+  otherEvents?: Record<string, number[]>;
+  videos?: EventVideo[];
 }
 
 export interface EventDataJoined extends EventDataCurrent, EventDataDefault {
