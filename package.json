@@ -44,7 +44,7 @@
     "dev": "next dev",
     "format": "prettier \"**/*\" --ignore-unknown",
     "format:write": "pnpm format --write",
-    "lint": "eslint  --max-warnings 0 --report-unused-disable-directives .",
+    "lint": "eslint --max-warnings 0 --report-unused-disable-directives .",
     "lint:md": "npx markdownlint \"**/*.md\" \".github/**/*.md\"",
     "lint:package": "npmPkgJsonLint .",
     "lint:prune": "! ts-prune | grep -v \"used in module\"",
