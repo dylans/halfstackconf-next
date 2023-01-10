@@ -18,6 +18,7 @@ export function SponsorStacksList({
   small,
   slug,
 }: SponsorStacksListProps) {
+  const href = slug ? `${slug}/spon` : "/spon";
   const blurb = (
     <>
       <Text as="p">
@@ -30,7 +31,7 @@ export function SponsorStacksList({
       <RoundLink
         as={Link}
         className={styles.takeMeTop}
-        href={`${slug}/spon`}
+        href={href}
         variant="shadow"
       >
         Take me to the sponsors page
@@ -69,7 +70,7 @@ export function SponsorStacksList({
       <RoundLink
         as={Link}
         className={styles.takeMeBottom}
-        href={`${slug}/spon`}
+        href={href}
         variant="shadow"
       >
         Take me to the sponsors page
