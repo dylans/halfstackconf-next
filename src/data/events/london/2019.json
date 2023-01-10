@@ -25,41 +25,41 @@
       }
     ],
     "large": [
-      { "name": "CMD", "href": "https://cmdhq.io", "src": "/logos/cmd.svg" },
+      { "href": "https://cmdhq.io", "name": "CMD", "src": "/logos/cmd.svg" },
       {
-        "name": "Dazn",
         "href": "https://engineering.dazn.com",
+        "name": "Dazn",
         "src": "/logos/dazn.svg"
       },
       {
-        "name": "Twilio",
         "href": "https://twilio.com",
+        "name": "Twilio",
         "src": "/logos/twilio.svg"
       },
       {
-        "name": "Mod Streaming",
         "href": "https://modstreaming.com",
+        "name": "Mod Streaming",
         "src": "/logos/modstreaming.jpg"
       }
     ],
     "medium": [
-      { "name": "DHD", "href": "https://wearedhd.com", "src": "/logos/dhd.svg" }
+      { "href": "https://wearedhd.com", "name": "DHD", "src": "/logos/dhd.svg" }
     ],
     "small": [
-      { "name": "Tito", "href": "https://ti.to/", "src": "/logos/tito.svg" },
+      { "href": "https://ti.to/", "name": "Tito", "src": "/logos/tito.svg" },
       {
-        "name": "Mozilla",
         "href": "https://www.mozilla.org/",
+        "name": "Mozilla",
         "src": "/logos/mozilla.svg"
       },
       {
-        "name": "JS Fiddle",
         "href": "https://jsfiddle.net/",
+        "name": "JS Fiddle",
         "src": "/logos/jsfiddle-logo.jpg"
       },
       {
-        "name": "Survive JS",
         "href": "https://survivejs.com/",
+        "name": "Survive JS",
         "src": "/logos/survivejs.svg"
       },
       {
@@ -68,48 +68,48 @@
         "src": "/logos/skillsmatter.jpg"
       },
       {
-        "name": "Open JS Foundation",
         "href": "https://openjsf.org/",
+        "name": "Open JS Foundation",
         "src": "/logos/openjsfoundation.svg"
       },
       {
-        "name": "Qcon London",
         "href": "http://bit.ly/2wfP2Ps",
+        "name": "Qcon London",
         "src": "/logos/qconlondon.jpg"
       },
       {
-        "name": "CityJSConf",
         "href": "https://cityjsconf.org/",
+        "name": "CityJSConf",
         "src": "/logos/cityjsconf.svg"
       },
       {
-        "name": "JS Monthly London",
         "href": "https://www.meetup.com/js-monthly/",
+        "name": "JS Monthly London",
         "src": "/logos/jsmonthly.jpg"
       },
       {
-        "name": "React Finland",
         "href": "https://react-finland.fi/",
+        "name": "React Finland",
         "src": "/logos/reactfinland.svg"
       },
       {
-        "name": "InfoQ",
         "href": "https://infoq.com/",
+        "name": "InfoQ",
         "src": "/logos/infoq.jpg"
       },
       {
-        "name": "JS Nation",
         "href": "https://jsnation.com",
+        "name": "JS Nation",
         "src": "/logos/jsnation.svg"
       },
       {
-        "name": "React Advanced",
         "href": "https://reactadvanced.com",
+        "name": "React Advanced",
         "src": "/logos/reactadvanced.svg"
       },
       {
-        "name": "State of the Browser",
         "href": "https://2019.stateofthebrowser.com",
+        "name": "State of the Browser",
         "src": "/logos/stateofthebrowser.svg"
       }
     ]
@@ -117,8 +117,8 @@
   "videos": [
     {
       "by": "DHD",
-      "label": "recap",
       "href": "https://youtu.be/nKc9lTYuNjo",
+      "label": "recap",
       "thumbnail": "/recaps/london-2019.png",
       "title": "HalfStack London 2019 Recap Video"
     },
@@ -129,64 +129,65 @@
       "title": "Reconsidering Open Web Tooling"
     },
     {
-      "thumbnail": "/speakers/lily-hoskin.jpg",
-      "href": "https://halfstackconf.streameventlive.com/embed/75",
       "by": "Lily Hoskin, Helix Centre",
+      "href": "https://halfstackconf.streameventlive.com/embed/75",
+      "thumbnail": "/speakers/lily-hoskin.jpg",
       "title": "Adding Machine Learning to Plants"
     },
     {
-      "thumbnail": "/speakers/daniel-van-berzon.png",
-      "href": "https://halfstackconf.streameventlive.com/embed/76",
       "by": "Daniel van Berzon, Ocasta ",
+      "href": "https://halfstackconf.streameventlive.com/embed/76",
+      "thumbnail": "/speakers/daniel-van-berzon.png",
       "title": "Readable code - Available without prescription"
     },
     {
-      "thumbnail": "/speakers/jonathan-fielding.jpg",
-      "href": "https://halfstackconf.streameventlive.com/embed/77",
       "by": "Jonathan Fielding, Uswitch",
+      "href": "https://halfstackconf.streameventlive.com/embed/77",
+      "thumbnail": "/speakers/jonathan-fielding.jpg",
       "title": "Being Eco-friendly with JavaScript"
     },
     {
-      "thumbnail": "/speakers/chris-dowling.jpg",
-      "href": "https://halfstackconf.streameventlive.com/embed/78",
       "by": "Chris Dowling, Unmade",
+      "href": "https://halfstackconf.streameventlive.com/embed/78",
+      "thumbnail": "/speakers/chris-dowling.jpg",
       "title": "Saving the World With SVG"
     },
     {
-      "thumbnail": "/speakers/rob-bateman.png",
-      "href": "https://halfstackconf.streameventlive.com/embed/79",
       "by": "Rob Bateman, Freelancer",
+      "href": "https://halfstackconf.streameventlive.com/embed/79",
+      "thumbnail": "/speakers/rob-bateman.png",
       "title": "Lets Recurse!"
     },
     {
-      "thumbnail": "/speakers/niels-leenheer.jpg",
-      "href": "https://halfstackconf.streameventlive.com/embed/80",
       "by": "Niels Leenheer, Salonhub",
+      "href": "https://halfstackconf.streameventlive.com/embed/80",
+      "thumbnail": "/speakers/niels-leenheer.jpg",
       "title": "JavaScript On Microcontrollers"
     },
     {
-      "thumbnail": "/speakers/suz-hinton.jpg",
-      "href": "https://halfstackconf.streameventlive.com/embed/81",
       "by": "Suz Hinton, Stripe",
+      "href": "https://halfstackconf.streameventlive.com/embed/81",
+      "thumbnail": "/speakers/suz-hinton.jpg",
       "title": "Adventures in Reinventing Interfaces"
     },
     {
-      "thumbnail": "/speakers/dylan-schiemann.jpg",
-      "href": "https://halfstackconf.streameventlive.com/embed/82",
       "by": "Dylan Schiemann, SitePen",
+      "href": "https://halfstackconf.streameventlive.com/embed/82",
+      "thumbnail": "/speakers/dylan-schiemann.jpg",
       "title": "Yoda, Web, Spock Reloaded"
     },
     {
-      "thumbnail": "/speakers/richard-bultitude.jpg",
-      "href": "https://halfstackconf.streameventlive.com/embed/83",
       "by": "Richard Bultitude",
+      "href": "https://halfstackconf.streameventlive.com/embed/83",
+      "thumbnail": "/speakers/richard-bultitude.jpg",
       "title": "Making the Conditional Orchestra"
     },
     {
-      "thumbnail": "/speakers/jo-franchetti.jpg",
-      "href": "https://halfstackconf.streameventlive.com/embed/84",
       "by": "Jo Franchetti",
+      "href": "https://halfstackconf.streameventlive.com/embed/84",
+      "thumbnail": "/speakers/jo-franchetti.jpg",
       "title": "An Early Christmas Surprise"
     }
-  ]
+  ],
+  "z": true
 }

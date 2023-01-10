@@ -41,17 +41,17 @@
   "name": "halfstackconf-next",
   "scripts": {
     "build": "next build",
-    "tsc": "tsc",
     "dev": "next dev",
-    "format:write": "pnpm format --write",
     "format": "prettier \"**/*\" --ignore-unknown",
+    "format:write": "pnpm format --write",
+    "lint": "eslint  --max-warnings 0 --report-unused-disable-directives .",
     "lint:md": "npx markdownlint \"**/*.md\" \".github/**/*.md\"",
     "lint:package": "npmPkgJsonLint .",
     "lint:prune": "! ts-prune | grep -v \"used in module\"",
     "lint:style": "stylelint \"src/**/*.css\"",
-    "lint": "next lint  --max-warnings 0 --report-unused-disable-directives error",
     "prepare": "husky install",
-    "start": "next start"
+    "start": "next start",
+    "tsc": "tsc"
   },
   "version": "0.1.0"
 }

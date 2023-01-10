@@ -16,5 +16,5 @@
     "target": "ES2021"
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "src"]
+  "include": ["*.js", "next-env.d.ts", "src"]
 }
