@@ -7,12 +7,17 @@ import { Text } from "../Text";
 import styles from "./index.module.css";
 import { SponsorsArea } from "./SponsorsArea";
 
+export interface SponsorStacksListProps extends EventSponsors {
+  slug: string;
+}
+
 export function SponsorStacksList({
   complete,
   large,
   medium,
   small,
-}: EventSponsors) {
+  slug,
+}: SponsorStacksListProps) {
   const blurb = (
     <>
       <Text as="p">
@@ -25,7 +30,7 @@ export function SponsorStacksList({
       <RoundLink
         as={Link}
         className={styles.takeMeTop}
-        href="/spon"
+        href={`${slug}/spon`}
         variant="shadow"
       >
         Take me to the sponsors page
@@ -45,11 +50,17 @@ export function SponsorStacksList({
   return (
     <SponsorsArea title="Our Wonderful Sponsors">
       {complete?.length && (
-        <SponsorStack sponsors={complete} stack="complete" />
+        <SponsorStack slug={slug} sponsors={complete} stack="complete" />
       )}
-      {large?.length && <SponsorStack sponsors={large} stack="large" />}
-      {medium?.length && <SponsorStack sponsors={medium} stack="medium" />}
-      {small?.length && <SponsorStack sponsors={small} stack="small" />}
+      {large?.length && (
+        <SponsorStack slug={slug} sponsors={large} stack="large" />
+      )}
+      {medium?.length && (
+        <SponsorStack slug={slug} sponsors={medium} stack="medium" />
+      )}
+      {small?.length && (
+        <SponsorStack slug={slug} sponsors={small} stack="small" />
+      )}
 
       <Text as="div" className={styles.bottomText}>
         There are loads of great reasons to sponsor a HalfStack conference this
@@ -58,7 +69,7 @@ export function SponsorStacksList({
       <RoundLink
         as={Link}
         className={styles.takeMeBottom}
-        href="/spon"
+        href={`${slug}/spon`}
         variant="shadow"
       >
         Take me to the sponsors page

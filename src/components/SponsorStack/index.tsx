@@ -8,6 +8,7 @@ import { Text } from "../Text";
 import styles from "./index.module.css";
 
 export interface SponsorStackProps {
+  slug: string;
   sponsors: SponsorData[];
   stack: SponsorStackSize;
 }
@@ -37,7 +38,7 @@ const stylings = {
   },
 } as const;
 
-export function SponsorStack({ sponsors, stack }: SponsorStackProps) {
+export function SponsorStack({ slug, sponsors, stack }: SponsorStackProps) {
   const { areaClassName, buttonSize, label } = stylings[stack];
 
   return (
@@ -64,7 +65,7 @@ export function SponsorStack({ sponsors, stack }: SponsorStackProps) {
         ))}
         <Link
           className={clsx(styles.sponsor, styles.promo)}
-          href="/spon"
+          href={`${slug}/spon`}
           target="_blank"
         >
           <Text>Want to sponsor?</Text>

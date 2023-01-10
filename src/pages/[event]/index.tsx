@@ -95,7 +95,7 @@ export default function Event({
 
       <SessionsList sessions={sessions} />
 
-      {sponsors && <SponsorStacksList {...sponsors} />}
+      {sponsors && <SponsorStacksList {...sponsors} slug={slug} />}
 
       <FindUs geolocation={geolocation} slug={slug} />
 
