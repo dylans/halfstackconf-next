@@ -72,8 +72,6 @@ Thanks! 💖
 
 ### TODO
 
-- Set up `~/` tsconfig path prefixes
-- Add end-to-end test for accessibility
 - Add end-to-end test for console warnings
 - Add .env file setup for Google Maps API key
 - Switch background patterns and icons to SVGs, so we can use currentColor
