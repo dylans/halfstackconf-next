@@ -13,6 +13,11 @@
   padding: 0 1rem;
 }
 
+.recapColumn:only-child {
+  margin: 2rem 0 5rem;
+  text-align: center;
+}
+
 .eventsList {
   list-style-type: none;
   padding: 0;

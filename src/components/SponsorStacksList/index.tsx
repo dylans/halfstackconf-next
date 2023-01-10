@@ -33,16 +33,23 @@ export function SponsorStacksList({
     </>
   );
 
-  if (!complete.length && !large.length && !medium.length && !small.length) {
+  if (
+    !complete?.length &&
+    !large?.length &&
+    !medium?.length &&
+    !small?.length
+  ) {
     return <SponsorsArea title="Sponsoring HalfStack">{blurb}</SponsorsArea>;
   }
 
   return (
     <SponsorsArea title="Our Wonderful Sponsors">
-      <SponsorStack sponsors={complete} stack="complete" />
-      <SponsorStack sponsors={large} stack="large" />
-      <SponsorStack sponsors={medium} stack="medium" />
-      <SponsorStack sponsors={small} stack="small" />
+      {complete?.length && (
+        <SponsorStack sponsors={complete} stack="complete" />
+      )}
+      {large?.length && <SponsorStack sponsors={large} stack="large" />}
+      {medium?.length && <SponsorStack sponsors={medium} stack="medium" />}
+      {small?.length && <SponsorStack sponsors={small} stack="small" />}
 
       <Text as="div" className={styles.bottomText}>
         There are loads of great reasons to sponsor a HalfStack conference this
