@@ -57,7 +57,7 @@ export function EventFooter({ slug }: EventFooterProps) {
           </TextLink>
         </div>
         <div className={styles.ticketsLink}>
-          <RoundLink as="a" href="tickets" size="small">
+          <RoundLink as="a" href={`/${slug}/tickets`} size="small">
             Buy Tickets
           </RoundLink>
         </div>
