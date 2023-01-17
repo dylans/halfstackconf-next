@@ -3,6 +3,7 @@
     "@react-google-maps/api": "^2.13.1",
     "clsx": "^1.2.1",
     "next": "12.3.4",
+    "pnpm": "^7.25.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },

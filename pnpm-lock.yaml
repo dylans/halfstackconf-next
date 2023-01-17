@@ -22,6 +22,7 @@ specifiers:
   next: 12.3.4
   npm-package-json-lint: ^6.3.0
   npm-package-json-lint-config-default: ^5.0.0
+  pnpm: ^7.25.0
   prettier: ^2.7.1
   react: 18.2.0
   react-dom: 18.2.0
@@ -36,6 +37,7 @@ dependencies:
   '@react-google-maps/api': 2.13.1_biqbaboplfbrettd7655fr4n2y
   clsx: 1.2.1
   next: 12.3.4_biqbaboplfbrettd7655fr4n2y
+  pnpm: 7.25.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -2749,6 +2751,12 @@ packages:
     dependencies:
       irregular-plurals: 3.3.0
     dev: true
+
+  /pnpm/7.25.0:
+    resolution: {integrity: sha512-FGFQUON8kJ6ma39elJ8lyD8wPIfgp3opGJD9sX0TgIJk4zSr556qCgC8AN+3BFHe4yuRkEauf4JVLW2RKyyEcA==}
+    engines: {node: '>=14.6'}
+    hasBin: true
+    dev: false
 
   /postcss-media-query-parser/0.2.3:
     resolution: {integrity: sha512-3sOlxmbKcSHMjlUXQZKQ06jOswE7oVkXPxmZdoB1r5l0q6gTFTQSHxNxOrCccElbW7dxNytifNEo8qidX2Vsig==}
