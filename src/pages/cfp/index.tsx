@@ -72,6 +72,12 @@ export default function CFP() {
           Living Spec is in beta so please be patient if you run into any
           issues.
         </Text>
+
+        <Text as="p" className={styles.p}>
+          Also please be patient in general. We're a small team. Sometimes we respond
+          almost instantly, sometimes it takes us a couple of weeks as we're busy
+          preparing for the next event.
+        </Text>
       </BodyArea>
       <Footer />
     </>
