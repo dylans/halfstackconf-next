@@ -153,20 +153,20 @@
       },
       {
         "href": "https://nx.dev",
-        "src": "/logos/nx.svg",
-        "name": "Nx"
+        "name": "Nx",
+        "src": "/logos/nx.svg"
       },
       {
         "href": "https://www.wix.com/velo",
-        "src": "/logos/wix.svg",
-        "name": "Wix"
+        "name": "Wix",
+        "src": "/logos/wix.svg"
       }
     ],
     "large": [
       {
         "href": "https://wearedhd.com/",
-        "src": "/logos/dhd.svg",
-        "name": "DHD"
+        "name": "DHD",
+        "src": "/logos/dhd.svg"
       }
     ],
     "medium": [

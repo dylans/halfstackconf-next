@@ -10,46 +10,46 @@
   "geolocation": [50.4142037, -5.0839618],
   "location": "C-Space Newquay",
   "schedule": "HalfStack starts around 10am, includes approximately 8-10 sessions, breaks, lunch, dinner, and an interactive afterparty. Plan to arrive by 10am and stay late! We're also expecting to have fun at the beach on Saturday, so plan to stay the whole weekend! Sessions will be announced closer to the event.",
-  "sponsors":  {
+  "sponsors": {
     "complete": [
       {
         "href": "https://livingspec.com/",
-        "src": "/logos/livingspec.svg",
-        "name": "Living Spec"
+        "name": "Living Spec",
+        "src": "/logos/livingspec.svg"
       },
       {
         "href": "https://softwarecornwall.org/",
-        "src": "/logos/softwarecornwall.jpg",
-        "name": "Software Cornwall"
+        "name": "Software Cornwall",
+        "src": "/logos/softwarecornwall.jpg"
       },
       {
         "href": "https://salesforce.com/tech",
-        "src": "/logos/salesforce.svg",
-        "name": "Salesforce Engineering"
+        "name": "Salesforce Engineering",
+        "src": "/logos/salesforce.svg"
       },
       {
         "href": "https://wearedhd.com/",
-        "src": "/logos/dhd.svg",
-        "name": "DHD"
+        "name": "DHD",
+        "src": "/logos/dhd.svg"
       }
     ],
     "medium": [
       {
         "href": "https://www.mozilla.org/",
-        "src": "/logos/mozilla.svg",
-        "name": "Mozilla"
+        "name": "Mozilla",
+        "src": "/logos/mozilla.svg"
       }
     ],
     "small": [
       {
         "href": "https://ti.to",
-        "src": "/logos/tito.svg",
-        "name": "Tito"
+        "name": "Tito",
+        "src": "/logos/tito.svg"
       },
       {
         "href": "https://openjsf.org/",
-        "src": "/logos/openjsfoundation.svg",
-        "name": "Open JS Foundation"
+        "name": "Open JS Foundation",
+        "src": "/logos/openjsfoundation.svg"
       }
     ]
   },

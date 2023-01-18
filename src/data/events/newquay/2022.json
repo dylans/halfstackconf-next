@@ -233,76 +233,76 @@
       "title": "The Cats are Fighting Back"
     }
   ],
-  "sponsors":  {
+  "sponsors": {
     "complete": [
       {
         "href": "https://livingspec.com/",
-        "src": "/logos/livingspec.svg",
-        "name": "Living Spec"
+        "name": "Living Spec",
+        "src": "/logos/livingspec.svg"
       },
       {
         "href": "https://softwarecornwall.org/",
-        "src": "/logos/softwarecornwall.jpg",
-        "name": "Software Cornwall"
+        "name": "Software Cornwall",
+        "src": "/logos/softwarecornwall.jpg"
       },
       {
         "href": "https://salesforce.com/tech",
-        "src": "/logos/salesforce.svg",
-        "name": "Salesforce Engineering"
+        "name": "Salesforce Engineering",
+        "src": "/logos/salesforce.svg"
       },
       {
-        "name": "Twilio",
         "href": "https://twilio.com",
+        "name": "Twilio",
         "src": "/logos/twilio.svg"
       },
       {
-        "name": "BUOM!",
         "href": "https://buom.app",
+        "name": "BUOM!",
         "src": "/logos/buom.png"
       },
       {
         "href": "https://wearedhd.com/",
-        "src": "/logos/dhd.svg",
-        "name": "DHD"
+        "name": "DHD",
+        "src": "/logos/dhd.svg"
       }
     ],
     "medium": [
       {
         "href": "https://frontegg.com/?utm_source=halfstack_newquay_2022@utm_medium=event&utm_campaign=general",
-        "src": "/logos/frontegg.png",
-        "name": "Frontegg"
+        "name": "Frontegg",
+        "src": "/logos/frontegg.png"
       },
       {
         "href": "https://www.mozilla.org/",
-        "src": "/logos/mozilla.svg",
-        "name": "Mozilla"
+        "name": "Mozilla",
+        "src": "/logos/mozilla.svg"
       }
     ],
     "small": [
       {
         "href": "https://ti.to",
-        "src": "/logos/tito.svg",
-        "name": "Tito"
+        "name": "Tito",
+        "src": "/logos/tito.svg"
       },
       {
         "href": "https://oreilly.com/",
-        "src": "/logos/oreilly.svg",
-        "name": "O'Reilly"
+        "name": "O'Reilly",
+        "src": "/logos/oreilly.svg"
       },
       {
         "href": "https://www.benq.eu/en-uk/lamps/computer-desklamp/screenbar-halo.html?utm_source=halfstacknewquey&utm_medium=referral&utm_campaign=wtg_screenbar_na_inpersonevent_220701_hq_awareness&utm_content=0701_halfstacknewquey_exposure",
-        "src": "/logos/benq.png",
-        "name": "Benq"
+        "name": "Benq",
+        "src": "/logos/benq.png"
       },
       {
         "href": "http://stickermule.com/supports/halfstack20-sponsorship",
-        "src": "/logos/stickermule.svg",
-        "name": "Sticker Mule"
+        "name": "Sticker Mule",
+        "src": "/logos/stickermule.svg"
       },
       {
         "href": "https://openjsf.org/",
-        "src": "/logos/openjsfoundation.svg",
-        "name": "Open JS Foundation"
+        "name": "Open JS Foundation",
+        "src": "/logos/openjsfoundation.svg"
       }
     ]
   },
