@@ -115,6 +115,55 @@
         }
       ],
       "title": "TBD (Something ridiculous with obscure web APIs and robotics)"
+    },
+    {
+      "by": "Celeste Betancur",
+      "description": [
+        "Live coding is a new direction in electronic music and video. Live coders expose and rewire the innards of software while it generates improvised music and/or visuals. All code manipulation is projected for all to see. Live coding works across musical genres, and has been seen in concert halls, late-night jazz bars, as well as algoraves."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/essteb",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.instagram.com/essteb",
+          "icon": "instagram"
+        }
+      ],
+      "title": "Pandora's Dream: Audiovisual live coding performance in a multi-language platform"
+    },
+    {
+      "by": "Austin Gil",
+      "description": [
+        "A fanciful journey following your code from conception in the editor through the awkward build processes into deployment pipelines out to the real world of public internet and off to it's final destination, being rendered in a user's browser.",
+        "The internet has become a complex place. With the advent of frameworks, build tools, and deployment services, the distance between developers and browsers is growing. Developer Experience has improved, but with these abstractions, we've introduced layers of obscurity.",
+        "This talk is intended for people with any level of experience, as it fills the gaps in knowledge of how things work. The information is not critical to your work, but it's fascinating nonetheless.",
+        "We'll take a deep dive into what happens after you hit save, what processes take place to get your code transformed for production, how does it get deployed, how it gets to the user, and the steps the browser takes to actually render the page."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/heyAustinGil",
+          "icon": "twitter"
+        }
+      ],
+      "title": "What's a dev gotta do to make a div around here?"
+    },
+    {
+      "by": "Anthony Lusardi",
+      "description": ["To be revealed"],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Zack DeRose",
+      "description": ["To be revealed"],
+      "socials": [
+        {
+          "href": "https://twitter.com/zackderose",
+          "icon": "twitter"
+        }
+      ],
+      "title": "To be revealed"
     }
   ],
   "sponsors": {
