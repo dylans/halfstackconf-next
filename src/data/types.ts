@@ -36,7 +36,7 @@ export interface EventSocial {
 export interface EventSession {
   by: string;
   description?: string[];
-  socials: EventSocial[];
+  socials?: EventSocial[];
   title: string;
 }
 
