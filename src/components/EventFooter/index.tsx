@@ -11,7 +11,11 @@ import styles from "./index.module.css";
 
 const icons = [
   ["Facebook", facebookIconInverted, "https://www.facebook.com/halfstackconf/"],
-  ["Instagram", instagramIconInverted, "https://www.instagram.com/halfstack2022/"],
+  [
+    "Instagram",
+    instagramIconInverted,
+    "https://www.instagram.com/halfstack2022/",
+  ],
   ["Twitter", twitterIconInverted, "https://twitter.com/halfstackconf/"],
 ] as const;
 
