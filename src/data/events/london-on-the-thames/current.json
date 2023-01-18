@@ -180,84 +180,84 @@
     "complete": [
       {
         "href": "https://livingspec.com",
-        "src": "/logos/livingspec.svg",
-        "name": "Living Spec"
+        "name": "Living Spec",
+        "src": "/logos/livingspec.svg"
       },
       {
         "href": "https://twilio.com",
-        "src": "/logos/twilio.svg",
-        "name": "Twilio"
+        "name": "Twilio",
+        "src": "/logos/twilio.svg"
       },
       {
         "href": "https://buom.app",
-        "src": "/logos/buom.png",
-        "name": "BUOM"
+        "name": "BUOM",
+        "src": "/logos/buom.png"
       },
       {
         "href": "https://utopiamusic.com",
-        "src": "/logos/utopia.svg",
-        "name": "Utopia Music"
+        "name": "Utopia Music",
+        "src": "/logos/utopia.svg"
       },
       {
         "href": "https://salesforce.com/tech",
-        "src": "/logos/salesforce.svg",
-        "name": "Salesforce Engineering"
+        "name": "Salesforce Engineering",
+        "src": "/logos/salesforce.svg"
       }
     ],
     "large": [
       {
         "href": "https://cmdhq.io",
-        "src": "/logos/cmd.svg",
-        "name": "Cmd"
+        "name": "Cmd",
+        "src": "/logos/cmd.svg"
       },
       {
         "href": "https://beamery.com",
-        "src": "/logos/beamery.svg",
-        "name": "Beamery"
+        "name": "Beamery",
+        "src": "/logos/beamery.svg"
       },
       {
         "href": "https://modstreaming.com",
-        "src": "/logos/modstreaming.jpg",
-        "name": "Modstreaming"
+        "name": "Modstreaming",
+        "src": "/logos/modstreaming.jpg"
       }
     ],
     "medium": [
       {
         "href": "https://wearedhd.com",
-        "src": "/logos/dhd.svg",
-        "name": "DHD"
+        "name": "DHD",
+        "src": "/logos/dhd.svg"
       },
       {
         "href": "https://www.mozilla.org",
-        "src": "/logos/mozilla.svg",
-        "name": "Mozilla"
+        "name": "Mozilla",
+        "src": "/logos/mozilla.svg"
       }
     ],
     "small": [
       {
         "href": "https://orangejellyfish.com",
-        "src": "/logos/orangejellyfish.svg",
-        "name": "Orange Jellyfish"
+        "name": "Orange Jellyfish",
+        "src": "/logos/orangejellyfish.svg"
       },
       {
         "href": "https://openjsf.org",
-        "src": "/logos/openjsfoundation.svg",
-        "name": "OpenJS Foundation"
+        "name": "OpenJS Foundation",
+        "src": "/logos/openjsfoundation.svg"
       },
       {
         "href": "https://mule.to/p38d",
-        "src": "/logos/stickermule.svg",
-        "name": "Sticker Mule"
+        "name": "Sticker Mule",
+        "src": "/logos/stickermule.svg"
       },
       {
         "href": "https://ti.to",
-        "src": "/logos/tito.svg",
-        "name": "Tito"
+        "name": "Tito",
+        "src": "/logos/tito.svg"
       },
       {
         "href": "http://codebar.io",
-        "src": "/logos/codebar.svg",
-        "name": "codebar"
+        "name": "codebar",
+        "src": "/logos/codebar.svg"
       }
     ]
   },

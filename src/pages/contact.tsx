@@ -1,9 +1,9 @@
 import Head from "next/head";
 
-import { BodyArea } from "../components/BodyArea";
-import { Footer } from "../components/Footer";
-import { Header } from "../components/Header";
-import { Text } from "../components/Text";
+import { BodyArea } from "~/components/BodyArea";
+import { Footer } from "~/components/Footer";
+import { Header } from "~/components/Header";
+import { Text } from "~/components/Text";
 
 export default function Contact() {
   return (

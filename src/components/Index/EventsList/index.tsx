@@ -1,4 +1,5 @@
-import { EventDataJoined } from "../../../data/types";
+import { EventDataJoined } from "~/data/types";
+
 import { EventCard } from "../../EventCard";
 import { EventTheme } from "../../EventTheme";
 import styles from "./index.module.css";

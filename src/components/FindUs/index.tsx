@@ -1,7 +1,8 @@
 import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
 import { useCallback, useMemo } from "react";
 
-import { EventGeoLocation } from "../../data/types";
+import { EventGeoLocation } from "~/data/types";
+
 import { Text } from "../Text";
 import { createMapOptions } from "./createMapOptions";
 import styles from "./index.module.css";

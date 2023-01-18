@@ -1,20 +1,21 @@
 import Image from "next/future/image";
 import Head from "next/head";
 
-import { Anchor } from "../../components/Anchor";
-import { Banner } from "../../components/Banner";
-import { BannerText } from "../../components/BannerText";
-import { EventFooter } from "../../components/EventFooter";
-import { EventHeader } from "../../components/EventHeader";
-import { EventSummary } from "../../components/EventSummary";
-import { EventTheme } from "../../components/EventTheme";
-import { ExpectationPhotos } from "../../components/ExpectationPhotos";
-import { FindUs } from "../../components/FindUs";
-import { SecondaryBanner } from "../../components/SecondaryBanner";
-import { SessionsList } from "../../components/SessionsList";
-import { SplitPromo } from "../../components/SplitPromo";
-import { SponsorStacksList } from "../../components/SponsorStacksList";
-import { Text } from "../../components/Text";
+import { Anchor } from "~/components/Anchor";
+import { Banner } from "~/components/Banner";
+import { BannerText } from "~/components/BannerText";
+import { EventFooter } from "~/components/EventFooter";
+import { EventHeader } from "~/components/EventHeader";
+import { EventSummary } from "~/components/EventSummary";
+import { EventTheme } from "~/components/EventTheme";
+import { ExpectationPhotos } from "~/components/ExpectationPhotos";
+import { FindUs } from "~/components/FindUs";
+import { SecondaryBanner } from "~/components/SecondaryBanner";
+import { SessionsList } from "~/components/SessionsList";
+import { SplitPromo } from "~/components/SplitPromo";
+import { SponsorStacksList } from "~/components/SponsorStacksList";
+import { Text } from "~/components/Text";
+
 import { getEventDataCurrentAndDefault, getEvents } from "../../data";
 import { ReturnedParams, ReturnedProps } from "../../utils";
 import styles from "./index.module.css";

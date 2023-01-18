@@ -118,16 +118,38 @@
     }
   ],
   "sponsors": {
+    "community": [
+      {
+        "href": "https://www.meetup.com/Phoenix-TypeScript/",
+        "name": "PHX TS",
+        "src": "/logos/phxts.svg"
+      },
+      {
+        "href": "https://www.meetup.com/Phoenix-JavaScript/",
+        "name": "PHX JS",
+        "src": "/logos/phxjs.svg"
+      },
+      {
+        "href": "https://oct2023.desertcodecamp.com/home",
+        "name": "Desert Code Camp",
+        "src": "/logos/desertcodecamp.png"
+      },
+      {
+        "href": "https://www.thecoderschool.com/locations/gilbert/",
+        "name": "theCoderSchool Gilbert",
+        "src": "/logos/thecoderschool.png"
+      }
+    ],
     "complete": [
       {
         "href": "https://livingspec.com/",
-        "src": "/logos/livingspec.svg",
-        "name": "Living Spec"
+        "name": "Living Spec",
+        "src": "/logos/livingspec.svg"
       },
       {
         "href": "https://salesforce.com/tech",
-        "src": "/logos/salesforce.svg",
-        "name": "Salesforce Engineering"
+        "name": "Salesforce Engineering",
+        "src": "/logos/salesforce.svg"
       },
       {
         "href": "https://nx.dev",
@@ -150,67 +172,45 @@
     "medium": [
       {
         "href": "https://www.salesbricks.com/",
-        "src": "/logos/salesbricks.svg",
-        "name": "Salesbricks"
+        "name": "Salesbricks",
+        "src": "/logos/salesbricks.svg"
       },
       {
         "href": "https://interval.com/",
-        "src": "/logos/interval.png",
-        "name": "Interval"
+        "name": "Interval",
+        "src": "/logos/interval.png"
       },
       {
         "href": "https://iceddev.com/",
-        "src": "/logos/iceddev.svg",
-        "name": "Iced.dev"
+        "name": "Iced.dev",
+        "src": "/logos/iceddev.svg"
       },
       {
         "href": "https://www.mozilla.org/",
-        "src": "/logos/mozilla.svg",
-        "name": "Mozilla"
+        "name": "Mozilla",
+        "src": "/logos/mozilla.svg"
       }
     ],
     "small": [
       {
         "href": "https://dolby.io",
-        "src": "/logos/dolbyio.png",
-        "name": "Dolby.io"
+        "name": "Dolby.io",
+        "src": "/logos/dolbyio.png"
       },
       {
         "href": "https://ti.to",
-        "src": "/logos/tito.svg",
-        "name": "Tito"
+        "name": "Tito",
+        "src": "/logos/tito.svg"
       },
       {
         "href": "http://codebar.io",
-        "src": "/logos/codebar.svg",
-        "name": "codebar"
+        "name": "codebar",
+        "src": "/logos/codebar.svg"
       },
       {
         "href": "https://openjsf.org/",
-        "src": "/logos/openjsfoundation.svg",
-        "name": "Open JS Foundation"
-      }
-    ],
-    "community": [
-      {
-        "href": "https://www.meetup.com/Phoenix-TypeScript/",
-        "src": "/logos/phxts.svg",
-        "name": "PHX TS"
-      },
-      {
-        "href": "https://www.meetup.com/Phoenix-JavaScript/",
-        "src": "/logos/phxjs.svg",
-        "name": "PHX JS"
-      },
-      {
-        "href": "https://oct2023.desertcodecamp.com/home",
-        "src": "/logos/desertcodecamp.png",
-        "name": "Desert Code Camp"
-      },
-      {
-        "href": "https://www.thecoderschool.com/locations/gilbert/",
-        "src": "/logos/thecoderschool.png",
-        "name": "theCoderSchool Gilbert"
+        "name": "Open JS Foundation",
+        "src": "/logos/openjsfoundation.svg"
       }
     ]
   },

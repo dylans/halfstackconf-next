@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-import { EventSponsors } from "../../data/types";
+import { EventSponsors } from "~/data/types";
+
 import { RoundLink } from "../RoundLink";
 import { SponsorStack } from "../SponsorStack";
 import { Text } from "../Text";
@@ -8,7 +9,7 @@ import styles from "./index.module.css";
 import { SponsorsArea } from "./SponsorsArea";
 
 export interface SponsorStacksListProps extends EventSponsors {
-  slug: string;
+  slug?: string;
 }
 
 export function SponsorStacksList({
@@ -18,6 +19,7 @@ export function SponsorStacksList({
   small,
   slug,
 }: SponsorStacksListProps) {
+  const href = slug ? `${slug}/spon` : "/spon";
   const blurb = (
     <>
       <Text as="p">
@@ -30,7 +32,7 @@ export function SponsorStacksList({
       <RoundLink
         as={Link}
         className={styles.takeMeTop}
-        href={`${slug}/spon`}
+        href={href}
         variant="shadow"
       >
         Take me to the sponsors page
@@ -69,7 +71,7 @@ export function SponsorStacksList({
       <RoundLink
         as={Link}
         className={styles.takeMeBottom}
-        href={`${slug}/spon`}
+        href={href}
         variant="shadow"
       >
         Take me to the sponsors page

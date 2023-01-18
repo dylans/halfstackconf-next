@@ -1,11 +1,11 @@
 import Head from "next/head";
 import React from "react";
 
-import { BodyArea } from "../../components/BodyArea";
-import { FAQsList } from "../../components/FAQs";
-import { Footer } from "../../components/Footer";
-import { Header } from "../../components/Header";
-import { Text } from "../../components/Text";
+import { BodyArea } from "~/components/BodyArea";
+import { FAQsList } from "~/components/FAQs";
+import { Footer } from "~/components/Footer";
+import { Header } from "~/components/Header";
+import { Text } from "~/components/Text";
 
 const faqs: [string, React.ReactNode][] = [
   [
@@ -37,8 +37,8 @@ const faqs: [string, React.ReactNode][] = [
       <br />
       <br />
       COVID-19 refund policy: Full refunds are available up to 7 days prior to a
-      scheduled in-person event. If you wake up ill, stay home and we&apos;ll credit
-      you with a ticket for a future event.
+      scheduled in-person event. If you wake up ill, stay home and we&apos;ll
+      credit you with a ticket for a future event.
     </>,
   ],
 ];

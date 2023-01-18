@@ -1,6 +1,7 @@
 import clsx from "clsx";
 
-import { EventSession } from "../../data/types";
+import { EventSession } from "~/data/types";
+
 import { BodyArea } from "../BodyArea";
 import { SessionCard } from "../SessionCard";
 import { Text } from "../Text";

@@ -21,89 +21,89 @@
     "complete": [
       {
         "href": "https://www.eventhandler.co.il",
-        "src": "/logos/eventhandler.svg",
-        "name": "EventHandler"
+        "name": "EventHandler",
+        "src": "/logos/eventhandler.svg"
       },
       {
         "href": "https://salesforce.com/tech",
-        "src": "/logos/salesforce.svg",
-        "name": "Salesforce Engineering"
+        "name": "Salesforce Engineering",
+        "src": "/logos/salesforce.svg"
       }
     ],
     "large": [
       {
         "href": "https://www.wix.engineering",
-        "src": "/logos/wixengineering.svg",
-        "name": "Wix Engineering"
+        "name": "Wix Engineering",
+        "src": "/logos/wixengineering.svg"
       }
     ],
     "medium": [
       {
         "href": "https://wearedhd.com",
-        "src": "/logos/dhd.svg",
-        "name": "DHD"
+        "name": "DHD",
+        "src": "/logos/dhd.svg"
       },
       {
         "href": "https://www.mozilla.org",
-        "src": "/logos/mozilla.svg",
-        "name": "Mozilla"
+        "name": "Mozilla",
+        "src": "/logos/mozilla.svg"
       }
     ],
     "small": [
       {
         "href": "https://balsamiq.com",
-        "src": "/logos/balsamiq.svg",
-        "name": "Balsamiq"
+        "name": "Balsamiq",
+        "src": "/logos/balsamiq.svg"
       },
       {
         "href": "https://snyk.io",
-        "src": "/logos/snyk.svg",
-        "name": "Snyk"
+        "name": "Snyk",
+        "src": "/logos/snyk.svg"
       },
       {
         "href": "https://ti.to",
-        "src": "/logos/tito.svg",
-        "name": "Tito"
+        "name": "Tito",
+        "src": "/logos/tito.svg"
       },
       {
         "href": "https://openjsf.org",
-        "src": "/logos/openjsfoundation.svg",
-        "name": "Open JS Foundation"
+        "name": "Open JS Foundation",
+        "src": "/logos/openjsfoundation.svg"
       },
       {
         "href": "http://bit.ly/2wfP2Ps",
-        "src": "/logos/qconlondon.jpg",
-        "name": "Qcon London"
+        "name": "Qcon London",
+        "src": "/logos/qconlondon.jpg"
       },
       {
         "href": "https://graphql-finland.fi",
-        "src": "/logos/graphqlFinland.svg",
-        "name": "Graphhql Finland"
+        "name": "Graphhql Finland",
+        "src": "/logos/graphqlFinland.svg"
       },
       {
         "href": "https://infoq.com",
-        "src": "/logos/infoq.jpg",
-        "name": "InfoQ"
+        "name": "InfoQ",
+        "src": "/logos/infoq.jpg"
       },
       {
         "href": "https://www.meetup.com/Hodash-Dev",
-        "src": "/logos/hodash.png",
-        "name": "Hodash Dev"
+        "name": "Hodash Dev",
+        "src": "/logos/hodash.png"
       },
       {
         "href": "https://www.jsisrael.com",
-        "src": "/logos/javascriptisrael.svg",
-        "name": "JavaScript Israel"
+        "name": "JavaScript Israel",
+        "src": "/logos/javascriptisrael.svg"
       },
       {
         "href": "https://reactgraphql.academy",
-        "src": "/logos/reactgraphqlacademy.svg",
-        "name": "React GraphQL Academy"
+        "name": "React GraphQL Academy",
+        "src": "/logos/reactgraphqlacademy.svg"
       },
       {
         "href": "https://manning.com",
-        "src": "/logos/manning.svg",
-        "name": "Manning Publications"
+        "name": "Manning Publications",
+        "src": "/logos/manning.svg"
       }
     ]
   },

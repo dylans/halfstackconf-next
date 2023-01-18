@@ -21,13 +21,13 @@
     "complete": [
       {
         "href": "https://livingspec.com",
-        "src": "/logos/livingspec.svg",
-        "name": "Living Spec"
+        "name": "Living Spec",
+        "src": "/logos/livingspec.svg"
       },
       {
         "href": "https://www.lowes.com",
-        "src": "/logos/lowes.svg",
-        "name": "Lowe's"
+        "name": "Lowe's",
+        "src": "/logos/lowes.svg"
       },
       {
         "href": "https://www.wix.com/velo",
@@ -38,52 +38,52 @@
     "large": [
       {
         "href": "https://www.mark43.com",
-        "src": "/logos/mark43.svg",
-        "name": "Mark43"
+        "name": "Mark43",
+        "src": "/logos/mark43.svg"
       },
       {
         "href": "https://induro.io/",
-        "src": "/logos/induro.svg",
-        "name": "Induro"
+        "name": "Induro",
+        "src": "/logos/induro.svg"
       },
       {
         "href": "https://modstreaming.com",
-        "src": "/logos/modstreaming.jpg",
-        "name": "Modstreaming"
+        "name": "Modstreaming",
+        "src": "/logos/modstreaming.jpg"
       }
     ],
     "medium": [
       {
         "href": "https://wearedhd.com",
-        "src": "/logos/dhd.svg",
-        "name": "DHD"
+        "name": "DHD",
+        "src": "/logos/dhd.svg"
       }
     ],
     "small": [
       {
         "href": "https://ti.to/",
-        "src": "/logos/tito.svg",
-        "name": "Tito"
+        "name": "Tito",
+        "src": "/logos/tito.svg"
       },
       {
         "href": "https://www.oddbird.net",
-        "src": "/logos/oddbird.svg",
-        "name": "OddBird"
+        "name": "OddBird",
+        "src": "/logos/oddbird.svg"
       },
       {
         "href": "https://www.mozilla.org/",
-        "src": "/logos/mozilla.svg",
-        "name": "Mozilla"
+        "name": "Mozilla",
+        "src": "/logos/mozilla.svg"
       },
       {
         "href": "https://sigconsult.com",
-        "src": "/logos/sigconsult.svg",
-        "name": "Signature Consultants"
+        "name": "Signature Consultants",
+        "src": "/logos/sigconsult.svg"
       },
       {
         "href": "https://openjsf.org/",
-        "src": "/logos/openjsfoundation.svg",
-        "name": "Open JS Foundation"
+        "name": "Open JS Foundation",
+        "src": "/logos/openjsfoundation.svg"
       }
     ]
   },
