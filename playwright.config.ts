@@ -23,6 +23,7 @@ export default {
   outputDir: "test-results/",
   webServer: {
     command: "pnpm dev",
+    reuseExistingServer: true,
     port: 3000,
   },
 } satisfies PlaywrightTestConfig;
