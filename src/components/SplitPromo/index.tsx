@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import Image from "next/future/image";
+import Image from "next/image";
 
 import { Columns } from "../Columns";
 import { Text } from "../Text";

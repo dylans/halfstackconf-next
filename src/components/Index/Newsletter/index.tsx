@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 
 import { Text } from "../../Text";
 import checkButton from "./assets/checkButton.png";
