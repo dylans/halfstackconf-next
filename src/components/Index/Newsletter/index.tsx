@@ -20,7 +20,6 @@ export function Newsletter() {
           method="post"
           noValidate
           target="_blank"
-          title="Subscribe to HalfStack"
         >
           <div className={styles.nameArea}>
             <Text
@@ -36,6 +35,7 @@ export function Newsletter() {
               as="input"
               className={styles.input}
               fontSize="medium"
+              id="FNAME"
               name="FNAME"
               type="text"
             />
@@ -54,6 +54,7 @@ export function Newsletter() {
               as="input"
               className={styles.input}
               fontSize="medium"
+              id="EMAIL"
               name="EMAIL"
               type="email"
             />
