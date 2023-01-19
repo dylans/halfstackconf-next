@@ -20,6 +20,7 @@ export function Newsletter() {
           method="post"
           noValidate
           target="_blank"
+          title="Subscribe to HalfStack"
         >
           <div className={styles.nameArea}>
             <Text
