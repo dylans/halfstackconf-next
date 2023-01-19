@@ -156,14 +156,19 @@
     },
     {
       "by": "Zack DeRose",
-      "description": ["To be revealed"],
+      "description": [
+        "When Neo asks Morpheus “What is the Matrix?“, Morpheus’ response is: “Control”.",
+        "The JavaScript community has taken this to heart, what better way to take control than by creating your own framework or stack?",
+        "The only problem is, there’s simply not enough of them. So we’ll take a look at what it would take to create a stack-creation framework to help you make your own stack!",
+        "We’ll quickly review the tools necessary for creating a stack (like code-generation scripts and coordinated task-running) to make everything expected/required for your stack and also discuss some of the practical and impractical applications, to make sure that we can control our Matrix before it controls us!"
+      ],
       "socials": [
         {
           "href": "https://twitter.com/zackderose",
           "icon": "twitter"
         }
       ],
-      "title": "To be revealed"
+      "title": "Take Control By Creating The [Your Name Here]-Stack"
     }
   ],
   "sponsors": {
