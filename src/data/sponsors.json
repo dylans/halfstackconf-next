@@ -26,6 +26,12 @@
       "name": "Salesforce",
       "src": "/logos/salesforce.svg"
     },
+    { "href": "https://nx.dev/", "name": "Nx", "src": "/logos/nx.svg" },
+    {
+      "href": "https://www.wix.com",
+      "name": "Wix",
+      "src": "/logos/wix.svg"
+    },
     {
       "href": "https://orangejellyfish.com",
       "name": "Orange Jellyfish",
@@ -81,11 +87,6 @@
       "href": "https://sitepen.com",
       "name": "sitepen App Dev Team",
       "src": "/logos/sitepen.svg"
-    },
-    {
-      "href": "https://wix.com/corvid",
-      "name": "Corvid by Wix",
-      "src": "/logos/corvid.svg"
     }
   ],
   "large": [
@@ -130,7 +131,6 @@
       "name": "TEKsystems",
       "src": "/logos/teksystems.svg"
     },
-    { "href": "https://nrwl.io", "name": "Nrwl", "src": "/logos/nrwl.svg" },
     {
       "href": "https://www.mark43.com",
       "name": "Mark43",
@@ -150,11 +150,6 @@
       "href": "http://talkscript.fm",
       "name": "TalkScript",
       "src": "/logos/talkscript.svg"
-    },
-    {
-      "href": "https://www.wix",
-      "name": "Wix Engineering",
-      "src": "/logos/wixengineering.svg"
     },
     { "href": "https://auth0.com", "name": "Auth0", "src": "/logos/auth0.svg" }
   ],

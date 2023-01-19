@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 
 import { sponsorshipForm } from "../../urls";
 import { BodyArea } from "../BodyArea";

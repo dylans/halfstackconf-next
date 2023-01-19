@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import Image from "next/future/image";
+import Image from "next/image";
 
 import whatToExpect1 from "./assets/whatToExpect1.jpg";
 import whatToExpect2 from "./assets/whatToExpect2.jpg";

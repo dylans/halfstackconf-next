@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import Image from "next/future/image";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
@@ -95,23 +95,25 @@ export function SessionCard({
               )}
             </Text>
           </details>
-          <div className={styles.socialLinks}>
-            {socials.map(({ icon, href }) => (
-              <Link
-                className={styles.socialLink}
-                href={href}
-                key={href}
-                target="_blank"
-              >
-                <Image
-                  alt={`${by}'s ${icon}`}
-                  height={32}
-                  src={`/icons/${icon}.png`}
-                  width={32}
-                />
-              </Link>
-            ))}
-          </div>
+          {socials && (
+            <div className={styles.socialLinks}>
+              {socials.map(({ icon, href }) => (
+                <Link
+                  className={styles.socialLink}
+                  href={href}
+                  key={href}
+                  target="_blank"
+                >
+                  <Image
+                    alt={`${by}'s ${icon}`}
+                    height={32}
+                    src={`/icons/${icon}.png`}
+                    width={32}
+                  />
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
       </Card>
     </div>
