@@ -3,15 +3,8 @@ import { expect, test } from "@playwright/test";
 
 test("Index", async ({ page }) => {
   await page.goto("/");
+
   const results = await new AxeBuilder({ page }).analyze();
-
-  if (!results.violations.length) {
-    return;
-  }
-
-  for (const violation of results.violations) {
-    console.error();
-  }
 
   expect(
     results.violations.length,
