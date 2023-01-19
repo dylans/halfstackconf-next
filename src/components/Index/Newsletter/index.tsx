@@ -35,6 +35,7 @@ export function Newsletter() {
               as="input"
               className={styles.input}
               fontSize="medium"
+              id="FNAME"
               name="FNAME"
               type="text"
             />
@@ -53,6 +54,7 @@ export function Newsletter() {
               as="input"
               className={styles.input}
               fontSize="medium"
+              id="EMAIL"
               name="EMAIL"
               type="email"
             />

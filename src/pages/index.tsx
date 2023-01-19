@@ -21,11 +21,13 @@ export default function Index({
         <title>HalfStack | Open Web Conferences</title>
       </Head>
       <Header />
-      <Intro />
-      <EventsList events={events} />
-      <ExpectationPhotos />
-      <Newsletter />
-      <SponsorStacksList {...sponsors} />;
+      <main>
+        <Intro />
+        <EventsList events={events} />
+        <ExpectationPhotos />
+        <Newsletter />
+        <SponsorStacksList {...sponsors} />;
+      </main>
       <Footer />
     </>
   );
