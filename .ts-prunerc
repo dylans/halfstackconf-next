@@ -1,4 +1,4 @@
 {
   "error": true,
-  "ignore": "src/pages"
+  "ignore": "src/pages|playwright.config.ts"
 }
