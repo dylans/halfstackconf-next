@@ -15,6 +15,14 @@ module.exports = {
         "plugin:@typescript-eslint/strict",
       ],
       files: ["**/*.{ts,tsx}"],
+      rules: {
+        "@typescript-eslint/restrict-template-expressions": [
+          "error",
+          {
+            allowNullish: true,
+          },
+        ],
+      },
     },
     {
       files: "*.json",
