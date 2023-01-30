@@ -106,7 +106,8 @@
     {
       "by": "Luis Montes",
       "description": [
-        "Luis has delighted us in the past with practical sessions like a banjo playing skeleton robot controlled via Web Bluetooth because why not. Details for this session will be announced soon"
+        "Atwood's law tells us that 'Any application that can be written in JavaScript, will eventually be written in JavaScript.'",
+        "We'll take that concept a bit further and creatively push the limits of the web platform and explore a few areas that could be better."
       ],
       "socials": [
         {
@@ -114,7 +115,7 @@
           "icon": "twitter"
         }
       ],
-      "title": "TBD (Something ridiculous with obscure web APIs and robotics)"
+      "title": "That is the sound of inevitability"
     },
     {
       "by": "Celeste Betancur",
