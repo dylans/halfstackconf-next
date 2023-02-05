@@ -32,6 +32,16 @@ export default function CFP() {
         </Text>
 
         <Text as="p" className={styles.p}>
+          Note that being a speaker/performer at HalfStack is not just about
+          showing up for your session and then departing. The value to you and
+          the audience is being part of the full event, being available to
+          participate in the speaker dinner, all of the sessions, and the
+          afterparty. We understand that things might come up unexpectedly, but
+          you should not propose a session if you do not expect to be present
+          for the entire event.
+        </Text>
+
+        <Text as="p" className={styles.p}>
           The new approach is open-ended, with no formal deadlines or
           guidelines. You simply create a Living Spec document, add the details
           you feel are relevant (please limit to two session ideas), share your
