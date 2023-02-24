@@ -20,6 +20,7 @@ html {
   --color-dark: #2f2d2e;
   --color-dark-medium: #595758;
   --color-emphasis: #d72027;
+  --color-primary-light: #536fa2;
   --color-primary: #2e4b9f;
   --color-primary-dark: #273a70;
   --color-text: var(--color-primary);
