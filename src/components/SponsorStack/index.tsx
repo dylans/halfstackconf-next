@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 
 import { SponsorData } from "~/data/types";
@@ -58,9 +58,9 @@ export function SponsorStack({ slug, sponsors, stack }: SponsorStackProps) {
             <Image
               alt={name}
               className={styles.logo}
-              layout="fill"
-              sizes="100%"
               src={src}
+              fill
+              sizes="100%"
             />
           </Link>
         ))}

@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 import { Text } from "../../Text";
 import checkButton from "./assets/checkButton.png";
@@ -63,8 +63,12 @@ export function Newsletter() {
             <Image
               alt="Submit"
               className={styles.submitIcon}
-              sizes="3.5rem"
               src={checkButton}
+              sizes="3.5rem"
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+              }}
             />
           </button>
         </form>

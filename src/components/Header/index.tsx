@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -44,7 +44,15 @@ export function Header({
     <header className={clsx(styles.header, className)}>
       <div className={styles.contents}>
         <Link href="/">
-          <Image alt="HalfStack" className={styles.logo} src={logo} />
+          <Image
+            alt="HalfStack"
+            className={styles.logo}
+            src={logo}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
+          />
         </Link>
         <nav className={styles.links}>
           {links.map(([children, href]) => (

@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 
 import { CopyrightFooter } from "../CopyrightFooter";
@@ -45,8 +45,12 @@ export function Footer() {
             <Image
               alt={`${alt} cityscape`}
               className={styles.cityscapeImage}
-              sizes="10vw"
               src={src}
+              sizes="10vw"
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+              }}
             />
           </Link>
         ))}
@@ -60,7 +64,15 @@ export function Footer() {
             rel="noreferrer"
             target="_blank"
           >
-            <Image alt={`${alt} logo`} className={styles.icon} src={src} />
+            <Image
+              alt={`${alt} logo`}
+              className={styles.icon}
+              src={src}
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+              }}
+            />
           </a>
         ))}
       </div>

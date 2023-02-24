@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 import { BodyArea } from "../BodyArea";
 import { CopyrightFooter } from "../CopyrightFooter";
@@ -33,6 +33,10 @@ export function EventFooter({ slug }: EventFooterProps) {
           height={150}
           src={`/events/${slug}/skyline.png`}
           width={350}
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+          }}
         />
       </div>
       <BodyArea className={styles.contents}>
@@ -45,7 +49,15 @@ export function EventFooter({ slug }: EventFooterProps) {
               rel="noreferrer"
               target="_blank"
             >
-              <Image alt={`${alt} logo`} className={styles.icon} src={src} />
+              <Image
+                alt={`${alt} logo`}
+                className={styles.icon}
+                src={src}
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
+              />
             </a>
           ))}
         </div>

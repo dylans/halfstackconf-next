@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 import { sponsorshipForm } from "../../urls";
 import { BodyArea } from "../BodyArea";
@@ -37,16 +37,18 @@ export const SponsorshipExpectations = ({
               <Image
                 alt="Two conference speakers with dog masks on"
                 className={styles.photo}
-                layout="fill"
                 src={whatToExpect1}
+                fill
+                sizes="100vw"
               />
             </div>
             <div className={styles.photoArea}>
               <Image
                 alt="Three smiling conference attendees with VR headsets on"
                 className={styles.photo}
-                layout="fill"
                 src={whatToExpect2}
+                fill
+                sizes="100vw"
               />
             </div>
           </div>

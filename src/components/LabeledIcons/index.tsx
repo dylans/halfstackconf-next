@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 import { Columns } from "../Columns";
 import { Text } from "../Text";
@@ -26,6 +26,10 @@ export function LabeledIcons({ className, icons }: LabeledIconsProps) {
             height={110}
             src={icon}
             width={110}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
           />
           <Text as="div" className={styles.label}>
             {label}

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 import { Anchor } from "~/components/Anchor";
 import { Banner } from "~/components/Banner";
@@ -47,8 +47,9 @@ export default function Event({
             <Image
               alt=""
               className={styles.bannerImage}
-              layout="fill"
               src={`/events/${slug}/skyline.png`}
+              fill
+              sizes="100vw"
             />
           </div>
           {name}

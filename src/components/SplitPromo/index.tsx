@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 import { Columns } from "../Columns";
 import { Text } from "../Text";
@@ -15,7 +15,16 @@ export function SplitPromo({ className, description, src }: SplitPromoProps) {
   return (
     <Columns className={clsx(styles.splitPromo, className)}>
       <div className={styles.imageArea}>
-        <Image alt="" className={styles.image} fill src={src} />
+        <Image
+          alt=""
+          className={styles.image}
+          fill
+          src={src}
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+          }}
+        />
       </div>
       <div className={styles.description}>
         {description.map((child) => (

@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 import { BodyArea } from "../BodyArea";
 import { InvertedArea } from "../InvertedArea";
@@ -65,7 +65,16 @@ export const SponsorshipPackages = ({
     <InvertedArea className={styles.sponsorshipPackages}>
       <BodyArea>
         <Text as="h2" className={styles.h2} fontSize="extra-large">
-          <Image alt="" height={96} src="/icons/gift.png" width={96} />
+          <Image
+            alt=""
+            height={96}
+            src="/icons/gift.png"
+            width={96}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
+          />
           Packages
         </Text>
         <div className={styles.contents}>
