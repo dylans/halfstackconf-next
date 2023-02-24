@@ -1,6 +1,7 @@
 .banner {
   font-weight: bold;
   letter-spacing: 0.05em;
+  overflow: hidden;
   position: relative;
   text-shadow: var(--box-shadow-dark);
 
