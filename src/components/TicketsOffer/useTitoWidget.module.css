@@ -1,5 +1,12 @@
 /* stylelint-disable */
-.titoWidget,
-.titoWidget :global(.tito-widget) {
+.titoWidget {
   height: 100%;
+}
+
+.titoWidget :global(.tito-widget) * {
+  color: var(--color-primary);
+}
+
+.titoWidget :global(.tito-widget .tito-submit) {
+  background: var(--color-primary);
 }

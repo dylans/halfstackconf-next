@@ -28,7 +28,7 @@ export function useTitoWidget(event: string) {
 
     const script = document.createElement("script");
     script.setAttribute("async", "async");
-    script.setAttribute("src", "https://js.tito.io/v2");
+    script.setAttribute("src", "https://js.tito.io/v2/with/inline");
     script.addEventListener("load", () => {
       setLoaded(true);
     });
@@ -36,9 +36,13 @@ export function useTitoWidget(event: string) {
     added = true;
   }, []);
 
-  return loaded ? (
-    <tito-widget className={styles.titoWidget} event={event}></tito-widget>
-  ) : (
-    <div>loading...</div>
+  return (
+    <div className={styles.titoWidget}>
+      {loaded ? (
+        <tito-widget event={event}></tito-widget>
+      ) : (
+        <div>loading...</div>
+      )}
+    </div>
   );
 }
