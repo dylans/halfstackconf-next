@@ -11,16 +11,7 @@ export function TintedImage({ className, src }: TintedImageProps) {
   return (
     <div className={className}>
       <div className={styles.overlay} />
-      <Image
-        alt=""
-        className={styles.image}
-        fill
-        src={src}
-        style={{
-          maxWidth: "100%",
-          height: "auto",
-        }}
-      />
+      <Image alt="" className={styles.image} fill src={src} />
     </div>
   );
 }

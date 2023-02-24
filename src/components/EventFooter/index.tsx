@@ -32,10 +32,6 @@ export function EventFooter({ slug }: EventFooterProps) {
           className={styles.cityscapeImage}
           height={150}
           src={`/events/${slug}/skyline.png`}
-          style={{
-            maxWidth: "100%",
-            height: "auto",
-          }}
           width={350}
         />
       </div>
@@ -49,15 +45,7 @@ export function EventFooter({ slug }: EventFooterProps) {
               rel="noreferrer"
               target="_blank"
             >
-              <Image
-                alt={`${alt} logo`}
-                className={styles.icon}
-                src={src}
-                style={{
-                  maxWidth: "100%",
-                  height: "auto",
-                }}
-              />
+              <Image alt={`${alt} logo`} className={styles.icon} src={src} />
             </a>
           ))}
         </div>
