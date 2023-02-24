@@ -25,11 +25,11 @@ export function LabeledIcons({ className, icons }: LabeledIconsProps) {
             className={styles.icon}
             height={110}
             src={icon}
-            width={110}
             style={{
               maxWidth: "100%",
               height: "auto",
             }}
+            width={110}
           />
           <Text as="div" className={styles.label}>
             {label}

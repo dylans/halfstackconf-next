@@ -63,8 +63,8 @@ export function Newsletter() {
             <Image
               alt="Submit"
               className={styles.submitIcon}
-              src={checkButton}
               sizes="3.5rem"
+              src={checkButton}
               style={{
                 maxWidth: "100%",
                 height: "auto",

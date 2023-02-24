@@ -69,11 +69,11 @@ export const SponsorshipPackages = ({
             alt=""
             height={96}
             src="/icons/gift.png"
-            width={96}
             style={{
               maxWidth: "100%",
               height: "auto",
             }}
+            width={96}
           />
           Packages
         </Text>

@@ -32,11 +32,11 @@ export function EventFooter({ slug }: EventFooterProps) {
           className={styles.cityscapeImage}
           height={150}
           src={`/events/${slug}/skyline.png`}
-          width={350}
           style={{
             maxWidth: "100%",
             height: "auto",
           }}
+          width={350}
         />
       </div>
       <BodyArea className={styles.contents}>

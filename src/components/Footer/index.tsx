@@ -45,8 +45,8 @@ export function Footer() {
             <Image
               alt={`${alt} cityscape`}
               className={styles.cityscapeImage}
-              src={src}
               sizes="10vw"
+              src={src}
               style={{
                 maxWidth: "100%",
                 height: "auto",

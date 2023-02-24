@@ -47,9 +47,9 @@ export default function Event({
             <Image
               alt=""
               className={styles.bannerImage}
-              src={`/events/${slug}/skyline.png`}
               fill
               sizes="100vw"
+              src={`/events/${slug}/skyline.png`}
             />
           </div>
           {name}
