@@ -26,7 +26,7 @@ export default function PastEvents({
         <title>HalfStack | Past Events</title>
       </Head>
       <Header />
-      <Banner>
+      <Banner vibrant>
         <BannerText>Past Events</BannerText>
       </Banner>
       <BodyArea className={styles.pastEvents}>
