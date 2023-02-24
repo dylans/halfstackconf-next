@@ -58,7 +58,7 @@ export function SponsorStack({ slug, sponsors, stack }: SponsorStackProps) {
             <Image
               alt={name}
               className={styles.logo}
-              layout="fill"
+              fill
               sizes="100%"
               src={src}
             />

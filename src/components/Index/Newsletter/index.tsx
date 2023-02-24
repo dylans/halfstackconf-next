@@ -65,6 +65,10 @@ export function Newsletter() {
               className={styles.submitIcon}
               sizes="3.5rem"
               src={checkButton}
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+              }}
             />
           </button>
         </form>

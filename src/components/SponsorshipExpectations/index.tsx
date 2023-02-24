@@ -37,7 +37,8 @@ export const SponsorshipExpectations = ({
               <Image
                 alt="Two conference speakers with dog masks on"
                 className={styles.photo}
-                layout="fill"
+                fill
+                sizes="100vw"
                 src={whatToExpect1}
               />
             </div>
@@ -45,7 +46,8 @@ export const SponsorshipExpectations = ({
               <Image
                 alt="Three smiling conference attendees with VR headsets on"
                 className={styles.photo}
-                layout="fill"
+                fill
+                sizes="100vw"
                 src={whatToExpect2}
               />
             </div>
