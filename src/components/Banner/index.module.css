@@ -1,12 +1,27 @@
 .banner {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   font-weight: bold;
   letter-spacing: 0.05em;
   position: relative;
+  text-shadow: var(--box-shadow-dark);
 
   --color-text: var(--color-bright);
+}
+
+.backgroundImage {
+  background-blend-mode: multiply;
+  background-color: var(--color-primary-light);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: -5px;
+  left: -5px;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+
+.backgroundImage:not(.vibrant) {
+  filter: contrast(0.5) saturate(2);
 }
 
 .contents {
@@ -14,16 +29,6 @@
   position: relative;
   text-align: center;
   text-transform: uppercase;
-}
-
-.colorOverlay {
-  background: var(--color-backdrop-subtle);
-  height: 100%;
-  left: 0;
-  opacity: 0.6;
-  position: absolute;
-  top: 0;
-  width: 100%;
 }
 
 .sizeMedium {

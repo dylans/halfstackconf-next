@@ -7,6 +7,7 @@ export interface BannerProps {
   children: React.ReactNode;
   className?: string;
   size?: BannerSize;
+  vibrant?: boolean;
 }
 
 const sizeStyles = {
@@ -21,13 +22,14 @@ export function Banner({
   children,
   className,
   size = "medium",
+  vibrant,
 }: BannerProps) {
   return (
-    <div
-      className={clsx(styles.banner, sizeStyles[size], className)}
-      style={{ backgroundImage: `url('/events/${background}')` }}
-    >
-      <div className={styles.colorOverlay} />
+    <div className={clsx(styles.banner, sizeStyles[size], className)}>
+      <div
+        className={clsx(styles.backgroundImage, vibrant && styles.vibrant)}
+        style={{ backgroundImage: `url('/events/${background}')` }}
+      />
       <div className={styles.contents}>{children}</div>
     </div>
   );
