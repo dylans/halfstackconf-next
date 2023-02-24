@@ -108,10 +108,6 @@ export function SessionCard({
                     alt={`${by}'s ${icon}`}
                     height={32}
                     src={`/icons/${icon}.png`}
-                    style={{
-                      maxWidth: "100%",
-                      height: "auto",
-                    }}
                     width={32}
                   />
                 </Link>

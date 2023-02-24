@@ -47,10 +47,6 @@ export function Footer() {
               className={styles.cityscapeImage}
               sizes="10vw"
               src={src}
-              style={{
-                maxWidth: "100%",
-                height: "auto",
-              }}
             />
           </Link>
         ))}
@@ -64,15 +60,7 @@ export function Footer() {
             rel="noreferrer"
             target="_blank"
           >
-            <Image
-              alt={`${alt} logo`}
-              className={styles.icon}
-              src={src}
-              style={{
-                maxWidth: "100%",
-                height: "auto",
-              }}
-            />
+            <Image alt={`${alt} logo`} className={styles.icon} src={src} />
           </a>
         ))}
       </div>

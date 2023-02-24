@@ -44,15 +44,7 @@ export function Header({
     <header className={clsx(styles.header, className)}>
       <div className={styles.contents}>
         <Link href="/">
-          <Image
-            alt="HalfStack"
-            className={styles.logo}
-            src={logo}
-            style={{
-              maxWidth: "100%",
-              height: "auto",
-            }}
-          />
+          <Image alt="HalfStack" className={styles.logo} src={logo} />
         </Link>
         <nav className={styles.links}>
           {links.map(([children, href]) => (
