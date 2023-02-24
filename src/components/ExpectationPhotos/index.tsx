@@ -24,7 +24,7 @@ export function ExpectationPhotos({
             <Image
               alt="Two conference speakers with dog masks on"
               className={styles.photo}
-              fill
+              layout="fill"
               src={whatToExpect1}
             />
           </div>
@@ -32,7 +32,7 @@ export function ExpectationPhotos({
             <Image
               alt="Three smiling conference attendees with VR headsets on"
               className={styles.photo}
-              fill
+              layout="fill"
               src={whatToExpect2}
             />
           </div>
