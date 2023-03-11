@@ -21,12 +21,22 @@
     "complete": [],
     "large": [
       {
+        "href": "https://platogo.com/",
+        "name": "Platogo",
+        "src": "/logos/platogo.svg"
+      },
+      {
         "href": "http://modstreaming.com/",
         "name": "Modstreaming",
         "src": "/logos/modstreaming.jpg"
       }
     ],
     "medium": [
+      {
+        "href": "https://www.tubular.io/",
+        "name": "Tubular",
+        "src": "/logos/tubular.svg"
+      },
       {
         "href": "https://wearedhd.com/",
         "name": "DHD",
