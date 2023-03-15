@@ -69,12 +69,12 @@ You should also see suggestions from TypeScript in your editor.
 
 This runs on a cron and picks up changes every 5 minutes. Saving the commands here for reference.
 
-```
+```shell
 # Stop pm2
 pm2 stop "pnpm testbed"
 
 echo "Updating main"
-git fetch 
+git fetch
 git reset --hard origin/main
 pnpm install
 
@@ -86,12 +86,12 @@ pm2 start "pnpm testbed"
 
 This has to be manually run as the `website` user. Navigate to the production directory, then:
 
-```
+```shell
 # Stop pm2
 pm2 stop "pnpm production"
 
 echo "Updating main"
-git fetch 
+git fetch
 git reset --hard origin/main
 pnpm install
 
