@@ -65,6 +65,40 @@ pnpm tsc --watch
 
 You should also see suggestions from TypeScript in your editor.
 
+## Deployment (Testbed)
+
+This runs on a cron and picks up changes every 5 minutes. Saving the commands here for reference.
+
+```
+# Stop pm2
+pm2 stop "pnpm testbed"
+
+echo "Updating main"
+git fetch 
+git reset --hard origin/main
+pnpm install
+
+# Start pm2
+pm2 start "pnpm testbed"
+```
+
+## Deployment (Production)
+
+This has to be manually run as the `website` user. Navigate to the production directory, then:
+
+```
+# Stop pm2
+pm2 stop "pnpm production"
+
+echo "Updating main"
+git fetch 
+git reset --hard origin/main
+pnpm install
+
+# Start pm2
+pm2 start "pnpm production"
+```
+
 ## Contributing
 
 See [`.github/CONTRIBUTING.md`](./.github/CONTRIBUTING.md).
