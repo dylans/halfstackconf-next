@@ -56,9 +56,9 @@
     "start": "next start",
     "test": "playwright test --headed",
     "test:ci": "playwright test",
-    "tsc": "tsc",
     "testbed": "next build && next start -p 5000",
-    "production": "next build && next start -p 5001"
+    "production": "next build && next start -p 5001",
+    "tsc": "tsc"
   },
   "version": "0.1.0"
 }
