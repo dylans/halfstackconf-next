@@ -26,11 +26,13 @@
         "href": "https://salesforce.com/tech",
         "name": "Salesforce Engineering",
         "src": "/logos/salesforce.svg"
-      },
+      }
+    ],
+    "large": [
       {
-        "href": "https://wearedhd.com/",
-        "name": "DHD",
-        "src": "/logos/dhd.svg"
+        "href": "https://orangejellyfish.com",
+        "name": "Orange Jellyfish",
+        "src": "/logos/orangejellyfish.svg"
       }
     ],
     "medium": [
@@ -38,6 +40,16 @@
         "href": "https://www.mozilla.org/",
         "name": "Mozilla",
         "src": "/logos/mozilla.svg"
+      },
+      {
+        "href": "https://www.tubular.io/",
+        "name": "Tubular",
+        "src": "/logos/tubular.svg"
+      },
+      {
+        "href": "https://wearedhd.com/",
+        "name": "DHD",
+        "src": "/logos/dhd.svg"
       }
     ],
     "small": [
