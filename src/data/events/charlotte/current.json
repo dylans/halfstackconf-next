@@ -122,6 +122,11 @@
         "href": "https://www.wix.com/velo",
         "name": "Wix",
         "src": "/logos/wix.svg"
+      },
+      {
+        "href": "https://salesforce.com/tech",
+        "name": "Salesforce Engineering",
+        "src": "/logos/salesforce.svg"
       }
     ],
     "large": [
