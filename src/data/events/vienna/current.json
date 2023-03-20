@@ -29,6 +29,11 @@
         "href": "http://modstreaming.com/",
         "name": "Modstreaming",
         "src": "/logos/modstreaming.jpg"
+      },
+      {
+        "href": "https://orangejellyfish.com",
+        "name": "Orange Jellyfish",
+        "src": "/logos/orangejellyfish.svg"
       }
     ],
     "medium": [
