@@ -29,7 +29,6 @@ export function useNow4Real() {
       },
     };
 
-    console.log("yay");
     const n4r = document.createElement("script");
     n4r.async = true;
     n4r.src = "https://cdn.now4real.com/now4real.js";
