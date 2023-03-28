@@ -8,12 +8,16 @@
   ],
   "faqs": [
     [
+      "Are there any discounted or free tickets available?",
+      "We have space for a few volunteers. We also have a limited number of discounted tickets for students and those who are underrepresented in tech. We also have some tickets available for those recently unemployed who contribute to open source software. Finally, all users of Living Spec can save $25 off their ticket price. Contact us via email or twitter for more information."
+    ],
+    [
       "Where should I stay?",
-      "We will announce the venue shortly and recommend nearby hotels soon."
+      "The venue is the Cinergy Dine-In Theater. There are a few hotels such as the Hilton Charlotte University place that are a short drive from the venue."
     ]
   ],
   "geolocation": [35.3664665, -80.7882452],
-  "location": "Charlotte, North Carolina",
+  "location": "Cinergy Dine-In Theater, Charlotte, North Carolina",
   "packet": "https://app.livingspec.com/accept-invitation?code=4ba0a64e-e388-4123-b7c7-853177d11b85",
   "schedule": "HalfStack starts around 10am, includes breaks, lunch, dinner, and an interactive afterparty with a JS pub quiz and Retro Tech Movie. Plan to arrive around 10am and stay late!",
   "sessions": [
