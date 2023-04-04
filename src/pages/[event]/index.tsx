@@ -81,7 +81,7 @@ export default function Event({
           food, drinks, talks, swag, and community. Hosted by London’s
           longest-lived JavaScript meetup group, HalfStack now extends beyond
           London to other cities including Vienna, Phoenix, Charlotte, Tel Aviv,
-          Newquay, and New York.
+          Newquay, Belgrade, and New York.
         </Text>
         <Text as="p" className={styles.p} fontSize="medium">
           HalfStack carefully curates talks that inspire and inform the audience
