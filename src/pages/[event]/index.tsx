@@ -26,6 +26,7 @@ export default function Event({
     date = "TBD",
     description,
     geolocation,
+    layoffs,
     location,
     name,
     sessions,
@@ -88,17 +89,12 @@ export default function Event({
           provides an intimate feeling where each attendee has time to meet one
           another.
         </Text>
+        {layoffs && (
+          <Text as="p" className={styles.p} fontSize="medium">
+            {layoffs}
+          </Text>
+        )}
       </ExpectationPhotos>
-
-      <SecondaryBanner title="Financial Hardship">
-        <Text as="p" className={styles.p} fontSize="medium">
-          We are saddened to see so many of our fellow developers and [insert
-          other roles] affected by the recent tech layoffs, which is why we want
-          to do something to help. If you’ve been laid off recently, get in
-          touch and we’ll give you a ticket on the house! Your next opportunity
-          could be waiting for you in Charlotte.
-        </Text>
-      </SecondaryBanner>
 
       <SecondaryBanner title="Call for Proposals">
         Visit our <Anchor href="/cfp">CfP page</Anchor> for more information on
