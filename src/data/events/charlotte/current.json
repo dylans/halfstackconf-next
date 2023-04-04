@@ -19,6 +19,7 @@
   "geolocation": [35.3664665, -80.7882452],
   "location": "Cinergy Dine-In Theater, Charlotte, North Carolina",
   "packet": "https://app.livingspec.com/accept-invitation?code=4ba0a64e-e388-4123-b7c7-853177d11b85",
+  "layoffs": "We are saddened to see so many of our fellow developers and [insert other roles] affected by the recent tech layoffs, which is why we want to do something to help. If you’ve been laid off recently, get in touch and we’ll give you a ticket on the house! Your next opportunity could be waiting for you in Charlotte.",
   "schedule": "HalfStack starts around 10am, includes breaks, lunch, dinner, and an interactive afterparty with a JS pub quiz and Retro Tech Movie. Plan to arrive around 10am and stay late!",
   "sessions": [
     {
