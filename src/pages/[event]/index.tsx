@@ -90,9 +90,14 @@ export default function Event({
           another.
         </Text>
         {layoffs && (
-          <Text as="p" className={styles.p} fontSize="medium">
-            {layoffs}
-          </Text>
+          <>
+            <Text as="h2" className={styles.h2} fontSize="extra-large">
+              Financial Hardship?
+            </Text>
+            <Text as="p" className={styles.p} fontSize="medium">
+              {layoffs}
+            </Text>
+          </>
         )}
       </ExpectationPhotos>
 
