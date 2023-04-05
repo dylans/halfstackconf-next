@@ -53,6 +53,7 @@ export interface EventDataCurrent extends EventDataBase {
   description: string[];
   faqs?: [string, string][];
   geolocation: EventGeoLocation;
+  layoffs?: string;
   location: string;
   packet?: string;
   schedule: string;
