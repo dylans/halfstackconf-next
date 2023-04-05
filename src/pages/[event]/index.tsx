@@ -26,6 +26,7 @@ export default function Event({
     date = "TBD",
     description,
     geolocation,
+    layoffs,
     location,
     name,
     sessions,
@@ -80,7 +81,7 @@ export default function Event({
           food, drinks, talks, swag, and community. Hosted by London’s
           longest-lived JavaScript meetup group, HalfStack now extends beyond
           London to other cities including Vienna, Phoenix, Charlotte, Tel Aviv,
-          Newquay, and New York.
+          Newquay, Belgrade, and New York.
         </Text>
         <Text as="p" className={styles.p} fontSize="medium">
           HalfStack carefully curates talks that inspire and inform the audience
@@ -88,6 +89,16 @@ export default function Event({
           provides an intimate feeling where each attendee has time to meet one
           another.
         </Text>
+        {layoffs && (
+          <>
+            <Text as="h2" className={styles.h2} fontSize="extra-large">
+              Financial Hardship?
+            </Text>
+            <Text as="p" className={styles.p} fontSize="medium">
+              {layoffs}
+            </Text>
+          </>
+        )}
       </ExpectationPhotos>
 
       <SecondaryBanner title="Call for Proposals">

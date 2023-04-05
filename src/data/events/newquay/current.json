@@ -4,7 +4,7 @@
   "code": "halfstack-uk-events-2022",
   "date": "Friday 23rd of June 2023, 10am - Late",
   "description": [
-    "150 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
+    "100-125 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the Southwest UK, with some from through the UK, Europe and beyond"
   ],
   "geolocation": [50.4142037, -5.0839618],
@@ -26,11 +26,18 @@
         "href": "https://salesforce.com/tech",
         "name": "Salesforce Engineering",
         "src": "/logos/salesforce.svg"
+      }
+    ],
+    "large": [
+      {
+        "href": "https://orangejellyfish.com",
+        "name": "Orange Jellyfish",
+        "src": "/logos/orangejellyfish.svg"
       },
       {
-        "href": "https://wearedhd.com/",
-        "name": "DHD",
-        "src": "/logos/dhd.svg"
+        "href": "https://sitepen.com",
+        "name": "SitePen",
+        "src": "/logos/sitepen.svg"
       }
     ],
     "medium": [
@@ -38,6 +45,16 @@
         "href": "https://www.mozilla.org/",
         "name": "Mozilla",
         "src": "/logos/mozilla.svg"
+      },
+      {
+        "href": "https://www.tubular.io/",
+        "name": "Tubular",
+        "src": "/logos/tubular.svg"
+      },
+      {
+        "href": "https://wearedhd.com/",
+        "name": "DHD",
+        "src": "/logos/dhd.svg"
       }
     ],
     "small": [
@@ -54,5 +71,5 @@
     ]
   },
   "trailer": "https://halfstackconf.com/videos/Halfstack-in-Newquay.mp4",
-  "year": 2022
+  "year": 2023
 }

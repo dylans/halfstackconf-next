@@ -18,7 +18,18 @@
   "schedule": "Plan to arrive between 09:00 and 09:30 on the 18th of September & stay late for an amazing day of JavaScript goodness!",
   "sessions": [],
   "sponsors": {
-    "complete": [],
+    "complete": [
+      {
+        "href": "https://livingspec.com/",
+        "name": "Living Spec",
+        "src": "/logos/livingspec.svg"
+      },
+      {
+        "href": "https://salesforce.com/tech",
+        "name": "Salesforce Engineering",
+        "src": "/logos/salesforce.svg"
+      }
+    ],
     "large": [
       {
         "href": "https://platogo.com/",
@@ -29,6 +40,11 @@
         "href": "http://modstreaming.com/",
         "name": "Modstreaming",
         "src": "/logos/modstreaming.jpg"
+      },
+      {
+        "href": "https://orangejellyfish.com",
+        "name": "Orange Jellyfish",
+        "src": "/logos/orangejellyfish.svg"
       }
     ],
     "medium": [
@@ -41,11 +57,6 @@
         "href": "https://wearedhd.com/",
         "name": "DHD",
         "src": "/logos/dhd.svg"
-      },
-      {
-        "href": "https://futuresync.co.uk/",
-        "name": "Future Sync",
-        "src": "/logos/futuresync.svg"
       }
     ],
     "small": [
@@ -80,19 +91,9 @@
         "src": "/logos/survivejs.svg"
       },
       {
-        "href": "https://jsfiddle.net/",
-        "name": "JS Fiddle",
-        "src": "/logos/jsfiddle-logo.jpg"
-      },
-      {
         "href": "https://openjsf.org/",
         "name": "Open JS Foundation",
         "src": "/logos/openjsfoundation.svg"
-      },
-      {
-        "href": "http://bit.ly/2wfP2Ps",
-        "name": "Qcon London",
-        "src": "/logos/qconlondon.png"
       },
       {
         "href": "https://www.meetup.com/js-monthly/",
@@ -103,16 +104,6 @@
         "href": "https://react-finland.fi/",
         "name": "Graphhql Finland",
         "src": "/logos/reactfinland.svg"
-      },
-      {
-        "href": "https://infoq.com/",
-        "name": "Infoq",
-        "src": "/logos/infoq.jpg"
-      },
-      {
-        "href": "https://jsnation.com/",
-        "name": "JS Nation",
-        "src": "/logos/jsnation.svg"
       },
       {
         "href": "https://virtuslab.com/",
