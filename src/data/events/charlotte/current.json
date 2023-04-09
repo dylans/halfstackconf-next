@@ -17,9 +17,9 @@
     ]
   ],
   "geolocation": [35.3664665, -80.7882452],
+  "layoffs": "We are saddened to see so many of our fellow developers and designers affected by the recent tech layoffs, which is why we want to do something to help. If you’ve been laid off recently, get in touch and we’ll give you a ticket on the house! Your next opportunity could be waiting for you in Charlotte.",
   "location": "Cinergy Dine-In Theater, Charlotte, North Carolina",
   "packet": "https://app.livingspec.com/accept-invitation?code=4ba0a64e-e388-4123-b7c7-853177d11b85",
-  "layoffs": "We are saddened to see so many of our fellow developers and designers affected by the recent tech layoffs, which is why we want to do something to help. If you’ve been laid off recently, get in touch and we’ll give you a ticket on the house! Your next opportunity could be waiting for you in Charlotte.",
   "schedule": "HalfStack starts around 10am, includes breaks, lunch, dinner, and an interactive afterparty with a JS pub quiz and Retro Tech Movie. Plan to arrive around 10am and stay late!",
   "sessions": [
     {
@@ -109,6 +109,36 @@
         }
       ],
       "title": "What if Shakespeare Wrote Code?"
+    },
+    {
+      "by": "Thomas Jimenez",
+      "description": [
+        "As a developer, it's natural to want your code to be as efficient as possible. But what defines efficiency? The answer varies depending on who you ask. For those bootstrapping a new web app, minimizing friction on the path to your launch is often the primary goal. Achieving this requires a web stack that maximizes your developer experience. We’ll explore the real world journey of balancing developer productivity with the challenges involved when building a modern web app."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/tsync_co",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/jimenezthomas",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "Accelerating your product launch through tech decisions"
+    },
+    {
+      "by": "Griffin Solot-Kehl",
+      "description": [
+        "Content streaming is an increasingly growing sector, and people are now integrating it directly into their web pages, instead of directing people to a zoom and such. WebRTC provides a foundation to make this possible, but WHIP and WHEP are new standards in progress to improved web based streaming and reduce latency. We'll look at some of the adventures and misadventures in making web-based streaming a reality."
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/griffinzs/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "Adventures in WebRTC-based content streaming"
     }
   ],
   "sponsors": {
