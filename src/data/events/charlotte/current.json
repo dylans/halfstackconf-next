@@ -109,6 +109,36 @@
         }
       ],
       "title": "What if Shakespeare Wrote Code?"
+    },
+    {
+      "by": "Thomas Jimenez",
+      "description": [
+        "As a developer, it's natural to want your code to be as efficient as possible. But what defines efficiency? The answer varies depending on who you ask. For those bootstrapping a new web app, minimizing friction on the path to your launch is often the primary goal. Achieving this requires a web stack that maximizes your developer experience. We’ll explore the real world journey of balancing developer productivity with the challenges involved when building a modern web app."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/tsync_co",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/jimenezthomas",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "Accelerating your product launch through tech decisions"
+    },
+    {
+      "by": "Griffin Solot-Kehl",
+      "description": [
+        "Content streaming is an increasingly growing sector, and people are now integrating it directly into their web pages, instead of directing people to a zoom and such. WebRTC provides a foundation to make this possible, but WHIP and WHEP are new standards in progress to improved web based streaming and reduce latency. We'll look at some of the adventures and misadventures in making web-based streaming a reality."
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/griffinzs/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "Adventures in WebRTC-based content streaming"
     }
   ],
   "sponsors": {
