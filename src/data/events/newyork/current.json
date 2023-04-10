@@ -20,7 +20,43 @@
   "geolocation": [40.712517, -74.015704],
   "location": "To be announced",
   "schedule": "Plan to arrive between 9:00 and 9:30am on the date of the event & stay late for an amazing day of JavaScript web goodness!",
-  "sessions": [],
+  "sessions": [
+    {
+      "by": "Jean-Remi Beaudoin",
+      "description": [
+        "Digital twin is a trending buzzword at large industrial companies. But what is it? Through a concrete, small-scale application, you will learn how you can — but probably shouldn’t — build digital twins around your home. We will look at the required steps and tools you can use to build your own, taking the example of a door and how its digital twin can enable predictive maintenance operations. Throughout the talk, we will reflect on the DevOps challenges created by the physical components of a system."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/jiherr",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Over-engineering your home with digital twins"
+    },
+    {
+      "by": "Charlie Gerard",
+      "description": ["To be revealed"],
+      "socials": [
+        {
+          "href": "https://twitter.com/devdevcharlie",
+          "icon": "twitter"
+        }
+      ],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Ken Wheeler",
+      "description": ["To be revealed"],
+      "socials": [
+        {
+          "href": "https://twitter.com/ken_wheeler",
+          "icon": "twitter"
+        }
+      ],
+      "title": "To be revealed"
+    }
+  ],
   "sponsors": {
     "complete": [],
     "large": [],
