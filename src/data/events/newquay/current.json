@@ -8,8 +8,21 @@
     "Mostly from the Southwest UK, with some from through the UK, Europe and beyond"
   ],
   "geolocation": [50.4142037, -5.0839618],
+  "layoffs": "We are saddened to see so many of our fellow developers and designers affected by the recent tech layoffs, which is why we want to do something to help. If you’ve been laid off recently, get in touch and we’ll give you a ticket on the house! Your next opportunity could be waiting for you in Newquay.",
   "location": "C-Space Newquay",
   "schedule": "HalfStack starts around 10am, includes approximately 8-10 sessions, breaks, lunch, dinner, and an interactive afterparty. Plan to arrive by 10am and stay late! We're also expecting to have fun at the beach on Saturday, so plan to stay the whole weekend! Sessions will be announced closer to the event.",
+  "sessions": [
+    {
+      "by": "Earth to Abigail and Otto",
+      "description": "Earth to Abigail and Otto will use live coding to create music with the audience",
+      "socials": [
+        { "href": "https://earthtoabigail.com", "icon": "site" },
+        { "href": "https://instagram.com/mynah_m", "icon": "instagram" },
+        { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" }
+      ],
+      "title": "To Be Revealed"
+    }
+  ],
   "sponsors": {
     "complete": [
       {
