@@ -14,7 +14,9 @@
   "sessions": [
     {
       "by": "Earth to Abigail and Otto",
-      "description": "Earth to Abigail and Otto will use live coding to create music with the audience",
+      "description": [
+        "Earth to Abigail and Otto will use live coding to create music with the audience"
+      ],
       "socials": [
         { "href": "https://earthtoabigail.com", "icon": "site" },
         { "href": "https://instagram.com/mynah_m", "icon": "instagram" },
