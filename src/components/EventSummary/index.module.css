@@ -11,4 +11,5 @@
 .trailer {
   display: block;
   margin: 3rem auto 0;
+  max-width: 98%;
 }
