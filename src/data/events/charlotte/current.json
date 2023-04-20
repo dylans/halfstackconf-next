@@ -127,6 +127,27 @@
         }
       ],
       "title": "Adventures in WebRTC-based content streaming"
+    },
+    {
+      "by": "Dylan Schiemann",
+      "description": [
+        "Dylan recently woke up to a bug report for a very obscure bug with SlateJS and Chrome 112. He'll walk us through the process of debugging the issue, and how he was able to get it fixed on the right level."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/dylans",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dylans",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://github.com/dylans/",
+          "icon": "github"
+        }
+      ],
+      "title": "The Editor is Broken"
     }
   ],
   "sponsors": {
