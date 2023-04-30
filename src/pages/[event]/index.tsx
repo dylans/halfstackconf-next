@@ -106,6 +106,11 @@ export default function Event({
         proposing your amazing HalfStack session!
       </SecondaryBanner>
 
+      <SecondaryBanner title="Fair Pricing">
+        Visit our <Anchor href="/pricing">Pricing page</Anchor> to understand
+        what we charge and why.
+      </SecondaryBanner>
+
       <SessionsList sessions={sessions} />
 
       {sponsors && <SponsorStacksList {...sponsors} slug={slug} />}
