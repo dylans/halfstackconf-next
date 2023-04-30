@@ -203,7 +203,7 @@ export default function Pricing() {
           Living Spec Subscriptions
         </Text>
         <Text as="p" className={styles.p}>
-          Living Spec is co-founder by the founder of HalfStack. If you like and
+          Living Spec is co-founded by the founder of HalfStack. If you like and
           use Living Spec and want to be an early paid user, Living Spec offers
           paid subscribers the option of one free HalfStack ticket with their
           Living SpecCer Plan ($20/month or $204/year) or two free HalfStack
