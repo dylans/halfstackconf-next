@@ -156,7 +156,7 @@ export default function Pricing() {
             Must have at least 6 months paid before first ticket gets issued
           </li>
           <li>
-            $20/month (billed monthly) or $204/year (billed up front, annually)
+            $15/month (billed monthly) or $153/year (billed up front, annually)
           </li>
           <li>Roughly the early bird price for a ticket each year</li>
         </ul>
