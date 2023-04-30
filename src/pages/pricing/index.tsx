@@ -199,6 +199,17 @@ export default function Pricing() {
             you’d like
           </li>
         </ul>
+        <Text as="h2" className={styles.h2} fontSize="large">
+          Living Spec Subscriptions
+        </Text>
+        <Text as="p" className={styles.p}>
+          Living Spec is co-founder by the founder of HalfStack. If you like and
+          use Living Spec and want to be an early paid user, Living Spec offers
+          paid subscribers the option of one free HalfStack ticket with their
+          Living SpecCer Plan ($20/month or $204/year) or two free HalfStack
+          tickets per year with their Living SpecTacular Plan ($50/month or
+          $504/user).
+        </Text>
       </BodyArea>
       <Footer />
     </>
