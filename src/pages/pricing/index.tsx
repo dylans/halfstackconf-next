@@ -64,7 +64,7 @@ export default function Pricing() {
             </tr>
             <tr>
               <td>Price range (USD/GBP/EUR)</td>
-              <td>100-125 </td>
+              <td>150</td>
               <td>175-200</td>
               <td>225-250</td>
               <td>275-325</td>
@@ -155,9 +155,7 @@ export default function Pricing() {
           <li>
             Must have at least 6 months paid before first ticket gets issued
           </li>
-          <li>
-            $15/month (billed monthly) or $153/year (billed up front, annually)
-          </li>
+          <li>$15/month</li>
           <li>Roughly the early bird price for a ticket each year</li>
         </ul>
         <Text as="p" className={styles.p}>
@@ -174,9 +172,7 @@ export default function Pricing() {
           <li>
             Must have at least 6 months paid before first tickets get issued
           </li>
-          <li>
-            $35/month (billed monthly) or $358/year (billed up front, annually)
-          </li>
+          <li>$30/month</li>
           <li>Less than the early bird price for each ticket</li>
         </ul>
         <Text as="p" className={styles.p}>
@@ -191,9 +187,7 @@ export default function Pricing() {
           <li>
             Must have at least 6 months paid before first ticket get issued
           </li>
-          <li>
-            $50/month (billed monthly) or $512/year (billed up front, annually)
-          </li>
+          <li>$50/month</li>
           <li>
             Roughly the standard price for two events, you can attend as many as
             you’d like
