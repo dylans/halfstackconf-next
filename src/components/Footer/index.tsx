@@ -14,6 +14,7 @@ import cityscapeVienna from "./assets/cityscapeVienna.png";
 import facebookIcon from "./assets/iconFacebook.png";
 import instagramIcon from "./assets/iconInstagram.png";
 import twitterIcon from "./assets/iconTwitter.png";
+// import youtubeIcon from "./assets/iconYouTube.png";
 import styles from "./index.module.css";
 
 const cityscapes = [
@@ -27,9 +28,9 @@ const cityscapes = [
 ] as const;
 
 const icons = [
-  ["Facebook", facebookIcon],
-  ["Instagram", instagramIcon],
-  ["Twitter", twitterIcon],
+  ["Facebook", facebookIcon, "https://www.facebook.com/halfstackconf/"],
+  ["Instagram", instagramIcon, "https://www.instagram.com/halfstack2023/"],
+  ["Twitter", twitterIcon, "https://twitter.com/halfstackconf/"],
 ] as const;
 
 export function Footer() {
@@ -52,10 +53,10 @@ export function Footer() {
         ))}
       </div>
       <div className={styles.iconLinks}>
-        {icons.map(([alt, src]) => (
+        {icons.map(([alt, src, href]) => (
           <a
             className={styles.icon}
-            href="https://twitter.com/halfstackconf"
+            href={href}
             key={alt}
             rel="noreferrer"
             target="_blank"
