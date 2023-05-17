@@ -85,6 +85,11 @@
         "href": "https://sitepen.com",
         "name": "SitePen",
         "src": "/logos/sitepen.svg"
+      },
+      {
+        "href": "https://cerbos.dev/",
+        "name": "Cerbos",
+        "src": "/logos/cerbos.svg"
       }
     ],
     "medium": [

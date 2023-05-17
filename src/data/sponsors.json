@@ -151,7 +151,12 @@
       "name": "TalkScript",
       "src": "/logos/talkscript.svg"
     },
-    { "href": "https://auth0.com", "name": "Auth0", "src": "/logos/auth0.svg" }
+    { "href": "https://auth0.com", "name": "Auth0", "src": "/logos/auth0.svg" },
+    {
+      "href": "https://cerbos.dev/",
+      "name": "Cerbos",
+      "src": "/logos/cerbos.svg"
+    }
   ],
   "medium": [
     { "href": "https://www.20i.com", "name": "20i", "src": "/logos/20i.svg" },
