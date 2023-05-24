@@ -5,7 +5,7 @@
   margin: 2rem;
 }
 
-@media (min-width: 1200px) {
+@media (width >= 1200px) {
   .faqsList {
     margin: 2rem 0;
   }

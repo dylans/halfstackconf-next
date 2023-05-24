@@ -107,7 +107,7 @@
   color: var(--color-subtle);
 }
 
-@media (min-width: 700px) {
+@media (width >= 700px) {
   .iconLinks,
   .textLinks {
     gap: 1rem;

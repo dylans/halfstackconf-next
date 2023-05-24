@@ -45,7 +45,7 @@
   color: var(--color-bright);
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .header {
     position: sticky;
     top: 0;
@@ -64,7 +64,7 @@
   }
 }
 
-@media (min-width: 1300px) {
+@media (width >= 1300px) {
   .contents {
     padding: 0.5rem 0;
   }
