@@ -70,7 +70,7 @@ You should also see suggestions from TypeScript in your editor.
 Sometimes the `pnpm-lock.yaml` file can get out of sync if different versions of pnpm are used over time.
 When that happens, to refresh it:
 
-1. Uninstall pnpm
+1. [Uninstall pnpm](https://pnpm.io/uninstall)
 1. [Install the latest version of pnpm](https://pnpm.io)
 1. `rm -rf pnpm-lock.yaml node_modules`
 1. _(Optional, for if you want the latest version of everything)_ `npx npm-check-updates -u`
