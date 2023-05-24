@@ -10,7 +10,7 @@
   margin-top: 2rem;
 }
 
-@media (min-width: 1200px) {
+@media (width >= 1200px) {
   .ticketsOffer {
     padding: 0;
   }

@@ -19,7 +19,7 @@
   margin: 0.5rem 0;
 }
 
-@media (min-width: 700px) {
+@media (width >= 700px) {
   .contents {
     display: flex;
     flex-flow: row wrap;
