@@ -48,8 +48,9 @@ export default function CFP() {
           CfP document with hello at halfstackconf dot com (in email address
           form, share as admin), and we&apos;ll review and give you feedback. If
           we have space and feel the session is relevant, we&apos;ll invite you
-          to speak. All preliminary communication will happen within the Living
-          Spec document.
+          to speak. If there is a specific location you would prefer to speak,
+          also let us know. All preliminary communication will happen within the
+          Living Spec document.
         </Text>
 
         <Text as="p" className={styles.p}>
@@ -86,7 +87,10 @@ export default function CFP() {
         <Text as="p" className={styles.p}>
           Also please be patient in general. We&apos;re a small team. Sometimes
           we respond almost instantly, sometimes it takes us a couple of weeks
-          as we&apos;re busy preparing for the next event.
+          as we&apos;re busy preparing for the next event. Our response will
+          typically come in the form of assigning a task to you in Living Spec
+          to review, so be sure that this correspondence does not end up in your
+          spam folder.
         </Text>
       </BodyArea>
       <Footer />

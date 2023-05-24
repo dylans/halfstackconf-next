@@ -1,6 +1,6 @@
 {
   "afterparty": "Afterparty (includes JS Pub Quiz!)",
-  "catchphrase": "Delayed to 2023 due to COVID-19. The first HalfStack Tel Aviv will happen as soon as it's safe to have in-person events again. Tickets now available for an incredible day of JS!",
+  "catchphrase": "Join us for the first HalfStack Tel Aviv on the 28th of November, 2023. Tickets now available for an incredible day of JS and web fun!",
   "code": "halfstack-telaviv-2023",
   "date": "28th of November 2023",
   "description": [
@@ -10,19 +10,19 @@
   "faqs": [
     [
       "Where should I stay?",
-      "The venue for HalfStack Tel Aviv 2023 is to be determined. We recommend staying near the conference venue once we finalize the details."
+      "The venue for HalfStack Tel Aviv 2023 is Third Eye. We recommend staying near the conference venue if convenient for you."
     ]
   ],
   "geolocation": [32.0494524, 34.7746208],
-  "location": "TBD",
+  "location": "Third Eye",
   "schedule": "HalfStack starts around 10am, includes breaks, lunch, dinner, and an interactive afterparty with a JS pub quiz. Plan to arrive around 10am and stay late!",
   "sessions": [],
   "sponsors": {
     "complete": [
       {
-        "href": "https://www.eventhandler.co.il",
-        "name": "EventHandler",
-        "src": "/logos/eventhandler.svg"
+        "href": "https://www.livingspec.com/",
+        "name": "Living Spec",
+        "src": "/logos/livingspec.svg"
       },
       {
         "href": "https://salesforce.com/tech",
@@ -30,13 +30,7 @@
         "src": "/logos/salesforce.svg"
       }
     ],
-    "large": [
-      {
-        "href": "https://www.wix.engineering",
-        "name": "Wix Engineering",
-        "src": "/logos/wixengineering.svg"
-      }
-    ],
+    "large": [],
     "medium": [
       {
         "href": "https://wearedhd.com",
@@ -51,16 +45,6 @@
     ],
     "small": [
       {
-        "href": "https://balsamiq.com",
-        "name": "Balsamiq",
-        "src": "/logos/balsamiq.svg"
-      },
-      {
-        "href": "https://snyk.io",
-        "name": "Snyk",
-        "src": "/logos/snyk.svg"
-      },
-      {
         "href": "https://ti.to",
         "name": "Tito",
         "src": "/logos/tito.svg"
@@ -71,21 +55,6 @@
         "src": "/logos/openjsfoundation.svg"
       },
       {
-        "href": "http://bit.ly/2wfP2Ps",
-        "name": "Qcon London",
-        "src": "/logos/qconlondon.jpg"
-      },
-      {
-        "href": "https://graphql-finland.fi",
-        "name": "Graphhql Finland",
-        "src": "/logos/graphqlFinland.svg"
-      },
-      {
-        "href": "https://infoq.com",
-        "name": "InfoQ",
-        "src": "/logos/infoq.jpg"
-      },
-      {
         "href": "https://www.meetup.com/Hodash-Dev",
         "name": "Hodash Dev",
         "src": "/logos/hodash.png"
@@ -94,16 +63,6 @@
         "href": "https://www.jsisrael.com",
         "name": "JavaScript Israel",
         "src": "/logos/javascriptisrael.svg"
-      },
-      {
-        "href": "https://reactgraphql.academy",
-        "name": "React GraphQL Academy",
-        "src": "/logos/reactgraphqlacademy.svg"
-      },
-      {
-        "href": "https://manning.com",
-        "name": "Manning Publications",
-        "src": "/logos/manning.svg"
       }
     ]
   },

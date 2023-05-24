@@ -22,7 +22,39 @@
         { "href": "https://instagram.com/mynah_m", "icon": "instagram" },
         { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" }
       ],
+      "title": "To Be Revealed (Live Music Coding)"
+    },
+    {
+      "by": "Christian Heilmann",
+      "description": [
+        "Chris usually shares his perspectives on the state of the web platform and JavaScript ecosystem in a fun and entertaining manner."
+      ],
+      "socials": [
+        { "href": "https://christianheilmann.com/", "icon": "site" },
+        { "href": "https://twitter.com/codepo8", "icon": "twitter" }
+      ],
       "title": "To Be Revealed"
+    },
+    {
+      "by": "Dylan Schiemann",
+      "description": [
+        "Five years ago HalfStack legend Tony Edwards regaled us with a look at using JS to transcribe his live rapping. Much has improved so we'll look at the current state of transcribing audio to text with JS and AI."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/dylans",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dylans",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://github.com/dylans/",
+          "icon": "github"
+        }
+      ],
+      "title": "Five years later: The state of Audio to Text in JS with AI"
     }
   ],
   "sponsors": {
@@ -53,6 +85,11 @@
         "href": "https://sitepen.com",
         "name": "SitePen",
         "src": "/logos/sitepen.svg"
+      },
+      {
+        "href": "https://cerbos.dev/",
+        "name": "Cerbos",
+        "src": "/logos/cerbos.svg"
       }
     ],
     "medium": [
@@ -85,6 +122,6 @@
       }
     ]
   },
-  "trailer": "https://www.youtube.com/embed/qQ7lEQZorBM",
+  "trailer": "https://www.youtube.com/embed/zUC18IJU_9o",
   "year": 2023
 }

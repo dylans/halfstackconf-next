@@ -29,6 +29,13 @@ export function TicketsOffer({ code }: TicketsOfferProps) {
             We offer a generous refund and transfer policy (30 days full refund,
             or transfer until the day before the event).
           </Text>
+          <Text as="p" className={styles.p}>
+            Tickets are now also available as a{" "}
+            <a href="https://patreon.com/HalfStackEvents">
+              monthly membership option
+            </a>
+            .
+          </Text>
         </div>
         {tito}
       </Columns>

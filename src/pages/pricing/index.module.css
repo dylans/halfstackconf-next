@@ -1,0 +1,30 @@
+.h2 {
+  margin-bottom: 2rem;
+}
+
+.p {
+  margin-bottom: 2rem;
+}
+
+.thead {
+  background-color: #d6e0ef;
+  font-weight: 700;
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+.table {
+  border: 0;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  vertical-align: top;
+}
+
+.table tr:nth-child(even) {
+  background-color: #d6e0ef;
+}
+
+.table td {
+  padding: 0.5rem;
+  vertical-align: top;
+}
