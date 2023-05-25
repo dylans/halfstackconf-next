@@ -21,6 +21,7 @@ export function EventCard({
   event: { catchphrase, date, description, name, slug },
   direction,
 }: EventCardProps) {
+  const catchyText = catchphrase ?? description?.join(" ");
   return (
     <Card
       as={Link}
@@ -37,9 +38,11 @@ export function EventCard({
         <Text as="div" className={styles.date}>
           {date}
         </Text>
-        <Text as="div" className={styles.description}>
-          {catchphrase ?? description.join(" ")}
-        </Text>
+        {catchyText && (
+          <Text as="div" className={styles.description}>
+            {catchyText}
+          </Text>
+        )}
       </div>
       <div className={styles.thumbnail} />
     </Card>

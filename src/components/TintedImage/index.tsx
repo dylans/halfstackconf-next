@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useState } from "react";
 
 import styles from "./index.module.css";
 
@@ -8,10 +9,20 @@ export interface TintedImageProps {
 }
 
 export function TintedImage({ className, src }: TintedImageProps) {
+  const [errored, setErrored] = useState(false);
+
   return (
     <div className={className}>
       <div className={styles.overlay} />
-      <Image alt="" className={styles.image} fill src={src} />
+      {errored ? null : (
+        <Image
+          alt=""
+          className={styles.image}
+          fill
+          onError={() => setErrored(true)}
+          src={src}
+        />
+      )}
     </div>
   );
 }
