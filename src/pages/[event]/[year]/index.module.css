@@ -38,7 +38,7 @@
   margin-bottom: 3rem;
 }
 
-@media (min-width: 700px) {
+@media (width >= 700px) {
   .topColumns {
     gap: 5rem;
   }

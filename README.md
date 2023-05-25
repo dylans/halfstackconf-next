@@ -65,6 +65,17 @@ pnpm tsc --watch
 
 You should also see suggestions from TypeScript in your editor.
 
+### Updating the Lockfile
+
+Sometimes the `pnpm-lock.yaml` file can get out of sync if different versions of pnpm are used over time.
+When that happens, to refresh it:
+
+1. [Uninstall pnpm](https://pnpm.io/uninstall)
+1. [Install the latest version of pnpm](https://pnpm.io)
+1. `rm -rf pnpm-lock.yaml node_modules`
+1. _(Optional, for if you want the latest version of everything)_ `npx npm-check-updates -u`
+1. `pnpm install`
+
 ## Deployment (Testbed)
 
 This runs on a cron and picks up changes every 5 minutes. Saving the commands here for reference.

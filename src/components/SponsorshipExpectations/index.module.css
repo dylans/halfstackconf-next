@@ -28,7 +28,7 @@
   justify-content: center;
 }
 
-@media (min-width: 700px) {
+@media (width >= 700px) {
   .contents {
     gap: 10%;
   }

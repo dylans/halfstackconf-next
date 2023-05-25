@@ -45,7 +45,7 @@
   object-fit: contain;
 }
 
-@media (min-width: 700px) {
+@media (width >= 700px) {
   .photos {
     flex-direction: row;
   }

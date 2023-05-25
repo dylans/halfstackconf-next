@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-@media (min-width: 1200px) {
+@media (width >= 1200px) {
   .bodyArea {
     padding: 2rem 0;
   }

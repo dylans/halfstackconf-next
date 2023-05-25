@@ -56,7 +56,7 @@
   padding: 1rem;
 }
 
-@media (min-width: 700px) {
+@media (width >= 700px) {
   .sponsors {
     gap: 2rem;
   }
