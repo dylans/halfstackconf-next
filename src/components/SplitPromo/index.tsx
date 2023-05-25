@@ -7,7 +7,7 @@ import styles from "./index.module.css";
 
 export interface SplitPromoProps {
   className?: string;
-  description: string[];
+  description?: string[];
   src: string;
 }
 
@@ -17,11 +17,13 @@ export function SplitPromo({ className, description, src }: SplitPromoProps) {
       <div className={styles.imageArea}>
         <Image alt="" className={styles.image} fill src={src} />
       </div>
-      <div className={styles.description}>
-        {description.map((child) => (
-          <Text key={child}>{child}</Text>
-        ))}
-      </div>
+      {description && (
+        <div className={styles.description}>
+          {description.map((child) => (
+            <Text key={child}>{child}</Text>
+          ))}
+        </div>
+      )}
     </Columns>
   );
 }

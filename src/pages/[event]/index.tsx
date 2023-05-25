@@ -61,7 +61,7 @@ export default function Event({
       <EventSummary
         afterparty={afterparty}
         date={date}
-        location={location}
+        location={location ?? name}
         trailer={trailer}
       />
 
@@ -115,7 +115,7 @@ export default function Event({
 
       {sponsors && <SponsorStacksList {...sponsors} slug={slug} />}
 
-      <FindUs geolocation={geolocation} slug={slug} />
+      {geolocation && <FindUs geolocation={geolocation} slug={slug} />}
 
       <EventFooter slug={slug} />
     </EventTheme>

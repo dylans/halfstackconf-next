@@ -110,6 +110,50 @@ pnpm install
 pm2 start "pnpm production"
 ```
 
+## Events Management
+
+Events are all stored in `src/data` as `.json` files.
+
+- [`src/data/events.json`](./src/data/events.json) contains the array of event lines that are listed on the homepage
+- [The `src/data/events/ directory](./src/data/events) contains a directory for each of those event lines, each of which contains:
+  - `current.json`: Data for the current event shown on and linked to by the homepage
+  - `default.json`: Default data for the current event and all historical events in that line
+  - `20**.json`: Files for each past year in that event line
+
+Event pages read in that data by utilities in [`src/data/index.ts`](./src/data/index.ts).
+See [`src/data/types.ts`](./src/data/types.ts) for the precise data formats expected.
+
+### Adding a New Event Date
+
+Adding a new year for an event generally involves changing the event's current year to a historical event, and adding a new current event:
+
+1. Copy the event's `current.json` to a file with current year (e.g. `2023.json`)
+2. Create a new blank `current.json` copying over any data that's the same year-to-year (most likely: `"description"` and `"geolocation"`)
+3. Copy over any fields from the past event data to the current event data as they become known
+
+#### Adding Event Sessions
+
+Speaker speaker are stored in order in the event's `sessions` data.
+Each `"by"` field should be given a _`kebab-case.jpg`_ image in `public/speakers`.
+
+#### Adding Event Sponsors
+
+Event sponsors are stored under the `"sponsors"` data, within their tier: `"complete"`, `"large"`, `"medium"`, or `"small"`.
+Each should have a `"src"` with a path starting with `/logos/` that points to an image under `public/images/`.
+
+If the event's sponsorship is available, it should have a `"sponsorship"` object with the property `"available": true` in its event data.
+
+### Adding a New Event Line
+
+1. Copy and paste an exting event folder into the new slug for the event
+2. Delete any historical data from the folder
+3. Modify the event's `default.json` and `current.json` for the new event's details
+4. Add the event's slug to `src/data/events.json`
+5. Add branding images and styles for the new event line:
+   1. In `src/components/EventTheme/index.module.css`, add a new class selector for the event slug
+   1. Create a new folder for the event's images under `public/events/`
+   1. For each of the images referenced in those styles, add it under that new folder
+
 ## Contributing
 
 See [`.github/CONTRIBUTING.md`](./.github/CONTRIBUTING.md).

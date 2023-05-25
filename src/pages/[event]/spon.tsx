@@ -48,7 +48,7 @@ export default function Spon({
       <EventSummary
         afterparty={afterparty}
         date={date}
-        location={location}
+        location={location ?? name}
         trailer={trailer}
       />
 
