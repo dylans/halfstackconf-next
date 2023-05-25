@@ -51,7 +51,7 @@
   width: 3.5rem;
 }
 
-@media (min-width: 700px) {
+@media (width >= 700px) {
   .form {
     flex-direction: row;
   }

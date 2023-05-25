@@ -1,4 +1,4 @@
-@media (min-width: 700px) {
+@media (width >= 700px) {
   .expectationPhotos {
     margin-top: -2.5rem;
   }

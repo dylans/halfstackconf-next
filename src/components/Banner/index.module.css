@@ -14,11 +14,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  bottom: -5px;
-  left: -5px;
+  inset: -5px;
   position: absolute;
-  right: -5px;
-  top: -5px;
 }
 
 .backgroundImage:not(.vibrant) {

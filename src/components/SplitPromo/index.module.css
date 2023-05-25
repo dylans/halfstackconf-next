@@ -29,7 +29,7 @@
   padding: 2rem;
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .imageArea {
     display: initial;
   }

@@ -6,19 +6,19 @@
   position: relative;
 }
 
-@media (min-width: 350px) {
+@media (width >= 350px) {
   .bannerText {
     font-size: var(--font-size-extra-large);
   }
 }
 
-@media (min-width: 700px) {
+@media (width >= 700px) {
   .bannerText {
     font-size: var(--font-size-banner);
   }
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .bannerText {
     font-size: var(--font-size-banner-large);
   }
