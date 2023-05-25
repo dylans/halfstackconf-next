@@ -23,16 +23,31 @@
 }
 
 .contents {
-  padding: 2rem;
   position: relative;
   text-align: center;
   text-transform: uppercase;
 }
 
 .sizeMedium {
-  padding: 3rem 2rem;
+  padding: 1.5rem 1rem;
 }
 
 .sizeLarge {
   padding: 7rem 2rem;
+}
+
+@media (width >= 700px) {
+  .contents {
+    padding: 1rem;
+  }
+
+  .sizeMedium {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (width >= 900px) {
+  .contents {
+    padding: 2rem;
+  }
 }
