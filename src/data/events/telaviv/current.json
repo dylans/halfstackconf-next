@@ -66,5 +66,8 @@
       }
     ]
   },
+  "sponsorship": {
+    "available": true
+  },
   "year": 2023
 }

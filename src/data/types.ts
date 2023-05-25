@@ -66,6 +66,7 @@ export interface EventDataCurrent extends EventDataBase {
 export interface EventDataDefault {
   catchphrase?: string;
   name: string;
+  sponsorship: EventSponsorship;
 }
 
 export interface EventVideo {
