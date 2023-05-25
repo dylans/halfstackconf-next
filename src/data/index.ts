@@ -52,5 +52,13 @@ export async function getEventDataCurrentAndDefault(
     getEventData(slug, "default"),
   ]);
 
-  return { ...currentData, ...defaultData, slug };
+  return {
+    ...defaultData,
+    ...currentData,
+    sponsorship: {
+      ...defaultData.sponsorship,
+      ...currentData.sponsorship,
+    },
+    slug,
+  };
 }
