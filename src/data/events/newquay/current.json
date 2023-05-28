@@ -55,6 +55,88 @@
         }
       ],
       "title": "Five years later: The state of Audio to Text in JS with AI"
+    },
+    {
+      "by": "Shelly Knotts",
+      "description": [
+        "Shelly will share some of the fun web audio projects she's been working on recently."
+      ],
+      "socials": [
+        { "href": "http://datamusician.net/", "icon": "site" },
+        {
+          "href": "https://www.instagram.com/shellyknotts_/",
+          "icon": "instagram"
+        },
+        { "href": "http://twitter.com/shelly_knotts", "icon": "twitter" }
+      ],
+      "title": "To Be Revealed (Web Audio Experiments)"
+    },
+    {
+      "by": "Dale Lane",
+      "description": ["To be revealed"],
+      "socials": [
+        {
+          "href": "https://dalelane.co.uk/blog",
+          "icon": "blog"
+        },
+        {
+          "href": "https://linkedin.com/in/dalelane",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://twitter.com/dalelane",
+          "icon": "twitter"
+        }
+      ],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Earth to Abigail and Shelly Knotts",
+      "description": [
+        "Estuary is a live coding platform for making music and visualizations. We'll get a quick intro to the platform and then use it to create music together during the afterparty!"
+      ],
+      "socials": [
+        { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" },
+        { "href": "https://twitter.com/shelly_knotts", "icon": "twitter" }
+      ],
+      "title": "Introduction to Estuary"
+    },
+    {
+      "by": "Lightning",
+      "description": [
+        "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/halfstackconf",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Lightning Talks"
+    },
+    {
+      "by": "HalfStack",
+      "description": [
+        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/halfstackconf",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Afterparty (JS Pub Quiz and Battledecks)"
+    },
+    {
+      "by": "Earth to Abigail and Shelly Knotts",
+      "description": [
+        "A live coding performance with audience participation encouraged!"
+      ],
+      "socials": [
+        { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" },
+        { "href": "https://twitter.com/shelly_knotts", "icon": "twitter" }
+      ],
+      "title": "Afterparty Live Coding Performance"
     }
   ],
   "sponsors": {
