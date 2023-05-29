@@ -2,6 +2,7 @@
   "name": "Belgrade",
   "sponsorship": {
     "available": true,
+    "currency": "€",
     "expectations": [
       "An authentic, high value experience for attendees and sponsors focused on the creative JavaScript and web ecosystem.",
       "The priority for CityJS and HalfStack is the attendee experience, with great food, drinks, talks, swag, and community. HalfStack and CityJS are coming to Belgrade for the first time. HalfStack is a creative single track event hosted in a relaxed environment.",
