@@ -94,3 +94,16 @@
   --color-primary: #b41c21;
   --color-primary-dark: #8b0f13;
 }
+
+.belgrade {
+  --background-full: url("/events/belgrade/full.png");
+  --background-outline: url("/events/belgrade/outline.png");
+  --background-outline-alt: url("/events/belgrade/outline-alt.png");
+  --background-pattern: url("/events/belgrade/pattern.png");
+  --background-thumbnail: url("/events/belgrade/thumbnail.jpg");
+  --color-backdrop-subtle: #e78689;
+  --color-faint: #fadddf;
+  --color-primary-light: #f3a7a9;
+  --color-primary: #b41c21;
+  --color-primary-dark: #8b0f13;
+}

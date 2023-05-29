@@ -1,0 +1,69 @@
+{
+  "afterparty": "Afterparty (TBD)",
+  "code": "cityjs-conference/cityjs-halfstack-belgrade",
+  "date": "8th of September, 2023",
+  "description": [
+    "HalfStack and CityJS are teaming up for our first event in Belgrade",
+    "Early bird tickets now available for an incredible day of JS!"
+  ],
+  "faqs": [
+    [
+      "Are there any discounted or free tickets available?",
+      "We have space for a few volunteers. We also have a limited number of discounted tickets for students and those who are underrepresented in tech. We also have some tickets available for those recently unemployed who contribute to open source software."
+    ],
+    [
+      "Where should I stay?",
+      "Belgrade has many excellent hotel and Airbnb options near the venue."
+    ]
+  ],
+  "geolocation": [44.8157678, 20.4610711],
+  "location": "Impact Hub Belgrade",
+  "schedule": "CityJS and HalfStack starts around 10am, includes breaks, lunch, dinner, and an interactive afterparty. Plan to arrive around 9am and stay late!",
+  "sessions": [],
+  "sponsors": {
+    "complete": [
+      {
+        "href": "https://livingspec.com",
+        "name": "Living Spec",
+        "src": "/logos/livingspec.svg"
+      },
+      {
+        "href": "https://salesforce.com/tech",
+        "name": "Salesforce Engineering",
+        "src": "/logos/salesforce.svg"
+      }
+    ],
+    "large": [
+      {
+        "href": "https://orangejellyfish.com",
+        "name": "Orange Jellyfish",
+        "src": "/logos/orangejellyfish.svg"
+      }
+    ],
+    "medium": [
+      {
+        "href": "https://www.tubular.io/",
+        "name": "Tubular",
+        "src": "/logos/tubular.svg"
+      },
+      {
+        "href": "https://wearedhd.com",
+        "name": "DHD",
+        "src": "/logos/dhd.svg"
+      }
+    ],
+    "small": [
+      {
+        "href": "https://ti.to/",
+        "name": "Tito",
+        "src": "/logos/tito.svg"
+      },
+      {
+        "href": "https://www.mozilla.org/",
+        "name": "Mozilla",
+        "src": "/logos/mozilla.svg"
+      }
+    ]
+  },
+  "year": 2023
+}

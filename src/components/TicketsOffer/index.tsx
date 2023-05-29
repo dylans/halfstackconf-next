@@ -9,7 +9,8 @@ export interface TicketsOfferProps {
 }
 
 export function TicketsOffer({ code }: TicketsOfferProps) {
-  const tito = useTitoWidget(`halfstack/${code}`);
+  const eventCode = code.includes("/") ? code : `halfstack/${code}`;
+  const tito = useTitoWidget(eventCode);
 
   return (
     <BodyArea>
