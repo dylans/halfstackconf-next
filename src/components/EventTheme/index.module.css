@@ -101,9 +101,9 @@
   --background-outline-alt: url("/events/belgrade/outline-alt.png");
   --background-pattern: url("/events/belgrade/pattern.png");
   --background-thumbnail: url("/events/belgrade/thumbnail.jpg");
-  --color-backdrop-subtle: #e78689;
-  --color-faint: #fadddf;
-  --color-primary-light: #f3a7a9;
-  --color-primary: #b41c21;
-  --color-primary-dark: #8b0f13;
+  --color-backdrop-subtle: #e1ff99;
+  --color-faint: #e1ff99;
+  --color-primary-light: #e1ff99;
+  --color-primary: #7aa11c;
+  --color-primary-dark: #304007;
 }
