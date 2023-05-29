@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import { CopyrightFooter } from "../CopyrightFooter";
 import { TextLink } from "../TextLink";
+import cityscapeBelgrade from "./assets/cityscapeBelgrade.png";
 import cityscapeCharlotte from "./assets/cityscapeCharlotte.png";
 import cityscapeLondon from "./assets/cityscapeLondon.png";
 import cityscapeNewquay from "./assets/cityscapeNewquay.png";
@@ -18,6 +19,7 @@ import twitterIcon from "./assets/iconTwitter.png";
 import styles from "./index.module.css";
 
 const cityscapes = [
+  ["Belgrade", styles.belgrade, "/belgrade", cityscapeBelgrade],
   ["Charlotte", styles.charlotte, "/charlotte", cityscapeCharlotte],
   ["London", styles.london, "/london", cityscapeLondon],
   ["New York", styles.newYork, "/newYork", cityscapeNewYork],
