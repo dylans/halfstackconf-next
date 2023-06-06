@@ -91,6 +91,36 @@
       "title": "To be revealed"
     },
     {
+      "by": "Chris Hunt",
+      "description": ["To be revealed"],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/thisisthechris/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://twitter.com/thisisthechris",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Recent Adventures in Building 3D things on the Web"
+    },
+    {
+      "by": "Natalia Waniczek",
+      "description": ["a.k.a How to be a sustainable web developer"],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/natalia-waniczek-88bb36184/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://twitter.com/lil_natw",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Saving the planet, one website at a time"
+    },
+    {
       "by": "Earth to Abigail and Shelly Knotts",
       "description": [
         "Estuary is a live coding platform for making music and visualizations. We'll get a quick intro to the platform and then use it to create music together during the afterparty!"
