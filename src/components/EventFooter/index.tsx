@@ -31,6 +31,7 @@ export function EventFooter({ slug }: EventFooterProps) {
           alt={`${slug} cityscape`}
           className={styles.cityscapeImage}
           height={150}
+          quality={100}
           src={`/events/${slug}/skyline.png`}
           width={350}
         />
