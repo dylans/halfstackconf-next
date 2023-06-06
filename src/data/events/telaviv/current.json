@@ -15,8 +15,61 @@
   ],
   "geolocation": [32.0494524, 34.7746208],
   "location": "Third Eye",
-  "schedule": "HalfStack starts around 10am, includes breaks, lunch, dinner, and an interactive afterparty with a JS pub quiz. Plan to arrive around 10am and stay late!",
-  "sessions": [],
+  "schedule": "HalfStack starts around 10am, includes breakfast, lunch, dinner, and an interactive afterparty with a JS pub quiz. Plan to arrive around 10am and stay late!",
+  "sessions": [
+    {
+      "by": "Earth to Abigail and Otto",
+      "description": [
+        "Earth to Abigail and Otto will use live coding to create music with the audience"
+      ],
+      "socials": [
+        { "href": "https://earthtoabigail.com", "icon": "site" },
+        { "href": "https://instagram.com/mynah_m", "icon": "instagram" },
+        { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" }
+      ],
+      "title": "To Be Revealed (Live Music Coding)"
+    },
+    {
+      "by": "Niels Leenheer",
+      "title": "To Be Revealed",
+      "description": ["To Be Revealed"],
+      "socials": []
+    },
+    {
+      "by": "Dylan Schiemann",
+      "description": ["To Be Revealed"],
+      "socials": [
+        {
+          "href": "https://twitter.com/dylans",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dylans",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://github.com/dylans/",
+          "icon": "github"
+        }
+      ],
+      "title": "To Be Revealed"
+    },
+    {
+      "by": "Guy Nesher",
+      "title": "To Be Revealed",
+      "description": ["To Be Revealed"],
+      "socials": []
+    },
+    {
+      "by": "Yair Galler",
+      "title": "I reverse-engineered a work of art, and this is what I learned",
+      "description": [
+        "This is the story of a weekend project which turned into a months-long challenge. After coming across a photorealistic painting made entirely out of strings, I decided that I want to create one too. But how? I decided to crack the algorithm that computes the strings.",
+        "In this talk, I will show how I created a Python algorithm that creates instructions for creating a beautiful work of art. I will cover topics such as greedy algorithms, image processing, color spaces, performance optimization and many other challenges that I encountered along the way."
+      ],
+      "socials": []
+    }
+  ],
   "sponsors": {
     "complete": [
       {
@@ -58,11 +111,6 @@
         "href": "https://www.meetup.com/Hodash-Dev",
         "name": "Hodash Dev",
         "src": "/logos/hodash.png"
-      },
-      {
-        "href": "https://www.jsisrael.com",
-        "name": "JavaScript Israel",
-        "src": "/logos/javascriptisrael.svg"
       }
     ]
   },
