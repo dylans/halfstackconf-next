@@ -49,6 +49,7 @@ export default function Event({
               alt=""
               className={styles.bannerImage}
               fill
+              quality="100"
               sizes="100vw"
               src={`/events/${slug}/skyline.png`}
             />
