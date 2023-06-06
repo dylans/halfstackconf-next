@@ -20,6 +20,7 @@ export function TintedImage({ className, src }: TintedImageProps) {
           className={styles.image}
           fill
           onError={() => setErrored(true)}
+          quality={100}
           src={src}
         />
       )}
