@@ -18,10 +18,8 @@
   "schedule": "HalfStack starts around 10am, includes breakfast, lunch, dinner, and an interactive afterparty with a JS pub quiz. Plan to arrive around 10am and stay late!",
   "sessions": [
     {
-      "by": "Earth to Abigail and Otto",
-      "description": [
-        "Earth to Abigail and Otto will use live coding to create music with the audience"
-      ],
+      "by": "Earth to Abigail",
+      "description": ["To Be Revealed"],
       "socials": [
         { "href": "https://earthtoabigail.com", "icon": "site" },
         { "href": "https://instagram.com/mynah_m", "icon": "instagram" },
@@ -63,10 +61,7 @@
     {
       "by": "Yair Galler",
       "title": "I reverse-engineered a work of art, and this is what I learned",
-      "description": [
-        "This is the story of a weekend project which turned into a months-long challenge. After coming across a photorealistic painting made entirely out of strings, I decided that I want to create one too. But how? I decided to crack the algorithm that computes the strings.",
-        "In this talk, I will show how I created a Python algorithm that creates instructions for creating a beautiful work of art. I will cover topics such as greedy algorithms, image processing, color spaces, performance optimization and many other challenges that I encountered along the way."
-      ],
+      "description": [],
       "socials": []
     }
   ],
