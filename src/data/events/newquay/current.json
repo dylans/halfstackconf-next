@@ -73,7 +73,9 @@
     },
     {
       "by": "Dale Lane",
-      "description": ["To be revealed"],
+      "description": [
+        "Is artificial intelligence relevant to school children? What should we be teaching our kids about AI? Dale will talk about the role of education has played in explaining tech, and will try to persuade you that schools need to catch up with the impact AI is having on our lives. Plus Dale will show you some fun and creative ways for introducing AI."
+      ],
       "socials": [
         {
           "href": "https://dalelane.co.uk/blog",
@@ -88,7 +90,7 @@
           "icon": "twitter"
         }
       ],
-      "title": "To be revealed"
+      "title": "Education in the age of AI"
     },
     {
       "by": "Chris Hunt",
