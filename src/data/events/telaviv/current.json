@@ -15,8 +15,56 @@
   ],
   "geolocation": [32.0494524, 34.7746208],
   "location": "Third Eye",
-  "schedule": "HalfStack starts around 10am, includes breaks, lunch, dinner, and an interactive afterparty with a JS pub quiz. Plan to arrive around 10am and stay late!",
-  "sessions": [],
+  "schedule": "HalfStack starts around 10am, includes breakfast, lunch, dinner, and an interactive afterparty with a JS pub quiz. Plan to arrive around 10am and stay late!",
+  "sessions": [
+    {
+      "by": "Earth to Abigail",
+      "description": ["To Be Revealed"],
+      "socials": [
+        { "href": "https://earthtoabigail.com", "icon": "site" },
+        { "href": "https://instagram.com/mynah_m", "icon": "instagram" },
+        { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" }
+      ],
+      "title": "To Be Revealed (Live Music Coding)"
+    },
+    {
+      "by": "Niels Leenheer",
+      "description": ["To Be Revealed"],
+      "socials": [],
+      "title": "To Be Revealed"
+    },
+    {
+      "by": "Dylan Schiemann",
+      "description": ["To Be Revealed"],
+      "socials": [
+        {
+          "href": "https://twitter.com/dylans",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dylans",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://github.com/dylans/",
+          "icon": "github"
+        }
+      ],
+      "title": "To Be Revealed"
+    },
+    {
+      "by": "Guy Nesher",
+      "description": ["To Be Revealed"],
+      "socials": [],
+      "title": "To Be Revealed"
+    },
+    {
+      "by": "Yair Galler",
+      "description": [],
+      "socials": [],
+      "title": "I reverse-engineered a work of art, and this is what I learned"
+    }
+  ],
   "sponsors": {
     "complete": [
       {
@@ -58,11 +106,6 @@
         "href": "https://www.meetup.com/Hodash-Dev",
         "name": "Hodash Dev",
         "src": "/logos/hodash.png"
-      },
-      {
-        "href": "https://www.jsisrael.com",
-        "name": "JavaScript Israel",
-        "src": "/logos/javascriptisrael.svg"
       }
     ]
   },
