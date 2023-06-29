@@ -65,9 +65,28 @@
       "title": "To Be Revealed"
     },
     {
-      "by": "Yair Galler",
-      "description": [],
+      "by": "Sefi Ninio",
+      "description": [
+        "As human beings, our remarkable ability to perceive the world around us through our senses serves as the foundation for our understanding of reality. Our minds swiftly process this information, understand the necessary flow of actions and orchestrate appropriate responses.",
+        "Sefi will guide the audience on an extraordinary journey as they delve into the captivating realm of Smart Homes. They will uncover the differences between Controlled Homes and Smart Homes, and witness how these technologies enrich homes with a sensory perception that allows them to assimilate new data, evaluate optimal courses of action, and react autonomously without human intervention.",
+        "Be prepared to explore myriad examples, ranging from the mundane tasks of our daily lives to awe-inspiring complex routines that will ignite your imagination. Prepare to witness the power of home automation and how it can help us control costs, improve our lives and sometimes even save them."
+      ],
       "socials": [],
+      "title": "Embarking on a Journey through the Wonders of Smart Homes"
+    },
+    {
+      "by": "Yair Galler",
+      "description": [
+        "This is the story of a weekend project that became a month-long challenge. After coming across a photorealistic painting made entirely from strings, Yair wanted to create one too. But how? He decided to crack the algorithm that computes the strings.",
+        "Yair will present the algorithm that generates the instructions for creating a beautiful work of art, including topics such as greedy algorithms, image processing, color spaces, performance optimization, and other interesting aspects."
+      ],
+      "socials": [
+        { "href": "https://twitter.com/ygaller", "icon": "twitter" },
+        {
+          "href": "https://www.linkedin.com/in/yairgaller/",
+          "icon": "linkedin"
+        }
+      ],
       "title": "I reverse-engineered a work of art, and this is what I learned"
     }
   ],
