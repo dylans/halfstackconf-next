@@ -20,10 +20,12 @@ export type EventGeoLocation = [number, number];
 
 export type EventSocialIcon =
   | "blog"
+  | "bluesky"
   | "facebook"
   | "github"
   | "glitch"
   | "linkedin"
+  | "mastodon"
   | "medium"
   | "twitter"
   | "youtube";
