@@ -148,6 +148,16 @@
         "href": "https://www.mozilla.org/",
         "name": "Mozilla",
         "src": "/logos/mozilla.svg"
+      },
+      {
+        "href": "https://openjsf.org/",
+        "name": "Open JS Foundation",
+        "src": "/logos/openjsfoundation.svg"
+      },
+      {
+        "href": "http://codebar.io/",
+        "name": "codebar",
+        "src": "/logos/codebar.svg"
       }
     ]
   },
