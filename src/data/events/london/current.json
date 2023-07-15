@@ -40,6 +40,11 @@
       }
     ],
     "large": [
+      {
+        "href": "https://platformatic.dev",
+        "name": "Platformatic",
+        "src": "/logos/platformatic.svg"
+      },
       { "href": "https://cmdhq.io", "name": "CMD", "src": "/logos/cmd.svg" },
       {
         "href": "https://beamery.com",

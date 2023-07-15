@@ -1,0 +1,273 @@
+{
+  "afterparty": "Afterparty (includes Retro Tech Movie!)",
+  "catchphrase": "The second HalfStack Phoenix at the Majestic Theater Gilbert.",
+  "code": "halfstack-phoenix-2024",
+  "date": "February 3 2023, 10am - Late",
+  "description": [
+    "Up to 200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
+    "Mostly from the Phoenix area, with some from throughout the US, Europe and beyond"
+  ],
+  "faqs": [
+    [
+      "Where should I stay?",
+      "If you're not from the Phoenix area, note that Phoenix is very spread out, and we picked the Majestic Theatre because it's an amazing experience, but it is not centrally located. There are 2 hotels within a 2 minute walk of the venue as well as Airbnb options."
+    ]
+  ],
+  "geolocation": [33.317108, -111.688454],
+  "location": "Majestic Theater, Gilbert",
+  "packet": "https://app.livingspec.com/accept-invitation?code=7ca49d8f-e83e-4f76-9f5b-96cbab5cd884",
+  "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late! We're also expecting to have an optional informal afternoon of full on Saturday, so join us then if time permits!",
+  "sessions": [
+    {
+      "by": "Tiger Oakes and Daphne Liu",
+      "description": [
+        "We've been dating for 7 years, and people ask us how we managed to stay together for so long. Our answers are: communication, transparency, and teamwork, all of which: we automated!",
+        "We want to show you how to build various tools using Node.js, APIs, and the Internet of Things, to make it easier to collaborate and set up routines. We'll bring our dynamic working together with conference speaking and improv experience to teach you about home automation while making you laugh a lot."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/Not_Woods",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://twitter.com/thebetterdaphne",
+          "icon": "twitter"
+        }
+      ],
+      "title": "How we automated our relationship"
+    },
+    {
+      "by": "Todd Libby",
+      "description": [
+        "Deceptive patterns (also known as \"dark patterns\") are all over the Web. We'll speak to the accessibility impact deceptive patterns have as well as Todd's introduction to taking these patterns, anti-patterns and his work in the W3C to have these published in WCAG 3."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/toddlibby",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Deceptive Patterns and FAST"
+    },
+    {
+      "by": "Bekah Rice",
+      "description": [
+        "Testing your digital products with real people is the only real way to see if what you've built actually works. The problem is, many of us just don't have the time or budget to run a full-scale usability test. Still, it's always better to do some testing rather than none. We'll cover all the basics for running your own short, successful usability tests on a shoestring budget, using just a few basic resources."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/bekahble",
+          "icon": "twitter"
+        }
+      ],
+      "title": "DIY Usability Testing When You Have No Time and No Budget"
+    },
+    {
+      "by": "William Blankenship",
+      "description": [
+        "GraphQL is still a nascent technology. Bringing it into an organization, you may find many who've heard of it in name only. In this talk William will share the mental models he's used to quickly \"upload\" context to other folks to prime conversations around GraphQL."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/retrohack3r",
+          "icon": "twitter"
+        }
+      ],
+      "title": "GraphQL Mental Models"
+    },
+    {
+      "by": "Chris DeMars",
+      "description": [
+        "The A/B test! We've all thought it: \"What's the point? How much configuration do we need?\" If you're familiar with the scientific method, those steps carve out the path to experimentation and A/B testing. Everyone loves a good hypothesis right? I know I do. Melding the world of science and software can help alleviate the stresses of experiments and help to maximize impact of every feature. In this talk we will journey through what an A/B test is, defining goals for A/B testing your app, and rolling out features based on successful experiments."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/saltnburnem",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Demystifying The Dreaded A/B Test"
+    },
+    {
+      "by": "Lucia Cerchie",
+      "description": [
+        "Over a third of respondents to a StackOverflow survey professed to a dread of learning Apache Kafka. Nevertheless, with a curious mindset and the right resources, we have the tools to succeed in learning Kafka. The comedian Tracy Morgan notes, \"If there’s one thing I’ve learned in my life, it’s that curiosity might kill cats, but it doesn’t kill people.\" Take the plunge with me and together we will conquer concepts like events and topics, producers and consumers.",
+        "We'll gain confidence through learning about partitions and brokers and how to use Kafka in the cloud. We'll go over the different configurations for producers and consumers, and how these configurations affect application behavior. Then, accompany me on a code walkthrough and see how we build and run producers and consumers in Node.js with the node-rdkafka client.",
+        "You'll be leaving with a spark of excitement, knowing you have neutralized your dread, and that you are now firmly within the two-thirds of StackOverflow respondents who are comfortable learning Apache Kafka."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/CerchieLucia",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Beginning Apache Kafka® for JavaScript Developers"
+    },
+    {
+      "by": "Luis Montes",
+      "description": [
+        "Atwood's law tells us that 'Any application that can be written in JavaScript, will eventually be written in JavaScript.'",
+        "We'll take that concept a bit further and creatively push the limits of the web platform and explore a few areas that could be better."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/monteslu",
+          "icon": "twitter"
+        }
+      ],
+      "title": "That is the sound of inevitability"
+    },
+    {
+      "by": "Celeste Betancur",
+      "description": [
+        "Live coding is a new direction in electronic music and video. Live coders expose and rewire the innards of software while it generates improvised music and/or visuals. All code manipulation is projected for all to see. Live coding works across musical genres, and has been seen in concert halls, late-night jazz bars, as well as algoraves."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/essteb",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.instagram.com/essteb",
+          "icon": "instagram"
+        }
+      ],
+      "title": "Pandora's Dream: Audiovisual live coding performance in a multi-language platform"
+    },
+    {
+      "by": "Austin Gil",
+      "description": [
+        "A fanciful journey following your code from conception in the editor through the awkward build processes into deployment pipelines out to the real world of public internet and off to it's final destination, being rendered in a user's browser.",
+        "The internet has become a complex place. With the advent of frameworks, build tools, and deployment services, the distance between developers and browsers is growing. Developer Experience has improved, but with these abstractions, we've introduced layers of obscurity.",
+        "This talk is intended for people with any level of experience, as it fills the gaps in knowledge of how things work. The information is not critical to your work, but it's fascinating nonetheless.",
+        "We'll take a deep dive into what happens after you hit save, what processes take place to get your code transformed for production, how does it get deployed, how it gets to the user, and the steps the browser takes to actually render the page."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/heyAustinGil",
+          "icon": "twitter"
+        }
+      ],
+      "title": "What's a dev gotta do to make a div around here?"
+    },
+    {
+      "by": "Anthony Lusardi",
+      "description": ["To be revealed"],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Zack DeRose",
+      "description": [
+        "When Neo asks Morpheus “What is the Matrix?“, Morpheus’ response is: “Control”.",
+        "The JavaScript community has taken this to heart, what better way to take control than by creating your own framework or stack?",
+        "The only problem is, there’s simply not enough of them. So we’ll take a look at what it would take to create a stack-creation framework to help you make your own stack!",
+        "We’ll quickly review the tools necessary for creating a stack (like code-generation scripts and coordinated task-running) to make everything expected/required for your stack and also discuss some of the practical and impractical applications, to make sure that we can control our Matrix before it controls us!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/zackderose",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Take Control By Creating The [Your Name Here]-Stack"
+    }
+  ],
+  "sponsors": {
+    "community": [
+      {
+        "href": "https://www.meetup.com/Phoenix-TypeScript/",
+        "name": "PHX TS",
+        "src": "/logos/phxts.svg"
+      },
+      {
+        "href": "https://www.meetup.com/Phoenix-JavaScript/",
+        "name": "PHX JS",
+        "src": "/logos/phxjs.svg"
+      },
+      {
+        "href": "https://oct2023.desertcodecamp.com/home",
+        "name": "Desert Code Camp",
+        "src": "/logos/desertcodecamp.png"
+      },
+      {
+        "href": "https://www.thecoderschool.com/locations/gilbert/",
+        "name": "theCoderSchool Gilbert",
+        "src": "/logos/thecoderschool.png"
+      }
+    ],
+    "complete": [
+      {
+        "href": "https://livingspec.com/",
+        "name": "Living Spec",
+        "src": "/logos/livingspec.svg"
+      },
+      {
+        "href": "https://salesforce.com/tech",
+        "name": "Salesforce Engineering",
+        "src": "/logos/salesforce.svg"
+      },
+      {
+        "href": "https://nx.dev",
+        "name": "Nx",
+        "src": "/logos/nx.svg"
+      },
+      {
+        "href": "https://www.wix.com/velo",
+        "name": "Wix",
+        "src": "/logos/wix.svg"
+      }
+    ],
+    "large": [
+      {
+        "href": "https://wearedhd.com/",
+        "name": "DHD",
+        "src": "/logos/dhd.svg"
+      }
+    ],
+    "medium": [
+      {
+        "href": "https://www.salesbricks.com/",
+        "name": "Salesbricks",
+        "src": "/logos/salesbricks.svg"
+      },
+      {
+        "href": "https://interval.com/",
+        "name": "Interval",
+        "src": "/logos/interval.png"
+      },
+      {
+        "href": "https://iceddev.com/",
+        "name": "Iced.dev",
+        "src": "/logos/iceddev.svg"
+      },
+      {
+        "href": "https://www.mozilla.org/",
+        "name": "Mozilla",
+        "src": "/logos/mozilla.svg"
+      }
+    ],
+    "small": [
+      {
+        "href": "https://dolby.io",
+        "name": "Dolby.io",
+        "src": "/logos/dolbyio.png"
+      },
+      {
+        "href": "https://ti.to",
+        "name": "Tito",
+        "src": "/logos/tito.svg"
+      },
+      {
+        "href": "http://codebar.io",
+        "name": "codebar",
+        "src": "/logos/codebar.svg"
+      },
+      {
+        "href": "https://openjsf.org/",
+        "name": "Open JS Foundation",
+        "src": "/logos/openjsfoundation.svg"
+      }
+    ]
+  },
+  "year": 2023
+}
