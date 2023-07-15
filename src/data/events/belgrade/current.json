@@ -77,7 +77,7 @@
           "icon": "twitter"
         }
       ],
-      "title": "Five years later: The state of Audio to Text in JS with AI"
+      "title": "A Closer Look at 3D Rendering"
     },
     {
       "by": "Nemanja Tosic",
@@ -99,6 +99,50 @@
         }
       ],
       "title": "Complaints and Grievances"
+    },
+    {
+      "by": "Santosh Yadav",
+      "description": [
+        "It's easy to complain, but difficult to solve problems. We'll explore the long term impact of complaints gone wrong."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/SantoshYadavDev",
+          "icon": "twitter"
+        }
+      ],
+      "title": "The Framework of the Past, Present, and Future"
+    },
+    {
+      "by": "Naim Gkamperlo",
+      "description": [
+        "We'll navigate the world of micro frontends, breaking down large, complex user interfaces into manageable components. It's a must-attend for software engineers keen on improving their UI development strategies and workflows.",
+        "We're going on a journey through the magical world of micro frontends, where we turn big, daunting UI into neat, nifty packages.",
+        "We've got plenty of real-life examples and straightforward advice to help you get the hang of it. This isn't just for tech whizzes - whether you've built a hundred websites or you're just starting out, you’ll walk away with some great tips and tricks.                    ",
+        "Ready to join the adventure and shrink that UI? We can’t wait to see you!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/@ngkamperlo",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Honey, I Shrunk the UI: Adventures in Microfrontends"
+    },
+    {
+      "by": "Daniel Afonso",
+      "description": [
+        "State is the heart of your application.",
+        "As time passes and your application grows, more than a single concept for state is needed. You need to split your state into client and server state, but do you really know server state? Server state is not just queries and mutations. When building your applications, your server state has an overwhelming number of challenges you need to deal with to create the best experience for your app users.",
+        "Now, an extra obstacle is solving all those challenges while keeping your mental sanity and, at the same time, creating a good developer experience in your project. Entering your soon-to-be best friend and a must for dealing with your server state: TanStack Query "
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/danieljcafonso",
+          "icon": "twitter"
+        }
+      ],
+      "title": "You Don’t Know Server State Yet"
     }
   ],
   "sponsors": {
