@@ -56,11 +56,18 @@ const packages = [
 
 export interface SponsorshipPackagesProps {
   currency: string | undefined;
+  price?: Record<string, number>;
 }
 
 export const SponsorshipPackages = ({
   currency = "$",
-}: SponsorshipPackagesProps) => {
+  price = {
+    complete: 4000,
+    medium: 2000,
+    small: 1000,
+    large: 3000,
+  },
+}) => {
   return (
     <InvertedArea className={styles.sponsorshipPackages}>
       <BodyArea>
@@ -76,7 +83,9 @@ export const SponsorshipPackages = ({
             >
               <Text as="h3" fontSize="large">
                 {sponsorshipPackage.title} ({currency}
-                {sponsorshipPackage.price})
+                {price[sponsorshipPackage.title.split(" ")[0].toLowerCase()] ??
+                  sponsorshipPackage.price}
+                )
               </Text>
               <ul>
                 {sponsorshipPackage.benefits.map((benefit) => (

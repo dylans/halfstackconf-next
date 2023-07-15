@@ -19,7 +19,88 @@
   "geolocation": [44.8157678, 20.4610711],
   "location": "Impact Hub Belgrade",
   "schedule": "CityJS and HalfStack starts around 10am, includes breaks, lunch, dinner, and an interactive afterparty. Plan to arrive around 9am and stay late!",
-  "sessions": [],
+  "sessions": [
+    {
+      "by": "Christian Heilmann",
+      "description": [
+        "AI powered pair programming tools like GitHub CoPilot, ChatGPT or Amazon Codewhisperer are all the rage. They make us more effective and are the future. But how do they hold up in the front-end world where code is only a part of the experience? Chris Heilmann, survivor of the browser wars of 25 years shows how."
+      ],
+      "socials": [
+        { "href": "https://christianheilmann.com/", "icon": "site" },
+        { "href": "https://twitter.com/codepo8", "icon": "twitter" }
+      ],
+      "title": "Centering DIVs in new and exciting wrong ways with AI?"
+    },
+    {
+      "by": "Earth to Abigail",
+      "description": [
+        "Join Mynah Marie (aka Earth to Abigail) for an interactive session where we will explore the world of live coding music through the browser using the web platform Estuary. As a seasoned live coder and passionate musician, Mynah will guide attendees through the fundamentals of live coding music, breaking down complex concepts into accessible steps. Everyone is encouraged to get their laptops out and actively participate. Throughout the session, we will delve into Estuary’s features and languages. Participants will gain first-hand experience on what it’s like to use code as a performing arts medium and what kind of challenges live coders face when creating music or visuals in real time. Prepare to be amazed as the collective creativity of CityJS + HalfStack unfolds in this unique group experience! "
+      ],
+      "socials": [
+        { "href": "https://earthtoabigail.com", "icon": "site" },
+        { "href": "https://instagram.com/mynah_m", "icon": "instagram" },
+        { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" }
+      ],
+      "title": "Live Coding Together in the Browser Using Estuary"
+    },
+    {
+      "by": "Dylan Schiemann",
+      "description": [
+        "Five years ago HalfStack legend Tony Edwards regaled us with a look at using JS to transcribe his live rapping. Much has improved so we'll look at the current state of transcribing audio to text with JS and AI."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/dylans",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dylans",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://github.com/dylans/",
+          "icon": "github"
+        }
+      ],
+      "title": "Five years later: The state of Audio to Text in JS with AI"
+    },
+    {
+      "by": "Maya Nedeljkovic Batic",
+      "description": [
+        "Going from simple web elements like divs and buttons to creating interactive 3D scenes can seem like a daunting leap, even for seasoned web developers.",
+        "But as user expectations grow, it's clear that 3D web experiences are becoming the standard. Whether it's a 360° view of a product, an AR-powered home renovation app, or a sophisticated medical imaging viewer, 3D is changing the way we interact with the web. Thankfully, diving into 3D is more straightforward than ever.",
+        "At its core, 3D is just about plotting points in space and some smart math. This session will cover the essentials of how these points, or vertices, become triangles, and eventually pixels on our screens. If you've ever been curious about the 3D rendering pipeline but didn't know where to start, this session is for you."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/maya_ndljk",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Five years later: The state of Audio to Text in JS with AI"
+    },
+    {
+      "by": "Nemanja Tosic",
+      "description": [
+        "It's easy to complain, but difficult to solve problems. We'll explore the long term impact of complaints gone wrong."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/nemanjatosic6",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/nemanja-tosic-38a73483/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://github.com/nemanja-tosic",
+          "icon": "github"
+        }
+      ],
+      "title": "Complaints and Grievances"
+    }
+  ],
   "sponsors": {
     "complete": [
       {
@@ -34,6 +115,11 @@
       }
     ],
     "large": [
+      {
+        "href": "https://platformatic.dev",
+        "name": "Platformatic",
+        "src": "/logos/platformatic.svg"
+      },
       {
         "href": "https://orangejellyfish.com",
         "name": "Orange Jellyfish",
