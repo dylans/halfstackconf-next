@@ -53,10 +53,14 @@
       "title": "To Be Revealed"
     },
     {
-      "by": "Ran Bar Zik",
-      "description": ["To Be Revealed"],
+      "by": "Ran and Omri Bar Zik",
+      "description": [
+        "With the AI revolution it is finally happen - the humanity has the power to solve new problems!",
+        "Which problems? world hunger, poverty, health issues.",
+        "In this session we will show how to combine IoT, Analog and digital devices, Microprocessors and Micro computers, AI and the cloud and will show you how to create an autonomous, AI driven, Node.js powered and cloud base... fart detector"
+      ],
       "socials": [],
-      "title": "To Be Revealed"
+      "title": "I powered fart detector on Node.js. Yes, we have it on cloud"
     },
     {
       "by": "Guy Nesher",
