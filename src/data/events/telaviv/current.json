@@ -92,6 +92,21 @@
         }
       ],
       "title": "I reverse-engineered a work of art, and this is what I learned"
+    },
+    {
+      "by": "Amit Sheen",
+      "description": [
+        "For years Amit has been know to challenge the boundaries of what (we thought) was possible with CSS, specifically in 3D animations, Using every known method, and experimenting with a few of his own, he created mind-blowing animations, and dedicated himself to unleashing the true power of CSS. This journey took him all over the world, and overtime, his work helped redefine and change the perception of what we can (and should) do with CSS animations.",
+        "Join us as we delve into the world of perspective and movement, and open ourselves to a new dimension (literally) of CSS."
+      ],
+      "socials": [
+        { "href": "https://twitter.com/amit_sheen", "icon": "twitter" },
+        {
+          "href": "https://www.linkedin.com/in/amit-sheen",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "Pushing CSS to The Limit"
     }
   ],
   "sponsors": {
