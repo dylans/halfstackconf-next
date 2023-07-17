@@ -83,9 +83,7 @@ export const SponsorshipPackages = ({
             >
               <Text as="h3" fontSize="large">
                 {sponsorshipPackage.title} ({currency}
-                {price[sponsorshipPackage.title.split(" ")[0].toLowerCase()] ??
-                  sponsorshipPackage.price}
-                )
+                {sponsorshipPackage.price})
               </Text>
               <ul>
                 {sponsorshipPackage.benefits.map((benefit) => (
