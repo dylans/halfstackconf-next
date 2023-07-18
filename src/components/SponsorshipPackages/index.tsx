@@ -59,15 +59,7 @@ export interface SponsorshipPackagesProps {
   price?: Record<string, number>;
 }
 
-export const SponsorshipPackages = ({
-  currency = "$",
-  price = {
-    complete: 4000,
-    medium: 2000,
-    small: 1000,
-    large: 3000,
-  },
-}) => {
+export const SponsorshipPackages = ({ currency = "$" }) => {
   return (
     <InvertedArea className={styles.sponsorshipPackages}>
       <BodyArea>
