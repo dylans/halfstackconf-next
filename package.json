@@ -49,7 +49,7 @@
     "lint": "eslint --max-warnings 0 --report-unused-disable-directives .",
     "lint:md": "npx markdownlint \"**/*.md\" \".github/**/*.md\"",
     "lint:package": "npmPkgJsonLint .",
-    "lint:prune": "! ts-prune | grep -v \"used in module\"",
+    "lint:prune": "ts-prune | grep -v \"used in module\"",
     "lint:style": "stylelint \"src/**/*.css\"",
     "prepare": "husky install",
     "production": "next build && next start -p 5001",
