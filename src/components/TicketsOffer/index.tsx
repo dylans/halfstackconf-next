@@ -27,8 +27,9 @@ export function TicketsOffer({ code }: TicketsOfferProps) {
             of JavaScript fun.
           </Text>
           <Text as="p" className={styles.p}>
-            We offer a generous refund and transfer policy (30 days full refund,
-            or transfer until the day before the event).
+            We offer a generous refund and transfer policy (30 days full refund
+            less any non-refundable credit card processing fees, or transfer
+            until the day before the event).
           </Text>
           <Text as="p" className={styles.p}>
             Tickets are now also available as a{" "}

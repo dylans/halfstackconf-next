@@ -36,9 +36,10 @@ const faqs: [string, React.ReactNode][] = [
       the process of cautiously reopening.
       <br />
       <br />
-      COVID-19 refund policy: Full refunds are available up to 7 days prior to a
-      scheduled in-person event. If you wake up ill, stay home and we&apos;ll
-      credit you with a ticket for a future event.
+      COVID-19 refund policy: Full refunds ( less any non-refundable credit card
+      processing fees ) are available up to 7 days prior to a scheduled
+      in-person event. If you wake up ill, stay home and we&apos;ll credit you
+      with a ticket for a future event.
     </>,
   ],
 ];
