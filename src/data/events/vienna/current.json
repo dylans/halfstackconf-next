@@ -97,19 +97,28 @@
       "title": "To Be Revealed"
     },
     {
-      "by": "Stephanie Stimac",
-      "description": ["To be revealed"],
+      "by": "Bogomil Shopov",
+      "description": [
+        "Bogomil's career in IT started as a servant to programmers: fixing a line or two in the code, and now he is a Director in a vast international privacy company. When he looks back, it was different. Oh gosh, we had so much fun in the past.",
+        "It seems that at some point recently, most of the world decided that IT is an elite profession that needs to produce only value no matter what.",
+        "This is a great tragedy, and it must be rectified. Why do we have feelings, emotions, and personalities if we no longer have fun? In this talk, we'll take a retrospective journey through the years to what went wrong and how we fix it together.",
+        "We will cover the epoch of the world before Agile to the era of the Artificial Immigrant(AI), who is here to take your jobs away."
+      ],
       "socials": [
         {
-          "href": "https://twitter.com/seaotta",
-          "icon": "twitter"
+          "href": "https://hapyyr.com/@bogo",
+          "icon": "mastodon"
         },
         {
-          "href": "https://ramonh.dev/",
+          "href": "https://talkweb.eu/about/",
           "icon": "site"
+        },
+        {
+          "href": "https://twitter.com/bogomep",
+          "icon": "twitter"
         }
       ],
-      "title": "To Be Revealed"
+      "title": "Where did all the fun go?"
     },
     {
       "by": "Dylan Schiemann",
