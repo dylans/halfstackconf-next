@@ -29,9 +29,11 @@
     },
     {
       "by": "Niels Leenheer",
-      "description": ["To Be Revealed"],
+      "description": [
+        "Join us for an exciting talk on creating a point-of-sale system entirely using web technologies. In this session, we will explore the power of hardware APIs, such as WebHID, WebUSB and WebSerial, and connect the browser to essential components such as a cash drawer, customer display, receipt printer and barcode scanner. We'll also touch on other new Project Fugu APIs like Idle Detection, Multi-screen Window Placement and Shape Detection. And finally, we will show how this works in practice with a live demonstration of all the components."
+      ],
       "socials": [],
-      "title": "To Be Revealed"
+      "title": "Making money with Project Fugu – building a cash register with web technologies"
     },
     {
       "by": "Dylan Schiemann",
