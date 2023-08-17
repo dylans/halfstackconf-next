@@ -60,14 +60,16 @@
     },
     {
       "by": "Eva Lettner",
-      "description": ["To be revealed"],
+      "description": [
+        "Eva shares her way of managing and interacting at work, giving actionable, science-based tools on how to communicate and work together as well as leading teams."
+      ],
       "socials": [
         {
           "href": "https://twitter.com/eva_trostlos",
           "icon": "twitter"
         }
       ],
-      "title": "To Be Revealed"
+      "title": "A person-centered approach to engineering management"
     },
     {
       "by": "Ramon Huidobro",
@@ -110,7 +112,10 @@
     },
     {
       "by": "Dylan Schiemann",
-      "description": ["To be revealed"],
+      "description": [
+        "As the co-founder of Living Spec and HalfStack, maintainer of SlateJS, and early co-founder of the Dojo Toolkit, Dylan has seen a lot of chaos in the JavaScript ecosystem.",
+        "Over the past three years, Dylan has been back to being a near full-time engineer on Living Spec. Dylan will share some of the fun adventures along the way, and explain how it's never too late to go back to being an engineer."
+      ],
       "socials": [
         {
           "href": "https://twitter.com/dylans",
@@ -125,7 +130,7 @@
           "icon": "github"
         }
       ],
-      "title": "To be revealed"
+      "title": "Back to the Future"
     },
     {
       "by": "Niels Leenheer",
@@ -139,6 +144,13 @@
         }
       ],
       "title": "Making money with Project Fugu – building a cash register with web technologies"
+    },
+    {
+      "by": "Timea Turdean",
+      "description": [
+        "This session will cover Solid (giving users control of their data, not the JS framework). More details to be revealed soon."
+      ],
+      "title": "To be revealed"
     }
   ],
   "sponsors": {
