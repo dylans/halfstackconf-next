@@ -32,18 +32,6 @@
       "title": "Centering DIVs in new and exciting wrong ways with AI?"
     },
     {
-      "by": "Earth to Abigail",
-      "description": [
-        "Join Mynah Marie (aka Earth to Abigail) for an interactive session where we will explore the world of live coding music through the browser using the web platform Estuary. As a seasoned live coder and passionate musician, Mynah will guide attendees through the fundamentals of live coding music, breaking down complex concepts into accessible steps. Everyone is encouraged to get their laptops out and actively participate. Throughout the session, we will delve into Estuary’s features and languages. Participants will gain first-hand experience on what it’s like to use code as a performing arts medium and what kind of challenges live coders face when creating music or visuals in real time. Prepare to be amazed as the collective creativity of CityJS + HalfStack unfolds in this unique group experience! "
-      ],
-      "socials": [
-        { "href": "https://earthtoabigail.com", "icon": "site" },
-        { "href": "https://instagram.com/mynah_m", "icon": "instagram" },
-        { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" }
-      ],
-      "title": "Live Coding Together in the Browser Using Estuary"
-    },
-    {
       "by": "Dylan Schiemann",
       "description": [
         "Five years ago HalfStack legend Tony Edwards regaled us with a look at using JS to transcribe his live rapping. Much has improved so we'll look at the current state of transcribing audio to text with JS and AI."
@@ -143,6 +131,30 @@
         }
       ],
       "title": "You Don’t Know Server State Yet"
+    },
+    {
+      "by": "Josefine Schaefer",
+      "description": [
+        "Web Accessibility is not only legally required in many countries, but it is also an essential tool to make the web a more inclusive place for all.",
+        "And while it’s a necessity for some, it benefits all of us: Through improved performance, better usability, and clearer design.",
+        "A Headless CMS can pave the way for you here - using the example of Storyblok, we will explore how. We will have a closer look at headline hierarchies, color contrast, alternative text, and keyboard accessibility as well as creating accessible content and code - in a mixture of live demo, background context, and real-life examples."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/JsfnSchfr",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Accessibility in Times of Headless Systems"
+    },
+    {
+      "by": "Toma Puljak",
+      "description": [
+        "Apps are becoming more and more collaborative each day and it's no coincidence. Collaborative features often boost engagement and make users' workflows much more efficient. Features like chatting, text sync and cursor tracking allow users to stay within your app without moving to 3rd party solutions.",
+        "This session will include a walkthrough of how to set up the Yjs library to integrate any collaborative feature with ease and all in less than 20 minutes. We will cover popular use cases for collaborative features and the challenges that it poses for developers. There are a lot of things to consider when integrating collaboration such as conflict resolution, scalability, latency, etc. Using a library like Yjs can make your lives easier because most of the challenges are solved on the lib level, meaning that the developer only needs to worry about integration.",
+        "Finally, we will do a live demo of integrating these features into an app and share it with the audience so we can see the features in action in real-time. After this session, the audience will be able to integrate collaboration features into any app with ease."
+      ],
+      "title": "Make your app collaborative in less than 20 minutes?"
     }
   ],
   "sponsors": {
