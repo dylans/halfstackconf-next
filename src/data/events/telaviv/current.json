@@ -152,6 +152,11 @@
         "href": "https://www.meetup.com/Hodash-Dev",
         "name": "Hodash Dev",
         "src": "/logos/hodash.png"
+      },
+      {
+        "href": "https://www.meetup.com/negevdev/",
+        "name": "Negev Web Developers",
+        "src": "/logos/negev.png"
       }
     ]
   },
