@@ -18,18 +18,6 @@
   "schedule": "Plan to arrive between 09:00 and 09:30 on the 15th of September & stay late for an amazing day of JavaScript goodness!",
   "sessions": [
     {
-      "by": "Earth to Abigail",
-      "description": [
-        "Join Mynah Marie (aka Earth to Abigail) for an interactive session where we will explore the world of live coding music through the browser using the web platform Estuary. As a seasoned live coder and passionate musician, Mynah will guide attendees through the fundamentals of live coding music, breaking down complex concepts into accessible steps. Everyone is encouraged to get their laptops out and actively participate. Throughout the session, we will delve into Estuary’s features and languages. Participants will gain first-hand experience on what it’s like to use code as a performing arts medium and what kind of challenges live coders face when creating music or visuals in real time. Prepare to be amazed as the collective creativity of CityJS + HalfStack unfolds in this unique group experience! "
-      ],
-      "socials": [
-        { "href": "https://earthtoabigail.com", "icon": "site" },
-        { "href": "https://instagram.com/mynah_m", "icon": "instagram" },
-        { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" }
-      ],
-      "title": "Live Coding Together in the Browser Using Estuary"
-    },
-    {
       "by": "Hidde de Vries",
       "description": [
         "Our design systems commonly feature components that show on top of other content: tooltips, date pickers, menus and teaching UI, to name just a few. Proposed updates to the web platform are about to make building these a whole lot easier. You might not even need JavaScript. You’ll learn all about the upcoming ‘popover’ attribute, modality and the top layer."
