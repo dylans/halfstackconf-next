@@ -150,7 +150,41 @@
       "description": [
         "This session will cover Solid (giving users control of their data, not the JS framework). More details to be revealed soon."
       ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/timeaturdean/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://github.com/timea-solid",
+          "icon": "github"
+        },
+        {
+          "href": "https://timeaturdean.com/",
+          "icon": "website"
+        }
+      ],
       "title": "To be revealed"
+    },
+    {
+      "by": "Michael Bromley",
+      "description": [
+        "Let's explore some lessons from the past 5 years building a large-scale open source project that is used by thousands of developers.",
+        "We often say things like \"keep it simple, stupid\", \"you aren't going to need it\", \"don't repeat yourself\" and so on.",
+        "These are good rules of thumb, but not dogma. Time and experience make you pragmatic and provide a level of judgement that can overrule such principles when the time is right.",
+        "We'll look at some fun examples of the painful consequences of getting these things wrong."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/michlbrmly",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://github.com/michaelbromley",
+          "icon": "github"
+        }
+      ],
+      "title": "You Aren't Gonna Need It...Until You Are?"
     }
   ],
   "sponsors": {
