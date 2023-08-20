@@ -113,6 +113,32 @@
       ],
 
       "title": "An Emulator's Journey"
+    },
+    {
+      "by": "Lightning",
+      "description": [
+        "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/halfstackconf",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Lightning Talks"
+    },
+    {
+      "by": "HalfStack",
+      "description": [
+        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/halfstackconf",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Afterparty (JS Pub Quiz and Battledecks)"
     }
   ],
   "sponsors": {
