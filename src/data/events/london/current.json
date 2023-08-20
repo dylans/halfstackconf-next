@@ -13,9 +13,108 @@
     ]
   ],
   "geolocation": [51.52036, -0.07319200000006276],
-  "location": "Cafe 1001, London",
+  "location": "93 Feet East, London",
   "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late!",
-  "sessions": [],
+  "sessions": [
+    {
+      "by": "Leo Riviera",
+      "description": [
+        "Leo, with his knowledge as a software engineer really gets what it's like for internet users having to wait around in anticipation of responses from online applications or websites. His talk will go into detail about how he is able to optimize these processes and make them more human-friendly so that data related to TfL can be served up quickly.",
+        "We'll figure out how to design and construct an easy way of getting information about different services quickly, understanding the workings of worker threads, figuring out TfL's APIs in detail and creating a practical framework as well as building and successfully deploying something close to reality."
+      ],
+      "socials": [
+        {
+          "href": "https://github.com/leoriviera",
+          "icon": "github"
+        },
+        {
+          "href": "https://linkedin.com/in/leoriviera",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://twitter.com/bogomep",
+          "icon": "twitter"
+        }
+      ],
+      "title": "tfl.fyi: building human-consumable APIs"
+    },
+    {
+      "by": "Alistair Shepherd",
+      "description": [
+        "Alistair is passionate about creating awesome products for the web. He's a super savvy Front End Developer at Series Eight, and he has an amazing knack for building stunning websites that leave clients in awe - from small-scale businesses to large corporations around the globe.",
+        "With all the cool web technologies and browsers we have today, his talk will really remind us of how with just a bit of modern CSS and JavaScript as well as some clever techniques you can make a website look great.",
+        "This session is sure to be quite interesting as it will include a lot of great information about CSS Custom Properties, Parallax effects, color schemes and how you can use SVG for generative artwork. After hearing him talk everyone will feel inspired and ready to go out there an utilize modern tech tools in new and inventive ways!"
+      ],
+
+      "title": "Creative web: building dynamic websites for work and play"
+    },
+    {
+      "by": "Keren Kenzi",
+      "description": [
+        "With an incredible amount of experience in the field, Keren is here to help us out and show us how coding with JavaScript and HTML can be used to make our own virtual world. ",
+        "During this talk, we'll go over the fundamentals of how to make a basic virtual reality game using A-Frame, JavaScript, and of course that awesome 'ol DOM API. It'll sure be a fun journey working together!"
+      ],
+
+      "title": "Hello (Virtual) World!"
+    },
+    {
+      "by": "Phil Nash",
+      "description": [
+        "It's really cool that for a while now we're able to animate and transition within single web pages. Animations between huge state changes like page loads are obviously more difficult, but it's still fun seeing these things in action.",
+        "Phil is ready to give the talk of a lifetime about using the View Transitions API so that you can push your webpage designs further than ever before- effortlessly transitioning from boring page to exciting and smooth with just CSS & JavaScript. Get pumped for this awesome way of seeing into our tech future!"
+      ],
+      "socials": [
+        {
+          "href": "https://mastodon.social/@philnash",
+          "icon": "mastodon"
+        },
+        {
+          "href": "https://philna.sh",
+          "icon": "site"
+        },
+        {
+          "href": "https://twitter.com/philnash",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://github.com/philnash",
+          "icon": "github"
+        }
+      ],
+      "title": "CSS Between the Pages"
+    },
+    {
+      "by": "Carly Richmond",
+      "description": [
+        "Carly built a game to help evaluate search engine user query behaviors and it was the first website she ever created, and even though it looks a bit dated now, she still has fond memories of the process of designing it and learning more about how search engines work.",
+        "It seems that at some point recently, most of the world decided that IT is an elite profession that needs to produce only value no matter what.",
+        "She's gonna go over how to build this game using Elastic Web Crawler, Elasticsearch and the Node.js Elasticsearch client; plus she'll give us a starter guide to the fundamentals of Elasticsearch as well! That will be awesome!"
+      ],
+
+      "title": "Fu-Finder Revisited: Capturing Querying Behaviour Using Elasticsearch"
+    },
+    {
+      "by": "Kevin Cunningham",
+      "description": [
+        "Kevin, an enthusiastic home baker discovered that baking sourdough bread was quite a challenge to learn. Despite its complexity, he remained dedicated in his pursuit of perfecting this technique.",
+        "He's gonna be showing us his cool journey in this session, from scratch to a finished product - the TypeScript-based Sourdough Guide!",
+        "We will have some fun learning how to build a cool starter tracker that keeps track of our feeding so we can keep healthy and happy. Plus, we'll talk about ways to incorporate real-time weather data like temperature and humidity into your dough preparation process since those elements will definitely help affect the outcome.",
+        "Not only will you become an expert on mastering the art of sourdough with TypeScript, but you'll also discover how coding can make a huge difference in streamlining complex activities that form part of our daily routines."
+      ],
+
+      "title": "SourDoughScript: Mastering Sourdough with TypeScript"
+    },
+    {
+      "by": "Rob Bateman",
+      "description": [
+        "Ten years ago, Rob started AwayFL, an open-source Flash emulator for the web written in TypeScript and WebGL. It seemed impossible during those times since we did not have Flash available yet; however, he was determined to make it happen.",
+        "In this session, let's dive into the details of what makes up a language, why reverse engineering can be so dumb at times, and how to still keep going even when it feels like no one is paying any attention or cares about your work.",
+        "Plus, you can get a blast from the past and enjoy some really cool retro Flash games while doing so at the same time!"
+      ],
+
+      "title": "An Emulator's Journey"
+    }
+  ],
   "sponsors": {
     "complete": [
       {
@@ -50,11 +149,6 @@
         "href": "https://beamery.com",
         "name": "Beamery",
         "src": "/logos/beamery.svg"
-      },
-      {
-        "href": "https://modstreaming.com",
-        "name": "Mod Streaming",
-        "src": "/logos/modstreaming.jpg"
       }
     ],
     "medium": [
@@ -84,11 +178,6 @@
         "href": "https://openjsf.org/",
         "name": "Open JS Foundation",
         "src": "/logos/openjsfoundation.svg"
-      },
-      {
-        "href": "https://mule.to/p38e",
-        "name": "Sticker Mule",
-        "src": "/logos/stickermule.svg"
       },
       { "href": "https://ti.to/", "name": "Tito", "src": "/logos/tito.svg" },
       {
