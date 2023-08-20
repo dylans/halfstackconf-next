@@ -32,6 +32,17 @@
       "title": "Centering DIVs in new and exciting wrong ways with AI?"
     },
     {
+      "by": "Eleftheria Batsou",
+      "description": [
+        "It’s not enough to build apps that function, it's not even enough to make them understandable and usable, you need to build apps that bring joy and excitement, pleasure and fun, if possible even beauty to people’s lives.",
+        "The Good and the Bad of UI: Presenting in a fun way how a good designer works VS a bad designer."
+      ],
+      "socials": [
+        { "href": "https://twitter.com/@BatsouElef", "icon": "twitter" }
+      ],
+      "title": "Beyond Buttons: Crafting Satisfying && Easily Marketable Products"
+    },
+    {
       "by": "Dylan Schiemann",
       "description": [
         "Five years ago HalfStack legend Tony Edwards regaled us with a look at using JS to transcribe his live rapping. Much has improved so we'll look at the current state of transcribing audio to text with JS and AI."
@@ -155,6 +166,20 @@
         "Finally, we will do a live demo of integrating these features into an app and share it with the audience so we can see the features in action in real-time. After this session, the audience will be able to integrate collaboration features into any app with ease."
       ],
       "title": "Make your app collaborative in less than 20 minutes?"
+    },
+    {
+      "by": "Nikola Mitrovic",
+      "description": [
+        "When writing code for the Web, there are a lot of capabilities that are offered out of the box by our browsers. If you ever wrote a File Upload component, used timers and intervals, interacted with the DOM, or stored something in the Local/Session Storage, you had to go to the MDN’s Web API docs, to find some relevant information on how to implement that code.",
+        "In this session, we will delve into the exciting world of browser Web APIs that are not so commonly used (although they should be) and explore their incredible capabilities 🚀 All these features offer new opportunities for creating immersive web experiences that can help businesses grow and connect with customers. So if you are the kind of an engineer who wants to stay ahead of the curve when it comes to web development, learn how Intersection Observer, Background Sync API, Screen Wake Lock API (and many more) can help you create better web applications that will keep users engaged and coming back for more!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/@js_svemirko",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Superpowers of browser's Web API"
     }
   ],
   "sponsors": {
