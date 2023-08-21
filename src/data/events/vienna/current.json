@@ -187,6 +187,22 @@
       "title": "You Aren't Gonna Need It...Until You Are?"
     },
     {
+      "by": "Oleksandr Tkachenko",
+      "description": [
+        "This session focuses on features in ECMAScript2021, such as `WeakRef` and `FinalizationRegistry`",
+        "We'll explore what weak references, compare them with the strong references we already know, and explain the differences.",
+        "We'll also explore the possible use cases for these features, and how they can be used to increase the speed of applications by reducing unnecessary calculations and network requests.",
+        "Finally, we'll have a fun demo using WeakRef objects and FinalizationRegistry objects together and explore photo cloud storage in a fun and efficient manner."
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/aleksandrtkachenko/",
+          "icon": "LinkedIn"
+        }
+      ],
+      "title": "Usefulness and uses of Weak Reference and Finalization Registry in real life"
+    },
+    {
       "by": "Lightning",
       "description": [
         "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
