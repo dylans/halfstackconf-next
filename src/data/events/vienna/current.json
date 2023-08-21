@@ -111,6 +111,28 @@
       "title": "Where did all the fun go?"
     },
     {
+      "by": "Leo Riviera",
+      "description": [
+        "Leo, with his knowledge as a software engineer really gets what it's like for internet users having to wait around in anticipation of responses from online applications or websites. His talk will go into detail about how he is able to optimize these processes and make them more human-friendly so that data related to TfL can be served up quickly.",
+        "We'll figure out how to design and construct an easy way of getting information about different services quickly, understanding the workings of worker threads, figuring out TfL's APIs in detail and creating a practical framework as well as building and successfully deploying something close to reality."
+      ],
+      "socials": [
+        {
+          "href": "https://github.com/leoriviera",
+          "icon": "github"
+        },
+        {
+          "href": "https://linkedin.com/in/leoriviera",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://twitter.com/bogomep",
+          "icon": "twitter"
+        }
+      ],
+      "title": "tfl.fyi: building human-consumable APIs"
+    },
+    {
       "by": "Dylan Schiemann",
       "description": [
         "As the co-founder of Living Spec and HalfStack, maintainer of SlateJS, and early co-founder of the Dojo Toolkit, Dylan has seen a lot of chaos in the JavaScript ecosystem.",
