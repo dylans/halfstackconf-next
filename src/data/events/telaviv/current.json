@@ -19,13 +19,26 @@
   "sessions": [
     {
       "by": "Earth to Abigail",
-      "description": ["To Be Revealed"],
-      "socials": [
-        { "href": "https://earthtoabigail.com", "icon": "site" },
-        { "href": "https://instagram.com/mynah_m", "icon": "instagram" },
-        { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" }
+      "description": [
+        "Live coding is a new direction in electronic music and video. Live coders expose and rewire the innards of software while it generates improvised music and/or visuals. All code manipulation is projected for all to see. Live coding works across musical genres, and has been seen in concert halls, late-night jazz bars, as well as algoraves.",
+        "Sonic Pi is a live coding environment built specifically for creating music. It's based in the Ruby programming language and it's primary aim is to provide a fun and approachable way to learn how to code while stimulating creativity. Though Sonic Pi is an educational tool, it is still a powerful tool and has been used by professional live coders around the globe",
+        "In their performances, Earth to Abigail likes to take advantage of Sonic Pi's easily readable language to emphasize the poetic capabilities that code can provide but that is often overlooked. In this kind of creative context, code has not only a utilitarian purpose but also a poetic one, complementing the music it creates."
       ],
-      "title": "To Be Revealed (Live Music Coding)"
+      "socials": [
+        {
+          "href": "https://earthtoabigail.com/",
+          "icon": "blog"
+        },
+        {
+          "href": "https://instagram.com/mynah_m",
+          "icon": "instagram"
+        },
+        {
+          "href": "https://twitter.com/EarthAbigail",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Live Coding Music with Sonic Pi"
     },
     {
       "by": "Niels Leenheer",
@@ -109,6 +122,22 @@
         }
       ],
       "title": "Pushing CSS to The Limit"
+    },
+    {
+      "by": "Asaf Shochet",
+      "description": [
+        "What can be more delightful than finding a simple browser extension that solves a daily chore you have? Chrome extensions are everywhere, from grammar checks and ad blocking to VPN connections. This is why there are almost 200,000 publicly available extensions in Google Store.",
+        "However, what happens when a malicious actor decides to build an extension that will be used against you? Let's find out! We'll dive into the world of Chrome extensions, build an extension from scratch, step into the shoes of a hacker, and explore how it can be used maliciously, by leveraging the Chrome extensions' API, permissions model, and ease of access to critical information.",
+        "Finally, we'll explore ways to protect yourself from such attacks and discuss the way the new Chrome extensions infrastructure (Manifest v3) aims to stop hackers from stealing everything. Join Asaf on a wild ride in the Chrome extensions jungle!"
+      ],
+      "socials": [
+        { "href": "https://twitter.com/mrfrogrammer", "icon": "twitter" },
+        {
+          "href": "https://www.linkedin.com/in/asaf-shochet",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "Let's create an Extension that Steals Everything!"
     }
   ],
   "sponsors": {
