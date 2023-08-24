@@ -124,10 +124,6 @@
         {
           "href": "https://linkedin.com/in/leoriviera",
           "icon": "linkedin"
-        },
-        {
-          "href": "https://twitter.com/bogomep",
-          "icon": "twitter"
         }
       ],
       "title": "tfl.fyi: building human-consumable APIs"
