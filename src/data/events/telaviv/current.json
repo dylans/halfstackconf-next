@@ -153,7 +153,13 @@
         "src": "/logos/salesforce.svg"
       }
     ],
-    "large": [],
+    "large": [
+      {
+        "href": "https://platformatic.dev",
+        "name": "Platformatic",
+        "src": "/logos/platformatic.svg"
+      }
+    ],
     "medium": [
       {
         "href": "https://wearedhd.com",

@@ -75,7 +75,12 @@ export const SponsorshipPackages = ({ currency = "$" }) => {
             >
               <Text as="h3" fontSize="large">
                 {sponsorshipPackage.title} ({currency}
-                {sponsorshipPackage.price})
+                {currency !== "₪"
+                  ? sponsorshipPackage.price
+                  : getTelAvivPrices[
+                      sponsorshipPackage.title.split(" ")[0].toLowerCase()
+                    ]}
+                )
               </Text>
               <ul>
                 {sponsorshipPackage.benefits.map((benefit) => (
@@ -90,4 +95,11 @@ export const SponsorshipPackages = ({ currency = "$" }) => {
       </BodyArea>
     </InvertedArea>
   );
+};
+
+const getTelAvivPrices: Record<string, number> = {
+  small: 2500,
+  medium: 5000,
+  large: 7500,
+  complete: 15000,
 };
