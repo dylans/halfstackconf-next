@@ -10,7 +10,7 @@ import { Text } from "~/components/Text";
 const faqs: [string, React.ReactNode][] = [
   [
     "Why 8 HalfStack Events?",
-    "We wanted to bring HalfStack beyond London to other great JavaScript communities. If you&apos;re interested in bringing HalfStack to your city, let us know!",
+    "We wanted to bring HalfStack beyond London to other great JavaScript communities. If you are interested in bringing HalfStack to your city, let us know!",
   ],
   [
     "Does HalfStack include paid vendor pitches?",
