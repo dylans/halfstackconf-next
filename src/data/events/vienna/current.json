@@ -284,6 +284,11 @@
     ],
     "medium": [
       {
+        "href": "https://www.honeypot.io/",
+        "name": "Honeypot",
+        "src": "/logos/honeypot.svg"
+      },
+      {
         "href": "https://www.tubular.io/",
         "name": "Tubular",
         "src": "/logos/tubular.svg"
