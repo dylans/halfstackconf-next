@@ -166,7 +166,9 @@
     {
       "by": "Timea Turdean",
       "description": [
-        "This session will cover Solid (giving users control of their data, not the JS framework). More details to be revealed soon."
+        "Data is a currency and if a service is for free, the payment is your data.",
+        "And still, we keep accepting privacy policies probably without reading them. Do we even have a choice? This needs to change!",
+        "Let's explore what a technical solution, on top of the web, would look like."
       ],
       "socials": [
         {
@@ -182,7 +184,7 @@
           "icon": "site"
         }
       ],
-      "title": "To be revealed"
+      "title": "You & Your data - a horror story made online"
     },
     {
       "by": "Michael Bromley",
@@ -219,6 +221,17 @@
         }
       ],
       "title": "Usefulness and uses of Weak Reference and Finalization Registry in real life"
+    },
+    {
+      "by": "Christian Heilmann",
+      "description": [
+        "AI powered pair programming tools like GitHub CoPilot, ChatGPT or Amazon Codewhisperer are all the rage. They make us more effective and are the future. But how do they hold up in the front-end world where code is only a part of the experience? Chris Heilmann, survivor of the browser wars of 25 years shows how."
+      ],
+      "socials": [
+        { "href": "https://christianheilmann.com/", "icon": "site" },
+        { "href": "https://twitter.com/codepo8", "icon": "twitter" }
+      ],
+      "title": "Centering DIVs in new and exciting wrong ways with AI?"
     },
     {
       "by": "Lightning",
