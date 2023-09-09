@@ -217,7 +217,7 @@
       "socials": [
         {
           "href": "https://www.linkedin.com/in/aleksandrtkachenko/",
-          "icon": "LinkedIn"
+          "icon": "linkedin"
         }
       ],
       "title": "Usefulness and uses of Weak Reference and Finalization Registry in real life"
