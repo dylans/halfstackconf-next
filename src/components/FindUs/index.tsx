@@ -10,6 +10,7 @@ import styles from "./index.module.css";
 export interface FindUsProps {
   geolocation: EventGeoLocation;
   slug: string;
+  waterColor: string;
 }
 
 const containerStyle = {
@@ -17,7 +18,7 @@ const containerStyle = {
   height: "400px",
 };
 
-export function FindUs({ geolocation, slug }: FindUsProps) {
+export function FindUs({ geolocation, slug, waterColor }: FindUsProps) {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
     googleMapsApiKey: "AIzaSyAF3YU1nrEkOHd_kmrvTmOtlyTQMjPmRlk",
@@ -30,7 +31,7 @@ export function FindUs({ geolocation, slug }: FindUsProps) {
 
   const onLoad = useCallback(
     (map: google.maps.Map) => {
-      map.setOptions(createMapOptions());
+      map.setOptions(createMapOptions({ waterColor }));
 
       new google.maps.Marker({
         position: { lat: geolocation[0], lng: geolocation[1] },
@@ -38,7 +39,7 @@ export function FindUs({ geolocation, slug }: FindUsProps) {
         icon: `/events/${slug}/map-pin.png`,
       });
     },
-    [geolocation, slug]
+    [geolocation, slug, waterColor]
   );
 
   return (

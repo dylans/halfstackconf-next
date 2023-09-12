@@ -1,4 +1,8 @@
-export const createMapOptions = () => ({
+interface createMapArguments {
+  waterColor: string;
+}
+
+export const createMapOptions = ({ waterColor }: createMapArguments) => ({
   mapTypeControl: false,
   scrollwheel: false,
   streetViewControl: false,
@@ -73,9 +77,7 @@ export const createMapOptions = () => ({
       featureType: "water",
       elementType: "all",
       stylers: [
-        {
-          color: "#072a74",
-        },
+        { color: waterColor },
         {
           visibility: "on",
         },

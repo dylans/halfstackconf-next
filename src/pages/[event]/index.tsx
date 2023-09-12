@@ -7,7 +7,7 @@ import { BannerText } from "~/components/BannerText";
 import { EventFooter } from "~/components/EventFooter";
 import { EventHeader } from "~/components/EventHeader";
 import { EventSummary } from "~/components/EventSummary";
-import { EventTheme } from "~/components/EventTheme";
+import { EventColors, EventTheme } from "~/components/EventTheme";
 import { ExpectationPhotos } from "~/components/ExpectationPhotos";
 import { FindUs } from "~/components/FindUs";
 import { SecondaryBanner } from "~/components/SecondaryBanner";
@@ -36,6 +36,7 @@ export default function Event({
     year,
   },
 }: ReturnedProps<typeof getStaticProps>) {
+  const eventColors = EventColors({ event: slug });
   return (
     <EventTheme event={slug}>
       <Head>
@@ -116,7 +117,13 @@ export default function Event({
 
       {sponsors && <SponsorStacksList {...sponsors} slug={slug} />}
 
-      {geolocation && <FindUs geolocation={geolocation} slug={slug} />}
+      {geolocation && (
+        <FindUs
+          geolocation={geolocation}
+          slug={slug}
+          waterColor={eventColors["color-backdrop-subtle"]}
+        />
+      )}
 
       <EventFooter slug={slug} />
     </EventTheme>
