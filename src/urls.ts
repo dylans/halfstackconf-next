@@ -1,4 +1,6 @@
-export function getProspectusUri(slug: string, year: number) {
+import { EventName } from "~/data/types";
+
+export function getProspectusUri(slug: EventName, year: number) {
   return `/assets/HalfStack${uppercaseFirst(slug)}${year}Prospectus.pdf`;
 }
 

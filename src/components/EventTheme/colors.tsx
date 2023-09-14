@@ -1,4 +1,14 @@
-export default {
+import { EventName } from "~/data/types";
+
+interface EventColors {
+  "color-backdrop-subtle": string;
+  "color-faint": string;
+  "color-primary": string;
+  "color-primary-dark": string;
+  "color-primary-light": string;
+}
+
+const colors: Record<EventName, EventColors> = {
   charlotte: {
     "color-backdrop-subtle": "#72be8d",
     "color-faint": "#abd9ba",
@@ -7,6 +17,13 @@ export default {
     "color-primary-light": "#afe9c4",
   },
   london: {
+    "color-backdrop-subtle": "#2a45a3",
+    "color-faint": "#ebf0f7",
+    "color-primary": "#22366e",
+    "color-primary-dark": "#19223a",
+    "color-primary-light": "#7083c6",
+  },
+  "london-on-the-thames": {
     "color-backdrop-subtle": "#2a45a3",
     "color-faint": "#ebf0f7",
     "color-primary": "#22366e",
@@ -55,13 +72,5 @@ export default {
     "color-primary-dark": "#304007",
     "color-primary-light": "#e1ff99",
   },
-} as Record<
-  string,
-  {
-    "color-backdrop-subtle": string;
-    "color-faint": string;
-    "color-primary": string;
-    "color-primary-dark": string;
-    "color-primary-light": string;
-  }
->;
+};
+export default colors;

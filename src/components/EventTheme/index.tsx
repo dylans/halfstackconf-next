@@ -1,15 +1,17 @@
 import clsx from "clsx";
 
+import { EventName } from "~/data/types";
+
 import colors from "./colors";
 import styles from "./index.module.css";
 
 export interface EventThemeProps {
   children: React.ReactNode;
-  event: string;
+  event: EventName;
 }
 
 export interface EventColorProps {
-  event: string;
+  event: EventName;
 }
 
 export function EventTheme({ children, event }: EventThemeProps) {
@@ -18,6 +20,6 @@ export function EventTheme({ children, event }: EventThemeProps) {
   );
 }
 
-export function EventColors({ event }: EventColorProps) {
+export function useEventColors(event: EventName) {
   return colors[event];
 }

@@ -1,3 +1,5 @@
+import { eventOrder } from "./events";
+
 export interface SponsorData {
   href: string;
   name: string;
@@ -80,10 +82,12 @@ export interface EventVideo {
 }
 
 export interface EventDataHistorical extends EventDataBase {
-  otherEvents?: Record<string, number[]>;
+  otherEvents?: Record<EventName, number[]>;
   videos?: EventVideo[];
 }
 
 export interface EventDataJoined extends EventDataCurrent, EventDataDefault {
-  slug: string;
+  slug: EventName;
 }
+
+export type EventName = (typeof eventOrder)[number];

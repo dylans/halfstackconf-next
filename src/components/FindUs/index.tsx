@@ -1,7 +1,8 @@
 import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
 import { useCallback, useMemo } from "react";
 
-import { EventGeoLocation } from "~/data/types";
+import { useEventColors } from "~/components/EventTheme";
+import { EventGeoLocation, EventName } from "~/data/types";
 
 import { Text } from "../Text";
 import { createMapOptions } from "./createMapOptions";
@@ -9,8 +10,7 @@ import styles from "./index.module.css";
 
 export interface FindUsProps {
   geolocation: EventGeoLocation;
-  slug: string;
-  waterColor: string;
+  slug: EventName;
 }
 
 const containerStyle = {
@@ -18,7 +18,7 @@ const containerStyle = {
   height: "400px",
 };
 
-export function FindUs({ geolocation, slug, waterColor }: FindUsProps) {
+export function FindUs({ geolocation, slug }: FindUsProps) {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
     googleMapsApiKey: "AIzaSyAF3YU1nrEkOHd_kmrvTmOtlyTQMjPmRlk",
@@ -28,6 +28,9 @@ export function FindUs({ geolocation, slug, waterColor }: FindUsProps) {
     () => ({ lat: geolocation[0], lng: geolocation[1] }),
     [geolocation]
   );
+
+  const colors = useEventColors(slug);
+  const waterColor = colors["color-primary-light"];
 
   const onLoad = useCallback(
     (map: google.maps.Map) => {

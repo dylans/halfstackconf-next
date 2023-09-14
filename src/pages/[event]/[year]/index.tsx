@@ -11,6 +11,7 @@ import { Footer } from "~/components/Footer";
 import { SponsorStacksList } from "~/components/SponsorStacksList";
 import { Text } from "~/components/Text";
 import { VideoCard } from "~/components/VideoCard";
+import { EventName } from "~/data/types";
 
 import { getEventData, getEvents, getEventYears } from "../../../data";
 import { ReturnedParams, ReturnedProps } from "../../../utils";
@@ -104,13 +105,12 @@ export async function getStaticProps({
     getEventData(event, "default"),
     getEventData(event, +year),
   ]);
-
   const otherEvents = yearData.otherEvents
     ? await Promise.all(
         Object.entries(yearData.otherEvents).map(
           async ([event, otherYears]) => ({
-            event,
-            name: (await getEventData(event, "default")).name,
+            event: event as EventName,
+            name: (await getEventData(event as EventName, "default")).name,
             otherYears,
           })
         )
@@ -123,7 +123,7 @@ export async function getStaticProps({
 }
 
 export async function getStaticPaths() {
-  const events = await getEvents();
+  const events = getEvents();
   const eventYears = (
     await Promise.all(
       events.flatMap(async (event) =>

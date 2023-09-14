@@ -7,7 +7,7 @@ import { BannerText } from "~/components/BannerText";
 import { EventFooter } from "~/components/EventFooter";
 import { EventHeader } from "~/components/EventHeader";
 import { EventSummary } from "~/components/EventSummary";
-import { EventColors, EventTheme } from "~/components/EventTheme";
+import { EventTheme } from "~/components/EventTheme";
 import { ExpectationPhotos } from "~/components/ExpectationPhotos";
 import { FindUs } from "~/components/FindUs";
 import { SecondaryBanner } from "~/components/SecondaryBanner";
@@ -36,7 +36,6 @@ export default function Event({
     year,
   },
 }: ReturnedProps<typeof getStaticProps>) {
-  const eventColors = EventColors({ event: slug });
   return (
     <EventTheme event={slug}>
       <Head>
@@ -117,13 +116,7 @@ export default function Event({
 
       {sponsors && <SponsorStacksList {...sponsors} slug={slug} />}
 
-      {geolocation && (
-        <FindUs
-          geolocation={geolocation}
-          slug={slug}
-          waterColor={eventColors["color-backdrop-subtle"]}
-        />
-      )}
+      {geolocation && <FindUs geolocation={geolocation} slug={slug} />}
 
       <EventFooter slug={slug} />
     </EventTheme>
@@ -140,10 +133,10 @@ export async function getStaticProps({
   };
 }
 
-export async function getStaticPaths() {
+export function getStaticPaths() {
   return {
     fallback: false,
-    paths: (await getEvents()).map((event) => ({
+    paths: getEvents().map((event) => ({
       params: { event },
     })),
   };

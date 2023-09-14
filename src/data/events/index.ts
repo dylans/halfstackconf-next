@@ -1,4 +1,4 @@
-[
+export const eventOrder = [
   "belgrade",
   "vienna",
   "london",
@@ -7,5 +7,5 @@
   "newyork",
   "charlotte",
   "newquay",
-  "london-on-the-thames"
-]
+  "london-on-the-thames",
+] as const;
