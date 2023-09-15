@@ -1,6 +1,6 @@
-import { EventName } from "~/data/types";
+import { EventSlug } from "~/data/types";
 
-export function getProspectusUri(slug: EventName, year: number) {
+export function getProspectusUri(slug: EventSlug, year: number) {
   return `/assets/HalfStack${uppercaseFirst(slug)}${year}Prospectus.pdf`;
 }
 

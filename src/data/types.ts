@@ -82,12 +82,12 @@ export interface EventVideo {
 }
 
 export interface EventDataHistorical extends EventDataBase {
-  otherEvents?: Record<EventName, number[]>;
+  otherEvents?: Record<EventSlug, number[]>;
   videos?: EventVideo[];
 }
 
 export interface EventDataJoined extends EventDataCurrent, EventDataDefault {
-  slug: EventName;
+  slug: EventSlug;
 }
 
-export type EventName = (typeof eventOrder)[number];
+export type EventSlug = (typeof eventOrder)[number];

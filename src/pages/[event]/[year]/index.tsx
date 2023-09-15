@@ -11,7 +11,7 @@ import { Footer } from "~/components/Footer";
 import { SponsorStacksList } from "~/components/SponsorStacksList";
 import { Text } from "~/components/Text";
 import { VideoCard } from "~/components/VideoCard";
-import { EventName } from "~/data/types";
+import { EventSlug } from "~/data/types";
 
 import { getEventData, getEvents, getEventYears } from "../../../data";
 import { ReturnedParams, ReturnedProps } from "../../../utils";
@@ -109,8 +109,8 @@ export async function getStaticProps({
     ? await Promise.all(
         Object.entries(yearData.otherEvents).map(
           async ([event, otherYears]) => ({
-            event: event as EventName,
-            name: (await getEventData(event as EventName, "default")).name,
+            event: event as EventSlug,
+            name: (await getEventData(event as EventSlug, "default")).name,
             otherYears,
           })
         )

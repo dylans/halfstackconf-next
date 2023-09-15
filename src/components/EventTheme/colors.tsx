@@ -1,6 +1,6 @@
-import { EventName } from "~/data/types";
+import { EventSlug } from "~/data/types";
 
-interface EventColors {
+export interface EventColors {
   "color-backdrop-subtle": string;
   "color-faint": string;
   "color-primary": string;
@@ -8,7 +8,7 @@ interface EventColors {
   "color-primary-light": string;
 }
 
-const colors: Record<EventName, EventColors> = {
+export const colors: Record<EventSlug, EventColors> = {
   charlotte: {
     "color-backdrop-subtle": "#72be8d",
     "color-faint": "#abd9ba",
@@ -73,4 +73,3 @@ const colors: Record<EventName, EventColors> = {
     "color-primary-light": "#e1ff99",
   },
 };
-export default colors;

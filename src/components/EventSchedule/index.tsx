@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { EventName } from "~/data/types";
+import { EventSlug } from "~/data/types";
 
 import { BodyArea } from "../BodyArea";
 import { Text } from "../Text";
@@ -9,7 +9,7 @@ import styles from "./index.module.css";
 export interface EventScheduleProps {
   packet: string | undefined;
   schedule: string;
-  slug: EventName;
+  slug: EventSlug;
 }
 
 export function EventSchedule({ packet, schedule, slug }: EventScheduleProps) {

@@ -1,8 +1,8 @@
-interface createMapArguments {
+interface CreateMapArguments {
   waterColor: string;
 }
 
-export const createMapOptions = ({ waterColor }: createMapArguments) => ({
+export const createMapOptions = ({ waterColor }: CreateMapArguments) => ({
   mapTypeControl: false,
   scrollwheel: false,
   streetViewControl: false,

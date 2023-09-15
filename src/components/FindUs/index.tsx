@@ -2,7 +2,7 @@ import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
 import { useCallback, useMemo } from "react";
 
 import { useEventColors } from "~/components/EventTheme";
-import { EventGeoLocation, EventName } from "~/data/types";
+import { EventGeoLocation, EventSlug } from "~/data/types";
 
 import { Text } from "../Text";
 import { createMapOptions } from "./createMapOptions";
@@ -10,7 +10,7 @@ import styles from "./index.module.css";
 
 export interface FindUsProps {
   geolocation: EventGeoLocation;
-  slug: EventName;
+  slug: EventSlug;
 }
 
 const containerStyle = {

@@ -1,9 +1,9 @@
-import { EventName } from "~/data/types";
+import { EventSlug } from "~/data/types";
 
 import { Header } from "../Header";
 
 export interface EventHeaderProps {
-  slug: EventName;
+  slug: EventSlug;
 }
 
 export function EventHeader({ slug }: EventHeaderProps) {
