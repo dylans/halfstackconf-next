@@ -57,7 +57,7 @@ export default function PastEvents({
 }
 
 export async function getStaticProps() {
-  const events = await getEvents();
+  const events = getEvents();
   const eventsData = await Promise.all(
     events.map(async (event) => {
       const [defaultData, years] = await Promise.all([

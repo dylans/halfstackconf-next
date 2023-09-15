@@ -7,6 +7,7 @@ import { EventsList } from "~/components/Index/EventsList";
 import { Intro } from "~/components/Index/Intro";
 import { Newsletter } from "~/components/Index/Newsletter";
 import { SponsorStacksList } from "~/components/SponsorStacksList";
+import { eventOrder } from "~/data/events";
 
 import { getEventDataCurrentAndDefault } from "../data";
 import { ReturnedProps } from "../utils";
@@ -34,10 +35,9 @@ export default function Index({
 }
 
 export async function getStaticProps() {
-  const eventsOrder = (await import("~/data/events.json")).default;
   return {
     props: {
-      events: await Promise.all(eventsOrder.map(getEventDataCurrentAndDefault)),
+      events: await Promise.all(eventOrder.map(getEventDataCurrentAndDefault)),
       sponsors: (await import("~/data/sponsors.json")).default,
     },
   };

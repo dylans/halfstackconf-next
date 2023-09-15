@@ -1,7 +1,8 @@
 import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
 import { useCallback, useMemo } from "react";
 
-import { EventGeoLocation } from "~/data/types";
+import { useEventColors } from "~/components/EventTheme";
+import { EventGeoLocation, EventSlug } from "~/data/types";
 
 import { Text } from "../Text";
 import { createMapOptions } from "./createMapOptions";
@@ -9,7 +10,7 @@ import styles from "./index.module.css";
 
 export interface FindUsProps {
   geolocation: EventGeoLocation;
-  slug: string;
+  slug: EventSlug;
 }
 
 const containerStyle = {
@@ -28,9 +29,12 @@ export function FindUs({ geolocation, slug }: FindUsProps) {
     [geolocation]
   );
 
+  const colors = useEventColors(slug);
+  const waterColor = colors["color-primary-light"];
+
   const onLoad = useCallback(
     (map: google.maps.Map) => {
-      map.setOptions(createMapOptions());
+      map.setOptions(createMapOptions({ waterColor }));
 
       new google.maps.Marker({
         position: { lat: geolocation[0], lng: geolocation[1] },
@@ -38,7 +42,7 @@ export function FindUs({ geolocation, slug }: FindUsProps) {
         icon: `/events/${slug}/map-pin.png`,
       });
     },
-    [geolocation, slug]
+    [geolocation, slug, waterColor]
   );
 
   return (

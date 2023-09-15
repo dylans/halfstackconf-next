@@ -41,10 +41,10 @@ export async function getStaticProps({
   };
 }
 
-export async function getStaticPaths() {
+export function getStaticPaths() {
   return {
     fallback: false,
-    paths: (await getEvents()).map((event) => ({
+    paths: getEvents().map((event) => ({
       params: { event },
     })),
   };

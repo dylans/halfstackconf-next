@@ -114,7 +114,7 @@ pm2 start "pnpm production"
 
 Events are all stored in `src/data` as `.json` files.
 
-- [`src/data/events.json`](./src/data/events.json) contains the array of event lines that are listed on the homepage
+- [`src/data/events/index.ts`](./src/data/events/index.ts) contains the array of event lines that are listed on the homepage
 - [The `src/data/events/ directory](./src/data/events) contains a directory for each of those event lines, each of which contains:
   - `current.json`: Data for the current event shown on and linked to by the homepage
   - `default.json`: Default data for the current event and all historical events in that line
@@ -148,7 +148,7 @@ If the event's sponsorship is available, it should have a `"sponsorship"` object
 1. Copy and paste an exting event folder into the new slug for the event
 2. Delete any historical data from the folder
 3. Modify the event's `default.json` and `current.json` for the new event's details
-4. Add the event's slug to `src/data/events.json`
+4. Add the event's slug to `src/data/events/index.ts`
 5. Add branding images and styles for the new event line:
    1. In `src/components/EventTheme/index.module.css`, add a new class selector for the event slug
    1. Create a new folder for the event's images under `public/events/`

@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { EventSlug } from "~/data/types";
+
 import { BodyArea } from "../BodyArea";
 import { CopyrightFooter } from "../CopyrightFooter";
 import { RoundLink } from "../RoundLink";
@@ -20,7 +22,7 @@ const icons = [
 ] as const;
 
 export interface EventFooterProps {
-  slug: string;
+  slug: EventSlug;
 }
 
 export function EventFooter({ slug }: EventFooterProps) {

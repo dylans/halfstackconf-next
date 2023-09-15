@@ -1,40 +1,42 @@
 import { promises as fs } from "node:fs";
 import * as path from "node:path";
 
+import { eventOrder } from "./events";
 import {
   EventDataCurrent,
   EventDataDefault,
   EventDataHistorical,
   EventDataJoined,
+  EventSlug,
 } from "./types";
 
 const dataDirectory = path.join(process.cwd(), "src/data");
 const eventsDirectory = path.join(dataDirectory, "events");
 
-export async function getEvents() {
-  return await fs.readdir(eventsDirectory);
+export function getEvents() {
+  return eventOrder;
 }
 
-export async function getEventYears(event: string) {
+export async function getEventYears(event: EventSlug) {
   return (await fs.readdir(path.join(eventsDirectory, event)))
     .map((fileName) => +fileName.replace(".json", ""))
     .filter(Boolean);
 }
 
 export async function getEventData(
-  event: string,
+  event: EventSlug,
   year: number
 ): Promise<EventDataHistorical>;
 export async function getEventData(
-  event: string,
+  event: EventSlug,
   year: "current"
 ): Promise<EventDataCurrent>;
 export async function getEventData(
-  event: string,
+  event: EventSlug,
   year: "default"
 ): Promise<EventDataDefault>;
 export async function getEventData(
-  event: string,
+  event: EventSlug,
   year: number | "current" | "default"
 ) {
   return JSON.parse(
@@ -45,7 +47,7 @@ export async function getEventData(
 }
 
 export async function getEventDataCurrentAndDefault(
-  slug: string
+  slug: EventSlug
 ): Promise<EventDataJoined> {
   const [currentData, defaultData] = await Promise.all([
     getEventData(slug, "current"),
