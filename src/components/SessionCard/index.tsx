@@ -66,7 +66,10 @@ export function SessionCard({
         )}
         direction={direction}
       >
-        <TintedImage className={styles.image} src={`/speakers/${hash}.jpg`} />
+        <TintedImage
+          className={styles.image}
+          src={`/speakers/${hash}.jpg?v=3`}
+        />
         <div className={styles.textContents}>
           <Text
             as={Anchor}
