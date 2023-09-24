@@ -6,6 +6,9 @@ const nextConfig = {
   experimental: {
     newNextLinkBehavior: true,
   },
+  images: {
+    minimumCacheTTL: 60,
+  },
   reactStrictMode: true,
   swcMinify: true,
   typescript: {
