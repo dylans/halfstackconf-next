@@ -93,6 +93,71 @@
       "title": "An Emulator's Journey"
     },
     {
+      "by": "Matteo Collina",
+      "description": [
+        "The details of Matteo's session will be revealed closer to the event"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/matteocollina/",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://github.com/mcollina",
+          "icon": "github"
+        }
+      ],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Liliana Kastilio",
+      "description": [
+        "Details about this session will be revealed closer to the event."
+      ],
+
+      "title": "PitchCraft: Perfecting your pitch with ChatGPT"
+    },
+    {
+      "by": "Stephanie Stimac",
+      "description": [
+        "Dual-screen/foldable devices have emerged on the market, offering new and interesting opportunities as well as challenges for web designers and web and app developers.",
+        "Web developers targeting foldable devices want to be able to effectively layout content in a window that spans multiple displays but the web platform currently doesn't offer the native primitives needed for building these layouts. However, there are proposals being set forth for the web platform to provide these primitives alongside existing API proposals to help build these elevated experiences.",
+        "In this session, we'll explore the current problem areas that web developers are concerned about with dual and folding screen devices, new CSS & JavaScript APIs the Microsoft Edge team built for web layout on dual screen devices, possible scenarios that leverage dual-screen devices for an elevated and progressively enhanced user experience when it comes to a web site or progressive web app, and how building for dual screen and foldable devices are the next step in the evolution of web layout",
+        "Stephanie will demo a few dual-screen enhanced experiences as well to get you inspired for the next evolution of designing for the web!"
+      ],
+      "socials": [
+        {
+          "href": "https://blog.stephaniestimac.com/",
+          "icon": "site"
+        },
+        {
+          "href": "https://twitter.com/seaotta",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Design & Development Considerations for Dual Screen Devices"
+    },
+    {
+      "by": "Tom Dye",
+      "description": ["To be revealed closer to the event."],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/tom-dye-50032823/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "The Ever-Changing Quest for the Best Way to Style"
+    },
+    {
+      "by": "Christian Heilmann",
+      "description": ["To be revealed closer to the event."],
+      "socials": [
+        { "href": "https://christianheilmann.com/", "icon": "site" },
+        { "href": "https://twitter.com/codepo8", "icon": "twitter" }
+      ],
+      "title": "To be revealed"
+    },
+    {
       "by": "Lightning",
       "description": [
         "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
@@ -116,7 +181,7 @@
           "icon": "twitter"
         }
       ],
-      "title": "Afterparty (JS Pub Quiz and Battledecks)"
+      "title": "Afterparty (JS Pub Quiz, Battledecks, and maybe live music coding and/or karaoke)"
     }
   ],
   "sponsors": {
