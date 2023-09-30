@@ -1,8 +1,8 @@
 {
   "afterparty": "Afterparty (includes JS Pub Quiz!)",
-  "catchphrase": "Delayed due to COVID-19. We'll let you know when we know more.",
-  "code": "halfstack-nyc-2023",
-  "date": "TBD 2023, 10am - Late",
+  "catchphrase": "Returning in 2024. Date to be announced soon!",
+  "code": "halfstack-nyc-2024",
+  "date": "TBD 2024, 10am - Late",
   "description": [
     "200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the greater New York area"
@@ -10,7 +10,7 @@
   "faqs": [
     [
       "When is the next HalfStack NYC?",
-      "The short answer: We unfortunately don't know yet. Our venue has not yet reopened to the public since covid. To keep our NYC event special, we are waiting for the right venue to become available. We'll let you know as soon as we know more."
+      "The short answer: Sometime in 2024. We'll let you know as soon as we know more."
     ],
     [
       "Where is HalfStack NYC?",
@@ -67,5 +67,5 @@
     "medium": [],
     "small": []
   },
-  "year": 2023
+  "year": 2024
 }
