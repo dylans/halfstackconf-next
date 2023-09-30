@@ -1,0 +1,241 @@
+{
+  "afterparty": "Afterparty TBD",
+  "catchphrase": "We're excited to bring HalfStack back to Newquay on the 23rd of June, 2023",
+  "code": "halfstack-uk-events-2022",
+  "date": "Friday 23rd of June 2023, 10am - Late",
+  "description": [
+    "100-125 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
+    "Mostly from the Southwest UK, with some from through the UK, Europe and beyond"
+  ],
+  "geolocation": [50.4144003, -5.0865202],
+  "layoffs": "We are saddened to see so many of our fellow developers and designers affected by the recent tech layoffs, which is why we want to do something to help. If you’ve been laid off recently, get in touch and we’ll give you a ticket on the house! Your next opportunity could be waiting for you in Newquay.",
+  "location": "Sailors Newquay",
+  "schedule": "HalfStack starts around 10am, includes approximately 8-10 sessions, breaks, lunch, dinner, and an interactive afterparty. Plan to arrive by 10am and stay late! We're also expecting to have fun at the beach on Saturday, so plan to stay the whole weekend! Sessions will be announced closer to the event.",
+  "sessions": [
+    {
+      "by": "Earth to Abigail and Otto",
+      "description": [
+        "Earth to Abigail and Otto will use live coding to create music with the audience"
+      ],
+      "socials": [
+        { "href": "https://earthtoabigail.com", "icon": "site" },
+        { "href": "https://instagram.com/mynah_m", "icon": "instagram" },
+        { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" }
+      ],
+      "title": "To Be Revealed (Live Music Coding)"
+    },
+    {
+      "by": "Christian Heilmann",
+      "description": [
+        "AI is currently being heralded as the next evolution in computing and people are worried if their jobs are safe. They are not. A lot of the things we are being paid for now can be done by machines. The question is if that should come as a surprise, or if this is an opportunity to scrutinise if what we do is actually not necessary? AI is a tool and it is here to stay. It is now up to us to make it work for us and teach the next generation of creators what's good and not what's *good enough*."
+      ],
+      "socials": [
+        { "href": "https://christianheilmann.com/", "icon": "site" },
+        { "href": "https://twitter.com/codepo8", "icon": "twitter" }
+      ],
+      "title": "Turning the screw with AI"
+    },
+    {
+      "by": "Dylan Schiemann",
+      "description": [
+        "Five years ago HalfStack legend Tony Edwards regaled us with a look at using JS to transcribe his live rapping. Much has improved so we'll look at the current state of transcribing audio to text with JS and AI."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/dylans",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dylans",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://github.com/dylans/",
+          "icon": "github"
+        }
+      ],
+      "title": "Five years later: The state of Audio to Text in JS with AI"
+    },
+    {
+      "by": "Shelly Knotts",
+      "description": [
+        "Shelly will share some of the fun web audio projects she's been working on recently."
+      ],
+      "socials": [
+        { "href": "http://datamusician.net/", "icon": "site" },
+        {
+          "href": "https://www.instagram.com/shellyknotts_/",
+          "icon": "instagram"
+        },
+        { "href": "http://twitter.com/shelly_knotts", "icon": "twitter" }
+      ],
+      "title": "To Be Revealed (Web Audio Experiments)"
+    },
+    {
+      "by": "Dale Lane",
+      "description": [
+        "Is artificial intelligence relevant to school children? What should we be teaching our kids about AI? Dale will talk about the role of education has played in explaining tech, and will try to persuade you that schools need to catch up with the impact AI is having on our lives. Plus Dale will show you some fun and creative ways for introducing AI."
+      ],
+      "socials": [
+        {
+          "href": "https://dalelane.co.uk/blog",
+          "icon": "blog"
+        },
+        {
+          "href": "https://linkedin.com/in/dalelane",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://twitter.com/dalelane",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Education in the age of AI"
+    },
+    {
+      "by": "Chris Hunt",
+      "description": ["To be revealed"],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/thisisthechris/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://twitter.com/thisisthechris",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Recent Adventures in Building 3D things on the Web"
+    },
+    {
+      "by": "Natalia Waniczek",
+      "description": ["a.k.a How to be a sustainable web developer"],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/natalia-waniczek-88bb36184/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://twitter.com/lil_natw",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Saving the planet, one website at a time"
+    },
+    {
+      "by": "Earth to Abigail and Shelly Knotts",
+      "description": [
+        "Estuary is a live coding platform for making music and visualizations. We'll get a quick intro to the platform and then use it to create music together during the afterparty!"
+      ],
+      "socials": [
+        { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" },
+        { "href": "https://twitter.com/shelly_knotts", "icon": "twitter" }
+      ],
+      "title": "Introduction to Estuary"
+    },
+    {
+      "by": "Lightning",
+      "description": [
+        "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/halfstackconf",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Lightning Talks"
+    },
+    {
+      "by": "HalfStack",
+      "description": [
+        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/halfstackconf",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Afterparty (JS Pub Quiz and Battledecks)"
+    },
+    {
+      "by": "Earth to Abigail and Shelly Knotts",
+      "description": [
+        "A live coding performance with audience participation encouraged!"
+      ],
+      "socials": [
+        { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" },
+        { "href": "https://twitter.com/shelly_knotts", "icon": "twitter" }
+      ],
+      "title": "Afterparty Live Coding Performance"
+    }
+  ],
+  "sponsors": {
+    "complete": [
+      {
+        "href": "https://livingspec.com/",
+        "name": "Living Spec",
+        "src": "/logos/livingspec.svg"
+      },
+      {
+        "href": "https://softwarecornwall.org/",
+        "name": "Software Cornwall",
+        "src": "/logos/softwarecornwall.jpg"
+      },
+      {
+        "href": "https://salesforce.com/tech",
+        "name": "Salesforce Engineering",
+        "src": "/logos/salesforce.svg"
+      }
+    ],
+    "large": [
+      {
+        "href": "https://orangejellyfish.com",
+        "name": "Orange Jellyfish",
+        "src": "/logos/orangejellyfish.svg"
+      },
+      {
+        "href": "https://sitepen.com",
+        "name": "SitePen",
+        "src": "/logos/sitepen.svg"
+      },
+      {
+        "href": "https://cerbos.dev/",
+        "name": "Cerbos",
+        "src": "/logos/cerbos.svg"
+      }
+    ],
+    "medium": [
+      {
+        "href": "https://www.mozilla.org/",
+        "name": "Mozilla",
+        "src": "/logos/mozilla.svg"
+      },
+      {
+        "href": "https://www.tubular.io/",
+        "name": "Tubular",
+        "src": "/logos/tubular.svg"
+      },
+      {
+        "href": "https://wearedhd.com/",
+        "name": "DHD",
+        "src": "/logos/dhd.svg"
+      }
+    ],
+    "small": [
+      {
+        "href": "https://ti.to",
+        "name": "Tito",
+        "src": "/logos/tito.svg"
+      },
+      {
+        "href": "https://openjsf.org/",
+        "name": "Open JS Foundation",
+        "src": "/logos/openjsfoundation.svg"
+      }
+    ]
+  },
+  "trailer": "https://www.youtube.com/embed/zUC18IJU_9o",
+  "year": 2023
+}

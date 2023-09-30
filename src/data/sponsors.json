@@ -156,6 +156,11 @@
       "href": "https://cerbos.dev/",
       "name": "Cerbos",
       "src": "/logos/cerbos.svg"
+    },
+    {
+      "href": "https://platogo.com/",
+      "name": "Platogo",
+      "src": "/logos/platogo.svg"
     }
   ],
   "medium": [
@@ -230,6 +235,11 @@
       "href": "https://interval.com",
       "name": "Interval",
       "src": "/logos/interval.png"
+    },
+    {
+      "href": "https://www.honeypot.io/",
+      "name": "Honeypot",
+      "src": "/logos/honeypot.svg"
     }
   ],
   "small": [
