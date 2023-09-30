@@ -30,6 +30,19 @@ export default function PastEvents({
         <BannerText>Past Events</BannerText>
       </Banner>
       <BodyArea className={styles.pastEvents}>
+        <Text as="h2" fontSize="large">
+          Videos
+        </Text>
+        <ul className={styles.items}>
+          <Text as="li" className={styles.item}>
+            <Link
+              className={styles.link}
+              href={`http://youtube.com/@halfstackconf`}
+            >
+              HalfStack YouTube Channel
+            </Link>
+          </Text>
+        </ul>
         {eventsData
           .filter(([, { years }]) => years.length)
           .map(([event, { name, years }]) => (
