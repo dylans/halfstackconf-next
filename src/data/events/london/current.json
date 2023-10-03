@@ -197,11 +197,6 @@
         "src": "/logos/twilio.svg"
       },
       {
-        "href": "https://buom.app",
-        "name": "BUOM!",
-        "src": "/logos/buom.png"
-      },
-      {
         "href": "https://salesforce.com/tech",
         "name": "Salesforce",
         "src": "/logos/salesforce.svg"
@@ -212,12 +207,6 @@
         "href": "https://platformatic.dev",
         "name": "Platformatic",
         "src": "/logos/platformatic.svg"
-      },
-      { "href": "https://cmdhq.io", "name": "CMD", "src": "/logos/cmd.svg" },
-      {
-        "href": "https://beamery.com",
-        "name": "Beamery",
-        "src": "/logos/beamery.svg"
       }
     ],
     "medium": [
@@ -238,11 +227,6 @@
       }
     ],
     "small": [
-      {
-        "href": "https://orangejellyfish.com",
-        "name": "Orange Jellyfish",
-        "src": "/logos/orangejellyfish.svg"
-      },
       {
         "href": "https://openjsf.org/",
         "name": "Open JS Foundation",
