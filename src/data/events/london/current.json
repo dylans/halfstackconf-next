@@ -85,9 +85,9 @@
     {
       "by": "Rob Bateman",
       "description": [
-        "Ten years ago, Rob started AwayFL, an open-source Flash emulator for the web written in TypeScript and WebGL. It seemed impossible during those times since we did not have Flash available yet; however, he was determined to make it happen.",
-        "In this session, let's dive into the details of what makes up a language, why reverse engineering can be so dumb at times, and how to still keep going even when it feels like no one is paying any attention or cares about your work.",
-        "Plus, you can get a blast from the past and enjoy some really cool retro Flash games while doing so at the same time!"
+        "AwayFL is an open source Adobe Flash emulator for the web written in Typescript and WebGL. Rob inadvertently started the project 10 years ago back when life without Flash was unthinkable and he was trying to do other things.",
+        "In this session we'll dive into the some of the lessons learned, including  what defines a language, when reverse-engineering gets stupid, arcane bugfixing strategies, and how to keep a project going even when no-one seems interested in what you're doing, yourself included.",
+        "All while reliving some kick-ass retro Flash games."
       ],
 
       "title": "An Emulator's Journey"
