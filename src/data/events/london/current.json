@@ -95,7 +95,9 @@
     {
       "by": "Matteo Collina",
       "description": [
-        "The details of Matteo's session will be revealed closer to the event"
+        "In the beginning, there were configuration files. Each environment had one committed to our repositories. Then, we discovered the beauty of 12-factor applications and of having environment-specific values set as environment variables. Then, NODE_ENV came along, and shattered our idyllic world.",
+        "Libraries with millions of weekly downloads check for NODE_ENV=production to enable optimizations, changing the behavior of applications. Given this worked so well, developers started loading configuration files (or secrets) based on the value of NODE_ENV to identify _their_ \"production\" environment.",
+        "However, questions began to arise. What value should be used for the staging environment? What about QA? If the same code isn't run everywhere, we face being hit by bugs that cannot be reproduced across environments, which leads us to set NODE_ENV=production everywhere. But in doing so, how should we distinguish across environments?"
       ],
       "socials": [
         {
@@ -107,7 +109,7 @@
           "icon": "github"
         }
       ],
-      "title": "To be revealed"
+      "title": "NODE_ENV=production is a lie"
     },
     {
       "by": "Liliana Kastilio",
@@ -173,7 +175,7 @@
     {
       "by": "HalfStack",
       "description": [
-        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz!"
+        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz! And if there's interest, we'll conclude with karaoke"
       ],
       "socials": [
         {
