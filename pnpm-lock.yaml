@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@react-google-maps/api':
     specifier: ^2.18.1
@@ -24,7 +20,7 @@ dependencies:
 devDependencies:
   '@axe-core/playwright':
     specifier: ^4.7.1
-    version: 4.7.1(playwright@1.34.2)
+    version: 4.7.1
   '@playwright/test':
     specifier: ^1.34.2
     version: 1.34.2
@@ -103,13 +99,12 @@ devDependencies:
 
 packages:
 
-  /@axe-core/playwright@4.7.1(playwright@1.34.2):
+  /@axe-core/playwright@4.7.1:
     resolution: {integrity: sha512-09UDwLChlGiqw9004QJib6Maesy99EOZ9zsLfhBYAt2s5UwufabnD+MoTAmwe+PCv2Jex9k1taeUhebDwIJKqw==}
     peerDependencies:
       playwright: '>= 1.0.0'
     dependencies:
       axe-core: 4.7.1
-      playwright: 1.34.2
     dev: true
 
   /@babel/code-frame@7.21.4:
@@ -901,8 +896,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite@1.0.30001489:
-    resolution: {integrity: sha512-x1mgZEXK8jHIfAxm+xgdpHpk50IN3z3q3zP261/WS+uvePxW8izXuCu6AHz0lkuYTlATDehiZ/tNyYBdSQsOUQ==}
+  /caniuse-lite@1.0.30001546:
+    resolution: {integrity: sha512-zvtSJwuQFpewSyRrI3AsftF6rM0X80mZkChIt1spBGEvRglCrjTniXvinc8JKRoqTwXAgvqTImaN9igfSMtUBw==}
     dev: false
 
   /chalk@2.4.2:
@@ -2736,7 +2731,7 @@ packages:
       '@next/env': 13.4.3
       '@swc/helpers': 0.5.1
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001489
+      caniuse-lite: 1.0.30001546
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -3054,15 +3049,6 @@ packages:
     resolution: {integrity: sha512-MrkgGWLANc5qthXduvIY1a/tuafROyTORVd86fwKwgoYrmnBooN/GgeZSBm7ljTLV2FCWNSXV3se7qeScKn83g==}
     engines: {node: '>=14'}
     hasBin: true
-    dev: true
-
-  /playwright@1.34.2:
-    resolution: {integrity: sha512-12K4LFCpUvU88+PLDB/VhE9VnqKu81ghNXq9bhBqIxCRt2MDCS3mAvMj9tV1sCc4l6kXX79aFmdGSjhG4CI8Ag==}
-    engines: {node: '>=14'}
-    hasBin: true
-    requiresBuild: true
-    dependencies:
-      playwright-core: 1.34.2
     dev: true
 
   /plur@4.0.0:
@@ -3993,3 +3979,7 @@ packages:
   /zod@3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
