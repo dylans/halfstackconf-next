@@ -72,15 +72,17 @@
       "title": "Fu-Finder Revisited: Capturing Querying Behaviour Using Elasticsearch"
     },
     {
-      "by": "Kevin Cunningham",
+      "by": "Niels Leenheer",
       "description": [
-        "Kevin, an enthusiastic home baker discovered that baking sourdough bread was quite a challenge to learn. Despite its complexity, he remained dedicated in his pursuit of perfecting this technique.",
-        "He's gonna be showing us his cool journey in this session, from scratch to a finished product - the TypeScript-based Sourdough Guide!",
-        "We will have some fun learning how to build a cool starter tracker that keeps track of our feeding so we can keep healthy and happy. Plus, we'll talk about ways to incorporate real-time weather data like temperature and humidity into your dough preparation process since those elements will definitely help affect the outcome.",
-        "Not only will you become an expert on mastering the art of sourdough with TypeScript, but you'll also discover how coding can make a huge difference in streamlining complex activities that form part of our daily routines."
+        "Join us for an exciting talk on creating a point-of-sale system entirely using web technologies. In this session, we will explore the power of hardware APIs, such as WebHID, WebUSB and WebSerial, and connect the browser to essential components such as a cash drawer, customer display, receipt printer and barcode scanner. We'll also touch on other new Project Fugu APIs like Idle Detection, Multi-screen Window Placement and Shape Detection. And finally, we will show how this works in practice with a live demonstration of all the components."
       ],
-
-      "title": "SourDoughScript: Mastering Sourdough with TypeScript"
+      "socials": [
+        {
+          "href": "https://twitter.com/html5test",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Making money with Project Fugu – building a cash register with web technologies"
     },
     {
       "by": "Rob Bateman",
@@ -110,6 +112,34 @@
         }
       ],
       "title": "NODE_ENV=production is a lie"
+    },
+    {
+      "by": "Alessandro Polidori",
+      "description": [
+        "Alessandro is an incredibly competent software engineer at DAZN who specializes in Node.js development. He's got plenty of experience when it comes to creating distributed systems and web real-time communications.",
+        "He's going to teach us about using the Javascript WebRTC APIs so we can implement realtime audio and video communication into our applications for a modernized boost. That way, if we want to build up our own personal-use videoconferencing program, it'll be much more easier with this knowledge!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/ale_polidori",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Let’s create Your Video Call App: demystifying JS WebRTC APIs"
+    },
+    {
+      "by": "Anna Migas",
+      "description": [
+        "Web performance has been one of the most talked about web development topics in the recent years. Yet if you try to start your journey with the speed optimisations, you might find yourself in a pickle. With the tooling, you might feel overwhelmed—it looks complex and hard to comprehend. With the metrics: at first glance all of them seem similar, not to mention that they change over time and you cannot figure out which of them to take into account.",
+        "In this session we'll review the most popular web performance tooling and metrics. There will be no more secrets around the topic and you will be able to dive into the web speed optimisations and solution research with confidence. "
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/szynszyliszys",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Demystifying web performance tooling and metrics"
     },
     {
       "by": "Liliana Kastilio",
