@@ -190,6 +190,20 @@
       "title": "To be revealed"
     },
     {
+      "by": "Roberto Bianchi",
+      "description": [
+        "We strive to follow best practices, but reality often struggles to match the message of simple Hello World examples. But there are significant advances in the Node ecosystem to greatly improve developer experience.",
+        "Working with the new Node test runner, it's all about minimalism, and that's where the fun begins. Writing mocks and assertions is a breeze, and it's amazingly efficient. Test authoring and running feels like a joy instead of a chore. 🚀🔥",
+        "Testing API endpoints can be a real head-scratcher, but it's become a breeze. 🛣️😎",
+        "We can also whip up fully-typed clients straight from your server using an open API schema. No more communication mishaps between the front and back end. It's like having a translator who never gets the words wrong. 🤖🔑",
+        "But the best part? It's not just about tech. It's about the thrill of coding with fewer headaches and more high-fives. These improvements are the real deal, making your coding adventures more exciting and your projects less of a headache. 🎉🚀"
+      ],
+      "socials": [
+        { "href": "https://twitter.com/rbianchidev", "icon": "twitter" }
+      ],
+      "title": "Node Adventures: Fast Testing, Smooth APIs, and Seamless Client Generation! 🚀🛣️🤖"
+    },
+    {
       "by": "Lightning",
       "description": [
         "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
