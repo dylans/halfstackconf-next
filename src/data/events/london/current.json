@@ -199,7 +199,12 @@
         "But the best part? It's not just about tech. It's about the thrill of coding with fewer headaches and more high-fives. These improvements are the real deal, making your coding adventures more exciting and your projects less of a headache. 🎉🚀"
       ],
       "socials": [
-        { "href": "https://twitter.com/rbianchidev", "icon": "twitter" }
+        { "href": "https://twitter.com/rbianchidev", "icon": "twitter" },
+        {
+          "href": "https://www.linkedin.com/in/rbianchidev/",
+          "icon": "linkedin"
+        },
+        { "href": "https://github.com/rozzilla", "icon": "github" }
       ],
       "title": "Node Adventures: Fast Testing, Smooth APIs, and Seamless Client Generation! 🚀🛣️🤖"
     },
