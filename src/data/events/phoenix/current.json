@@ -17,7 +17,45 @@
   "location": "Majestic Theater, Gilbert",
   "packet": "https://app.livingspec.com/accept-invitation?code=7ca49d8f-e83e-4f76-9f5b-96cbab5cd884",
   "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late!",
-  "sessions": [],
+  "sessions": [
+    {
+      "by": "William Blankenship",
+      "description": [
+        "What if we could invert ownership and identity in a social network, where users retained full control of their online presence?",
+        "What if joining a peer-to-peer social network was as easy as opening a browser tab?",
+        "Let's explore an alternate timeline where end-user devices can directly power social networks."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/retrohack3r",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Alice in Wonderland"
+    },
+    {
+      "by": "Ben Ilegbodu",
+      "description": ["To be revealed..."],
+      "socials": [
+        {
+          "href": "https://twitter.com/benmvp",
+          "icon": "twitter"
+        }
+      ],
+      "title": "To be revealed..."
+    },
+    {
+      "by": "Luis Montes",
+      "description": ["To be revealed..."],
+      "socials": [
+        {
+          "href": "https://twitter.com/monteslu",
+          "icon": "twitter"
+        }
+      ],
+      "title": "To be revealed..."
+    }
+  ],
   "sponsors": {
     "community": [
       {
@@ -48,11 +86,6 @@
         "src": "/logos/livingspec.svg"
       },
       {
-        "href": "https://salesforce.com/tech",
-        "name": "Salesforce Engineering",
-        "src": "/logos/salesforce.svg"
-      },
-      {
         "href": "https://nx.dev",
         "name": "Nx",
         "src": "/logos/nx.svg"
@@ -65,16 +98,16 @@
         "src": "/logos/platformatic.svg"
       },
       {
-        "href": "https://wearedhd.com/",
-        "name": "DHD",
-        "src": "/logos/dhd.svg"
+        "href": "https://www.tubular.io/",
+        "name": "Tubular",
+        "src": "/logos/tubular.svg"
       }
     ],
     "medium": [
       {
-        "href": "https://www.tubular.io/",
-        "name": "Tubular",
-        "src": "/logos/tubular.svg"
+        "href": "https://wearedhd.com/",
+        "name": "DHD",
+        "src": "/logos/dhd.svg"
       },
       {
         "href": "https://iceddev.com/",
