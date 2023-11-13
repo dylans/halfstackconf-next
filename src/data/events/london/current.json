@@ -116,7 +116,7 @@
     {
       "by": "Alessandro Polidori",
       "description": [
-        "Alessandro is an incredibly competent software engineer at DAZN who specializes in Node.js development. He's got plenty of experience when it comes to creating distributed systems and web real-time communications.",
+        "Alessandro is an incredibly competent software engineer at K16 Solutions who specializes in Node.js development. He's got plenty of experience when it comes to creating distributed systems and web real-time communications.",
         "He's going to teach us about using the Javascript WebRTC APIs so we can implement realtime audio and video communication into our applications for a modernized boost. That way, if we want to build up our own personal-use videoconferencing program, it'll be much more easier with this knowledge!"
       ],
       "socials": [
