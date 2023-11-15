@@ -1,8 +1,8 @@
 {
   "afterparty": "Afterparty (includes JS Pub Quiz!)",
-  "catchphrase": "Delayed due to COVID-19. HalfStack Vienna will return in 2023 at Ankersaal near the Hauptbahnhof.",
-  "code": "halfstack-vienna-2023",
-  "date": "15th of September 2023, 10am - Late",
+  "catchphrase": "HalfStack Vienna will return in 2024 at Ankersaal near the Hauptbahnhof.",
+  "code": "halfstack-vienna-2024",
+  "date": "13th of September 2024, 10am - Late",
   "description": [
     "Up to 200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the Vienna area, with some from throughout the Europe, the UK, and the US"
@@ -15,262 +15,14 @@
   ],
   "geolocation": [48.171534, 16.390938],
   "location": "Ankersaal, Absberggasse 27, 1100 Vienna",
-  "schedule": "Plan to arrive between 09:00 and 09:30 on the 15th of September & stay late for an amazing day of JavaScript goodness!",
-  "sessions": [
-    {
-      "by": "Hidde de Vries",
-      "description": [
-        "Our design systems commonly feature components that show on top of other content: tooltips, date pickers, menus and teaching UI, to name just a few. Proposed updates to the web platform are about to make building these a whole lot easier. You might not even need JavaScript. You’ll learn all about the upcoming ‘popover’ attribute, modality and the top layer."
-      ],
-      "socials": [
-        {
-          "href": "https://front-end.social/@hdv",
-          "icon": "mastodon"
-        },
-        {
-          "href": "https://www.linkedin.com/in/hiddedevries",
-          "icon": "linkedin"
-        },
-        {
-          "href": "https://hdv.bsky.social/",
-          "icon": "bluesky"
-        },
-        {
-          "href": "https://hidde.blog/",
-          "icon": "site"
-        }
-      ],
-
-      "title": "How popovers are about to become a whole lot easier to build"
-    },
-    {
-      "by": "Maros Kutschy",
-      "description": [
-        "Is it possible to connect IT with philosophy? Yes, it is, let's talk about it!",
-        "Let's connect philosophy and IT by use stoic principles during automation testing. We will explore how to use stoic philosophy during the daily work of automation QA engineers on real examples.",
-        "Stoic philosophy isn’t just boring ancient theory which we know from school subjects, but a real self-development program which can be applied in modern life and in IT"
-      ],
-      "socials": [
-        {
-          "href": "https://www.linkedin.com/in/maros-kutschy-83100878/",
-          "icon": "linkedin"
-        }
-      ],
-      "title": "Stoic Philosophy and Automation Testing"
-    },
-    {
-      "by": "Eva Lettner",
-      "description": [
-        "Eva shares her way of managing and interacting at work, giving actionable, science-based tools on how to communicate and work together as well as leading teams."
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/eva_trostlos",
-          "icon": "twitter"
-        }
-      ],
-      "title": "A person-centered approach to engineering management"
-    },
-    {
-      "by": "Ramon Huidobro",
-      "description": ["To be revealed"],
-      "socials": [
-        {
-          "href": "https://twitter.com/hola_soy_milk",
-          "icon": "twitter"
-        },
-        {
-          "href": "https://ramonh.dev/",
-          "icon": "site"
-        }
-      ],
-      "title": "To Be Revealed"
-    },
-    {
-      "by": "Bogomil Shopov",
-      "description": [
-        "Bogomil's career in IT started as a servant to programmers: fixing a line or two in the code, and now he is a Director in a vast international privacy company. When he looks back, it was different. Oh gosh, we had so much fun in the past.",
-        "It seems that at some point recently, most of the world decided that IT is an elite profession that needs to produce only value no matter what.",
-        "This is a great tragedy, and it must be rectified. Why do we have feelings, emotions, and personalities if we no longer have fun? In this talk, we'll take a retrospective journey through the years to what went wrong and how we fix it together.",
-        "We will cover the epoch of the world before Agile to the era of the Artificial Immigrant(AI), who is here to take your jobs away."
-      ],
-      "socials": [
-        {
-          "href": "https://hapyyr.com/@bogo",
-          "icon": "mastodon"
-        },
-        {
-          "href": "https://talkweb.eu/about/",
-          "icon": "site"
-        },
-        {
-          "href": "https://twitter.com/bogomep",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Where did all the fun go?"
-    },
-    {
-      "by": "Leo Riviera",
-      "description": [
-        "Leo, with his knowledge as a software engineer really gets what it's like for internet users having to wait around in anticipation of responses from online applications or websites. His talk will go into detail about how he is able to optimize these processes and make them more human-friendly so that data related to TfL can be served up quickly.",
-        "We'll figure out how to design and construct an easy way of getting information about different services quickly, understanding the workings of worker threads, figuring out TfL's APIs in detail and creating a practical framework as well as building and successfully deploying something close to reality."
-      ],
-      "socials": [
-        {
-          "href": "https://github.com/leoriviera",
-          "icon": "github"
-        },
-        {
-          "href": "https://linkedin.com/in/leoriviera",
-          "icon": "linkedin"
-        }
-      ],
-      "title": "tfl.fyi: building human-consumable APIs"
-    },
-    {
-      "by": "Dylan Schiemann",
-      "description": [
-        "As the co-founder of Living Spec and HalfStack, maintainer of SlateJS, and early co-founder of the Dojo Toolkit, Dylan has seen a lot of chaos in the JavaScript ecosystem.",
-        "Over the past three years, Dylan has been back to being a near full-time engineer on Living Spec. Dylan will share some of the fun adventures along the way, and explain how it's never too late to go back to being an engineer."
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/dylans",
-          "icon": "twitter"
-        },
-        {
-          "href": "https://www.linkedin.com/in/dylans",
-          "icon": "linkedin"
-        },
-        {
-          "href": "https://github.com/dylans/",
-          "icon": "github"
-        }
-      ],
-      "title": "Back to the Future"
-    },
-    {
-      "by": "Niels Leenheer",
-      "description": [
-        "Join us for an exciting talk on creating a point-of-sale system entirely using web technologies. In this session, we will explore the power of hardware APIs, such as WebHID, WebUSB and WebSerial, and connect the browser to essential components such as a cash drawer, customer display, receipt printer and barcode scanner. We'll also touch on other new Project Fugu APIs like Idle Detection, Multi-screen Window Placement and Shape Detection. And finally, we will show how this works in practice with a live demonstration of all the components."
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/html5test",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Making money with Project Fugu – building a cash register with web technologies"
-    },
-    {
-      "by": "Timea Turdean",
-      "description": [
-        "Data is a currency and if a service is for free, the payment is your data.",
-        "And still, we keep accepting privacy policies probably without reading them. Do we even have a choice? This needs to change!",
-        "Let's explore what a technical solution, on top of the web, would look like."
-      ],
-      "socials": [
-        {
-          "href": "https://www.linkedin.com/in/timeaturdean/",
-          "icon": "linkedin"
-        },
-        {
-          "href": "https://github.com/timea-solid",
-          "icon": "github"
-        },
-        {
-          "href": "https://timeaturdean.com/",
-          "icon": "site"
-        }
-      ],
-      "title": "You & Your data - a horror story made online"
-    },
-    {
-      "by": "Michael Bromley",
-      "description": [
-        "Let's explore some lessons from the past 5 years building a large-scale open source project that is used by thousands of developers.",
-        "We often say things like \"keep it simple, stupid\", \"you aren't going to need it\", \"don't repeat yourself\" and so on.",
-        "These are good rules of thumb, but not dogma. Time and experience make you pragmatic and provide a level of judgement that can overrule such principles when the time is right.",
-        "We'll look at some fun examples of the painful consequences of getting these things wrong."
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/michlbrmly",
-          "icon": "twitter"
-        },
-        {
-          "href": "https://github.com/michaelbromley",
-          "icon": "github"
-        }
-      ],
-      "title": "You Aren't Gonna Need It...Until You Are?"
-    },
-    {
-      "by": "Oleksandr Tkachenko",
-      "description": [
-        "This session focuses on features in ECMAScript2021, such as `WeakRef` and `FinalizationRegistry`",
-        "We'll explore what weak references, compare them with the strong references we already know, and explain the differences.",
-        "We'll also explore the possible use cases for these features, and how they can be used to increase the speed of applications by reducing unnecessary calculations and network requests.",
-        "Finally, we'll have a fun demo using WeakRef objects and FinalizationRegistry objects together and explore photo cloud storage in a fun and efficient manner."
-      ],
-      "socials": [
-        {
-          "href": "https://www.linkedin.com/in/aleksandrtkachenko/",
-          "icon": "linkedin"
-        }
-      ],
-      "title": "Usefulness and uses of Weak Reference and Finalization Registry in real life"
-    },
-    {
-      "by": "Christian Heilmann",
-      "description": [
-        "AI powered pair programming tools like GitHub CoPilot, ChatGPT or Amazon Codewhisperer are all the rage. They make us more effective and are the future. But how do they hold up in the front-end world where code is only a part of the experience? Chris Heilmann, survivor of the browser wars of 25 years shows how."
-      ],
-      "socials": [
-        { "href": "https://christianheilmann.com/", "icon": "site" },
-        { "href": "https://twitter.com/codepo8", "icon": "twitter" }
-      ],
-      "title": "Centering DIVs in new and exciting wrong ways with AI?"
-    },
-    {
-      "by": "Lightning",
-      "description": [
-        "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/halfstackconf",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Lightning Talks"
-    },
-    {
-      "by": "HalfStack",
-      "description": [
-        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz!"
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/halfstackconf",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Afterparty (JS Pub Quiz and Battledecks)"
-    }
-  ],
+  "schedule": "Plan to arrive between 09:00 and 09:30 on the 13th of September & stay late for an amazing day of JavaScript goodness!",
+  "sessions": [],
   "sponsors": {
     "complete": [
       {
         "href": "https://livingspec.com/",
         "name": "Living Spec",
         "src": "/logos/livingspec.svg"
-      },
-      {
-        "href": "https://salesforce.com/tech",
-        "name": "Salesforce Engineering",
-        "src": "/logos/salesforce.svg"
       }
     ],
     "large": [
@@ -288,11 +40,6 @@
         "href": "http://modstreaming.com/",
         "name": "Modstreaming",
         "src": "/logos/modstreaming.jpg"
-      },
-      {
-        "href": "https://orangejellyfish.com",
-        "name": "Orange Jellyfish",
-        "src": "/logos/orangejellyfish.svg"
       }
     ],
     "medium": [
@@ -337,13 +84,8 @@
         "href": "https://openjsf.org/",
         "name": "Open JS Foundation",
         "src": "/logos/openjsfoundation.svg"
-      },
-      {
-        "href": "https://scriptconf.org/",
-        "name": "ScriptConf",
-        "src": "/logos/scriptconf.svg"
       }
     ]
   },
-  "year": 2023
+  "year": 2024
 }
