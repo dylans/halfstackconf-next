@@ -1,0 +1,272 @@
+{
+  "afterparty": "Afterparty (TBD)",
+  "code": "cityjs-conference/cityjs-halfstack-belgrade",
+  "date": "8th of September, 2023",
+  "description": [
+    "HalfStack and CityJS are teaming up for our first event in Belgrade",
+    "Early bird tickets now available for an incredible day of JS!"
+  ],
+  "faqs": [
+    [
+      "Are there any discounted or free tickets available?",
+      "We have space for a few volunteers. We also have a limited number of discounted tickets for students and those who are underrepresented in tech. We also have some tickets available for those recently unemployed who contribute to open source software."
+    ],
+    [
+      "Where should I stay?",
+      "Belgrade has many excellent hotel and Airbnb options near the venue."
+    ]
+  ],
+  "geolocation": [44.8157678, 20.4610711],
+  "location": "Impact Hub Belgrade",
+  "schedule": "CityJS and HalfStack starts around 10am, includes breaks, lunch, dinner, and an interactive afterparty. Plan to arrive around 9am and stay late!",
+  "sessions": [
+    {
+      "by": "Christian Heilmann",
+      "description": [
+        "AI powered pair programming tools like GitHub CoPilot, ChatGPT or Amazon Codewhisperer are all the rage. They make us more effective and are the future. But how do they hold up in the front-end world where code is only a part of the experience? Chris Heilmann, survivor of the browser wars of 25 years shows how."
+      ],
+      "socials": [
+        { "href": "https://christianheilmann.com/", "icon": "site" },
+        { "href": "https://twitter.com/codepo8", "icon": "twitter" }
+      ],
+      "title": "Centering DIVs in new and exciting wrong ways with AI?"
+    },
+    {
+      "by": "Eleftheria Batsou",
+      "description": [
+        "It’s not enough to build apps that function, it's not even enough to make them understandable and usable, you need to build apps that bring joy and excitement, pleasure and fun, if possible even beauty to people’s lives.",
+        "The Good and the Bad of UI: Presenting in a fun way how a good designer works VS a bad designer."
+      ],
+      "socials": [
+        { "href": "https://twitter.com/@BatsouElef", "icon": "twitter" }
+      ],
+      "title": "Beyond Buttons: Crafting Satisfying && Easily Marketable Products"
+    },
+    {
+      "by": "Dylan Schiemann",
+      "description": [
+        "Five years ago HalfStack legend Tony Edwards regaled us with a look at using JS to transcribe his live rapping. Much has improved so we'll look at the current state of transcribing audio to text with JS and AI."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/dylans",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/dylans",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://github.com/dylans/",
+          "icon": "github"
+        }
+      ],
+      "title": "Five years later: The state of Audio to Text in JS with AI"
+    },
+    {
+      "by": "Maya Nedeljkovic Batic",
+      "description": [
+        "Going from simple web elements like divs and buttons to creating interactive 3D scenes can seem like a daunting leap, even for seasoned web developers.",
+        "But as user expectations grow, it's clear that 3D web experiences are becoming the standard. Whether it's a 360° view of a product, an AR-powered home renovation app, or a sophisticated medical imaging viewer, 3D is changing the way we interact with the web. Thankfully, diving into 3D is more straightforward than ever.",
+        "At its core, 3D is just about plotting points in space and some smart math. This session will cover the essentials of how these points, or vertices, become triangles, and eventually pixels on our screens. If you've ever been curious about the 3D rendering pipeline but didn't know where to start, this session is for you."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/maya_ndljk",
+          "icon": "twitter"
+        }
+      ],
+      "title": "A Closer Look at 3D Rendering"
+    },
+    {
+      "by": "Nemanja Tosic",
+      "description": [
+        "It's easy to complain, but difficult to solve problems. We'll explore the long term impact of complaints gone wrong."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/nemanjatosic6",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/nemanja-tosic-38a73483/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://github.com/nemanja-tosic",
+          "icon": "github"
+        }
+      ],
+      "title": "Complaints and Grievances"
+    },
+    {
+      "by": "Santosh Yadav",
+      "description": [
+        "It's easy to complain, but difficult to solve problems. We'll explore the long term impact of complaints gone wrong."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/SantoshYadavDev",
+          "icon": "twitter"
+        }
+      ],
+      "title": "The Framework of the Past, Present, and Future"
+    },
+    {
+      "by": "Naim Gkamperlo",
+      "description": [
+        "We'll navigate the world of micro frontends, breaking down large, complex user interfaces into manageable components. It's a must-attend for software engineers keen on improving their UI development strategies and workflows.",
+        "We're going on a journey through the magical world of micro frontends, where we turn big, daunting UI into neat, nifty packages.",
+        "We've got plenty of real-life examples and straightforward advice to help you get the hang of it. This isn't just for tech whizzes - whether you've built a hundred websites or you're just starting out, you’ll walk away with some great tips and tricks.                    ",
+        "Ready to join the adventure and shrink that UI? We can’t wait to see you!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/@ngkamperlo",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Honey, I Shrunk the UI: Adventures in Microfrontends"
+    },
+    {
+      "by": "Daniel Afonso",
+      "description": [
+        "State is the heart of your application.",
+        "As time passes and your application grows, more than a single concept for state is needed. You need to split your state into client and server state, but do you really know server state? Server state is not just queries and mutations. When building your applications, your server state has an overwhelming number of challenges you need to deal with to create the best experience for your app users.",
+        "Now, an extra obstacle is solving all those challenges while keeping your mental sanity and, at the same time, creating a good developer experience in your project. Entering your soon-to-be best friend and a must for dealing with your server state: TanStack Query "
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/danieljcafonso",
+          "icon": "twitter"
+        }
+      ],
+      "title": "You Don’t Know Server State Yet"
+    },
+    {
+      "by": "Josefine Schaefer",
+      "description": [
+        "Web Accessibility is not only legally required in many countries, but it is also an essential tool to make the web a more inclusive place for all.",
+        "And while it’s a necessity for some, it benefits all of us: Through improved performance, better usability, and clearer design.",
+        "A Headless CMS can pave the way for you here - using the example of Storyblok, we will explore how. We will have a closer look at headline hierarchies, color contrast, alternative text, and keyboard accessibility as well as creating accessible content and code - in a mixture of live demo, background context, and real-life examples."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/JsfnSchfr",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Accessibility in Times of Headless Systems"
+    },
+    {
+      "by": "Toma Puljak",
+      "description": [
+        "Apps are becoming more and more collaborative each day and it's no coincidence. Collaborative features often boost engagement and make users' workflows much more efficient. Features like chatting, text sync and cursor tracking allow users to stay within your app without moving to 3rd party solutions.",
+        "This session will include a walkthrough of how to set up the Yjs library to integrate any collaborative feature with ease and all in less than 20 minutes. We will cover popular use cases for collaborative features and the challenges that it poses for developers. There are a lot of things to consider when integrating collaboration such as conflict resolution, scalability, latency, etc. Using a library like Yjs can make your lives easier because most of the challenges are solved on the lib level, meaning that the developer only needs to worry about integration.",
+        "Finally, we will do a live demo of integrating these features into an app and share it with the audience so we can see the features in action in real-time. After this session, the audience will be able to integrate collaboration features into any app with ease."
+      ],
+      "title": "Make your app collaborative in less than 20 minutes?"
+    },
+    {
+      "by": "Nikola Mitrovic",
+      "description": [
+        "When writing code for the Web, there are a lot of capabilities that are offered out of the box by our browsers. If you ever wrote a File Upload component, used timers and intervals, interacted with the DOM, or stored something in the Local/Session Storage, you had to go to the MDN’s Web API docs, to find some relevant information on how to implement that code.",
+        "In this session, we will delve into the exciting world of browser Web APIs that are not so commonly used (although they should be) and explore their incredible capabilities 🚀 All these features offer new opportunities for creating immersive web experiences that can help businesses grow and connect with customers. So if you are the kind of an engineer who wants to stay ahead of the curve when it comes to web development, learn how Intersection Observer, Background Sync API, Screen Wake Lock API (and many more) can help you create better web applications that will keep users engaged and coming back for more!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/@js_svemirko",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Superpowers of browser's Web API"
+    },
+    {
+      "by": "Lightning",
+      "description": [
+        "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/halfstackconf",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Lightning Talks"
+    },
+    {
+      "by": "HalfStack",
+      "description": [
+        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/halfstackconf",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Afterparty (JS Pub Quiz and Battledecks)"
+    }
+  ],
+  "sponsors": {
+    "complete": [
+      {
+        "href": "https://livingspec.com",
+        "name": "Living Spec",
+        "src": "/logos/livingspec.svg"
+      },
+      {
+        "href": "https://salesforce.com/tech",
+        "name": "Salesforce Engineering",
+        "src": "/logos/salesforce.svg"
+      }
+    ],
+    "large": [
+      {
+        "href": "https://platformatic.dev",
+        "name": "Platformatic",
+        "src": "/logos/platformatic.svg"
+      },
+      {
+        "href": "https://orangejellyfish.com",
+        "name": "Orange Jellyfish",
+        "src": "/logos/orangejellyfish.svg"
+      }
+    ],
+    "medium": [
+      {
+        "href": "https://www.tubular.io/",
+        "name": "Tubular",
+        "src": "/logos/tubular.svg"
+      },
+      {
+        "href": "https://wearedhd.com",
+        "name": "DHD",
+        "src": "/logos/dhd.svg"
+      }
+    ],
+    "small": [
+      {
+        "href": "https://ti.to/",
+        "name": "Tito",
+        "src": "/logos/tito.svg"
+      },
+      {
+        "href": "https://www.mozilla.org/",
+        "name": "Mozilla",
+        "src": "/logos/mozilla.svg"
+      },
+      {
+        "href": "https://openjsf.org/",
+        "name": "Open JS Foundation",
+        "src": "/logos/openjsfoundation.svg"
+      },
+      {
+        "href": "http://codebar.io/",
+        "name": "codebar",
+        "src": "/logos/codebar.svg"
+      }
+    ]
+  },
+  "year": 2023
+}
