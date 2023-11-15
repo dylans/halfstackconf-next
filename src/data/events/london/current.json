@@ -1,7 +1,7 @@
 {
   "catchphrase": "Join us for the original HalfStack event this November in London!",
-  "code": "halfstack-uk-events-2022",
-  "date": "Wednesday 15th November 2023",
+  "code": "halfstack-london-2024",
+  "date": "Wednesday 13th November 2024",
   "description": [
     "200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the greater London area and the UK"
@@ -15,222 +15,13 @@
   "geolocation": [51.52036, -0.07319200000006276],
   "location": "93 Feet East, London",
   "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late!",
-  "sessions": [
-    {
-      "by": "Alistair Shepherd",
-      "description": [
-        "Alistair is passionate about creating awesome products for the web. He's a super savvy Front End Developer at Series Eight, and he has an amazing knack for building stunning websites that leave clients in awe - from small-scale businesses to large corporations around the globe.",
-        "With all the cool web technologies and browsers we have today, his talk will really remind us of how with just a bit of modern CSS and JavaScript as well as some clever techniques you can make a website look great.",
-        "This session is sure to be quite interesting as it will include a lot of great information about CSS Custom Properties, Parallax effects, color schemes and how you can use SVG for generative artwork. After hearing him talk everyone will feel inspired and ready to go out there an utilize modern tech tools in new and inventive ways!"
-      ],
-
-      "title": "Creative web: building dynamic websites for work and play"
-    },
-    {
-      "by": "Keren Kenzi",
-      "description": [
-        "With an incredible amount of experience in the field, Keren is here to help us out and show us how coding with JavaScript and HTML can be used to make our own virtual world. ",
-        "During this talk, we'll go over the fundamentals of how to make a basic virtual reality game using A-Frame, JavaScript, and of course that awesome 'ol DOM API. It'll sure be a fun journey working together!"
-      ],
-
-      "title": "Hello (Virtual) World!"
-    },
-    {
-      "by": "Phil Nash",
-      "description": [
-        "It's really cool that for a while now we're able to animate and transition within single web pages. Animations between huge state changes like page loads are obviously more difficult, but it's still fun seeing these things in action.",
-        "Phil is ready to give the talk of a lifetime about using the View Transitions API so that you can push your webpage designs further than ever before- effortlessly transitioning from boring page to exciting and smooth with just CSS & JavaScript. Get pumped for this awesome way of seeing into our tech future!"
-      ],
-      "socials": [
-        {
-          "href": "https://mastodon.social/@philnash",
-          "icon": "mastodon"
-        },
-        {
-          "href": "https://philna.sh",
-          "icon": "site"
-        },
-        {
-          "href": "https://twitter.com/philnash",
-          "icon": "twitter"
-        },
-        {
-          "href": "https://github.com/philnash",
-          "icon": "github"
-        }
-      ],
-      "title": "CSS Between the Pages"
-    },
-    {
-      "by": "Carly Richmond",
-      "description": [
-        "Carly built a game to help evaluate search engine user query behaviors and it was the first website she ever created, and even though it looks a bit dated now, she still has fond memories of the process of designing it and learning more about how search engines work.",
-        "It seems that at some point recently, most of the world decided that IT is an elite profession that needs to produce only value no matter what.",
-        "She's gonna go over how to build this game using Elastic Web Crawler, Elasticsearch and the Node.js Elasticsearch client; plus she'll give us a starter guide to the fundamentals of Elasticsearch as well! That will be awesome!"
-      ],
-
-      "title": "Fu-Finder Revisited: Capturing Querying Behaviour Using Elasticsearch"
-    },
-    {
-      "by": "Niels Leenheer",
-      "description": [
-        "Join us for an exciting talk on creating a point-of-sale system entirely using web technologies. In this session, we will explore the power of hardware APIs, such as WebHID, WebUSB and WebSerial, and connect the browser to essential components such as a cash drawer, customer display, receipt printer and barcode scanner. We'll also touch on other new Project Fugu APIs like Idle Detection, Multi-screen Window Placement and Shape Detection. And finally, we will show how this works in practice with a live demonstration of all the components."
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/html5test",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Making money with Project Fugu – building a cash register with web technologies"
-    },
-    {
-      "by": "Rob Bateman",
-      "description": [
-        "AwayFL is an open source Adobe Flash emulator for the web written in Typescript and WebGL. Rob inadvertently started the project 10 years ago back when life without Flash was unthinkable and he was trying to do other things.",
-        "In this session we'll dive into the some of the lessons learned, including  what defines a language, when reverse-engineering gets stupid, arcane bugfixing strategies, and how to keep a project going even when no-one seems interested in what you're doing, yourself included.",
-        "All while reliving some kick-ass retro Flash games."
-      ],
-
-      "title": "An Emulator's Journey"
-    },
-    {
-      "by": "Matteo Collina",
-      "description": [
-        "In the beginning, there were configuration files. Each environment had one committed to our repositories. Then, we discovered the beauty of 12-factor applications and of having environment-specific values set as environment variables. Then, NODE_ENV came along, and shattered our idyllic world.",
-        "Libraries with millions of weekly downloads check for NODE_ENV=production to enable optimizations, changing the behavior of applications. Given this worked so well, developers started loading configuration files (or secrets) based on the value of NODE_ENV to identify _their_ \"production\" environment.",
-        "However, questions began to arise. What value should be used for the staging environment? What about QA? If the same code isn't run everywhere, we face being hit by bugs that cannot be reproduced across environments, which leads us to set NODE_ENV=production everywhere. But in doing so, how should we distinguish across environments?"
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/matteocollina/",
-          "icon": "twitter"
-        },
-        {
-          "href": "https://github.com/mcollina",
-          "icon": "github"
-        }
-      ],
-      "title": "NODE_ENV=production is a lie"
-    },
-    {
-      "by": "Alessandro Polidori",
-      "description": [
-        "Alessandro is an incredibly competent software engineer at K16 Solutions who specializes in Node.js development. He's got plenty of experience when it comes to creating distributed systems and web real-time communications.",
-        "He's going to teach us about using the Javascript WebRTC APIs so we can implement realtime audio and video communication into our applications for a modernized boost. That way, if we want to build up our own personal-use videoconferencing program, it'll be much more easier with this knowledge!"
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/ale_polidori",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Let’s create Your Video Call App: demystifying JS WebRTC APIs"
-    },
-    {
-      "by": "Anna Migas",
-      "description": [
-        "Web performance has been one of the most talked about web development topics in the recent years. Yet if you try to start your journey with the speed optimisations, you might find yourself in a pickle. With the tooling, you might feel overwhelmed—it looks complex and hard to comprehend. With the metrics: at first glance all of them seem similar, not to mention that they change over time and you cannot figure out which of them to take into account.",
-        "In this session we'll review the most popular web performance tooling and metrics. There will be no more secrets around the topic and you will be able to dive into the web speed optimisations and solution research with confidence. "
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/szynszyliszys",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Demystifying web performance tooling and metrics"
-    },
-    {
-      "by": "Liliana Kastilio",
-      "description": [
-        "As technology continues to evolve, so does the art of effectively communicating technical ideas. Enchant your audience with a bit of 'PitchCraft', where we meld the elements of traditional pitching techniques with a sprinkle of ChatGPT sorcery. During this session we will craft a compelling pitch together and explore how we can tailor it for different audiences."
-      ],
-
-      "title": "PitchCraft: Perfecting your pitch with ChatGPT"
-    },
-    {
-      "by": "Tom Dye",
-      "description": ["To be revealed closer to the event."],
-      "socials": [
-        {
-          "href": "https://www.linkedin.com/in/tom-dye-50032823/",
-          "icon": "linkedin"
-        }
-      ],
-      "title": "The Pursuit of Style"
-    },
-    {
-      "by": "Christian Heilmann",
-      "description": ["To be revealed closer to the event."],
-      "socials": [
-        { "href": "https://christianheilmann.com/", "icon": "site" },
-        { "href": "https://twitter.com/codepo8", "icon": "twitter" }
-      ],
-      "title": "To be revealed"
-    },
-    {
-      "by": "Roberto Bianchi",
-      "description": [
-        "We strive to follow best practices, but reality often struggles to match the message of simple Hello World examples. But there are significant advances in the Node ecosystem to greatly improve developer experience.",
-        "Working with the new Node test runner, it's all about minimalism, and that's where the fun begins. Writing mocks and assertions is a breeze, and it's amazingly efficient. Test authoring and running feels like a joy instead of a chore. 🚀🔥",
-        "Testing API endpoints can be a real head-scratcher, but it's become a breeze. 🛣️😎",
-        "We can also whip up fully-typed clients straight from your server using an open API schema. No more communication mishaps between the front and back end. It's like having a translator who never gets the words wrong. 🤖🔑",
-        "But the best part? It's not just about tech. It's about the thrill of coding with fewer headaches and more high-fives. These improvements are the real deal, making your coding adventures more exciting and your projects less of a headache. 🎉🚀"
-      ],
-      "socials": [
-        { "href": "https://twitter.com/rbianchidev", "icon": "twitter" },
-        {
-          "href": "https://www.linkedin.com/in/rbianchidev/",
-          "icon": "linkedin"
-        },
-        { "href": "https://github.com/rozzilla", "icon": "github" }
-      ],
-      "title": "Node Adventures: Fast Testing, Smooth APIs, and Seamless Client Generation! 🚀🛣️🤖"
-    },
-    {
-      "by": "Lightning",
-      "description": [
-        "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/halfstackconf",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Lightning Talks"
-    },
-    {
-      "by": "HalfStack",
-      "description": [
-        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz! And if there's interest, we'll conclude with karaoke"
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/halfstackconf",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Afterparty (JS Pub Quiz, Battledecks, and maybe live music coding and/or karaoke)"
-    }
-  ],
+  "sessions": [],
   "sponsors": {
     "complete": [
       {
         "href": "https://livingspec.com",
         "name": "Living Spec",
         "src": "/logos/livingspec.svg"
-      },
-      {
-        "href": "https://twilio.com",
-        "name": "Twilio",
-        "src": "/logos/twilio.svg"
-      },
-      {
-        "href": "https://salesforce.com/tech",
-        "name": "Salesforce",
-        "src": "/logos/salesforce.svg"
       }
     ],
     "large": [
@@ -271,5 +62,5 @@
       }
     ]
   },
-  "year": 2023
+  "year": 2024
 }
