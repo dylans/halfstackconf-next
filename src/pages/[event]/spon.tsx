@@ -20,6 +20,7 @@ export default function Spon({
   event: {
     afterparty = "Afterparty",
     date = "TBD",
+    dateString,
     sponsorship,
     location,
     name,
