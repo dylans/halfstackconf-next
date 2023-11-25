@@ -24,9 +24,9 @@ export default function Event({
   event: {
     afterparty = "Afterparty",
     date = "TBD",
+    dateString,
     description,
     geolocation,
-    layoffs,
     location,
     name,
     sessions,
@@ -41,7 +41,7 @@ export default function Event({
       <Head>
         <title>{`HalfStack | ${name}`}</title>
       </Head>
-      <EventHeader slug={slug} />
+      <EventHeader dateString={dateString} slug={slug} />
       <Banner background={`${slug}/full.png`}>
         <BannerText>
           <div className={styles.bannerImageArea}>
@@ -90,16 +90,6 @@ export default function Event({
           provides an intimate feeling where each attendee has time to meet one
           another.
         </Text>
-        {layoffs && (
-          <>
-            <Text as="h2" className={styles.h2} fontSize="extra-large">
-              Financial Hardship?
-            </Text>
-            <Text as="p" className={styles.p} fontSize="medium">
-              {layoffs}
-            </Text>
-          </>
-        )}
       </ExpectationPhotos>
 
       <SecondaryBanner title="Call for Proposals">

@@ -12,14 +12,14 @@ import { getEventDataCurrentAndDefault, getEvents } from "../../data";
 import { ReturnedParams, ReturnedProps } from "../../utils";
 
 export default function Spon({
-  event: { faqs, name, slug, year },
+  event: { date, dateString, faqs, name, slug, year },
 }: ReturnedProps<typeof getStaticProps>) {
   return (
     <EventTheme event={slug}>
       <Head>
         <title>{`HalfStack | ${name} Sponsorship`}</title>
       </Head>
-      <EventHeader slug={slug} />
+      <EventHeader dateString={dateString} slug={slug} />
       <Banner background={`${slug}/full.png`}>
         <BannerText>FAQs</BannerText>
         <Text fontSize="extra-large">

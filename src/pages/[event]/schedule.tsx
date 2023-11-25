@@ -11,14 +11,14 @@ import { getEventDataCurrentAndDefault, getEvents } from "../../data";
 import { ReturnedParams, ReturnedProps } from "../../utils";
 
 export default function Schedule({
-  event: { name, packet, schedule, slug },
+  event: { date, dateString, name, packet, schedule, slug },
 }: ReturnedProps<typeof getStaticProps>) {
   return (
     <EventTheme event={slug}>
       <Head>
         <title>{`HalfStack | ${name} Schedule`}</title>
       </Head>
-      <EventHeader slug={slug} />
+      <EventHeader dateString={dateString} slug={slug} />
       <Banner background={`${slug}/full.png`}>
         <BannerText>Schedule</BannerText>
       </Banner>

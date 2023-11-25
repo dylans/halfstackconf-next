@@ -19,6 +19,7 @@ import styles from "./index.module.css";
 
 export default function EventYear({
   date,
+  dateString,
   event,
   name,
   otherEvents,
@@ -31,7 +32,7 @@ export default function EventYear({
       <Head>
         <title>{`HalfStack ${name} ${year}`}</title>
       </Head>
-      <EventHeader slug={event} />
+      <EventHeader dateString={dateString} slug={event} />
       <Banner background={`${event}/full.png`}>
         <BannerText>Past Events</BannerText>
       </Banner>
@@ -46,8 +47,8 @@ export default function EventYear({
               Recap
             </Text>
             <Text>
-              HalfStack {year} was an amazing event with an incredible speaker
-              lineup.{" "}
+              HalfStack {name} {year} was an amazing event with an incredible
+              speaker lineup.{" "}
               {videos && <>View the videos and relive HalfStack {year}!</>}
             </Text>
           </div>

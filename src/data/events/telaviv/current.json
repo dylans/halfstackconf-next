@@ -1,8 +1,9 @@
 {
   "afterparty": "Afterparty (includes JS Pub Quiz!)",
-  "catchphrase": "Join us for the first HalfStack Tel Aviv on the 28th of November, 2023. Tickets now available for an incredible day of JS and web fun!",
+  "catchphrase": "Join us for the first HalfStack Tel Aviv in 2024 (postponed due to the current war). Tickets now available for an incredible day of JS and web fun!",
   "code": "halfstack-telaviv-2023",
-  "date": "28th of November 2023",
+  "date": "TBD 2024",
+  "dateString": "2024-12-31",
   "description": [
     "Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the Tel Aviv area, with some from other parts of the world"
@@ -10,11 +11,11 @@
   "faqs": [
     [
       "Will the event happen with the war with Hamas?",
-      "We don't know yet. We hope the war will be over by then, but if it isn't, we will postpone the event until it is safe to hold it. We will make a decision by early November."
+      "We'll announce a new date once the war is over."
     ],
     [
       "Where should I stay?",
-      "The venue for HalfStack Tel Aviv 2023 is Third Ear. We recommend staying near the conference venue if convenient for you."
+      "The venue for HalfStack Tel Aviv 2024 is Third Ear. We recommend staying near the conference venue if convenient for you."
     ]
   ],
   "geolocation": [32.0743471, 34.7737116],
@@ -202,5 +203,5 @@
   "sponsorship": {
     "available": true
   },
-  "year": 2023
+  "year": 2024
 }

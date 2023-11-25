@@ -13,14 +13,14 @@ import { ReturnedParams, ReturnedProps } from "../../utils";
 import styles from "./tickets.module.css";
 
 export default function Tickets({
-  event: { code, name, slug },
+  event: { code, dateString, name, slug },
 }: ReturnedProps<typeof getStaticProps>) {
   return (
     <EventTheme event={slug}>
       <Head>
         <title>{`HalfStack | ${name} Tickets`}</title>
       </Head>
-      <EventHeader slug={slug} />
+      <EventHeader dateString={dateString} slug={slug} />
       <Banner background={`${slug}/full.png`}>
         <BannerText>Tickets</BannerText>
       </Banner>

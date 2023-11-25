@@ -37,7 +37,7 @@ export default function Spon({
       <Head>
         <title>{`HalfStack | ${name} Sponsorship`}</title>
       </Head>
-      <EventHeader slug={slug} />
+      <EventHeader dateString={dateString} slug={slug} />
       <Banner background={`${slug}/full.png`}>
         <BannerText>Sponsorship</BannerText>
         <Text fontSize="extra-large">

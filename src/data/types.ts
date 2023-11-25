@@ -15,6 +15,7 @@ export interface EventSponsors {
 
 export interface EventDataBase {
   date?: string;
+  dateString?: string;
   sponsors?: EventSponsors;
 }
 

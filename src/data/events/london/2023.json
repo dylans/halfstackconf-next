@@ -2,6 +2,7 @@
   "catchphrase": "Join us for the original HalfStack event this November in London!",
   "code": "halfstack-uk-events-2022",
   "date": "Wednesday 15th November 2023",
+  "dateString": "2023-11-15",
   "description": [
     "200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the greater London area and the UK"
@@ -29,7 +30,7 @@
     {
       "by": "Keren Kenzi",
       "description": [
-        "With an incredible amount of experience in the field, Keren is here to help us out and show us how coding with JavaScript and HTML can be used to make our own virtual world. ",
+        "With an incredible amount of experience in the field, Keren is here to help us out and `sho`w us how coding with JavaScript and HTML can be used to make our own virtual world. ",
         "During this talk, we'll go over the fundamentals of how to make a basic virtual reality game using A-Frame, JavaScript, and of course that awesome 'ol DOM API. It'll sure be a fun journey working together!"
       ],
 
