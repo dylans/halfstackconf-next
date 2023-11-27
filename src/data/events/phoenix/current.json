@@ -70,7 +70,7 @@
         "src": "/logos/phxjs.svg"
       },
       {
-        "href": "https://oct2023.desertcodecamp.com/home",
+        "href": "https://oct2024.desertcodecamp.com/home",
         "name": "Desert Code Camp",
         "src": "/logos/desertcodecamp.png"
       },
@@ -78,6 +78,21 @@
         "href": "https://www.thecoderschool.com/locations/gilbert/",
         "name": "theCoderSchool Gilbert",
         "src": "/logos/thecoderschool.png"
+      },
+      {
+        "href": "https://codebar.io/",
+        "name": "codebar",
+        "src": "/logos/codebar.svg"
+      },
+      {
+        "href": "https://www.womenwhocode.com/",
+        "name": "Women Who Code",
+        "src": "/logos/womenwhocode.svg"
+      },
+      {
+        "href": "https://openjsf.org/",
+        "name": "Open JS Foundation",
+        "src": "/logos/openjsfoundation.svg"
       }
     ],
     "complete": [
@@ -92,7 +107,7 @@
         "src": "/logos/nx.svg"
       }
     ],
-    "large": [
+    "half": [
       {
         "href": "https://platformatic.dev",
         "name": "Platformatic",
@@ -102,9 +117,7 @@
         "href": "https://www.tubular.io/",
         "name": "Tubular",
         "src": "/logos/tubular.svg"
-      }
-    ],
-    "medium": [
+      },
       {
         "href": "https://wearedhd.com/",
         "name": "DHD",
@@ -119,23 +132,11 @@
         "href": "https://www.mozilla.org/",
         "name": "Mozilla",
         "src": "/logos/mozilla.svg"
-      }
-    ],
-    "small": [
+      },
       {
         "href": "https://ti.to",
         "name": "Tito",
         "src": "/logos/tito.svg"
-      },
-      {
-        "href": "http://codebar.io",
-        "name": "codebar",
-        "src": "/logos/codebar.svg"
-      },
-      {
-        "href": "https://openjsf.org/",
-        "name": "Open JS Foundation",
-        "src": "/logos/openjsfoundation.svg"
       }
     ]
   },

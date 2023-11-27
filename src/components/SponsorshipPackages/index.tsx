@@ -7,49 +7,29 @@ import styles from "./index.module.css";
 
 const packages = [
   {
-    title: "Small Stack",
-    price: 1000,
-    benefits: [
-      "Sponsor logo and/or link on website, banner, badge, t-shirt, conference slide deck, meetup slide deck, video recording opening slide, attendee information packet, and other printed materials",
-      "Recognition via social media",
-      "Sponsor may provide swag for all attendees",
-      "One free ticket",
-    ],
-  },
-  {
-    title: "Medium Stack",
+    title: "Half Stack",
     price: 2000,
     benefits: [
-      "Sponsor logo and/or link on website, banner, badge, t-shirt, conference slide deck, meetup slide deck, video recording opening slide, attendee information packet, and other printed materials",
+      "Sponsor logo and/or link on website, banner, badge, t-shirt, conference slide deck, video recording opening slide, attendee information packet, and other printed materials",
       "Sponsor may provide swag for all attendees",
-      "Sponsor may offer a competition to all attendees",
-      "Two free tickets",
-    ],
-  },
-  {
-    title: "Large Stack",
-    price: 3000,
-    benefits: [
-      "Sponsor logo on website, banner, badge, t-shirt, conference slide deck, meetup slide deck, video recording opening slide, attendee information packet, and other printed materials",
-      "Sponsor may provide swag and prizes for JS Pub Quiz",
-      "Sponsor may offer a competition to all attendees",
-      "Sponsor may provide official conference swag",
-      "Sponsor may provide 30s video for rotation during breaks",
-      "Three free tickets and discount for additional tickets",
-      "One ticket to attend the speaker and sponsor pre-event dinner",
+      "Two free tickets, 10% off additional tickets",
+      "Sponsor may provide pub quiz prizes",
+      "Sponsor may run their own contest or competition",
     ],
   },
   {
     title: "Complete Stack",
-    price: 4000,
+    price: 5000,
     benefits: [
-      "Sponsor logo on website, banner, badge, t-shirt, conference slide deck, meetup slide deck, video recording opening slide, attendee information packet, and other printed materials",
-      "Sponsor may provide swag and prizes for JS Pub Quiz",
-      "Sponsor may offer a competition to all attendees",
+      "All Half Stack benefits, plus:",
+      "Higher priority for logo placement",
+      "Social Media Thank You",
+      "Sponsor will have dedicated table for swag or demos and may place up to two of their popup banners in the venue",
       "Sponsor may provide official conference swag",
       "Sponsor may provide 60s video for rotation during breaks",
-      "Four free tickets and discount for additional tickets",
+      "Four free tickets and 20% discount for additional tickets",
       "Two tickets to attend the speaker and sponsor pre-event dinner",
+      "Sponsor may participate in MC for the pub quiz, battle decks, or other interactive rounds (first come, first served)",
     ],
   },
 ];
@@ -99,6 +79,7 @@ export const SponsorshipPackages = ({ currency = "$" }) => {
 
 const getTelAvivPrices: Record<string, number> = {
   small: 2500,
+  half: 5000,
   medium: 5000,
   large: 7500,
   complete: 15000,

@@ -22,6 +22,11 @@ const stylings = {
     buttonSize: "medium",
     label: "Complete",
   },
+  half: {
+    areaClassName: styles.sponsorsHalf,
+    buttonSize: "medium",
+    label: "Half",
+  },
   large: {
     areaClassName: styles.sponsorsLarge,
     buttonSize: "medium",
@@ -36,6 +41,11 @@ const stylings = {
     areaClassName: styles.sponsorsSmall,
     buttonSize: "small",
     label: "Small",
+  },
+  community: {
+    areaClassName: styles.sponsorsCommunity,
+    buttonSize: "small",
+    label: "Community",
   },
 } as const;
 

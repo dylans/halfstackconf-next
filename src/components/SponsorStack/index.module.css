@@ -24,6 +24,11 @@
   width: 40%;
 }
 
+.sponsorsHaklf .sponsor {
+  padding-top: 30%;
+  width: 30%;
+}
+
 .sponsorsLarge .sponsor {
   padding-top: 30%;
   width: 30%;
@@ -32,6 +37,11 @@
 .sponsorsMedium .sponsor {
   padding-top: 25%;
   width: 25%;
+}
+
+.sponsorsCommunity .sponsor {
+  padding-top: 20%;
+  width: 20%;
 }
 
 .sponsorsSmall .sponsor {
@@ -67,6 +77,12 @@
     width: 30%;
   }
 
+  .sponsorsHalf .sponsor {
+    max-width: 20%;
+    padding-top: 20%;
+    width: 20%;
+  }
+
   .sponsorsLarge .sponsor {
     max-width: 20%;
     padding-top: 20%;
@@ -80,6 +96,12 @@
   }
 
   .sponsorsSmall .sponsor {
+    max-width: 14%;
+    padding-top: 14%;
+    width: 14%;
+  }
+
+  .sponsorsCommunity .sponsor {
     max-width: 14%;
     padding-top: 14%;
     width: 14%;

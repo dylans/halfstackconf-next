@@ -14,6 +14,8 @@ export interface SponsorStacksListProps extends EventSponsors {
 
 export function SponsorStacksList({
   complete,
+  half,
+  community,
   large,
   medium,
   small,
@@ -42,6 +44,8 @@ export function SponsorStacksList({
 
   if (
     !complete?.length &&
+    !half?.length &&
+    !community?.length &&
     !large?.length &&
     !medium?.length &&
     !small?.length
@@ -54,6 +58,9 @@ export function SponsorStacksList({
       {complete?.length && (
         <SponsorStack slug={slug} sponsors={complete} stack="complete" />
       )}
+      {half?.length && (
+        <SponsorStack slug={slug} sponsors={half} stack="half" />
+      )}
       {large?.length && (
         <SponsorStack slug={slug} sponsors={large} stack="large" />
       )}
@@ -62,6 +69,9 @@ export function SponsorStacksList({
       )}
       {small?.length && (
         <SponsorStack slug={slug} sponsors={small} stack="small" />
+      )}
+      {community?.length && (
+        <SponsorStack slug={slug} sponsors={community} stack="community" />
       )}
 
       <Text as="div" className={styles.bottomText}>

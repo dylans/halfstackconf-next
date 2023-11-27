@@ -7,7 +7,9 @@ export interface SponsorData {
 }
 
 export interface EventSponsors {
+  community: SponsorData[] | undefined;
   complete: SponsorData[] | undefined;
+  half: SponsorData[] | undefined;
   large: SponsorData[] | undefined;
   medium: SponsorData[] | undefined;
   small: SponsorData[] | undefined;
