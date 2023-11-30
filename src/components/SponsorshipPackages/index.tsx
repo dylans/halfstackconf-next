@@ -29,7 +29,7 @@ const packages = [
       "Sponsor may provide 60s video for rotation during breaks",
       "Four free tickets and 20% discount for additional tickets",
       "Two tickets to attend the speaker and sponsor pre-event dinner",
-      "Sponsor may participate in MC for the pub quiz, battle decks, or other interactive rounds (first come, first served)",
+      "Sponsor may participate as co-MC for the pub quiz, battle decks, or other interactive rounds (first come, first served)",
     ],
   },
 ];
