@@ -55,6 +55,19 @@
         }
       ],
       "title": "To be revealed..."
+    },
+    {
+      "by": "Otto Schiemann and Dylan Schiemann",
+      "description": [
+        "Otto is 9 years old and has been learning to code for about two years. He entertained the audience at HalfStack Newquay with his session on SonicPi, creating live music with code. He is now working on a new project called Capystroids, a space shooter game combining his love of capybaras and his appreciation of early 8-bit video games. He will be joined by his dad, Dylan, in this Q&A style session."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/dylans",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Introducing Capystroids"
     }
   ],
   "sponsors": {
