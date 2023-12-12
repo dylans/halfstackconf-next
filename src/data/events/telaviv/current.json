@@ -158,14 +158,17 @@
         "src": "/logos/salesforce.svg"
       }
     ],
-    "large": [
+    "half": [
       {
         "href": "https://platformatic.dev",
         "name": "Platformatic",
         "src": "/logos/platformatic.svg"
-      }
-    ],
-    "medium": [
+      },
+      {
+        "href": "https://nx.dev",
+        "name": "Nx",
+        "src": "/logos/nx.svg"
+      },
       {
         "href": "https://wearedhd.com",
         "name": "DHD",
@@ -175,9 +178,7 @@
         "href": "https://www.mozilla.org",
         "name": "Mozilla",
         "src": "/logos/mozilla.svg"
-      }
-    ],
-    "small": [
+      },
       {
         "href": "https://ti.to",
         "name": "Tito",

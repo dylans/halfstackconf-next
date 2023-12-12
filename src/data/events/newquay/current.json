@@ -57,6 +57,11 @@
         "href": "https://platformatic.dev",
         "name": "Platformatic",
         "src": "/logos/platformatic.svg"
+      },
+      {
+        "href": "https://nx.dev",
+        "name": "Nx",
+        "src": "/logos/nx.svg"
       }
     ],
     "medium": [

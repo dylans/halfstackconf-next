@@ -33,6 +33,11 @@
         "src": "/logos/platformatic.svg"
       },
       {
+        "href": "https://nx.dev",
+        "name": "Nx",
+        "src": "/logos/nx.svg"
+      },
+      {
         "href": "https://platogo.com/",
         "name": "Platogo",
         "src": "/logos/platogo.svg"
