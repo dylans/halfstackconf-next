@@ -68,6 +68,23 @@
         }
       ],
       "title": "Introducing Capystroids"
+    },
+    {
+      "by": "Ian Ruebbelke and Lukas Ruebbelke",
+      "description": [
+        "Programming is a skill set with many obvious benefits for pursuing the discipline in earnest. For a 12-year-old, most of these reasons are not applicable or interesting, so a different incentive system is required. Because we do not have the luxury of a fully formed prefrontal cortex to paint a vivid picture of the future glory that awaits us when we finally pull into the Delayed Gratification Station™, we must focus on the experience itself. How do we make programming a fulfilling and exciting activity purely on the merits of it being a fulfilling and exciting activity? This can be a bit circular, but such are the machinations of preteens.",
+
+        "Since we are now deviating from sound and sensible grow-up logic, what if we could use programming as a delivery mechanism to hide the unpleasant and bitter taste of other educational responsibilities? What if programming could be so fun that we could sneak in math, science, language arts, etc. lessons, and NO ONE WOULD EVEN NOTICE!?",
+
+        "Lukas (grown-up) and Ian (hatchling) Ruebbelke will share a framework that they have worked out (under duress at times) to make programming more fun and education less visible in their academic journey."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/simpulton",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Programming  and Covert Learning Modalities"
     }
   ],
   "sponsors": {
