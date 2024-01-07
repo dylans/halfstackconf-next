@@ -11,7 +11,7 @@ import { getEventDataCurrentAndDefault, getEvents } from "../../data";
 import { ReturnedParams, ReturnedProps } from "../../utils";
 
 export default function Schedule({
-  event: { date, dateString, name, packet, schedule, slug },
+  event: { dateString, name, packet, schedule, slug },
 }: ReturnedProps<typeof getStaticProps>) {
   return (
     <EventTheme event={slug}>

@@ -12,7 +12,7 @@ import { getEventDataCurrentAndDefault, getEvents } from "../../data";
 import { ReturnedParams, ReturnedProps } from "../../utils";
 
 export default function Spon({
-  event: { date, dateString, faqs, name, slug, year },
+  event: { dateString, faqs, name, slug, year },
 }: ReturnedProps<typeof getStaticProps>) {
   return (
     <EventTheme event={slug}>
