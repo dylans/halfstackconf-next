@@ -31,7 +31,7 @@ const cityscapes = [
 
 const icons = [
   ["Facebook", facebookIcon, "https://www.facebook.com/halfstackconf/"],
-  ["Instagram", instagramIcon, "https://www.instagram.com/halfstack2023/"],
+  ["Instagram", instagramIcon, "https://www.instagram.com/halfstackevents/"],
   ["Twitter", twitterIcon, "https://twitter.com/halfstackconf/"],
 ] as const;
 

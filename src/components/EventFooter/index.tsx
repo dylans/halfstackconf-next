@@ -16,7 +16,7 @@ const icons = [
   [
     "Instagram",
     instagramIconInverted,
-    "https://www.instagram.com/halfstack2023/",
+    "https://www.instagram.com/halfstackevents/",
   ],
   ["Twitter", twitterIconInverted, "https://twitter.com/halfstackconf/"],
 ] as const;
