@@ -52,7 +52,7 @@
         "src": "/logos/softwarecornwall.jpg"
       }
     ],
-    "large": [
+    "half": [
       {
         "href": "https://platformatic.dev",
         "name": "Platformatic",
@@ -62,13 +62,6 @@
         "href": "https://nx.dev",
         "name": "Nx",
         "src": "/logos/nx.svg"
-      }
-    ],
-    "medium": [
-      {
-        "href": "https://www.mozilla.org/",
-        "name": "Mozilla",
-        "src": "/logos/mozilla.svg"
       },
       {
         "href": "https://www.tubular.io/",
@@ -79,9 +72,7 @@
         "href": "https://wearedhd.com/",
         "name": "DHD",
         "src": "/logos/dhd.svg"
-      }
-    ],
-    "small": [
+      },
       {
         "href": "https://ti.to",
         "name": "Tito",
@@ -94,6 +85,5 @@
       }
     ]
   },
-  "trailer": "https://www.youtube.com/watch?v=_s8gPbt3-GQ",
   "year": 2024
 }
