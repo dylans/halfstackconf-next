@@ -85,6 +85,59 @@
         }
       ],
       "title": "Programming  and Covert Learning Modalities"
+    },
+    {
+      "by": "Kate Pond",
+      "description": ["To be revealed..."],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/oh-kpond/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "To be revealed..."
+    },
+    {
+      "by": "Todd Libby",
+      "description": ["To be revealed..."],
+      "socials": [
+        {
+          "href": "https://twitter.com/toddlibby",
+          "icon": "twitter"
+        }
+      ],
+      "title": "To be revealed..."
+    },
+    {
+      "by": "To be revealed...",
+      "description": ["Our final speaker will be revealed soon..."],
+      "title": "To be revealed..."
+    },
+    {
+      "by": "Lightning",
+      "description": [
+        "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/halfstackconf",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Lightning Talks"
+    },
+    {
+      "by": "HalfStack",
+      "description": [
+        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz! We'll then watch a retro tech movie, and if there's interest, we'll conclude with karaoke!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/halfstackconf",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Afterparty (Dinner, JS Pub Quiz, Battledecks, Retro Tech movie, and karaoke)"
     }
   ],
   "sponsors": {
