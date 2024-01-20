@@ -5,7 +5,7 @@
   "date": "February 2 2024, 10am - Late",
   "dateString": "2024-02-02",
   "description": [
-    "Up to 200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
+    "Up to 225 Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the Phoenix area, with some from throughout the US, Europe and beyond"
   ],
   "faqs": [
@@ -36,14 +36,18 @@
     },
     {
       "by": "Ben Ilegbodu",
-      "description": ["To be revealed..."],
+      "description": [
+        "Tired of generic chatbots fumbling through product recommendations? Imagine an AI assistant with an intimate understanding of your catalog and an uncanny knack for knowing what your customers crave. OpenAI's recently released Function Calls API unlocks this superpower, seamlessly fusing GPT's conversational elegance with your unique data.",
+
+        "This session, for CEOs, engineers, PMs, and innovators, will delve into building custom AI assistants that respond dynamically to customer preferences. We'll explore how to leverage your data to personalize every interaction, leaving scaling limitations behind. Join us as we learn effective methods for building secure, searchable shopping chatbots using this cutting-edge API and discover best practices for designing conversational flows that delight customers and drive conversions. By the end, you'll be ready to embrace the future of AI-driven commerce, where every customer feels like a VIP and every purchase is a curated delight."
+      ],
       "socials": [
         {
           "href": "https://twitter.com/benmvp",
           "icon": "twitter"
         }
       ],
-      "title": "To be revealed..."
+      "title": "GPT-powered AI Shopping: From Search to Delight"
     },
     {
       "by": "Luis Montes",
@@ -88,7 +92,7 @@
     },
     {
       "by": "Kate Pond",
-      "description": ["To be revealed..."],
+      "description": ["To be revealed, general topic is career paths"],
       "socials": [
         {
           "href": "https://www.linkedin.com/in/oh-kpond/",
@@ -99,19 +103,32 @@
     },
     {
       "by": "Todd Libby",
-      "description": ["To be revealed..."],
+      "description": [
+        "In the ever-evolving landscape of technology, individuals often find themselves entangled in the demanding web of responsibilities and burnout, particularly in the realm of accessibility. This abstract explores the profound experience of leaving the fast-paced world of technology, focusing on the challenges and burnout associated with the pursuit of making digital spaces inclusive for all. As professionals navigate the intricate web of accessibility, they encounter not only technical challenges but also grapple with the toll it takes on their well-being. The discussion delves into personal narratives of burnout, shedding light on the importance of recognizing the signs, embracing change, and ultimately embarking on a journey of retirement from the tech world.",
+
+        "Retirement, in this context, symbolizes not just the end of a career but a deliberate choice to reclaim one's life and well-being. The transition from the tech industry to retirement is examined through the lens of personal growth, self-discovery, and the pursuit of a more balanced and fulfilling life. By intertwining the narratives of leaving tech and navigating burnout in the realm of accessibility, this abstract aims to provoke thoughtful reflections on the intersections of professional identity, well-being, and the pursuit of a more meaningful and sustainable future beyond the confines of a demanding career."
+      ],
       "socials": [
         {
           "href": "https://twitter.com/toddlibby",
           "icon": "twitter"
         }
       ],
+      "title": "Breaking the Loop: A Journey Beyond Tech and Exploring the Groundhog Day of Life"
+    },
+    {
+      "by": "Malak Janus",
+      "description": [
+        "To be revealed, general topic is a11y beyond screen readers"
+      ],
       "title": "To be revealed..."
     },
     {
-      "by": "To be revealed...",
-      "description": ["Our final speaker will be revealed soon..."],
-      "title": "To be revealed..."
+      "by": "Anjali Nennelli",
+      "description": [
+        "There has been a lot of hype around Artificial General Intelligence recently. We'll explore the current state of AGI and its impact and potential for web develoeprs."
+      ],
+      "title": "What is AGI and why should you care?"
     },
     {
       "by": "Lightning",
