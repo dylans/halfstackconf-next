@@ -63,7 +63,7 @@
     {
       "by": "Otto Schiemann and Dylan Schiemann",
       "description": [
-        "Otto is 9 years old and has been learning to code for about two years. He entertained the audience at HalfStack Newquay with his session on SonicPi, creating live music with code. He is now working on a new project called Capystroids, a space shooter game combining his love of capybaras and his appreciation of early 8-bit video games. He will be joined by his dad, Dylan, in this Q&A style session."
+        "Otto is 10 years old and has been learning to code for about two years. Last summer he entertained the audience at HalfStack Newquay with his session on SonicPi, creating live music with code. He is now working on a new project called Capystroids, a space shooter game combining his love of capybaras and his appreciation of early 8-bit video games. He will be joined by his dad, Dylan, in this Q&A style session."
       ],
       "socials": [
         {
@@ -119,16 +119,26 @@
     {
       "by": "Malak Janus",
       "description": [
-        "To be revealed, general topic is a11y beyond screen readers"
+        "We love the browser because of how universal it is… but how universally usable are the experiences we build in it really? Learn how people who don’t use screen readers experience the web (and the other types of tech they might use), and come away with a fresh opinion about how to be a better and kinder creator of web experiences."
       ],
-      "title": "To be revealed..."
+      "title": "Accessibility: More than just screen readers"
     },
     {
       "by": "Anjali Nennelli",
       "description": [
-        "There has been a lot of hype around Artificial General Intelligence recently. We'll explore the current state of AGI and its impact and potential for web develoeprs."
+        "There has been a lot of hype around Artificial General Intelligence recently. This presentation will talk about what AGI is, its current state, and its implications for web developers."
       ],
-      "title": "What is AGI and why should you care?"
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/anjalinennelli/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://twitter.com/anjalisa",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Crossroads of Cognition: The Emergence of Artificial General Intelligence and Its Implications"
     },
     {
       "by": "Lightning",
@@ -146,7 +156,7 @@
     {
       "by": "HalfStack",
       "description": [
-        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz! We'll then watch a retro tech movie, and if there's interest, we'll conclude with karaoke!"
+        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz! There will be a big raffle, and then we'll then watch a retro tech movie, and if there's interest, we'll conclude with karaoke!"
       ],
       "socials": [
         {
@@ -154,7 +164,7 @@
           "icon": "twitter"
         }
       ],
-      "title": "Afterparty (Dinner, JS Pub Quiz, Battledecks, Retro Tech movie, and karaoke)"
+      "title": "Afterparty (Dinner, JS Pub Quiz, Battledecks, Raffle, Retro Tech movie, and karaoke)"
     }
   ],
   "sponsors": {
