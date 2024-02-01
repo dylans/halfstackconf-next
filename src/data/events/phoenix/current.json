@@ -51,14 +51,17 @@
     },
     {
       "by": "Luis Montes",
-      "description": ["To be revealed..."],
+      "description": [
+        "Think you need frameworks and abstractions on top of things like WebGL because you'd rather avoid complicated and mathy low-level code?",
+        "Maybe it's time to just go ahead and dive into the details, mix in other APIs and have fun with the relatively untapped capabilities of modern web browsers."
+      ],
       "socials": [
         {
           "href": "https://twitter.com/monteslu",
           "icon": "twitter"
         }
       ],
-      "title": "To be revealed..."
+      "title": "GPU Programming - It Really Whips the Llama's Ass"
     },
     {
       "by": "Otto Schiemann and Dylan Schiemann",
@@ -92,14 +95,16 @@
     },
     {
       "by": "Kate Pond",
-      "description": ["To be revealed, general topic is career paths"],
+      "description": [
+        "An exploration of Kate's journey from working at the Desert Botanical Garden to landing their first job in tech and beyond!"
+      ],
       "socials": [
         {
           "href": "https://www.linkedin.com/in/oh-kpond/",
           "icon": "linkedin"
         }
       ],
-      "title": "To be revealed..."
+      "title": "Choosing the Red Pill: From Park Ranger to Software Engineer"
     },
     {
       "by": "Todd Libby",
