@@ -1,9 +1,9 @@
 {
   "afterparty": "Afterparty (includes Retro Tech Movie!)",
-  "catchphrase": "The third HalfStack Phoenix at the Majestic Theater Gilbert.",
-  "code": "halfstack-phoenix-2024",
-  "date": "February 2 2024, 10am - Late",
-  "dateString": "2024-02-02",
+  "catchphrase": "HalfStack Phoenix returns in early 2025 at the Majestic Theater Gilbert.",
+  "code": "halfstack-phoenix-2025",
+  "date": "January 31 2025, 10am - Late",
+  "dateString": "2025-01-31",
   "description": [
     "Up to 225 Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the Phoenix area, with some from throughout the US, Europe and beyond"
@@ -19,6 +19,12 @@
   "packet": "https://app.livingspec.com/accept-invitation?code=7ca49d8f-e83e-4f76-9f5b-96cbab5cd884",
   "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late!",
   "sessions": [
+    {
+      "by": "HalfStack Events",
+      "description": [""],
+
+      "title": "Our 2024 sessions. Check back closer to the event for 2025 sessions."
+    },
     {
       "by": "William Blankenship",
       "description": [
