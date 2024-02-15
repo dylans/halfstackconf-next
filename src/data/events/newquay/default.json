@@ -1,7 +1,7 @@
 {
   "name": "Newquay",
   "sponsorship": {
-    "available": false,
+    "available": true,
     "currency": "£",
     "expectations": [
       "An authentic, high value experience for attendees and sponsors focused on creative JavaScript and web development.",
