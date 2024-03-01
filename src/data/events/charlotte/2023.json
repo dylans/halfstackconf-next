@@ -15,6 +15,12 @@
   ],
   "geolocation": [35.3664665, -80.7882452],
   "location": "Cinergy Dine-In Theater, Charlotte, North Carolina",
+  "otherEvents": {
+    "london": [2023, 2019, 2018, 2017],
+    "newyork": [2019],
+    "phoenix": [2020],
+    "vienna": [2019]
+  },
   "packet": "https://app.livingspec.com/accept-invitation?code=4ba0a64e-e388-4123-b7c7-853177d11b85",
   "schedule": "HalfStack starts around 10am, includes breaks, lunch, dinner, and an interactive afterparty with a JS pub quiz and Retro Tech Movie. Plan to arrive around 10am and stay late!",
   "sessions": [
