@@ -80,6 +80,13 @@
   },
   "videos": [
     {
+      "by": "HalfStack",
+      "href": "https://www.youtube.com/watch?v=80SPegMoEmI",
+      "label": "recap",
+      "thumbnail": "/recaps/london-2019.png",
+      "title": "HalfStack London 2023 Recap Video"
+    },
+    {
       "by": "Matteo Collina",
       "href": "https://www.youtube.com/watch?v=aKPK6SfSvos",
       "thumbnail": "/speakers/matteo-collina.jpg",
