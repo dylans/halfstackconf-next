@@ -21,7 +21,7 @@ export function SponsorStacksList({
   small,
   slug,
 }: SponsorStacksListProps) {
-  const href = slug ? `${slug}/spon` : "/spon";
+  const href = slug ? `/${slug}/spon` : "/spon";
   const blurb = (
     <>
       <Text as="p">
