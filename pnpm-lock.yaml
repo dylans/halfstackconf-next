@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@react-google-maps/api':
     specifier: ^2.18.1
@@ -20,7 +24,7 @@ dependencies:
 devDependencies:
   '@axe-core/playwright':
     specifier: ^4.7.1
-    version: 4.7.1
+    version: 4.7.1(playwright@1.41.2)
   '@playwright/test':
     specifier: ^1.34.2
     version: 1.34.2
@@ -99,12 +103,13 @@ devDependencies:
 
 packages:
 
-  /@axe-core/playwright@4.7.1:
+  /@axe-core/playwright@4.7.1(playwright@1.41.2):
     resolution: {integrity: sha512-09UDwLChlGiqw9004QJib6Maesy99EOZ9zsLfhBYAt2s5UwufabnD+MoTAmwe+PCv2Jex9k1taeUhebDwIJKqw==}
     peerDependencies:
       playwright: '>= 1.0.0'
     dependencies:
       axe-core: 4.7.1
+      playwright: 1.41.2
     dev: true
 
   /@babel/code-frame@7.21.4:
@@ -3051,6 +3056,22 @@ packages:
     hasBin: true
     dev: true
 
+  /playwright-core@1.41.2:
+    resolution: {integrity: sha512-VaTvwCA4Y8kxEe+kfm2+uUUw5Lubf38RxF7FpBxLPmGe5sdNkSg5e3ChEigaGrX7qdqT3pt2m/98LiyvU2x6CA==}
+    engines: {node: '>=16'}
+    hasBin: true
+    dev: true
+
+  /playwright@1.41.2:
+    resolution: {integrity: sha512-v0bOa6H2GJChDL8pAeLa/LZC4feoAMbSQm1/jF/ySsWWoaNItvrMP7GEkvEEFyCTUYKMxjQKaTSg5up7nR6/8A==}
+    engines: {node: '>=16'}
+    hasBin: true
+    dependencies:
+      playwright-core: 1.41.2
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
   /plur@4.0.0:
     resolution: {integrity: sha512-4UGewrYgqDFw9vV6zNV+ADmPAUAfJPKtGvb/VdpQAx25X5f3xXdGdyOEVFwkl8Hl/tl7+xbeHqSEM+D5/TirUg==}
     engines: {node: '>=10'}
@@ -3979,7 +4000,3 @@ packages:
   /zod@3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: false
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false

@@ -299,5 +299,104 @@
       }
     ]
   },
+  "videos": [
+    {
+      "by": "HalfStack",
+      "href": "https://www.youtube.com/watch?v=2m9nX7c4GyQ",
+      "label": "recap",
+      "thumbnail": "/recaps/london-2019.png",
+      "title": "HalfStack London 2022 Recap Video"
+    },
+    {
+      "by": "Ante Baric",
+      "href": "https://www.youtube.com/watch?v=d_OnTmRSohg",
+      "thumbnail": "/speakers/ante-baric.jpg",
+      "title": "TL; DR Into Browser Extensions with Clippy"
+    },
+
+    {
+      "by": "Chris Heilmann",
+      "href": "https://www.youtube.com/watch?v=u0hevD5wak0",
+      "thumbnail": "/speakers/chris-heilmann.jpg",
+      "title": "Cheatcodes for the Web"
+    },
+
+    {
+      "by": "Mynah Marie",
+      "href": "https://www.youtube.com/watch?v=hAJHnGfUxg4",
+      "thumbnail": "/speakers/earth-to-abigail.jpg",
+      "title": "Interactive Live Coding Workshop Using Estuary"
+    },
+
+    {
+      "by": "Joana Chicau",
+      "href": "https://www.youtube.com/watch?v=vdKv1dGwmSI",
+      "thumbnail": "/speakers/joana-chicau.jpg",
+      "title": "Dancing Browsers"
+    },
+
+    {
+      "by": "Stephanie Shaw",
+      "href": "https://www.youtube.com/watch?v=rCdfaeYiqSY",
+      "thumbnail": "/speakers/stephanie-shaw.jpg",
+      "title": "Are Memes a Design System"
+    },
+
+    {
+      "by": "Ulysses Popple",
+      "href": "https://www.youtube.com/watch?v=vUn11sKvRZw",
+      "thumbnail": "/speakers/ulysses-popple.jpg",
+      "title": "Introducing Nodysseus"
+    },
+
+    {
+      "by": "Jo Franchetti",
+      "href": "https://www.youtube.com/watch?v=6TmhuSTgws4",
+      "thumbnail": "/speakers/jo-franchetti.jpg",
+      "title": "A Serverless Seance- Weird Websockets and Petrifying Pub/Sub"
+    },
+
+    {
+      "by": "Kevin Cunningham",
+      "href": "https://www.youtube.com/watch?v=sAnRAidptL4",
+      "thumbnail": "/speakers/kevin-cunningham.jpg",
+      "title": "CLIs *Not* Built For Humans"
+    },
+
+    {
+      "by": "Leo Riviera",
+      "href": "https://www.youtube.com/watch?v=FZ1i3Sn0Xwg",
+      "thumbnail": "/speakers/leo-riviera.jpg",
+      "title": "Building a Language in TypeScript"
+    },
+
+    {
+      "by": "Matteo Collina",
+      "href": "https://www.youtube.com/watch?v=GDQBxQUPQR0",
+      "thumbnail": "/speakers/matteo-collina.jpg",
+      "title": "I Would Never Used an ORM"
+    },
+
+    {
+      "by": "Ross Greenhalf and James Allardice",
+      "href": "https://www.youtube.com/watch?v=FzTsAcY4sGQ",
+      "thumbnail": "/speakers/james-allardice-and-ross-greenhalf.jpg",
+      "title": "Massive Multiplayer Game"
+    },
+
+    {
+      "by": "Michele Riva",
+      "href": "https://www.youtube.com/watch?v=_mRSxW6s2ho",
+      "thumbnail": "/speakers/michele-riva.jpg",
+      "title": "Are All Programming Language in English?"
+    },
+
+    {
+      "by": "Niels Leenheer",
+      "href": "https://www.youtube.com/watch?v=r64R4s2XkuA",
+      "thumbnail": "/speakers/niels-leenheer.jpg",
+      "title": "Sharing cat gifs after the twitpocalypse"
+    }
+  ],
   "year": 2022
 }
