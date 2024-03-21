@@ -268,5 +268,89 @@
       }
     ]
   },
+  "videos": [
+    {
+      "by": "HalfStack",
+      "href": "https://www.youtube.com/watch?v=qFtFMMuxumU",
+      "thumbnail": "/speakers/halfstack.jpg",
+      "title": "HalfStack Belgrade 2023 Recap Video"
+    },
+    {
+      "by": "Chris Heilmann",
+      "href": "https://www.youtube.com/watch?v=vFNIlT78zLQ",
+      "thumbnail": "/speakers/chris-heilmann.jpg",
+      "title": "MisplAIced: Good AI Solutions Need Good UX"
+    },
+
+    {
+      "by": "Maya Nedeljkovic Batic",
+      "href": "https://www.youtube.com/watch?v=TRbBnfRedrM",
+      "thumbnail": "/speakers/maya-nedeljkovic-batic.jpg",
+      "title": "A Closer Look at 3D Rendering"
+    },
+
+    {
+      "by": "Eleftheria Batsou",
+      "href": "https://www.youtube.com/watch?v=5KU6c4svVRc",
+      "thumbnail": "/speakers/eleftheria-batsou.jpg",
+      "title": "Beyond Buttons: Crafting Satisfying & Easily Marketable Products"
+    },
+
+    {
+      "by": "Nemanja Tosic",
+      "href": "https://www.youtube.com/watch?v=nHHCq63lQp8",
+      "thumbnail": "/speakers/nemanja-tosic.jpg",
+      "title": "Complaints and Grievances"
+    },
+
+    {
+      "by": "Santosh Yadav",
+      "href": "https://www.youtube.com/watch?v=fMWiLp0xUk4",
+      "thumbnail": "/speakers/santosh-yadav.jpg",
+      "title": "The Framework of the Past, Present and Future"
+    },
+
+    {
+      "by": "Naim Gkamperlo",
+      "href": "https://www.youtube.com/watch?v=zVwj_tLoIqg",
+      "thumbnail": "/speakers/naim-gkamperlo.jpg",
+      "title": "Honey, I Shrunk the UI: Adventures in Microfrontends"
+    },
+
+    {
+      "by": "Daniel Afonso",
+      "href": "https://www.youtube.com/watch?v=bgOkbdHATT8",
+      "thumbnail": "/speakers/daniel-afonso.jpg",
+      "title": "You Don’t Know Server State Yet"
+    },
+
+    {
+      "by": "Josefine Schaefer",
+      "href": "https://www.youtube.com/watch?v=AOKGgPzAajU",
+      "thumbnail": "/speakers/josefine-schaefer.jpg",
+      "title": "Accessibility in Times of Headless Systems"
+    },
+
+    {
+      "by": "Toma Puljak",
+      "href": "https://www.youtube.com/watch?v=39fhEVj6iV0",
+      "thumbnail": "/speakers/toma-puljak.jpg",
+      "title": "Make your app collaborative in less than 20 minutes"
+    },
+
+    {
+      "by": "Nikola Mitrovic",
+      "href": "https://www.youtube.com/watch?v=iWuqMq0I3AE",
+      "thumbnail": "/speakers/nikola-mitrovic.jpg",
+      "title": "Superpowers of Browser's Web API"
+    },
+
+    {
+      "by": "Dylan Schiemann",
+      "href": "https://www.youtube.com/watch?v=jRIQYyj6bO0",
+      "thumbnail": "/speakers/dylan-schiemann.jpg",
+      "title": "Five Years Later: The State of Audio to Text in JS with AI"
+    }
+  ],
   "year": 2023
 }

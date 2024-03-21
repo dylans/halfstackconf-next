@@ -347,5 +347,96 @@
     ]
   },
   "trailer": "https://www.youtube.com/embed/RfXtq8EUSms",
+  "videos": [
+    {
+      "by": "HalfStack",
+      "href": "https://www.youtube.com/watch?v=RfXtq8EUSms",
+      "thumbnail": "/speakers/halfstack.jpg",
+      "title": "HalfStack Vienna 2023 Recap Video"
+    },
+    {
+      "by": "Hidde de Vries",
+      "href": "https://www.youtube.com/watch?v=c3qoHnOMXAc",
+      "thumbnail": "/speakers/hidde-de-vries.jpg",
+      "title": "How popovers are about to become a whole lot easier to build"
+    },
+
+    {
+      "by": "Maros Kutschy",
+      "href": "https://www.youtube.com/watch?v=htKKeVrY0Po",
+      "thumbnail": "/speakers/maros-kutschy.jpg",
+      "title": "Stoic Philosophy and Automation Testing"
+    },
+
+    {
+      "by": "Eva Lettner",
+      "href": "https://www.youtube.com/watch?v=wXcCfxDgjEU",
+      "thumbnail": "/speakers/eva-lettner.jpg",
+      "title": "A Person-Centered Approach to Engineering Management"
+    },
+
+    {
+      "by": "Ramon Huidobro",
+      "href": "https://www.youtube.com/watch?v=j5twFcZQCgk",
+      "thumbnail": "/speakers/ramon-huidobro.jpg",
+      "title": "Automating Community: Build-a-Discord Bot"
+    },
+
+    {
+      "by": "Bogomil Shopov",
+      "href": "https://www.youtube.com/watch?v=Nf5DPWvKnIc",
+      "thumbnail": "/speakers/bogomil-shopov.jpg",
+      "title": "Where Did All The Fun Go?"
+    },
+
+    {
+      "by": "Leo Riviera",
+      "href": "https://www.youtube.com/watch?v=nTSavdlBYoo",
+      "thumbnail": "/speakers/leo-riviera.jpg",
+      "title": "tfl.fyi: Building Human-consumable APIs"
+    },
+
+    {
+      "by": "Niels Leenheer",
+      "href": "https://www.youtube.com/watch?v=CekjiP5Um90",
+      "thumbnail": "/speakers/niels-leenheer.jpg",
+      "title": "Making money with Project Fugu: building a cash register with web technologies"
+    },
+
+    {
+      "by": "Timea Turdean",
+      "href": "https://www.youtube.com/watch?v=TUUlxgHGXtI",
+      "thumbnail": "/speakers/timea-turdean.jpg",
+      "title": "You and Your Data: A Horror Story Made Online"
+    },
+
+    {
+      "by": "Michael Bromley",
+      "href": "https://www.youtube.com/watch?v=WBpzS36-eIc",
+      "thumbnail": "/speakers/michael-bromley.jpg",
+      "title": "You Aren't Gonna Need It...Until You Are?"
+    },
+
+    {
+      "by": "Oleksandr Tkanchenko",
+      "href": "https://www.youtube.com/watch?v=nxU1TBQQvSI",
+      "thumbnail": "/speakers/oleksandr-tkachenko.jpg",
+      "title": "Usefulness and Uses of Weak Reference and Finalization Registry in Real Life"
+    },
+
+    {
+      "by": "Chris Heilmann",
+      "href": "https://www.youtube.com/watch?v=Jz9gLDbd2hQ",
+      "thumbnail": "/speakers/chris-heilmann.jpg",
+      "title": "MisplAIced: Good UI Needs Good UX"
+    },
+
+    {
+      "by": "Dylan Schiemann",
+      "href": "https://www.youtube.com/watch?v=g762rhOZc44",
+      "thumbnail": "/speakers/dylan-schiemann.jpg",
+      "title": "Back to the Future"
+    }
+  ],
   "year": 2023
 }
