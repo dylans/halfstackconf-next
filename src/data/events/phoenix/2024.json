@@ -267,5 +267,76 @@
     ]
   },
   "trailer": "https://www.youtube.com/embed/7EIgcixMbcY",
+  "videos": [
+    {
+      "by": "HalfStack",
+      "href": "https://www.youtube.com/watch?v=F2EsnpOQnE4",
+      "label": "recap",
+      "thumbnail": "/speakers/halfstack.jpg",
+      "title": "HalfStack Phoenix 2024 Recap Video"
+    },
+    {
+      "by": "William Blankenship",
+      "href": "https://www.youtube.com/watch?v=WeZgCy3ub6M",
+      "thumbnail": "/speakers/william-blankenship.jpg",
+      "title": "Alice in Wonderland: Peer to Peer Social Networks"
+    },
+
+    {
+      "by": "Ben Ilegbodu",
+      "href": "https://www.youtube.com/watch?v=LUR23f95G8g",
+      "thumbnail": "/speakers/ben-ilegbodu.jpg",
+      "title": "GPT-powered AI Shopping: From Search to Delight"
+    },
+
+    {
+      "by": "Anjali Nenneli",
+      "href": "https://www.youtube.com/watch?v=Q27_CydVTek",
+      "thumbnail": "/speakers/anjali-nennelli.jpg?v=2",
+      "title": "Crossroads of Cognition: The Emergence of Artificial General Intelligence and Its Implications"
+    },
+
+    {
+      "by": "Dylan and Otto Schiemann",
+      "href": "https://www.youtube.com/watch?v=y-7Uwzucoy4",
+      "thumbnail": "/speakers/otto-schiemann-and-dylan-schiemann.jpg",
+      "title": "Introducing Capystroids ... feat. HalfStack's Youngest Ever Speaker!"
+    },
+
+    {
+      "by": "Ian and Lukas Ruebbelke",
+      "href": "https://www.youtube.com/watch?v=AMkn_y9DSDI",
+      "thumbnail": "/speakers/ian-ruebbelke-and-lukas-ruebbelke.jpg",
+      "title": "Programming and Covert Learning Modalities"
+    },
+
+    {
+      "by": "Malak Janus",
+      "href": "https://www.youtube.com/watch?v=aDu4HLCGN64",
+      "thumbnail": "/speakers/malak-janus.jpg",
+      "title": "Accessibility: More Than Just Screen Readers"
+    },
+
+    {
+      "by": "Todd Libby",
+      "href": "https://www.youtube.com/watch?v=dUqc_vcrtpQ",
+      "thumbnail": "/speakers/todd-libby.jpg",
+      "title": "Breaking the Loop: A Journey Beyond Tech & Exploring the Grounding Day of Life"
+    },
+
+    {
+      "by": "Kate Pond",
+      "href": "https://www.youtube.com/watch?v=ub6dwsC95zY",
+      "thumbnail": "/speakers/kate-pond.jpg",
+      "title": "Figuring out what you want, and getting it!"
+    },
+
+    {
+      "by": "Luis Montes",
+      "href": "https://www.youtube.com/watch?v=t27sStqQMUk",
+      "thumbnail": "/speakers/luis-montes.jpg",
+      "title": "GPU programming- it really whips the llama's ass"
+    }
+  ],
   "year": 2024
 }
