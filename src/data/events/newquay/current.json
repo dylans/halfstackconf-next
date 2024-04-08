@@ -13,6 +13,48 @@
   "schedule": "HalfStack starts around 10am, includes approximately 8-10 sessions, breaks, lunch, dinner, and an interactive afterparty. Plan to arrive by 10am and stay late! We're also expecting to have fun at the beach on Saturday, so plan to stay the whole weekend! Sessions will be announced closer to the event.",
   "sessions": [
     {
+      "by": "Earth to Abigail",
+      "description": ["To be revealed"],
+      "socials": [
+        { "href": "https://earthtoabigail.com", "icon": "site" },
+        { "href": "https://instagram.com/mynah_m", "icon": "instagram" },
+        { "href": "https://twitter.com/EarthAbigail", "icon": "twitter" }
+      ],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Christian Heilmann",
+      "description": ["To be revealed"],
+      "socials": [
+        { "href": "https://christianheilmann.com/", "icon": "site" },
+        { "href": "https://twitter.com/codepo8", "icon": "twitter" }
+      ],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Jo Franchetti",
+      "description": ["To be revealed"],
+      "socials": [
+        {
+          "href": "https://glitch.com/@JoFranchetti",
+          "icon": "glitch"
+        },
+        {
+          "href": "https://jofranchetti.medium.com/",
+          "icon": "medium"
+        },
+        {
+          "href": "https://www.linkedin.com/in/jofranchetti",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://twitter.com/ThisIsJoFrank",
+          "icon": "twitter"
+        }
+      ],
+      "title": "To be revealed"
+    },
+    {
       "by": "Lightning",
       "description": [
         "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
