@@ -55,6 +55,23 @@
       "title": "To be revealed"
     },
     {
+      "by": "Leo Riviera",
+      "description": [
+        "HalfStack provides the ultimate showcase for side projects, so let’s talk about…  joining a cult (or side projects, and how to do them right). We'll cover the 13 principles of the Cult of Done manifesto, written by Bre Pettis and Kio Stark, and how to practically apply them in software engineering and other creative endeavours!"
+      ],
+      "socials": [
+        {
+          "href": "https://github.com/leoriviera",
+          "icon": "github"
+        },
+        {
+          "href": "https://linkedin.com/in/leoriviera",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "Let’s talk about…  joining a cult (or side projects, and how to do them right)"
+    },
+    {
       "by": "Lightning",
       "description": [
         "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
