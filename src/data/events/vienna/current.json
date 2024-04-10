@@ -72,6 +72,18 @@
     }
   ],
   "sponsors": {
+    "community": [
+      {
+        "href": "https://www.meetup.com/ReactVienna/",
+        "name": "React Vienna",
+        "src": "/logos/reactvienna.svg"
+      },
+      {
+        "href": "https://openjsf.org/",
+        "name": "Open JS Foundation",
+        "src": "/logos/openjsfoundation.svg"
+      }
+    ],
     "complete": [
       {
         "href": "https://livingspec.com/",
@@ -104,9 +116,7 @@
         "href": "https://wearedhd.com/",
         "name": "DHD",
         "src": "/logos/dhd.svg"
-      }
-    ],
-    "small": [
+      },
       {
         "href": "https://ti.to/",
         "name": "Tito",
@@ -121,18 +131,6 @@
         "href": "https://kontent.ai/",
         "name": "Kentico Kontent",
         "src": "/logos/kontent.svg"
-      }
-    ],
-    "community": [
-      {
-        "href": "https://www.meetup.com/ReactVienna/",
-        "name": "React Vienna",
-        "src": "/logos/reactvienna.svg"
-      },
-      {
-        "href": "https://openjsf.org/",
-        "name": "Open JS Foundation",
-        "src": "/logos/openjsfoundation.svg"
       }
     ]
   },
