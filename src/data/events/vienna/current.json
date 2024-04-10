@@ -17,16 +17,67 @@
   "geolocation": [48.171534, 16.390938],
   "location": "Ankersaal, Absberggasse 27, 1100 Vienna",
   "schedule": "Plan to arrive between 09:00 and 09:30 on the 13th of September & stay late for an amazing day of JavaScript goodness!",
-  "sessions": [],
+  "sessions": [
+    {
+      "by": "Ben Ilegbodu",
+      "description": ["To be revealed."],
+      "socials": [
+        {
+          "href": "https://twitter.com/benmvp",
+          "icon": "twitter"
+        }
+      ],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Ramona Schwering",
+      "description": [
+        "It’s a trap” - a call or feeling we all might be familiar with, not only when it comes to Star Wars. It signals a sudden moment of noticing imminent danger.",
+        "This situation is an excellent allegory for an unpleasant realization in testing. Imagine having the best intentions when it comes to testing but still ending up with tests failing to deliver any value. Tests who are feeling like a pain to deal with?"
+      ],
+      "socials": [
+        { "href": "https://www.ramona.codes/", "icon": "site" },
+        { "href": "https://twitter.com/leichteckig", "icon": "twitter" },
+        { "href": "https://github.com/leichteckig", "icon": "github" },
+        {
+          "href": "https://www.linkedin.com/in/ramona-schwering/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "It's a (testing) trap! - Common testing pitfalls and how to solve them"
+    },
+    {
+      "by": "Christian Heilmann",
+      "description": ["To be revealed"],
+      "socials": [
+        { "href": "https://christianheilmann.com/", "icon": "site" },
+        { "href": "https://twitter.com/codepo8", "icon": "twitter" }
+      ],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Ramon Huidobro",
+      "description": ["To be revealed"],
+      "socials": [
+        {
+          "href": "https://twitter.com/hola_soy_milk",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://ramonh.dev/",
+          "icon": "site"
+        }
+      ],
+      "title": "To Be Revealed"
+    }
+  ],
   "sponsors": {
     "complete": [
       {
         "href": "https://livingspec.com/",
         "name": "Living Spec",
         "src": "/logos/livingspec.svg"
-      }
-    ],
-    "large": [
+      },
       {
         "href": "https://platformatic.dev",
         "name": "Platformatic",
@@ -41,19 +92,9 @@
         "href": "https://platogo.com/",
         "name": "Platogo",
         "src": "/logos/platogo.svg"
-      },
-      {
-        "href": "http://modstreaming.com/",
-        "name": "Modstreaming",
-        "src": "/logos/modstreaming.jpg"
       }
     ],
-    "medium": [
-      {
-        "href": "https://www.honeypot.io/",
-        "name": "Honeypot",
-        "src": "/logos/honeypot.svg"
-      },
+    "half": [
       {
         "href": "https://www.tubular.io/",
         "name": "Tubular",
@@ -80,7 +121,9 @@
         "href": "https://kontent.ai/",
         "name": "Kentico Kontent",
         "src": "/logos/kontent.svg"
-      },
+      }
+    ],
+    "community": [
       {
         "href": "https://www.meetup.com/ReactVienna/",
         "name": "React Vienna",

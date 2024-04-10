@@ -20,7 +20,19 @@
   "geolocation": [44.8157678, 20.4610711],
   "location": "Impact Hub Belgrade",
   "schedule": "HalfStack starts around 10am, includes breaks, lunch, dinner, and an interactive afterparty. Plan to arrive around 9am and stay late!",
-  "sessions": [],
+  "sessions": [
+    {
+      "by": "Ben Ilegbodu",
+      "description": ["To be revealed."],
+      "socials": [
+        {
+          "href": "https://twitter.com/benmvp",
+          "icon": "twitter"
+        }
+      ],
+      "title": "To be revealed"
+    }
+  ],
   "sponsors": {
     "complete": [
       {
