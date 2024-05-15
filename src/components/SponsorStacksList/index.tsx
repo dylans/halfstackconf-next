@@ -75,8 +75,8 @@ export function SponsorStacksList({
       )}
 
       <Text as="div" className={styles.bottomText}>
-        There are loads of great reasons to sponsor a HalfStack conference this
-        year. Want to find out more?
+        There are loads of great reasons to sponsor a HalfStack event this year.
+        Want to find out more?
       </Text>
       <RoundLink
         as={Link}

@@ -24,7 +24,11 @@ export default function CFP() {
         <Text as="h2" className={styles.h2} fontSize="large">
           HalfStack CFP Process
         </Text>
-
+        <Text as="p" className={styles.p}>
+          Note: Due to the current economic uncertainty with the tech ecosystem,
+          we are a bit behind on reviewing and responding to CfP submissions. We
+          appreciate your patience.
+        </Text>
         <Text as="p" className={styles.p}>
           The new HalfStack CfP process is a significant change from traditional
           CfP after having time to reflect on what we like and dislike about

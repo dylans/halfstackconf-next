@@ -13,6 +13,14 @@
   padding: 1rem;
 }
 
+.update {
+  background-color: #fff;
+}
+
+.updateParagraph {
+  margin: 1rem;
+}
+
 @media (width >= 1200px) {
   .eventsList {
     padding: 2rem 0 4rem;
