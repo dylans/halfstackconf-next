@@ -1,22 +1,24 @@
 {
   "afterparty": "Afterparty (includes JS Pub Quiz!)",
-  "catchphrase": "HalfStack Vienna will return in 2024 at Ankersaal near the Hauptbahnhof.",
-  "code": "halfstack-vienna-2024",
-  "date": "13th of September 2024, 10am - Late",
-  "dateString": "2024-09-13",
+  "catchphrase": "HalfStack Vienna will return in 2025 at Ankersaal near the Hauptbahnhof.",
+  "code": "halfstack-vienna-2025",
+  "date": "12th of September 2025, 10am - Late",
+  "dateString": "2025-09-12",
   "description": [
     "Up to 200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the Vienna area, with some from throughout the Europe, the UK, and the US"
   ],
   "faqs": [
     [
+      "What happened to the 2024 event?",
+      "Due to the downturn in the economy, sponsorships and ticket purchases were insufficient to proceed with the event. We hope things improve and we can return in 2025. Get your ticket now or sponsor to help make that happen!",
       "Where should I stay?",
       "If you're not from Vienna, note that HalfStack Vienna is near the HbF (main train station). Vienna has many hotels and Airbnb options that are well connected via subways, trains, and buses."
     ]
   ],
   "geolocation": [48.171534, 16.390938],
   "location": "Ankersaal, Absberggasse 27, 1100 Vienna",
-  "schedule": "Plan to arrive between 09:00 and 09:30 on the 13th of September & stay late for an amazing day of JavaScript goodness!",
+  "schedule": "Plan to arrive between 09:00 and 09:30 on the 12th of September & stay late for an amazing day of JavaScript goodness!",
   "sessions": [
     {
       "by": "Ben Ilegbodu",
@@ -135,5 +137,5 @@
     ]
   },
   "trailer": "https://www.youtube.com/embed/RfXtq8EUSms",
-  "year": 2024
+  "year": 2025
 }

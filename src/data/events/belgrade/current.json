@@ -1,14 +1,16 @@
 {
   "afterparty": "Afterparty (TBD)",
-  "code": "halfstack-belgrade-2024",
-  "date": "6th of September, 2024",
-  "dateString": "2024-09-06",
+  "code": "halfstack-belgrade-2025",
+  "date": "5th of September, 2025",
+  "dateString": "2025-09-05",
   "description": [
-    "HalfStack returns to Belgrade in 2024!",
-    "Early bird tickets now available for an incredible day of JS!"
+    "HalfStack returns to Belgrade in 2025!",
+    "Tickets now available for an incredible day of JS!"
   ],
   "faqs": [
     [
+      "What happened to the 2024 event?",
+      "Due to the downturn in the economy, sponsorships and ticket purchases were insufficient to proceed with the event. We hope things improve and we can return in 2025. Get your ticket now or sponsor to help make that happen!",
       "Are there any discounted or free tickets available?",
       "We have space for a few volunteers. We also have a limited number of discounted tickets for students and those who are underrepresented in tech. We also have some tickets available for those recently unemployed who contribute to open source software."
     ],
@@ -83,5 +85,5 @@
       }
     ]
   },
-  "year": 2024
+  "year": 2025
 }
