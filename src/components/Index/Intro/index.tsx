@@ -22,9 +22,8 @@ export function Intro() {
               We are carefully evaluating each event this year and next year to
               determine which events we can host without running out of funds.
               London and Phoenix are certain, New York is likely to return,
-              Vienna and Belgrade are currently in the TBD state, Newquay is
-              postponed until 2025, and Charlotte and Tel Aviv are delayed
-              indefinitely.
+              Belgrade, Newquay, and Vienna are postponed until 2025, and
+              Charlotte and Tel Aviv are delayed indefinitely.
             </Text>
             <Text as="p" className={styles.updateParagraph}>
               The best way to make HalfStack happen in your city of choice is to
