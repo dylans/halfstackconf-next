@@ -1,5 +1,5 @@
 {
-  "catchphrase": "Join us for the original1 HalfStack event this November in London!",
+  "catchphrase": "Join us for the original HalfStack event this November in London!",
   "code": "halfstack-london-2024",
   "date": "Wednesday 13th November 2024",
   "dateString": "2024-11-13",
@@ -16,16 +16,88 @@
   "geolocation": [51.52036, -0.07319200000006276],
   "location": "93 Feet East, London",
   "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late!",
-  "sessions": [],
+  "sessions": [
+    {
+      "by": "Rowdy Rabouw",
+      "description": [
+        "Javascript is extremely versatile. We use it to build front-end, back-end, desktop, and mobile apps. But did you know you can even create music with it?!",
+        "Rowdy will show you how easy and fun it is to code your own music with the Web Audio API. As a bonus, he will throw in the Web MIDI API and Web Bluetooth API to really get the party started. Let’s turn up the bass!"
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/rowdyrabouw",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://rowdy.codes/",
+          "icon": "site"
+        },
+        {
+          "href": "https://x.com/rowdyrabouw",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Beats in the Browser"
+    },
+    {
+      "by": "Ramona Schwering",
+      "description": [
+        "Inspired by the game Plants vs. Zombies, Ramona will help us create a secure environment for your web application through test automation."
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/ramona-schwering/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://www.ramona.codes/",
+          "icon": "site"
+        },
+        {
+          "href": "https://twitter.com/leichteckig",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://github.com/leichteckig",
+          "icon": "github"
+        }
+      ],
+      "title": "Plants vs Thieves"
+    },
+    {
+      "by": "Nico Martin",
+      "description": [
+        "Machine learning models are interpreting the world and generative AI is taking over more and more of our tasks. What if we could use all this magic directly on our devices?",
+        "With WebAssembly and WebGPU, we have the tools to make all this possible. It's time to get ready for some unexpected examples of how to use AI in the browser!"
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/martinnico/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://nico.dev/",
+          "icon": "site"
+        },
+        {
+          "href": "https://twitter.com/nic_o_martin",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://github.com/nico-martin",
+          "icon": "github"
+        }
+      ],
+      "title": "From ML to LLM: on-device AI in the browser"
+    }
+  ],
   "sponsors": {
     "complete": [
       {
         "href": "https://livingspec.com",
         "name": "Living Spec",
         "src": "/logos/livingspec.svg"
-      }
-    ],
-    "large": [
+      },
       {
         "href": "https://platformatic.dev",
         "name": "Platformatic",
@@ -35,9 +107,14 @@
         "href": "https://nx.dev",
         "name": "Nx",
         "src": "/logos/nx.svg"
+      },
+      {
+        "href": "https://platogo.com/",
+        "name": "Platogo",
+        "src": "/logos/platogo.svg"
       }
     ],
-    "medium": [
+    "half": [
       {
         "href": "https://www.tubular.io/",
         "name": "Tubular",
@@ -48,13 +125,6 @@
         "name": "DHD",
         "src": "/logos/dhd.svg"
       },
-      {
-        "href": "https://www.mozilla.org/",
-        "name": "Mozilla",
-        "src": "/logos/mozilla.svg"
-      }
-    ],
-    "small": [
       {
         "href": "https://openjsf.org/",
         "name": "Open JS Foundation",
