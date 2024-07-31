@@ -89,6 +89,68 @@
         }
       ],
       "title": "From ML to LLM: on-device AI in the browser"
+    },
+    {
+      "by": "Carly Richmond",
+      "description": [
+        "Carly loves baking shows. And there's a particular one that circulates in social media that you need to determine if it's real or a cake.",
+        "She struggles to pick which one is the cake that leads her to build a model to better find the cakes using JavaScript.",
+        "In this talk, let's test your cake identification skills against the machine learning model Carly made and use the pre-existing models."
+      ],
+      "title": "Is it (F)ake?! Image Classification with TensorFlow.js"
+    },
+    {
+      "by": "Tiger Oakes and Daphne Oakes",
+      "description": [
+        "Have you hosted a murder mystery party but dreaded the paper puzzles and constant character confusion?",
+        "For Halloween, Tiger and Daphne tricked out their party with Node.js by building an electromagnetic chest, IoT-powered dramatic deaths, and a digital character sheet",
+        "They relied on JavaScript to enhance the immerse role-playing game and elevated their home into an escape room. Come learn how to use your programming skills to become the ultimate party host!"
+      ],
+      "socials": [
+        {
+          "href": "https://linkedin.com/in/tigeroakes",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://linkedin.com/in/thebetterdaphne/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://tigeroakes.com/",
+          "icon": "site"
+        },
+        {
+          "href": "https://daphneoakes.com/",
+          "icon": "site"
+        },
+        {
+          "href": "https://twitter.com/Not_Woods",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://twitter.com/thebetterdaphne",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://github.com/NotWoods",
+          "icon": "github"
+        }
+      ],
+      "title": "How to automate your murder mystery: immersive games in your home"
+    },
+    {
+      "by": "Joe Hart",
+      "description": [
+        "Previously Joe has delighted HalfStack community with voice-based Flappy Bird, head-to-head Tetris, and other hilarious game adventures. We'll soon reveal Joe's session details."
+      ],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Jo Franchetti",
+      "description": [
+        "Jo has amazed the HalfStack community with the LED Christmas jumper, LED mask captioning, and a serverless seance. We'll soon reveal Jo's session details."
+      ],
+      "title": "To be revealed"
     }
   ],
   "sponsors": {
