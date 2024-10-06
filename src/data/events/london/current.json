@@ -151,6 +151,69 @@
         "Jo has amazed the HalfStack community with the LED Christmas jumper, LED mask captioning, and a serverless seance. We'll soon reveal Jo's session details."
       ],
       "title": "To be revealed"
+    },
+    {
+      "by": "Leo Riviera",
+      "description": [
+        "Leo will explore the Cult of Done Manifesto and how it relates to software and other creative endeavors."
+      ],
+      "socials": [
+        {
+          "href": "https://github.com/leoriviera",
+          "icon": "github"
+        },
+        {
+          "href": "https://linkedin.com/in/leoriviera",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "The Cult of Done"
+    },
+    {
+      "by": "Ana Rodrigues",
+      "description": [
+        "Voice interfaces surround us daily, helping us with some tasks. But let's forget productivity for a second and experiment with our voice on the Web.",
+        "We will look at the current state of the Web Speech API, explore its potential in Karaoke, and have some fun!"
+      ],
+      "socials": [
+        { "href": "https://ohhelloana.blog/", "icon": "site" },
+        {
+          "href": "https://front-end.social/@anarodrigues",
+          "icon": "mastodon"
+        },
+        {
+          "href": "https://bsky.app/profile/ohhelloana.blog",
+          "icon": "bluesky"
+        }
+      ],
+      "title": "Unlocking Fun Experiments: Exploring the Web Speech API"
+    },
+    {
+      "by": "Christian Heilmann",
+      "description": ["To be revealed"],
+      "socials": [
+        { "href": "https://christianheilmann.com/", "icon": "site" },
+        { "href": "https://twitter.com/codepo8", "icon": "twitter" }
+      ],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Jonathan Fielding",
+      "description": ["To be revealed"],
+      "socials": [
+        { "href": "https://twitter.com/JonthanFielding", "icon": "twitter" }
+      ],
+      "title": "To be revealed"
+    },
+    {
+      "by": "HalfStack",
+      "description": [
+        "A couple of additional sessions to be revealed closer to the event, or maybe not until the day of"
+      ],
+      "socials": [
+        { "href": "https://twitter.com/halfstackconf", "icon": "twitter" }
+      ],
+      "title": "To be revealed"
     }
   ],
   "sponsors": {
@@ -197,6 +260,11 @@
         "href": "http://codebar.io/",
         "name": "codebar",
         "src": "/logos/codebar.svg"
+      },
+      {
+        "href": "https://womencodingcommunity.com/",
+        "name": "Women Coding Community",
+        "src": "/logos/womencodingcommunity.svg"
       }
     ]
   },
