@@ -5,6 +5,17 @@
       "name": "Living Spec",
       "src": "/logos/livingspec.svg"
     },
+    { "href": "https://nx.dev/", "name": "Nx", "src": "/logos/nx.svg" },
+    {
+      "href": "https://platformatic.dev",
+      "name": "Platformatic",
+      "src": "/logos/platformatic.svg"
+    },
+    {
+      "href": "https://platogo.com/",
+      "name": "Platogo",
+      "src": "/logos/platogo.svg"
+    },
     {
       "href": "https://twilio.com",
       "name": "Twilio",
@@ -14,7 +25,9 @@
       "href": "https://americanexpress.io",
       "name": "American Express",
       "src": "/logos/americanexpress.svg"
-    },
+    }
+  ],
+  "full": [
     {
       "href": "https://utopiamusic.com",
       "name": "Utopia",
@@ -26,7 +39,6 @@
       "name": "Salesforce",
       "src": "/logos/salesforce.svg"
     },
-    { "href": "https://nx.dev/", "name": "Nx", "src": "/logos/nx.svg" },
     {
       "href": "https://www.wix.com",
       "name": "Wix",
@@ -89,16 +101,45 @@
       "src": "/logos/sitepen.svg"
     }
   ],
+  "half": [
+    {
+      "href": "https://www.tubular.io/",
+      "name": "Tubular",
+      "src": "/logos/tubular.svg"
+    },
+    { "href": "https://wearedhd.com", "name": "DHD", "src": "/logos/dhd.svg" },
+    { "href": "https://ti.to/", "name": "Tito", "src": "/logos/tito.svg" },
+    {
+      "href": "https://www.mozilla.org/",
+      "name": "Mozilla",
+      "src": "/logos/mozilla.svg"
+    },
+    {
+      "href": "https://cityjsconf.org/",
+      "name": "CityJSConf",
+      "src": "/logos/cityjsconf.svg"
+    },
+    {
+      "href": "https://openjsf.org/",
+      "name": "Open JS Foundation",
+      "src": "/logos/openjsfoundation.svg"
+    },
+    {
+      "href": "http://codebar.io/",
+      "name": "codebar",
+      "src": "/logos/codebar.svg"
+    },
+    {
+      "href": "https://womencodingcommunity.com/",
+      "name": "Women Coding Community",
+      "src": "/logos/womencodingcommunity.svg"
+    }
+  ],
   "large": [
     {
       "href": "https://beamery.com",
       "name": "Beamery",
       "src": "/logos/beamery.svg"
-    },
-    {
-      "href": "https://platformatic.dev",
-      "name": "Platformatic",
-      "src": "/logos/platformatic.svg"
     },
     {
       "href": "https://modstreaming.com",
@@ -156,16 +197,10 @@
       "href": "https://cerbos.dev/",
       "name": "Cerbos",
       "src": "/logos/cerbos.svg"
-    },
-    {
-      "href": "https://platogo.com/",
-      "name": "Platogo",
-      "src": "/logos/platogo.svg"
     }
   ],
   "medium": [
     { "href": "https://www.20i.com", "name": "20i", "src": "/logos/20i.svg" },
-    { "href": "https://wearedhd.com", "name": "DHD", "src": "/logos/dhd.svg" },
     {
       "href": "https://www.inrhythm.com",
       "name": "InRhythm",
@@ -243,12 +278,6 @@
     }
   ],
   "small": [
-    { "href": "https://ti.to/", "name": "Tito", "src": "/logos/tito.svg" },
-    {
-      "href": "https://www.mozilla.org/",
-      "name": "Mozilla",
-      "src": "/logos/mozilla.svg"
-    },
     {
       "href": "https://www.gitkraken.com",
       "name": "GitKraken",
@@ -311,11 +340,6 @@
       "src": "/logos/survivejs.svg"
     },
     {
-      "href": "https://cityjsconf.org/",
-      "name": "CityJSConf",
-      "src": "/logos/cityjsconf.svg"
-    },
-    {
       "href": "https://www.meetup.com/Phoenix-TypeScript/",
       "name": "PHX TS",
       "src": "/logos/phxts.svg"
@@ -334,11 +358,6 @@
       "href": "https://jsfiddle.net/",
       "name": "JS Fiddle",
       "src": "/logos/jsfiddle-logo.jpg"
-    },
-    {
-      "href": "https://openjsf.org/",
-      "name": "Open JS Foundation",
-      "src": "/logos/openjsfoundation.svg"
     },
     {
       "href": "https://www.meetup.com/TypeScriptNYC/",
@@ -430,11 +449,6 @@
       "href": "https://polypane.app/",
       "name": "Polypane",
       "src": "/logos/polypane-logo.svg"
-    },
-    {
-      "href": "http://codebar.io/",
-      "name": "codebar",
-      "src": "/logos/codebar.svg"
     }
   ]
 }

@@ -22,6 +22,11 @@ const stylings = {
     buttonSize: "medium",
     label: "Complete",
   },
+  full: {
+    areaClassName: styles.sponsorsFull,
+    buttonSize: "medium",
+    label: "Full",
+  },
   half: {
     areaClassName: styles.sponsorsHalf,
     buttonSize: "medium",

@@ -16,6 +16,7 @@ export function SponsorStacksList({
   complete,
   half,
   community,
+  full,
   large,
   medium,
   small,
@@ -46,6 +47,7 @@ export function SponsorStacksList({
     !complete?.length &&
     !half?.length &&
     !community?.length &&
+    !full?.length &&
     !large?.length &&
     !medium?.length &&
     !small?.length
@@ -60,6 +62,9 @@ export function SponsorStacksList({
       )}
       {half?.length && (
         <SponsorStack slug={slug} sponsors={half} stack="half" />
+      )}
+      {full?.length && (
+        <SponsorStack slug={slug} sponsors={full} stack="full" />
       )}
       {large?.length && (
         <SponsorStack slug={slug} sponsors={large} stack="large" />

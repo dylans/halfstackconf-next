@@ -24,7 +24,12 @@
   width: 40%;
 }
 
-.sponsorsHaklf .sponsor {
+.sponsorsFull .sponsor {
+  padding-top: 40%;
+  width: 40%;
+}
+
+.sponsorsHalf .sponsor {
   padding-top: 30%;
   width: 30%;
 }
@@ -72,6 +77,12 @@
   }
 
   .sponsorsComplete .sponsor {
+    max-width: 30%;
+    padding-top: 30%;
+    width: 30%;
+  }
+
+  .sponsorsFull .sponsor {
     max-width: 30%;
     padding-top: 30%;
     width: 30%;
