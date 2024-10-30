@@ -198,20 +198,45 @@
       "title": "To be revealed"
     },
     {
-      "by": "Jonathan Fielding",
-      "description": ["To be revealed"],
+      "by": "Rachel Nabors",
+      "description": [
+        "Rachel Lee Nabors makes their HalfStack debut! More details to be revealed soon"
+      ],
       "socials": [
-        { "href": "https://twitter.com/JonthanFielding", "icon": "twitter" }
+        { "href": "https://nearestnabors.com/", "icon": "site" },
+        { "href": "https://x.com/rachelnabors", "icon": "twitter" }
       ],
       "title": "To be revealed"
     },
     {
-      "by": "HalfStack",
+      "by": "Jonathan Fielding",
       "description": [
-        "A couple of additional sessions to be revealed closer to the event, or maybe not until the day of"
+        "Jonathan has made plenty of mistakes in his growing mountain of side project fails. Learn from his failures, so you don't have to make the same ones, and maybe find some success in your own projects!"
       ],
       "socials": [
-        { "href": "https://twitter.com/halfstackconf", "icon": "twitter" }
+        { "href": "https://twitter.com/JonthanFielding", "icon": "twitter" }
+      ],
+      "title": "Learning from Side Project Failures"
+    },
+    {
+      "by": "Fortune Ikechi",
+      "description": [
+        "Node.js is all about speed and efficiency, but its magic lies in the hidden world of the event loop. In this session, we will dive deep into the inner workings of the event loop, exploring how it processes tasks and the potential pitfalls that can hinder performance.",
+        "We will discuss strategies for optimizing event loop utilization, including best practices for asynchronous programming and avoiding blocking operations. By the end of this session, you will have a solid grasp of the event loop and be equipped with the knowledge to create Node.js applications that consistently deliver exceptional performance.",
+        "The session will be in quiz mode– we will be interacting with the audience asking quickfire questions- the first to answer wins a prize."
+      ],
+      "socials": [
+        { "href": "https://twitter.com/Codedog_", "icon": "twitter" }
+      ],
+      "title": "Can you tame the Node.js Event Loop?"
+    },
+    {
+      "by": "Niels Leenheer",
+      "description": [
+        "Niels has shown some of the most amazing web API with hardware demos over the years at HalfStack. He's back again to share something fun with us."
+      ],
+      "socials": [
+        { "href": "https://twitter.com/html5test", "icon": "twitter" }
       ],
       "title": "To be revealed"
     }
