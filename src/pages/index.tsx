@@ -4,7 +4,7 @@ import { ExpectationPhotos } from "~/components/ExpectationPhotos";
 import { Footer } from "~/components/Footer";
 import { Header } from "~/components/Header";
 import { EventsList } from "~/components/Index/EventsList";
-import { Intro } from "~/components/Index/Intro";
+// import { Intro } from "~/components/Index/Intro";
 import { Newsletter } from "~/components/Index/Newsletter";
 import { SponsorStacksList } from "~/components/SponsorStacksList";
 import { eventOrder } from "~/data/events";
@@ -23,7 +23,7 @@ export default function Index({
       </Head>
       <Header />
       <main>
-        <Intro />
+        {/* <Intro /> */}
         <EventsList events={events} />
         <ExpectationPhotos />
         <Newsletter />

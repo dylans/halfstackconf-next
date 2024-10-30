@@ -9,7 +9,7 @@ export function Intro() {
       <Banner size="large" vibrant>
         <BannerText>Welcome to HalfStack</BannerText>
       </Banner>
-      <div className={styles.eventsList}>
+      {/* <div className={styles.eventsList}>
         <div className={styles.eventCards}>
           <div className={styles.update}>
             <Text as="p" className={styles.updateParagraph}>
@@ -21,9 +21,9 @@ export function Intro() {
             <Text as="p" className={styles.updateParagraph}>
               We are carefully evaluating each event this year and next year to
               determine which events we can host in the current economic
-              climate. London and Phoenix are certain, New York is likely to
-              return, Belgrade, Newquay, and Vienna are postponed until 2025,
-              and Charlotte and Tel Aviv are delayed indefinitely.
+              climate. London and Phoenix are certain,Belgrade, Newquay, and
+              Vienna are postponed until 2025, and Charlotte, New York, and Tel
+              Aviv are postponed indefinitely.
             </Text>
             <Text as="p" className={styles.updateParagraph}>
               The best way to make HalfStack happen in your city of choice is to
@@ -35,7 +35,7 @@ export function Intro() {
             </Text>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

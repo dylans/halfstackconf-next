@@ -92,14 +92,11 @@ export default function Event({
         </Text>
       </ExpectationPhotos>
 
-      <SecondaryBanner title="Call for Proposals">
+      <SecondaryBanner title="Call for Proposals and Fair Pricing">
         Visit our <Anchor href="/cfp">CfP page</Anchor> for more information on
-        proposing your amazing HalfStack session!
-      </SecondaryBanner>
-
-      <SecondaryBanner title="Fair Pricing">
-        Visit our <Anchor href="/pricing">Pricing page</Anchor> to understand
-        what we charge and why.
+        proposing your amazing HalfStack session! Visit our{" "}
+        <Anchor href="/pricing">Pricing page</Anchor> to understand what we
+        charge and why.
       </SecondaryBanner>
 
       <SessionsList sessions={sessions} />

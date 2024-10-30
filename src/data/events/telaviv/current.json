@@ -1,9 +1,9 @@
 {
   "afterparty": "Afterparty (includes JS Pub Quiz!)",
-  "catchphrase": "Join us for the first HalfStack Tel Aviv in 2025 (postponed due to the current war). Tickets now available for an incredible day of JS and web fun!",
+  "catchphrase": "First covid, then the wars. HalfStack Tel Aviv is postponed indefinitely",
   "code": "halfstack-telaviv-2025",
-  "date": "TBD 2025",
-  "dateString": "2025-11-24",
+  "date": "TBD",
+  "dateString": "2030-12-31",
   "description": [
     "Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the Tel Aviv area, with some from other parts of the world"
@@ -11,198 +11,19 @@
   "faqs": [
     [
       "Will the event happen with the war with Hamas?",
-      "We'll announce a new date once the war is over."
-    ],
-    [
-      "Where should I stay?",
-      "The venue for HalfStack Tel Aviv 2025 is Third Ear. We recommend staying near the conference venue if convenient for you."
+      "At this point we have no idea."
     ]
   ],
   "geolocation": [32.0743471, 34.7737116],
   "location": "Third Ear",
   "schedule": "HalfStack starts around 10am, includes breakfast, lunch, dinner, and an interactive afterparty with a JS pub quiz. Plan to arrive around 10am and stay late!",
-  "sessions": [
-    {
-      "by": "Earth to Abigail",
-      "description": [
-        "Live coding is a new direction in electronic music and video. Live coders expose and rewire the innards of software while it generates improvised music and/or visuals. All code manipulation is projected for all to see. Live coding works across musical genres, and has been seen in concert halls, late-night jazz bars, as well as algoraves.",
-        "Sonic Pi is a live coding environment built specifically for creating music. It's based in the Ruby programming language and it's primary aim is to provide a fun and approachable way to learn how to code while stimulating creativity. Though Sonic Pi is an educational tool, it is still a powerful tool and has been used by professional live coders around the globe",
-        "In their performances, Earth to Abigail likes to take advantage of Sonic Pi's easily readable language to emphasize the poetic capabilities that code can provide but that is often overlooked. In this kind of creative context, code has not only a utilitarian purpose but also a poetic one, complementing the music it creates."
-      ],
-      "socials": [
-        {
-          "href": "https://earthtoabigail.com/",
-          "icon": "blog"
-        },
-        {
-          "href": "https://instagram.com/mynah_m",
-          "icon": "instagram"
-        },
-        {
-          "href": "https://twitter.com/EarthAbigail",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Live Coding Music with Sonic Pi"
-    },
-    {
-      "by": "Niels Leenheer",
-      "description": [
-        "Join us for an exciting talk on creating a point-of-sale system entirely using web technologies. In this session, we will explore the power of hardware APIs, such as WebHID, WebUSB and WebSerial, and connect the browser to essential components such as a cash drawer, customer display, receipt printer and barcode scanner. We'll also touch on other new Project Fugu APIs like Idle Detection, Multi-screen Window Placement and Shape Detection. And finally, we will show how this works in practice with a live demonstration of all the components."
-      ],
-      "socials": [],
-      "title": "Making money with Project Fugu – building a cash register with web technologies"
-    },
-    {
-      "by": "Dylan Schiemann",
-      "description": ["To Be Revealed"],
-      "socials": [
-        {
-          "href": "https://twitter.com/dylans",
-          "icon": "twitter"
-        },
-        {
-          "href": "https://www.linkedin.com/in/dylans",
-          "icon": "linkedin"
-        },
-        {
-          "href": "https://github.com/dylans/",
-          "icon": "github"
-        }
-      ],
-      "title": "To Be Revealed"
-    },
-    {
-      "by": "Ran and Omri Bar Zik",
-      "description": [
-        "With the AI revolution it is finally happen - the humanity has the power to solve new problems!",
-        "Which problems? world hunger, poverty, health issues.",
-        "In this session we will show how to combine IoT, Analog and digital devices, Microprocessors and Micro computers, AI and the cloud and will show you how to create an autonomous, AI driven, Node.js powered and cloud base... fart detector"
-      ],
-      "socials": [],
-      "title": "AI powered fart detector on Node.js. Yes, we have it on cloud"
-    },
-    {
-      "by": "Guy Nesher",
-      "description": ["To Be Revealed"],
-      "socials": [],
-      "title": "To Be Revealed"
-    },
-    {
-      "by": "Sefi Ninio",
-      "description": [
-        "As human beings, our remarkable ability to perceive the world around us through our senses serves as the foundation for our understanding of reality. Our minds swiftly process this information, understand the necessary flow of actions and orchestrate appropriate responses.",
-        "Sefi will guide the audience on an extraordinary journey as they delve into the captivating realm of Smart Homes. They will uncover the differences between Controlled Homes and Smart Homes, and witness how these technologies enrich homes with a sensory perception that allows them to assimilate new data, evaluate optimal courses of action, and react autonomously without human intervention.",
-        "Be prepared to explore myriad examples, ranging from the mundane tasks of our daily lives to awe-inspiring complex routines that will ignite your imagination. Prepare to witness the power of home automation and how it can help us control costs, improve our lives and sometimes even save them."
-      ],
-      "socials": [],
-      "title": "Embarking on a Journey through the Wonders of Smart Homes"
-    },
-    {
-      "by": "Yair Galler",
-      "description": [
-        "This is the story of a weekend project that became a month-long challenge. After coming across a photorealistic painting made entirely from strings, Yair wanted to create one too. But how? He decided to crack the algorithm that computes the strings.",
-        "Yair will present the algorithm that generates the instructions for creating a beautiful work of art, including topics such as greedy algorithms, image processing, color spaces, performance optimization, and other interesting aspects."
-      ],
-      "socials": [
-        { "href": "https://twitter.com/ygaller", "icon": "twitter" },
-        {
-          "href": "https://www.linkedin.com/in/yairgaller/",
-          "icon": "linkedin"
-        }
-      ],
-      "title": "I reverse-engineered a work of art, and this is what I learned"
-    },
-    {
-      "by": "Amit Sheen",
-      "description": [
-        "For years Amit has been know to challenge the boundaries of what (we thought) was possible with CSS, specifically in 3D animations, Using every known method, and experimenting with a few of his own, he created mind-blowing animations, and dedicated himself to unleashing the true power of CSS. This journey took him all over the world, and overtime, his work helped redefine and change the perception of what we can (and should) do with CSS animations.",
-        "Join us as we delve into the world of perspective and movement, and open ourselves to a new dimension (literally) of CSS."
-      ],
-      "socials": [
-        { "href": "https://twitter.com/amit_sheen", "icon": "twitter" },
-        {
-          "href": "https://www.linkedin.com/in/amit-sheen",
-          "icon": "linkedin"
-        }
-      ],
-      "title": "Pushing CSS to The Limit"
-    },
-    {
-      "by": "Asaf Shochet",
-      "description": [
-        "What can be more delightful than finding a simple browser extension that solves a daily chore you have? Chrome extensions are everywhere, from grammar checks and ad blocking to VPN connections. This is why there are almost 200,000 publicly available extensions in Google Store.",
-        "However, what happens when a malicious actor decides to build an extension that will be used against you? Let's find out! We'll dive into the world of Chrome extensions, build an extension from scratch, step into the shoes of a hacker, and explore how it can be used maliciously, by leveraging the Chrome extensions' API, permissions model, and ease of access to critical information.",
-        "Finally, we'll explore ways to protect yourself from such attacks and discuss the way the new Chrome extensions infrastructure (Manifest v3) aims to stop hackers from stealing everything. Join Asaf on a wild ride in the Chrome extensions jungle!"
-      ],
-      "socials": [
-        { "href": "https://twitter.com/mrfrogrammer", "icon": "twitter" },
-        {
-          "href": "https://www.linkedin.com/in/asaf-shochet",
-          "icon": "linkedin"
-        }
-      ],
-      "title": "Let's create an Extension that Steals Everything!"
-    }
-  ],
+  "sessions": [],
   "sponsors": {
-    "complete": [
-      {
-        "href": "https://www.livingspec.com/",
-        "name": "Living Spec",
-        "src": "/logos/livingspec.svg"
-      },
-      {
-        "href": "https://salesforce.com/tech",
-        "name": "Salesforce Engineering",
-        "src": "/logos/salesforce.svg"
-      }
-    ],
-    "half": [
-      {
-        "href": "https://platformatic.dev",
-        "name": "Platformatic",
-        "src": "/logos/platformatic.svg"
-      },
-      {
-        "href": "https://nx.dev",
-        "name": "Nx",
-        "src": "/logos/nx.svg"
-      },
-      {
-        "href": "https://wearedhd.com",
-        "name": "DHD",
-        "src": "/logos/dhd.svg"
-      },
-      {
-        "href": "https://www.mozilla.org",
-        "name": "Mozilla",
-        "src": "/logos/mozilla.svg"
-      },
-      {
-        "href": "https://ti.to",
-        "name": "Tito",
-        "src": "/logos/tito.svg"
-      },
-      {
-        "href": "https://openjsf.org",
-        "name": "Open JS Foundation",
-        "src": "/logos/openjsfoundation.svg"
-      },
-      {
-        "href": "https://www.meetup.com/Hodash-Dev",
-        "name": "Hodash Dev",
-        "src": "/logos/hodash.png"
-      },
-      {
-        "href": "https://www.meetup.com/negevdev/",
-        "name": "Negev Web Developers",
-        "src": "/logos/negev.png"
-      }
-    ]
+    "complete": [],
+    "half": []
   },
   "sponsorship": {
     "available": true
   },
-  "year": 2025
+  "year": 2030
 }
