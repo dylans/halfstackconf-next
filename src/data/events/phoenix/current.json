@@ -34,6 +34,10 @@
         {
           "href": "https://x.com/jenlooper",
           "icon": "twitter"
+        },
+        {
+          "href": "https://www.jenlooper.com/",
+          "icon": "website"
         }
       ],
       "title": "Cultural heritage and AI"
