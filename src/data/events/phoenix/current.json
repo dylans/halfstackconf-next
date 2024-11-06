@@ -17,20 +17,31 @@
   "geolocation": [33.317108, -111.688454],
   "location": "Majestic Theater, Gilbert",
   "packet": "https://app.livingspec.com/accept-invitation?code=7ca49d8f-e83e-4f76-9f5b-96cbab5cd884",
-  "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late!",
+  "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz and movie afterparty. Plan to arrive between 9:00-9:45am and stay late!",
   "sessions": [
     {
       "by": "HalfStack Events",
       "description": [""],
 
-      "title": "Our 2024 sessions. We'll start announcing the 2025 sessions in mid-November, roughly announcing one per week as we build up to the event!"
+      "title": "We've announced our first four presenters. Check back regularly as we build an amazing day of fun!"
+    },
+    {
+      "by": "Jen Looper",
+      "description": [
+        "Jen delivered some of the most amazing HalfStack talks in New York and online, and will join us in Phoenix to share a much different take on AI. Jen has done amazing work over the years supporting communities at Telerik, Microsoft and AWS, and is passionate about supporting new engineers in their quest to learn more about web technologies."
+      ],
+      "socials": [
+        {
+          "href": "https://x.com/jenlooper",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Cultural heritage and AI"
     },
     {
       "by": "William Blankenship",
       "description": [
-        "What if we could invert ownership and identity in a social network, where users retained full control of their online presence?",
-        "What if joining a peer-to-peer social network was as easy as opening a browser tab?",
-        "Let's explore an alternate timeline where end-user devices can directly power social networks."
+        "William wowed us in 2022 with an incredible JS & AI talk when that was a new topic. Last year William showed us the idea of building an easy to use peer-to-peer social network. We can't wait to reveal what William has planned for 2025!"
       ],
       "socials": [
         {
@@ -38,28 +49,12 @@
           "icon": "twitter"
         }
       ],
-      "title": "Alice in Wonderland"
-    },
-    {
-      "by": "Ben Ilegbodu",
-      "description": [
-        "Tired of generic chatbots fumbling through product recommendations? Imagine an AI assistant with an intimate understanding of your catalog and an uncanny knack for knowing what your customers crave. OpenAI's recently released Function Calls API unlocks this superpower, seamlessly fusing GPT's conversational elegance with your unique data.",
-
-        "This session, for CEOs, engineers, PMs, and innovators, will delve into building custom AI assistants that respond dynamically to customer preferences. We'll explore how to leverage your data to personalize every interaction, leaving scaling limitations behind. Join us as we learn effective methods for building secure, searchable shopping chatbots using this cutting-edge API and discover best practices for designing conversational flows that delight customers and drive conversions. By the end, you'll be ready to embrace the future of AI-driven commerce, where every customer feels like a VIP and every purchase is a curated delight."
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/benmvp",
-          "icon": "twitter"
-        }
-      ],
-      "title": "GPT-powered AI Shopping: From Search to Delight"
+      "title": "To be revealed"
     },
     {
       "by": "Luis Montes",
       "description": [
-        "Think you need frameworks and abstractions on top of things like WebGL because you'd rather avoid complicated and mathy low-level code?",
-        "Maybe it's time to just go ahead and dive into the details, mix in other APIs and have fun with the relatively untapped capabilities of modern web browsers."
+        "From creating a network over images to robots playing music via Web Bluetooth to an incredible look at WebGPU, Luis has dazzled us at previous HalfStack events. We'll soon reveal Luis' 2025 session details."
       ],
       "socials": [
         {
@@ -67,89 +62,14 @@
           "icon": "twitter"
         }
       ],
-      "title": "GPU Programming - It Really Whips the Llama's Ass"
-    },
-    {
-      "by": "Otto Schiemann and Dylan Schiemann",
-      "description": [
-        "Otto is 10 years old and has been learning to code for about two years. Last summer he entertained the audience at HalfStack Newquay with his session on SonicPi, creating live music with code. He is now working on a new project called Capystroids, a space shooter game combining his love of capybaras and his appreciation of early 8-bit video games. He will be joined by his dad, Dylan, in this Q&A style session."
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/dylans",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Introducing Capystroids"
-    },
-    {
-      "by": "Ian Ruebbelke and Lukas Ruebbelke",
-      "description": [
-        "Programming is a skill set with many obvious benefits for pursuing the discipline in earnest. For a 12-year-old, most of these reasons are not applicable or interesting, so a different incentive system is required. Because we do not have the luxury of a fully formed prefrontal cortex to paint a vivid picture of the future glory that awaits us when we finally pull into the Delayed Gratification Station™, we must focus on the experience itself. How do we make programming a fulfilling and exciting activity purely on the merits of it being a fulfilling and exciting activity? This can be a bit circular, but such are the machinations of preteens.",
-
-        "Since we are now deviating from sound and sensible grow-up logic, what if we could use programming as a delivery mechanism to hide the unpleasant and bitter taste of other educational responsibilities? What if programming could be so fun that we could sneak in math, science, language arts, etc. lessons, and NO ONE WOULD EVEN NOTICE!?",
-
-        "Lukas (grown-up) and Ian (hatchling) Ruebbelke will share a framework that they have worked out (under duress at times) to make programming more fun and education less visible in their academic journey."
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/simpulton",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Programming  and Covert Learning Modalities"
-    },
-    {
-      "by": "Kate Pond",
-      "description": [
-        "An exploration of Kate's journey from working at the Desert Botanical Garden to landing their first job in tech and beyond!"
-      ],
-      "socials": [
-        {
-          "href": "https://www.linkedin.com/in/oh-kpond/",
-          "icon": "linkedin"
-        }
-      ],
-      "title": "Choosing the Red Pill: From Park Ranger to Software Engineer"
-    },
-    {
-      "by": "Todd Libby",
-      "description": [
-        "In the ever-evolving landscape of technology, individuals often find themselves entangled in the demanding web of responsibilities and burnout, particularly in the realm of accessibility. This abstract explores the profound experience of leaving the fast-paced world of technology, focusing on the challenges and burnout associated with the pursuit of making digital spaces inclusive for all. As professionals navigate the intricate web of accessibility, they encounter not only technical challenges but also grapple with the toll it takes on their well-being. The discussion delves into personal narratives of burnout, shedding light on the importance of recognizing the signs, embracing change, and ultimately embarking on a journey of retirement from the tech world.",
-
-        "Retirement, in this context, symbolizes not just the end of a career but a deliberate choice to reclaim one's life and well-being. The transition from the tech industry to retirement is examined through the lens of personal growth, self-discovery, and the pursuit of a more balanced and fulfilling life. By intertwining the narratives of leaving tech and navigating burnout in the realm of accessibility, this abstract aims to provoke thoughtful reflections on the intersections of professional identity, well-being, and the pursuit of a more meaningful and sustainable future beyond the confines of a demanding career."
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/toddlibby",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Breaking the Loop: A Journey Beyond Tech and Exploring the Groundhog Day of Life"
+      "title": "To be revealed"
     },
     {
       "by": "Malak Janus",
       "description": [
-        "We love the browser because of how universal it is… but how universally usable are the experiences we build in it really? Learn how people who don’t use screen readers experience the web (and the other types of tech they might use), and come away with a fresh opinion about how to be a better and kinder creator of web experiences."
+        "Malak gave us a fresh look at accessibility at last year's HalfStack Phoenix event. We'll soon share their 2025 session details."
       ],
-      "title": "Accessibility: More than just screen readers"
-    },
-    {
-      "by": "Anjali Nennelli",
-      "description": [
-        "There has been a lot of hype around Artificial General Intelligence recently. This presentation will talk about what AGI is, its current state, and its implications for web developers."
-      ],
-      "socials": [
-        {
-          "href": "https://www.linkedin.com/in/anjalinennelli/",
-          "icon": "linkedin"
-        },
-        {
-          "href": "https://twitter.com/anjalisa",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Crossroads of Cognition: The Emergence of Artificial General Intelligence and Its Implications"
+      "title": "To be revealed"
     },
     {
       "by": "Lightning",
@@ -206,11 +126,6 @@
         "src": "/logos/codebar.svg"
       },
       {
-        "href": "https://www.womenwhocode.com/",
-        "name": "Women Who Code",
-        "src": "/logos/womenwhocode.svg"
-      },
-      {
         "href": "https://openjsf.org/",
         "name": "Open JS Foundation",
         "src": "/logos/openjsfoundation.svg"
@@ -229,11 +144,6 @@
       }
     ],
     "half": [
-      {
-        "href": "https://platformatic.dev",
-        "name": "Platformatic",
-        "src": "/logos/platformatic.svg"
-      },
       {
         "href": "https://www.tubular.io/",
         "name": "Tubular",
