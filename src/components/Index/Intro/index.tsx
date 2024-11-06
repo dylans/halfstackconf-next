@@ -5,7 +5,7 @@ export function Intro() {
   return (
     <>
       <Banner size="large" vibrant>
-        <BannerText>Welcome to HalfStack</BannerText>
+        <BannerText>HalfStack</BannerText>
       </Banner>
     </>
   );
