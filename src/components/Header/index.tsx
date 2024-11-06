@@ -30,6 +30,7 @@ const defaultLinks: [string, string][] = [
   ["Past Events", "/pastevents"],
   ["Sponsorships", "/spon"],
   ["Contact", "/contact"],
+  ["Consulting", "/consulting"],
   ["FAQs", "/faqs"],
 ];
 
