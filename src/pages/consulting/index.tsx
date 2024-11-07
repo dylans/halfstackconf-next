@@ -22,7 +22,7 @@ export default function Consulting() {
         <br />
         <Text as="p">
           The HalfStack team and community are an excellent resource for help
-          with your next project, building for some of the world's most
+          with your next project, building for some of the world&pos;s most
           impressive companies and open source projects
         </Text>
         <br />
