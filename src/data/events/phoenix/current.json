@@ -115,11 +115,6 @@
         "src": "/logos/phxjs.svg"
       },
       {
-        "href": "https://oct2024.desertcodecamp.com/home",
-        "name": "Desert Code Camp",
-        "src": "/logos/desertcodecamp.png"
-      },
-      {
         "href": "https://www.thecoderschool.com/locations/gilbert/",
         "name": "theCoderSchool Gilbert",
         "src": "/logos/thecoderschool.png"
@@ -135,7 +130,7 @@
         "src": "/logos/openjsfoundation.svg"
       }
     ],
-    "complete": [
+    "featured": [
       {
         "href": "https://livingspec.com/",
         "name": "Living Spec",
@@ -162,11 +157,6 @@
         "href": "http://frostails.com",
         "name": "Frostails",
         "src": "/logos/frostails.png"
-      },
-      {
-        "href": "https://iceddev.com/",
-        "name": "Iced.dev",
-        "src": "/logos/iceddev.svg"
       },
       {
         "href": "https://www.mozilla.org/",

@@ -22,6 +22,11 @@ const stylings = {
     buttonSize: "medium",
     label: "Complete",
   },
+  featured: {
+    areaClassName: styles.sponsorsFeatured,
+    buttonSize: "medium",
+    label: "Featured HalfStack",
+  },
   full: {
     areaClassName: styles.sponsorsFull,
     buttonSize: "medium",
@@ -30,7 +35,7 @@ const stylings = {
   half: {
     areaClassName: styles.sponsorsHalf,
     buttonSize: "medium",
-    label: "Half",
+    label: "HalfStack",
   },
   large: {
     areaClassName: styles.sponsorsLarge,
@@ -60,7 +65,7 @@ export function SponsorStack({ slug, sponsors, stack }: SponsorStackProps) {
   return (
     <div className={styles.sponsorsList}>
       <Text as="h3" className={styles.h3} fontSize="extra-large" key={stack}>
-        {label} Stack Sponsors
+        {label} Sponsors
       </Text>
       <div className={clsx(styles.sponsors, areaClassName)}>
         {sponsors.map(({ name, href, src }) => (

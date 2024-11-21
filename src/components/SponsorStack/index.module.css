@@ -19,6 +19,11 @@
   position: relative;
 }
 
+.sponsorsFeatured .sponsor {
+  padding-top: 40%;
+  width: 40%;
+}
+
 .sponsorsComplete .sponsor {
   padding-top: 40%;
   width: 40%;
@@ -74,6 +79,12 @@
 @media (width >= 700px) {
   .sponsors {
     gap: 2rem;
+  }
+
+  .sponsorsFeatured .sponsor {
+    max-width: 30%;
+    padding-top: 30%;
+    width: 30%;
   }
 
   .sponsorsComplete .sponsor {

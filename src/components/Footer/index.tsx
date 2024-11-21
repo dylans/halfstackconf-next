@@ -12,6 +12,7 @@ import cityscapeNewYork from "./assets/cityscapeNewYork.png";
 import cityscapePhoenix from "./assets/cityscapePhoenix.png";
 import cityscapeTelAviv from "./assets/cityscapeTelAviv.png";
 import cityscapeVienna from "./assets/cityscapeVienna.png";
+import blueskyIcon from "./assets/iconBluesky.png";
 import facebookIcon from "./assets/iconFacebook.png";
 import instagramIcon from "./assets/iconInstagram.png";
 import twitterIcon from "./assets/iconTwitter.png";
@@ -30,6 +31,11 @@ const cityscapes = [
 ] as const;
 
 const icons = [
+  [
+    "BlueSky",
+    blueskyIcon,
+    "https://bsky.app/profile/halfstackconf.bsky.social",
+  ],
   ["Facebook", facebookIcon, "https://www.facebook.com/halfstackconf/"],
   ["Instagram", instagramIcon, "https://www.instagram.com/halfstackevents/"],
   ["Twitter", twitterIcon, "https://twitter.com/halfstackconf/"],

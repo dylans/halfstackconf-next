@@ -1,114 +1,5 @@
 {
-  "complete": [
-    {
-      "href": "https://livingspec.com",
-      "name": "Living Spec",
-      "src": "/logos/livingspec.svg"
-    },
-    { "href": "https://nx.dev/", "name": "Nx", "src": "/logos/nx.svg" },
-    {
-      "href": "https://platformatic.dev",
-      "name": "Platformatic",
-      "src": "/logos/platformatic.svg"
-    },
-    {
-      "href": "https://platogo.com/",
-      "name": "Platogo",
-      "src": "/logos/platogo.svg"
-    },
-    {
-      "href": "https://twilio.com",
-      "name": "Twilio",
-      "src": "/logos/twilio.svg"
-    },
-    {
-      "href": "https://americanexpress.io",
-      "name": "American Express",
-      "src": "/logos/americanexpress.svg"
-    }
-  ],
-  "full": [
-    {
-      "href": "https://utopiamusic.com",
-      "name": "Utopia",
-      "src": "/logos/utopia.svg"
-    },
-    { "href": "https://cmdhq.io", "name": "CMD", "src": "/logos/cmd.svg" },
-    {
-      "href": "https://salesforce.com/tech",
-      "name": "Salesforce",
-      "src": "/logos/salesforce.svg"
-    },
-    {
-      "href": "https://www.wix.com",
-      "name": "Wix",
-      "src": "/logos/wix.svg"
-    },
-    {
-      "href": "https://orangejellyfish.com",
-      "name": "Orange Jellyfish",
-      "src": "/logos/orangejellyfish.svg"
-    },
-    {
-      "href": "https://godaddy.github.io",
-      "name": "GoDaddy",
-      "src": "/logos/godaddy.svg"
-    },
-    {
-      "href": "https://careers.choicehotels.com/careers",
-      "name": "Choice Hotels",
-      "src": "/logos/choicehotels.svg"
-    },
-    {
-      "href": "https://ag-grid.com",
-      "name": "ag-grid",
-      "src": "/logos/ag-grid.svg"
-    },
-    {
-      "href": "https://eventhandler.co.il",
-      "name": "EventHandler",
-      "src": "/logos/eventhandler.svg"
-    },
-    {
-      "href": "https://workiva.com",
-      "name": "Workiva",
-      "src": "/logos/workiva.svg"
-    },
-    {
-      "href": "https://lowes.com",
-      "name": "Lowe's",
-      "src": "/logos/lowes.svg"
-    },
-    {
-      "href": "https://now4real.com",
-      "name": "now4real",
-      "src": "/logos/now4real.svg"
-    },
-    { "href": "https://range.co", "name": "Range", "src": "/logos/range.svg" },
-    {
-      "href": "https://internal.io/halfstack",
-      "name": ".internal",
-      "src": "/logos/internal.svg"
-    },
-    {
-      "href": "https://reclaim.ai",
-      "name": "reclaimai",
-      "src": "/logos/reclaimai.svg"
-    },
-    {
-      "href": "https://sitepen.com",
-      "name": "sitepen App Dev Team",
-      "src": "/logos/sitepen.svg"
-    }
-  ],
-  "half": [
-    {
-      "href": "https://www.tubular.io/",
-      "name": "Tubular",
-      "src": "/logos/tubular.svg"
-    },
-    { "href": "https://wearedhd.com", "name": "DHD", "src": "/logos/dhd.svg" },
-    { "href": "https://ti.to/", "name": "Tito", "src": "/logos/tito.svg" },
+  "community": [
     {
       "href": "https://www.mozilla.org/",
       "name": "Mozilla",
@@ -133,211 +24,11 @@
       "href": "https://womencodingcommunity.com/",
       "name": "Women Coding Community",
       "src": "/logos/womencodingcommunity.svg"
-    }
-  ],
-  "large": [
-    {
-      "href": "https://beamery.com",
-      "name": "Beamery",
-      "src": "/logos/beamery.svg"
-    },
-    {
-      "href": "https://modstreaming.com",
-      "name": "Mod Streaming",
-      "src": "/logos/modstreaming.jpg"
-    },
-    {
-      "href": "https://engineering.dazn.com",
-      "name": "Dazn",
-      "src": "/logos/dazn.svg"
-    },
-    { "href": "https://esri.com", "name": "Esri", "src": "/logos/esri.svg" },
-    {
-      "href": "https://www.trigo.at",
-      "name": "Trigo",
-      "src": "/logos/trigo.svg"
-    },
-    {
-      "href": "https://durchblicker.at",
-      "name": "Durchblicker",
-      "src": "/logos/durchblicker.svg"
-    },
-    {
-      "href": "https://formidable.com",
-      "name": "Formidable",
-      "src": "/logos/formidable.svg"
-    },
-    {
-      "href": "https://teksystems.com",
-      "name": "TEKsystems",
-      "src": "/logos/teksystems.svg"
-    },
-    {
-      "href": "https://www.mark43.com",
-      "name": "Mark43",
-      "src": "/logos/mark43.svg"
-    },
-    {
-      "href": "https://fabconfab.com",
-      "name": "FabConFab",
-      "src": "/logos/fabconfab.svg"
-    },
-    {
-      "href": "https://induro.io",
-      "name": "Induro",
-      "src": "/logos/induro.svg"
-    },
-    {
-      "href": "http://talkscript.fm",
-      "name": "TalkScript",
-      "src": "/logos/talkscript.svg"
-    },
-    { "href": "https://auth0.com", "name": "Auth0", "src": "/logos/auth0.svg" },
-    {
-      "href": "https://cerbos.dev/",
-      "name": "Cerbos",
-      "src": "/logos/cerbos.svg"
-    }
-  ],
-  "medium": [
-    { "href": "https://www.20i.com", "name": "20i", "src": "/logos/20i.svg" },
-    {
-      "href": "https://www.inrhythm.com",
-      "name": "InRhythm",
-      "src": "/logos/inrhythm.png"
-    },
-    {
-      "href": "https://byondreal.net",
-      "name": "Not a Bot Studios",
-      "src": "/logos/notabot.svg"
-    },
-    {
-      "href": "https://futuresync.co.uk",
-      "name": "Future Sync",
-      "src": "/logos/futuresync.svg"
-    },
-    {
-      "href": "https://tidelift.com",
-      "name": "Tidelift",
-      "src": "/logos/tidelift.svg"
-    },
-    {
-      "href": "https://venturplex.com",
-      "name": "Venturplex",
-      "src": "/logos/venturplex.svg"
-    },
-    {
-      "href": "https://samsunginter.net",
-      "name": "Samsung Internet",
-      "src": "/logos/samsung.svg"
-    },
-    {
-      "href": "https://www.siteground.com",
-      "name": "SiteGround",
-      "src": "/logos/siteground.svg"
-    },
-    {
-      "href": "https://isleofcode.com",
-      "name": "Isle of Code",
-      "src": "/logos/isleofcode.svg"
-    },
-    {
-      "href": "https://iceddev.com",
-      "name": "Iced.dev",
-      "src": "/logos/iceddev.svg"
-    },
-    {
-      "href": "https://hackajob.co",
-      "name": "Hackajob",
-      "src": "/logos/hackajob.jpg"
-    },
-    {
-      "href": "https://www.esriuk.com",
-      "name": "Esriuk",
-      "src": "/logos/esriuk.svg"
-    },
-    {
-      "href": "https://www.prisma.io",
-      "name": "Prisma",
-      "src": "/logos/prisma.svg"
-    },
-    {
-      "href": "https://www.salesbricks.com",
-      "name": "Salesbricks",
-      "src": "/logos/salesbricks.svg"
-    },
-    {
-      "href": "https://interval.com",
-      "name": "Interval",
-      "src": "/logos/interval.png"
-    },
-    {
-      "href": "https://www.honeypot.io/",
-      "name": "Honeypot",
-      "src": "/logos/honeypot.svg"
-    }
-  ],
-  "small": [
-    {
-      "href": "https://www.gitkraken.com",
-      "name": "GitKraken",
-      "src": "/logos/axosoft.svg"
-    },
-    {
-      "href": "https://flur.ee/",
-      "name": "Fluree",
-      "src": "/logos/fluree.svg"
-    },
-    {
-      "href": "https://www.apexsystems.com",
-      "name": "APEX Systems",
-      "src": "/logos/apexsystems.svg"
-    },
-    {
-      "href": "https://balsamiq.com",
-      "name": "Balsamiq",
-      "src": "/logos/balsamiq.svg"
-    },
-    {
-      "href": "https://www.oddbird.net/",
-      "name": "OddBird",
-      "src": "/logos/oddbird.svg"
-    },
-    {
-      "href": "https://sigconsult.com",
-      "name": "Signature Consultants",
-      "src": "/logos/sigconsult.svg"
-    },
-    {
-      "href": "https://kontent.ai/",
-      "name": "Kentico Kontent",
-      "src": "/logos/kontent.svg"
-    },
-    {
-      "href": "https://mule.to/p38e",
-      "name": "Sticker Mule",
-      "src": "/logos/stickermule.svg"
-    },
-    { "href": "https://ably.com", "name": "Ably", "src": "/logos/ably.svg" },
-    {
-      "href": "https://cult.honeypot.io/",
-      "name": "Cult by Honeypot",
-      "src": "/logos/cult-by-honeypot.svg"
     },
     {
       "href": "https://www.meetup.com/ReactVienna/",
       "name": "React Vienna",
       "src": "/logos/reactvienna.svg"
-    },
-    {
-      "href": "https://react-finland.fi/",
-      "name": "React Finland",
-      "src": "/logos/reactfinland.svg"
-    },
-    {
-      "href": "https://survivejs.com",
-      "name": "Survive JS",
-      "src": "/logos/survivejs.svg"
     },
     {
       "href": "https://www.meetup.com/Phoenix-TypeScript/",
@@ -360,95 +51,36 @@
       "src": "/logos/jsfiddle-logo.jpg"
     },
     {
-      "href": "https://www.meetup.com/TypeScriptNYC/",
-      "name": "TS NYC",
-      "src": "/logos/tsnyc.svg"
-    },
-    {
-      "href": "https://www.meetup.com/AngularNYC/",
-      "name": "Angular NYC",
-      "src": "/logos/angularnyc.svg"
-    },
-    {
-      "href": "http://bit.ly/2wfP2Ps",
-      "name": "Qcon London",
-      "src": "/logos/qconlondon.jpg"
-    },
-    {
-      "href": "http://bit.ly/2YGqOId",
-      "name": "Qcon New York",
-      "src": "/logos/qconny.svg"
-    },
-    {
-      "href": "http://bit.ly/2VHo1wK",
-      "name": "Qcon San Francisco",
-      "src": "/logos/qconsf.svg"
-    },
-    { "href": "https://infoq.com", "name": "InfoQ", "src": "/logos/infoq.jpg" },
-    {
-      "href": "https://jsnation.com",
-      "name": "JS Nation",
-      "src": "/logos/jsnation.svg"
-    },
-    {
-      "href": "https://reactadvanced.com",
-      "name": "React Advanced",
-      "src": "/logos/reactadvanced.svg"
-    },
-    {
-      "href": "https://2019.stateofthebrowser.com",
-      "name": "State of the Browser",
-      "src": "/logos/stateofthebrowser.svg"
-    },
-    {
-      "href": "https://virtuslab.com",
-      "name": "Virtus Lab",
-      "src": "/logos/virtuslab.svg"
-    },
-    {
-      "href": "https://scriptconf.org/",
-      "name": "ScriptConf",
-      "src": "/logos/scriptconf.svg"
-    },
-    {
-      "href": "https://oct2019.desertcodecamp.com/home",
-      "name": "Desert Code Camp",
-      "src": "/logos/desertcodecamp.png"
-    },
-    {
-      "href": "https://www.meetup.com/JAMstack-PHX/",
-      "name": "JAMstack PHX",
-      "src": "/logos/jamstackphx.svg"
-    },
-    {
-      "href": "https://www.meetup.com/Hodash-Dev/",
-      "name": "Hodash Dev",
-      "src": "/logos/hodash.png"
-    },
-    {
-      "href": "https://www.jsisrael.com",
-      "name": "JavaScript Israel",
-      "src": "/logos/javascriptisrael.svg"
-    },
-    {
-      "href": "https://manning.com",
-      "name": "Manning Publications",
-      "src": "/logos/manning.svg"
-    },
-    {
-      "href": "https://reactgraphql.academy/",
-      "name": "React GraphQL Academy",
-      "src": "/logos/reactgraphqlacademy.svg"
-    },
-    {
-      "href": "https://changelog.com/jsparty",
-      "name": "JS Party",
-      "src": "/logos/js-party.svg"
-    },
-    {
       "href": "https://polypane.app/",
       "name": "Polypane",
       "src": "/logos/polypane-logo.svg"
     }
+  ],
+  "featured": [
+    {
+      "href": "https://livingspec.com",
+      "name": "Living Spec",
+      "src": "/logos/livingspec.svg"
+    },
+    { "href": "https://nx.dev/", "name": "Nx", "src": "/logos/nx.svg" },
+    {
+      "href": "https://platformatic.dev",
+      "name": "Platformatic",
+      "src": "/logos/platformatic.svg"
+    },
+    {
+      "href": "https://platogo.com/",
+      "name": "Platogo",
+      "src": "/logos/platogo.svg"
+    }
+  ],
+  "half": [
+    {
+      "href": "https://www.tubular.io/",
+      "name": "Tubular",
+      "src": "/logos/tubular.svg"
+    },
+    { "href": "https://wearedhd.com", "name": "DHD", "src": "/logos/dhd.svg" },
+    { "href": "https://ti.to/", "name": "Tito", "src": "/logos/tito.svg" }
   ]
 }

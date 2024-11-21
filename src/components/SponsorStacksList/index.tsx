@@ -13,6 +13,7 @@ export interface SponsorStacksListProps extends EventSponsors {
 }
 
 export function SponsorStacksList({
+  featured,
   complete,
   half,
   community,
@@ -44,6 +45,7 @@ export function SponsorStacksList({
   );
 
   if (
+    !featured?.length &&
     !complete?.length &&
     !half?.length &&
     !community?.length &&
@@ -57,6 +59,9 @@ export function SponsorStacksList({
 
   return (
     <SponsorsArea title="Our Wonderful Sponsors">
+      {featured?.length && (
+        <SponsorStack slug={slug} sponsors={featured} stack="featured" />
+      )}
       {complete?.length && (
         <SponsorStack slug={slug} sponsors={complete} stack="complete" />
       )}
