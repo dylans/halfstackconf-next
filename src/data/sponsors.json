@@ -75,12 +75,6 @@
     }
   ],
   "half": [
-    {
-      "href": "https://www.tubular.io/",
-      "name": "Tubular",
-      "src": "/logos/tubular.svg"
-    },
-    { "href": "https://wearedhd.com", "name": "DHD", "src": "/logos/dhd.svg" },
     { "href": "https://ti.to/", "name": "Tito", "src": "/logos/tito.svg" }
   ]
 }
