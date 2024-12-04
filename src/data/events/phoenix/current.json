@@ -140,6 +140,11 @@
         "href": "https://nx.dev",
         "name": "Nx",
         "src": "/logos/nx.svg"
+      },
+      {
+        "href": "https://www.sibipro.com/",
+        "name": "Sibi",
+        "src": "/logos/sibi.svg"
       }
     ],
     "half": [
