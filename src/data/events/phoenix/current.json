@@ -58,7 +58,8 @@
     {
       "by": "Luis Montes",
       "description": [
-        "From creating a network over images to robots playing music via Web Bluetooth to an incredible look at WebGPU, Luis has dazzled us at previous HalfStack events. We'll soon reveal Luis' 2025 session details."
+        "The Nintendo Game Boy brought significant joy to the world in the 1990s. Today, Anberic, Miyoo, Powkiddy and others are creating super affordable handheld retro gaming devices.",
+        "But any good web engineer would of course look at these devices and think, how do we create games for these devices using JS and web tech? Luis will show and tell us about this adventure!"
       ],
       "socials": [
         {
@@ -66,7 +67,7 @@
           "icon": "twitter"
         }
       ],
-      "title": "To be revealed"
+      "title": "JS Games on Retro Handheld Devices"
     },
     {
       "by": "Malak Janus",
