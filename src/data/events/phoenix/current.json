@@ -164,14 +164,14 @@
     ],
     "half": [
       {
+        "href": "https://www.vlt.sh/",
+        "name": "vlt",
+        "src": "/logos/vlt.svg"
+      },
+      {
         "href": "http://frostails.com",
         "name": "Frostails",
         "src": "/logos/frostails.png"
-      },
-      {
-        "href": "https://www.mozilla.org/",
-        "name": "Mozilla",
-        "src": "/logos/mozilla.svg"
       },
       {
         "href": "https://ti.to",

@@ -1,11 +1,6 @@
 {
   "community": [
     {
-      "href": "https://www.mozilla.org/",
-      "name": "Mozilla",
-      "src": "/logos/mozilla.svg"
-    },
-    {
       "href": "https://cityjsconf.org/",
       "name": "CityJSConf",
       "src": "/logos/cityjsconf.svg"
@@ -80,6 +75,16 @@
     }
   ],
   "half": [
+    {
+      "href": "https://www.vlt.sh/",
+      "name": "vlt",
+      "src": "/logos/vlt.svg"
+    },
+    {
+      "href": "http://frostails.com",
+      "name": "Frostails",
+      "src": "/logos/frostails.png"
+    },
     { "href": "https://ti.to/", "name": "Tito", "src": "/logos/tito.svg" }
   ]
 }
