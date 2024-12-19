@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Anchor } from "~/components/Anchor";
 import { Banner } from "~/components/Banner";
 import { BannerText } from "~/components/BannerText";
+import { Columns } from "~/components/Columns";
 import { EventFooter } from "~/components/EventFooter";
 import { EventHeader } from "~/components/EventHeader";
 import { EventSummary } from "~/components/EventSummary";
@@ -15,6 +16,7 @@ import { SessionsList } from "~/components/SessionsList";
 import { SplitPromo } from "~/components/SplitPromo";
 import { SponsorStacksList } from "~/components/SponsorStacksList";
 import { Text } from "~/components/Text";
+import { Tito } from "~/components/TicketsOffer/Tito";
 
 import { getEventDataCurrentAndDefault, getEvents } from "../../data";
 import { ReturnedParams, ReturnedProps } from "../../utils";
@@ -23,6 +25,7 @@ import styles from "./index.module.css";
 export default function Event({
   event: {
     afterparty = "Afterparty",
+    code,
     date = "TBD",
     dateString,
     description,
@@ -72,24 +75,29 @@ export default function Event({
         <Text as="h2" className={styles.h2} fontSize="extra-large">
           What to Expect
         </Text>
-        <Text as="p" className={styles.p} fontSize="medium">
-          HalfStack events are fun, creative single track JavaScript events
-          hosted in relaxed environments. HalfStack provides authentic, high
-          value experiences for all attendees.
-        </Text>
-        <Text as="p" className={styles.p} fontSize="medium">
-          The priority for HalfStack is the attendee experience, with great
-          food, drinks, talks, swag, and community. Hosted by London’s
-          longest-lived JavaScript meetup group, HalfStack now runs events in
-          Belgrade, Charlotte, London, Newquay, New York, Phoenix, Tel Aviv, and
-          Vienna!
-        </Text>
-        <Text as="p" className={styles.p} fontSize="medium">
-          HalfStack carefully curates talks that inspire and inform the audience
-          in a highly interactive and entertaining manner. Each HalfStack event
-          provides an intimate feeling where each attendee has time to meet one
-          another.
-        </Text>
+        <Columns className={styles.whatToExpect}>
+          <div className={styles.left}>
+            <Text as="p" className={styles.p} fontSize="medium">
+              HalfStack events are fun, creative single track JavaScript events
+              hosted in relaxed environments. HalfStack provides authentic, high
+              value experiences for all attendees.
+            </Text>
+            <Text as="p" className={styles.p} fontSize="medium">
+              The priority for HalfStack is the attendee experience, with great
+              food, drinks, sessions, swag, and community. Hosted by London’s
+              original JavaScript meetup group, HalfStack has run events in
+              Belgrade, Charlotte, London, Newquay, New York, Phoenix, and
+              Vienna!
+            </Text>
+            <Text as="p" className={styles.p} fontSize="medium">
+              HalfStack carefully curates sessions that inspire and inform the
+              audience in a highly interactive and entertaining manner. Each
+              HalfStack event provides an intimate feeling where each attendee
+              has time to meet one another.
+            </Text>
+          </div>
+          <Tito code={code} />
+        </Columns>
       </ExpectationPhotos>
 
       <SecondaryBanner title="Call for Proposals and Fair Pricing">

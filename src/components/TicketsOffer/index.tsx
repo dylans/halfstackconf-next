@@ -2,16 +2,13 @@ import { BodyArea } from "../BodyArea";
 import { Columns } from "../Columns";
 import { Text } from "../Text";
 import styles from "./index.module.css";
-import { useTitoWidget } from "./useTitoWidget";
+import { Tito } from "./Tito";
 
 export interface TicketsOfferProps {
   code: string;
 }
 
 export function TicketsOffer({ code }: TicketsOfferProps) {
-  const eventCode = code.includes("/") ? code : `halfstack/${code}`;
-  const tito = useTitoWidget(eventCode);
-
   return (
     <BodyArea>
       <Columns className={styles.ticketsOffer}>
@@ -39,7 +36,7 @@ export function TicketsOffer({ code }: TicketsOfferProps) {
             .
           </Text>
         </div>
-        {tito}
+        <Tito code={code} />
       </Columns>
     </BodyArea>
   );
