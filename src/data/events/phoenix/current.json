@@ -63,6 +63,10 @@
       ],
       "socials": [
         {
+          "href": "https://bsky.app/profile/monteslu.com",
+          "icon": "bluesky"
+        },
+        {
           "href": "https://twitter.com/monteslu",
           "icon": "twitter"
         }
@@ -88,7 +92,28 @@
       "description": [
         "Rene has wowed us with his combination of maps, music, and data viz. We'll soon share what he's planning for HalfStack Phoenix!"
       ],
-      "title": "To be revealed"
+      "socials": [
+        {
+          "href": "https://bsky.app/profile/odoenet.bsky.social",
+          "icon": "bluesky"
+        },
+        {
+          "href": "https://twitter.com/odoenet",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Map Along a Beat Path"
+    },
+    {
+      "by": "Luke Karrys",
+      "description": ["Find out more at HalfStack on January 31st!"],
+      "socials": [
+        {
+          "href": "https://bsky.app/profile/lukekarrys.com",
+          "icon": "bluesky"
+        }
+      ],
+      "title": "Performing Laparoscopic Lockfile Surgery"
     },
     {
       "by": "Lightning",
