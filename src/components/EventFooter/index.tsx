@@ -6,12 +6,18 @@ import { BodyArea } from "../BodyArea";
 import { CopyrightFooter } from "../CopyrightFooter";
 import { RoundLink } from "../RoundLink";
 import { TextLink } from "../TextLink";
+import blueskyIconInverted from "./assets/iconBluesky.png";
 import facebookIconInverted from "./assets/iconFacebookInverted.png";
 import instagramIconInverted from "./assets/iconInstagramInverted.png";
 import twitterIconInverted from "./assets/iconTwitterInverted.png";
 import styles from "./index.module.css";
 
 const icons = [
+  [
+    "BlueSky",
+    blueskyIconInverted,
+    "https://bsky.app/profile/halfstackconf.bsky.social",
+  ],
   ["Facebook", facebookIconInverted, "https://www.facebook.com/halfstackconf/"],
   [
     "Instagram",
