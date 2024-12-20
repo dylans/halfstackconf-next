@@ -110,7 +110,7 @@ export function SessionCard({
                   <Image
                     alt={`${by}'s ${icon}`}
                     height={32}
-                    src={`/icons/${icon}.png`}
+                    src={`/icons/${icon}.png?v=2`}
                     width={32}
                   />
                 </Link>
