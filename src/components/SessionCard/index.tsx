@@ -68,7 +68,7 @@ export function SessionCard({
       >
         <TintedImage
           className={styles.image}
-          src={`/speakers/${hash}.jpg?v=7`}
+          src={`/speakers/${hash}.jpg?v=8`}
         />
         <div className={styles.textContents}>
           <Text
