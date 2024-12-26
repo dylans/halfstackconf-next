@@ -116,6 +116,23 @@
       "title": "Performing Laparoscopic Lockfile Surgery"
     },
     {
+      "by": "Dylan Schiemann",
+      "description": [
+        "A look at how HalfStack founder Dylan Schiemann tackled a new frontier: An indoor soccer DIY project."
+      ],
+      "socials": [
+        {
+          "href": "https://bsky.app/profile/dylanks.bsky.social",
+          "icon": "bluesky"
+        },
+        {
+          "href": "https://x.com/dylans/",
+          "icon": "twitter"
+        }
+      ],
+      "title": "When Software Engineers do DIY Projects"
+    },
+    {
       "by": "Lightning",
       "description": [
         "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
