@@ -78,8 +78,9 @@ export default function Event({
         <Columns className={styles.whatToExpect}>
           <div className={styles.left}>
             <Text as="p" className={styles.p} fontSize="medium">
-              HalfStack events are fun, creative single track JavaScript events
-              hosted in relaxed environments. HalfStack provides authentic, high
+              HalfStack events are fun, creative single-track, single-day events
+              focused on the possibilities of the JavaScript and web ecosystem.
+              Hosted in relaxed environments, HalfStack provides authentic, high
               value experiences for all attendees.
             </Text>
             <Text as="p" className={styles.p} fontSize="medium">
