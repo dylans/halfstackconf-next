@@ -7,7 +7,7 @@ import styles from "./index.module.css";
 
 const packages = [
   {
-    title: "Half Stack",
+    title: "HalfStack",
     price: 2000,
     benefits: [
       "Sponsor logo and/or link on website, banner, badge, t-shirt, conference slide deck, video recording opening slide, attendee information packet, and other printed materials",
@@ -15,13 +15,14 @@ const packages = [
       "Two free tickets, 10% off additional tickets",
       "Sponsor may provide pub quiz prizes",
       "Sponsor may run their own contest or competition",
+      "Note: A solo/very small company version of this package is available for 500. Limited to individuals or companies of 3 people or less, that have not yet raised VC funding. Same benefits, but only one ticket is included.",
     ],
   },
   {
-    title: "Complete Stack",
+    title: "HalfStack Featured",
     price: 5000,
     benefits: [
-      "All Half Stack benefits, plus:",
+      "All HalfStack benefits, plus:",
       "Higher priority for logo placement",
       "Social Media Thank You",
       "Sponsor will have dedicated table for swag or demos and may place up to two of their popup banners in the venue",
