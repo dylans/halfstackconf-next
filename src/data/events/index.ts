@@ -1,1 +1,9 @@
-export const eventOrder = ["phoenix", "vienna", "london"] as const;
+export const eventOrder = [
+  "phoenix",
+  "vienna",
+  "london",
+  "newquay",
+  "newyork",
+  "charlotte",
+  "belgrade",
+] as const;
