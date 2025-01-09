@@ -18,6 +18,14 @@
   "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late! These are our 2024 presenters. We'll announce the 2025 sessions throughout the year.",
   "sessions": [
     {
+      "by": "HalfStack",
+      "description": [""],
+      "socials": [
+        { "href": "https://twitter.com/halfstackconf", "icon": "twitter" }
+      ],
+      "title": "Our 2024 schedule is shown here, 2025 to be announced throughout 2025"
+    },
+    {
       "by": "Rowdy Rabouw",
       "description": [
         "Javascript is extremely versatile. We use it to build front-end, back-end, desktop, and mobile apps. But did you know you can even create music with it?!",
