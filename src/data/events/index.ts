@@ -6,4 +6,5 @@ export const eventOrder = [
   "newyork",
   "charlotte",
   "belgrade",
+  "london-on-the-thames",
 ] as const;
