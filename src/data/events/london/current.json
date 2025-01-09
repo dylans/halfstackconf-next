@@ -15,7 +15,7 @@
   ],
   "geolocation": [51.52036, -0.07319200000006276],
   "location": "93 Feet East, London",
-  "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late!",
+  "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late! These are our 2024 presenters. We'll announce the 2025 sessions throughout the year.",
   "sessions": [
     {
       "by": "Rowdy Rabouw",
@@ -294,5 +294,5 @@
     ]
   },
   "trailer": "https://www.youtube.com/embed/iETEhv6A8_o",
-  "year": 2024
+  "year": 2025
 }
