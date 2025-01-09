@@ -51,13 +51,13 @@ export const colors: Record<EventSlug, EventColors> = {
     "color-primary-dark": "#252347",
     "color-primary-light": "#736ccd",
   },
-  telaviv: {
-    "color-backdrop-subtle": "#5073df",
-    "color-faint": "#9cb0d9",
-    "color-primary": "#324d9c",
-    "color-primary-dark": "#28396a",
-    "color-primary-light": "#809bed",
-  },
+  // telaviv: {
+  //   "color-backdrop-subtle": "#5073df",
+  //   "color-faint": "#9cb0d9",
+  //   "color-primary": "#324d9c",
+  //   "color-primary-dark": "#28396a",
+  //   "color-primary-light": "#809bed",
+  // },
   vienna: {
     "color-backdrop-subtle": "#e78689",
     "color-faint": "#fadddf",

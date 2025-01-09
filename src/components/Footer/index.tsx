@@ -10,7 +10,7 @@ import cityscapeLondon from "./assets/cityscapeLondon.png";
 import cityscapeNewquay from "./assets/cityscapeNewquay.png";
 import cityscapeNewYork from "./assets/cityscapeNewYork.png";
 import cityscapePhoenix from "./assets/cityscapePhoenix.png";
-import cityscapeTelAviv from "./assets/cityscapeTelAviv.png";
+// import cityscapeTelAviv from "./assets/cityscapeTelAviv.png";
 import cityscapeVienna from "./assets/cityscapeVienna.png";
 import blueskyIcon from "./assets/iconBluesky.png";
 import facebookIcon from "./assets/iconFacebook.png";
@@ -26,7 +26,7 @@ const cityscapes = [
   ["New York", styles.newYork, "/newYork", cityscapeNewYork],
   ["Newquay", styles.newquay, "/newquay", cityscapeNewquay],
   ["Phoenix", styles.phoenix, "/phoenix", cityscapePhoenix],
-  ["Tel Aviv", styles.telAviv, "/telAviv", cityscapeTelAviv],
+  // ["Tel Aviv", styles.telAviv, "/telAviv", cityscapeTelAviv],
   ["Vienna", styles.vienna, "/vienna", cityscapeVienna],
 ] as const;
 
