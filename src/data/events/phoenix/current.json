@@ -133,6 +133,19 @@
       "title": "When JavaScript Engineers do DIY Projects"
     },
     {
+      "by": "Mariko Kosaka",
+      "description": [
+        "Knowing what new features and APIs you can safely use can be a challenge, will it work in the browsers you need to support? Baseline helps with that, giving developers a way to know whether a feature is ready to use. We will dive into what it means for a feature to be Baseline, and cover some of the key features now included in Baseline, helping you create more beautiful and capable sites and applications."
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/kosamari/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "Baseline - New web features you can use today"
+    },
+    {
       "by": "Lightning",
       "description": [
         "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
