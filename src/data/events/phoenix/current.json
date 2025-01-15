@@ -146,6 +146,16 @@
       "title": "Baseline - New web features you can use today"
     },
     {
+      "by": "Niels Leenheer",
+      "description": [
+        "Niels has shown some of the most amazing web API with hardware demos over the years at HalfStack. He's back again to share something fun with us."
+      ],
+      "socials": [
+        { "href": "https://twitter.com/html5test", "icon": "twitter" }
+      ],
+      "title": "To be revealed"
+    },
+    {
       "by": "Lightning",
       "description": [
         "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
