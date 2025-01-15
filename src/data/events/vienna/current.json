@@ -58,15 +58,15 @@
       "title": "To be revealed"
     },
     {
-      "by": "Ramon Huidobro",
+      "by": "Carmen Huidobro",
       "description": ["To be revealed"],
       "socials": [
         {
-          "href": "https://twitter.com/hola_soy_milk",
-          "icon": "twitter"
+          "href": "https://bsky.app/profile/hola-soy-milk.online",
+          "icon": "bluesky"
         },
         {
-          "href": "https://ramonh.dev/",
+          "href": "https://carmenh.dev/",
           "icon": "site"
         }
       ],
