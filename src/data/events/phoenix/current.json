@@ -156,22 +156,29 @@
       "title": "To be revealed"
     },
     {
-      "by": "Lightning",
+      "by": "Niels Leenheer",
       "description": [
-        "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
+        "Niels has shown some of the most amazing web API with hardware demos over the years at HalfStack. He's back again to share something fun with us."
       ],
       "socials": [
-        {
-          "href": "https://twitter.com/halfstackconf",
-          "icon": "twitter"
-        }
+        { "href": "https://twitter.com/html5test", "icon": "twitter" }
       ],
-      "title": "Lightning Talks"
+      "title": "To be revealed"
+    },
+    {
+      "by": "Olu Ayandosu",
+      "description": [
+        "Embracing imperfection leads to real progress. There's a special kind of irony in watching smart people wait for the perfect moment to start. We optimize our lives down to the minute. Automating bills, planning schedules, finding the fastest route to work. Yet we hesitate at the edge of beginning something new."
+      ],
+      "socials": [
+        { "href": "https://twitter.com/html5test", "icon": "twitter" }
+      ],
+      "title": "Begin"
     },
     {
       "by": "HalfStack",
       "description": [
-        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz! There will be a big raffle, and then we'll then watch a retro tech movie, and if there's interest, we'll conclude with karaoke!"
+        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz and prizes! Then we'll have dinner and watch a retro tech movie, and we'll conclude with karaoke!"
       ],
       "socials": [
         {
@@ -179,7 +186,7 @@
           "icon": "twitter"
         }
       ],
-      "title": "Afterparty (Dinner, JS Pub Quiz, Battledecks, Raffle, Retro Tech movie, and karaoke)"
+      "title": "Afterparty (Dinner, JS Pub Quiz, Retro Tech movie, and Karaoke)"
     }
   ],
   "sponsors": {
@@ -225,6 +232,11 @@
         "href": "https://www.sibipro.com/",
         "name": "Sibi",
         "src": "/logos/sibi.svg"
+      },
+      {
+        "href": "https://www.herodevs.com/",
+        "name": "HeroDevs",
+        "src": "/logos/herodevs.svg"
       }
     ],
     "half": [
