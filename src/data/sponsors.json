@@ -74,9 +74,9 @@
       "src": "/logos/sibi.svg"
     },
     {
-      "href": "https://www.herodevs.com/",
-      "name": "HeroDevs",
-      "src": "/logos/herodevs.svg"
+      "href": "https://sentry.io/welcome",
+      "name": "Sentry",
+      "src": "/logos/sentry.svg"
     }
   ],
   "half": [
@@ -95,6 +95,11 @@
       "name": "Frostails",
       "src": "/logos/frostails.png"
     },
-    { "href": "https://ti.to/", "name": "Tito", "src": "/logos/tito.svg" }
+    { "href": "https://ti.to/", "name": "Tito", "src": "/logos/tito.svg" },
+    {
+      "href": "https://www.herodevs.com/",
+      "name": "HeroDevs",
+      "src": "/logos/herodevs.svg"
+    }
   ]
 }

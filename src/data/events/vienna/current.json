@@ -10,8 +10,6 @@
   ],
   "faqs": [
     [
-      "What happened to the 2024 event?",
-      "Due to the downturn in the economy, sponsorships and ticket purchases were insufficient to proceed with the event. We hope things improve and we can return in 2025. Get your ticket now or sponsor to help make that happen!",
       "Where should I stay?",
       "If you're not from Vienna, note that HalfStack Vienna is near the HbF (main train station). Vienna has many hotels and Airbnb options that are well connected via subways, trains, and buses."
     ]
@@ -21,55 +19,8 @@
   "schedule": "Plan to arrive between 09:00 and 09:30 on the 12th of September & stay late for an amazing day of JavaScript goodness!",
   "sessions": [
     {
-      "by": "Ben Ilegbodu",
-      "description": ["To be revealed."],
-      "socials": [
-        {
-          "href": "https://twitter.com/benmvp",
-          "icon": "twitter"
-        }
-      ],
-      "title": "To be revealed"
-    },
-    {
-      "by": "Ramona Schwering",
-      "description": [
-        "It’s a trap” - a call or feeling we all might be familiar with, not only when it comes to Star Wars. It signals a sudden moment of noticing imminent danger.",
-        "This situation is an excellent allegory for an unpleasant realization in testing. Imagine having the best intentions when it comes to testing but still ending up with tests failing to deliver any value. Tests who are feeling like a pain to deal with?"
-      ],
-      "socials": [
-        { "href": "https://www.ramona.codes/", "icon": "site" },
-        { "href": "https://twitter.com/leichteckig", "icon": "twitter" },
-        { "href": "https://github.com/leichteckig", "icon": "github" },
-        {
-          "href": "https://www.linkedin.com/in/ramona-schwering/",
-          "icon": "linkedin"
-        }
-      ],
-      "title": "It's a (testing) trap! - Common testing pitfalls and how to solve them"
-    },
-    {
-      "by": "Christian Heilmann",
-      "description": ["To be revealed"],
-      "socials": [
-        { "href": "https://christianheilmann.com/", "icon": "site" },
-        { "href": "https://twitter.com/codepo8", "icon": "twitter" }
-      ],
-      "title": "To be revealed"
-    },
-    {
-      "by": "Carmen Huidobro",
-      "description": ["To be revealed"],
-      "socials": [
-        {
-          "href": "https://bsky.app/profile/hola-soy-milk.online",
-          "icon": "bluesky"
-        },
-        {
-          "href": "https://carmenh.dev/",
-          "icon": "site"
-        }
-      ],
+      "by": "HalfStack",
+      "description": ["Session details will be revealed soon!"],
       "title": "To Be Revealed"
     }
   ],
@@ -101,19 +52,14 @@
         "href": "https://platogo.com/",
         "name": "Platogo",
         "src": "/logos/platogo.svg"
+      },
+      {
+        "href": "https://sentry.io/welcome",
+        "name": "Sentry",
+        "src": "/logos/sentry.svg"
       }
     ],
     "half": [
-      {
-        "href": "https://www.tubular.io/",
-        "name": "Tubular",
-        "src": "/logos/tubular.svg"
-      },
-      {
-        "href": "https://wearedhd.com/",
-        "name": "DHD",
-        "src": "/logos/dhd.svg"
-      },
       {
         "href": "https://ti.to/",
         "name": "Tito",
@@ -123,11 +69,6 @@
         "href": "https://www.mozilla.org/",
         "name": "Mozilla",
         "src": "/logos/mozilla.svg"
-      },
-      {
-        "href": "https://kontent.ai/",
-        "name": "Kentico Kontent",
-        "src": "/logos/kontent.svg"
       }
     ]
   },
