@@ -1,9 +1,9 @@
 {
   "afterparty": "Afterparty (includes Retro Tech Movie!)",
-  "catchphrase": "HalfStack Phoenix returns in early 2025 at the Majestic Theater Gilbert.",
-  "code": "halfstack-phoenix-2025",
-  "date": "January 31 2025, 10am - Late",
-  "dateString": "2025-01-31",
+  "catchphrase": "HalfStack Phoenix returns in early 2026 at the Majestic Theater Gilbert.",
+  "code": "halfstack-phoenix-2026",
+  "date": "January 30 2026, 10am - Late",
+  "dateString": "2026-01-30",
   "description": [
     "Up to 225 Web / JavaScript / Mobile / IoT developers and decision makers",
     "Mostly from the Phoenix area, with some from throughout the US, Europe and beyond"
@@ -21,9 +21,11 @@
   "sessions": [
     {
       "by": "HalfStack",
-      "description": [""],
+      "description": [
+        "This is our 2025 lineup. We will announce our 2026 presenters closer to the event."
+      ],
 
-      "title": "We've announced our first seven presenters. Check back regularly as we build an amazing day of fun!"
+      "title": "2025 lineup"
     },
     {
       "by": "Jen Looper",
@@ -251,5 +253,5 @@
     ]
   },
   "trailer": "https://www.youtube.com/embed/F2EsnpOQnE4",
-  "year": 2025
+  "year": 2026
 }

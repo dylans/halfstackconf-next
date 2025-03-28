@@ -1,7 +1,7 @@
 export const eventOrder = [
-  "phoenix",
   "vienna",
   "london",
+  "phoenix",
   "newquay",
   "newyork",
   "charlotte",
