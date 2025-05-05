@@ -1,0 +1,255 @@
+{
+  "afterparty": "Afterparty (includes Retro Tech Movie!)",
+  "catchphrase": "HalfStack Phoenix returns in early 2025 at the Majestic Theater Gilbert.",
+  "code": "halfstack-phoenix-2025",
+  "date": "January 31 2025, 10am - Late",
+  "dateString": "2025-01-31",
+  "description": [
+    "Up to 225 Web / JavaScript / Mobile / IoT developers and decision makers",
+    "Mostly from the Phoenix area, with some from throughout the US, Europe and beyond"
+  ],
+  "faqs": [
+    [
+      "Where should I stay?",
+      "If you're not from the Phoenix area, note that Phoenix is very spread out, and we picked the Majestic Theatre because it's an amazing experience, but it is not centrally located. There are 2 hotels within a 2 minute walk of the venue as well as Airbnb options."
+    ]
+  ],
+  "geolocation": [33.317108, -111.688454],
+  "location": "Majestic Theater, Gilbert",
+  "packet": "https://app.livingspec.com/accept-invitation?code=7ca49d8f-e83e-4f76-9f5b-96cbab5cd884",
+  "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz and movie afterparty. Plan to arrive between 9:00-9:45am and stay late!",
+  "sessions": [
+    {
+      "by": "HalfStack",
+      "description": [""],
+
+      "title": "We've announced our first seven presenters. Check back regularly as we build an amazing day of fun!"
+    },
+    {
+      "by": "Jen Looper",
+      "description": [
+        "Jen delivered some of the most amazing HalfStack talks in New York and online, and will join us in Phoenix to share a much different take on AI. Jen has done amazing work over the years supporting communities at Telerik, Microsoft and AWS, and is passionate about supporting new engineers in their quest to learn more about web technologies."
+      ],
+      "socials": [
+        {
+          "href": "https://www.jenlooper.com/",
+          "icon": "site"
+        },
+        {
+          "href": "https://x.com/jenlooper",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Cultural heritage and AI"
+    },
+    {
+      "by": "William Blankenship",
+      "description": [
+        "William wowed us in 2022 with an incredible JS & AI talk when that was a new topic. Last year William showed us the idea of building an easy to use peer-to-peer social network. We can't wait to reveal what William has planned for 2025!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/retrohack3r",
+          "icon": "twitter"
+        }
+      ],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Luis Montes",
+      "description": [
+        "The Nintendo Game Boy brought significant joy to the world in the 1990s. Today, Anberic, Miyoo, Powkiddy and others are creating super affordable handheld retro gaming devices.",
+        "But any good web engineer would of course look at these devices and think, how do we create games for these devices using JS and web tech? Luis will show and tell us about this adventure!"
+      ],
+      "socials": [
+        {
+          "href": "https://bsky.app/profile/monteslu.com",
+          "icon": "bluesky"
+        },
+        {
+          "href": "https://twitter.com/monteslu",
+          "icon": "twitter"
+        }
+      ],
+      "title": "JS Games on Retro Handheld Devices"
+    },
+    {
+      "by": "Malak Janus",
+      "description": [
+        "While we've become exceptionally good at creating junior engineers through bootcamps and university programs, we're not as skilled at helping them grow into confident mid-level developers. This talk explores practical strategies for engineering teams to nurture junior developers, from implementing structured daily routines to embracing the \"absurdity\" of real-world software development constraints."
+      ],
+      "title": "How to Train Your Dragon"
+    },
+    {
+      "by": "Bekah Rice",
+      "description": [
+        "Bekah will do a music related performance... that's all we're saying for now!"
+      ],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Rene Rubalcava",
+      "description": [
+        "Rene has wowed us with his combination of maps, music, and data viz. We'll soon share what he's planning for HalfStack Phoenix!"
+      ],
+      "socials": [
+        {
+          "href": "https://bsky.app/profile/odoenet.bsky.social",
+          "icon": "bluesky"
+        },
+        {
+          "href": "https://twitter.com/odoenet",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Map Along a Beat Path"
+    },
+    {
+      "by": "Luke Karrys",
+      "description": ["Find out more at HalfStack on January 31st!"],
+      "socials": [
+        {
+          "href": "https://bsky.app/profile/lukekarrys.com",
+          "icon": "bluesky"
+        }
+      ],
+      "title": "Performing Laparoscopic Lockfile Surgery"
+    },
+    {
+      "by": "Dylan Schiemann",
+      "description": [
+        "A look at how HalfStack founder Dylan Schiemann tackled a new frontier: An indoor soccer DIY project."
+      ],
+      "socials": [
+        {
+          "href": "https://bsky.app/profile/dylanks.bsky.social",
+          "icon": "bluesky"
+        },
+        {
+          "href": "https://x.com/dylans/",
+          "icon": "twitter"
+        }
+      ],
+      "title": "When JavaScript Engineers do DIY Projects"
+    },
+    {
+      "by": "Mariko Kosaka",
+      "description": [
+        "Knowing what new features and APIs you can safely use can be a challenge, will it work in the browsers you need to support? Baseline helps with that, giving developers a way to know whether a feature is ready to use. We will dive into what it means for a feature to be Baseline, and cover some of the key features now included in Baseline, helping you create more beautiful and capable sites and applications."
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/kosamari/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "Baseline - New web features you can use today"
+    },
+    {
+      "by": "Niels Leenheer",
+      "description": [
+        "Niels has shown some of the most amazing web API with hardware demos over the years at HalfStack. He's back again to share something fun with us."
+      ],
+      "socials": [
+        { "href": "https://twitter.com/html5test", "icon": "twitter" }
+      ],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Olu Ayandosu",
+      "description": [
+        "Embracing imperfection leads to real progress. There's a special kind of irony in watching smart people wait for the perfect moment to start. We optimize our lives down to the minute. Automating bills, planning schedules, finding the fastest route to work. Yet we hesitate at the edge of beginning something new."
+      ],
+      "socials": [{ "href": "https://x.com/0lu", "icon": "twitter" }],
+      "title": "Begin"
+    },
+    {
+      "by": "HalfStack",
+      "description": [
+        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz and prizes! Then we'll have dinner and watch a retro tech movie, and we'll conclude with karaoke!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/halfstackconf",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Afterparty (Dinner, JS Pub Quiz, Retro Tech movie, and Karaoke)"
+    }
+  ],
+  "sponsors": {
+    "community": [
+      {
+        "href": "https://www.meetup.com/Phoenix-TypeScript/",
+        "name": "PHX TS",
+        "src": "/logos/phxts.svg"
+      },
+      {
+        "href": "https://www.meetup.com/Phoenix-JavaScript/",
+        "name": "PHX JS",
+        "src": "/logos/phxjs.svg"
+      },
+      {
+        "href": "https://www.thecoderschool.com/locations/gilbert/",
+        "name": "theCoderSchool Gilbert",
+        "src": "/logos/thecoderschool.png"
+      },
+      {
+        "href": "https://codebar.io/",
+        "name": "codebar",
+        "src": "/logos/codebar.svg"
+      },
+      {
+        "href": "https://openjsf.org/",
+        "name": "Open JS Foundation",
+        "src": "/logos/openjsfoundation.svg"
+      }
+    ],
+    "featured": [
+      {
+        "href": "https://livingspec.com/",
+        "name": "Living Spec",
+        "src": "/logos/livingspec.svg"
+      },
+      {
+        "href": "https://nx.dev",
+        "name": "Nx",
+        "src": "/logos/nx.svg"
+      },
+      {
+        "href": "https://www.sibi.ai/?utm_source=halfstack&utm_medium=sponsorship&utm_campaign=halfstack_conference_2025",
+        "name": "Sibi",
+        "src": "/logos/sibi.svg"
+      },
+      {
+        "href": "https://www.herodevs.com/",
+        "name": "HeroDevs",
+        "src": "/logos/herodevs.svg"
+      }
+    ],
+    "half": [
+      {
+        "href": "https://www.vlt.sh/",
+        "name": "vlt",
+        "src": "/logos/vlt.svg"
+      },
+      {
+        "href": "http://iceddev.com/",
+        "name": "IcedDev",
+        "src": "/logos/iceddev.svg"
+      },
+      {
+        "href": "http://frostails.com",
+        "name": "Frostails",
+        "src": "/logos/frostails.png"
+      },
+      {
+        "href": "https://ti.to",
+        "name": "Tito",
+        "src": "/logos/tito.svg"
+      }
+    ]
+  },
+  "trailer": "https://www.youtube.com/embed/F2EsnpOQnE4",
+  "year": 2025
+}
