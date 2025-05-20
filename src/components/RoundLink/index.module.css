@@ -6,27 +6,30 @@
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  transition: var(--transition-medium) background-color;
+  transition: var(--transition-medium) all;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .roundLink.sizeSmall {
   font-size: var(--font-size-small);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
 }
 
 .roundLink.sizeMedium {
   font-size: var(--font-size-medium);
-  padding: 0.75rem 1.75rem;
+  padding: 0.75rem 2rem;
 }
 
 .roundLink.sizeLarge {
   font-size: var(--font-size-large);
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
 }
 
 .roundLink:hover,
 a:hover .roundLink {
   background-color: var(--color-subtle);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
 }
 
 .shadow {

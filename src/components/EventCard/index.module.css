@@ -8,42 +8,55 @@
   position: absolute;
   top: 0;
   width: 100%;
+  opacity: 0.7;
+}
+
+.eventCard {
+  border-radius: 12px;
+  overflow: visible;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  margin-bottom: 3.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.eventCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .textContents {
   font-weight: bold;
-  padding: 0.5rem 1rem 2.5rem;
+  padding: 1.5rem;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
 }
 
 .title {
   font-size: var(--font-size-large);
   text-transform: uppercase;
-}
-
-.date,
-.catchphrase {
-  font-size: var(--font-size-small);
-  text-shadow: 0 0 5px var(--color-primary), 0 0 5px var(--color-primary);
+  margin-bottom: 1rem;
 }
 
 .date {
   color: var(--color-faint);
   font-weight: 700;
-  margin: 1rem 0;
+  margin: 0;
   text-transform: uppercase;
+  font-size: var(--font-size-small);
 }
 
 .thumbnail {
-  display: none;
-}
-
-.leftToRight .thumbnail {
-  right: 0;
-}
-
-.rightToLeft .thumbnail {
-  left: 0;
+  background-image: var(--background-thumbnail);
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  display: block;
+  width: 100%;
 }
 
 .eventCard:hover .booker {
@@ -51,49 +64,33 @@
 }
 
 @media (width >= 700px) {
-  .title {
-    font-size: var(--font-size-extra-large);
+  .thumbnail {
+    height: 180px;
   }
 
-  .date,
-  .catchphrase {
+  .title {
+    font-size: var(--font-size-large);
+  }
+
+  .date {
     font-size: var(--font-size-medium);
   }
 
-  .catchphrase {
-    padding-bottom: 1rem;
+  .description {
+    font-size: var(--font-size-small);
   }
+}
 
-  .leftToRight .textContents {
-    margin-right: 33%;
-    padding: 2rem 0.5rem 3rem 3rem;
-    text-align: right;
-  }
-
-  .rightToLeft .textContents {
-    margin-left: 33%;
-    padding: 2rem 3rem 3rem 0.5rem;
-    text-align: left;
-  }
-
+@media (width >= 1200px) {
   .thumbnail {
-    background-image: var(--background-thumbnail);
-    background-position: center;
-    background-size: cover;
-    bottom: 0;
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 30%;
+    height: 160px;
   }
 
-  .leftToRight .booker {
-    left: 1rem;
-    right: initial;
+  .title {
+    font-size: calc(var(--font-size-large) * 0.9);
   }
 
-  .rightToLeft .booker {
-    left: initial;
-    right: 1rem;
+  .textContents {
+    padding: 1.2rem;
   }
 }

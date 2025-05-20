@@ -26,6 +26,9 @@
   position: relative;
   text-align: center;
   text-transform: uppercase;
+  max-width: var(--width-body);
+  margin: 0 auto;
+  width: 100%;
 }
 
 .sizeMedium {

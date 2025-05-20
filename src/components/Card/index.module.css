@@ -3,13 +3,17 @@
   display: block;
   position: relative;
   text-decoration: none;
-  transition: var(--transition-medium) transform;
+  transition: var(--transition-medium) transform,
+    var(--transition-medium) box-shadow;
+  border-radius: 12px;
+  overflow: hidden;
 
   --color-text: var(--color-bright);
 }
 
 .card:hover {
-  transform: scale(1.02);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
 .cardContents {
@@ -18,29 +22,42 @@
   height: 100%;
   overflow: hidden;
   position: relative;
+  padding-bottom: 1rem;
 }
 
 .bottom {
   color: var(--color-primary);
   position: absolute;
+  font-weight: 600;
+  bottom: -2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: var(--transition-medium) all;
+  z-index: 100;
+  white-space: nowrap;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--color-bright);
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover .bottom {
+  transform: translateX(-50%) translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .sizeMedium .bottom {
-  bottom: -1.75rem;
+  bottom: -2.5rem;
 }
 
 .sizeSmall .bottom {
-  bottom: -1.25rem;
+  bottom: -2rem;
 }
 
-.leftToRight .bottom {
-  left: 1.5rem;
+.leftToRight {
+  text-align: left;
 }
 
 .rightToLeft {
   text-align: right;
-}
-
-.rightToLeft .bottom {
-  right: 1.5rem;
 }

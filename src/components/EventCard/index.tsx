@@ -3,33 +3,25 @@ import Link from "next/link";
 
 import { EventDataJoined } from "~/data/types";
 
-import { Card, CardDirection } from "../Card";
+import { Card } from "../Card";
 import { Text } from "../Text";
 import styles from "./index.module.css";
 
 export interface EventCardProps {
-  direction: CardDirection;
+  direction: "left-to-right" | "right-to-left";
   event: EventDataJoined;
 }
 
-const directionStyles = {
-  "left-to-right": styles.leftToRight,
-  "right-to-left": styles.rightToLeft,
-};
-
-export function EventCard({
-  event: { catchphrase, date, description, name, slug },
-  direction,
-}: EventCardProps) {
-  const catchyText = catchphrase ?? description?.join(" ");
+export function EventCard({ event: { date, name, slug } }: EventCardProps) {
   return (
     <Card
       as={Link}
-      bottom="Book your Tickets"
-      className={clsx(styles.eventCard, directionStyles[direction])}
-      direction={direction}
+      bottom="Book Tickets"
+      className={styles.eventCard}
+      direction="left-to-right"
       href={`/${slug}`}
     >
+      <div className={styles.thumbnail} />
       <div className={styles.background} />
       <div className={styles.textContents}>
         <Text as="div" className={styles.title}>
@@ -38,13 +30,7 @@ export function EventCard({
         <Text as="div" className={styles.date}>
           {date}
         </Text>
-        {catchyText && (
-          <Text as="div" className={styles.description}>
-            {catchyText}
-          </Text>
-        )}
       </div>
-      <div className={styles.thumbnail} />
     </Card>
   );
 }
