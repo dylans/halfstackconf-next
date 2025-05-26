@@ -12,7 +12,12 @@
   display: flex;
   flex-direction: column;
   margin: auto;
-  max-width: var(--width-body);
+}
+
+@media (width >= 1200px) {
+  .contents {
+    max-width: var(--width-body);
+  }
 }
 
 .heading {

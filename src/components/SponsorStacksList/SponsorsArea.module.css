@@ -7,8 +7,13 @@
 
 .contents {
   margin: auto;
-  max-width: var(--width-body);
   text-align: center;
+}
+
+@media (width >= 1200px) {
+  .contents {
+    max-width: var(--width-body);
+  }
 }
 
 .title {
