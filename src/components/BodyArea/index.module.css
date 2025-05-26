@@ -1,11 +1,17 @@
 .bodyArea {
   margin: auto;
-  max-width: var(--width-body);
   padding: 1rem;
 }
 
 @media (width >= 350px) {
   .bodyArea {
+    padding: 1rem;
+  }
+}
+
+@media (width >= 1200px) {
+  .bodyArea {
+    max-width: var(--width-body);
     padding: 1rem 0;
   }
 }
