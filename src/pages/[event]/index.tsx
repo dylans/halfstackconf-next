@@ -11,6 +11,7 @@ import { EventSummary } from "~/components/EventSummary";
 import { EventTheme } from "~/components/EventTheme";
 import { ExpectationPhotos } from "~/components/ExpectationPhotos";
 import { FindUs } from "~/components/FindUs";
+import { VideoEmbed } from "~/components/VideoEmbed";
 import { SecondaryBanner } from "~/components/SecondaryBanner";
 import { SessionsList } from "~/components/SessionsList";
 import { SplitPromo } from "~/components/SplitPromo";
@@ -45,20 +46,8 @@ export default function Event({
         <title>{`HalfStack | ${name}`}</title>
       </Head>
       <EventHeader dateString={dateString} slug={slug} />
-      <Banner background={`${slug}/full.png`}>
-        <BannerText>
-          <div className={styles.bannerImageArea}>
-            <Image
-              alt=""
-              className={styles.bannerImage}
-              fill
-              quality="100"
-              sizes="100vw"
-              src={`/events/${slug}/skyline.png`}
-            />
-          </div>
-          {name}
-        </BannerText>
+      <Banner background={`${slug}/full.png`} size="medium">
+        <BannerText>{name}</BannerText>
         <Text fontSize="extra-large">{year}</Text>
       </Banner>
 
@@ -71,35 +60,20 @@ export default function Event({
 
       <SplitPromo description={description} src="/events/attendance.jpg" />
 
-      <ExpectationPhotos>
-        <Text as="h2" className={styles.h2} fontSize="extra-large">
-          What to Expect
-        </Text>
+      <div className={styles.videoTicketsSection}>
         <Columns className={styles.whatToExpect}>
           <div className={styles.left}>
-            <Text as="p" className={styles.p} fontSize="medium">
-              HalfStack events are fun, creative single-track, single-day events
-              focused on the possibilities of the JavaScript and web ecosystem.
-              Hosted in relaxed environments, HalfStack provides authentic, high
-              value experiences for all attendees.
-            </Text>
-            <Text as="p" className={styles.p} fontSize="medium">
-              The priority for HalfStack is the attendee experience, with great
-              food, drinks, sessions, swag, and community. Hosted by London’s
-              original JavaScript meetup group, HalfStack has run events in
-              Belgrade, Charlotte, London, Newquay, New York, Phoenix, and
-              Vienna!
-            </Text>
-            <Text as="p" className={styles.p} fontSize="medium">
-              HalfStack carefully curates sessions that inspire and inform the
-              audience in a highly interactive and entertaining manner. Each
-              HalfStack event provides an intimate feeling where each attendee
-              has time to meet one another.
-            </Text>
+            {trailer && <VideoEmbed src={trailer} title={`${name} Trailer`} />}
           </div>
           <Tito code={code} />
         </Columns>
-      </ExpectationPhotos>
+      </div>
+
+      <SessionsList sessions={sessions} />
+
+      <ExpectationPhotos />
+
+      {sponsors && <SponsorStacksList {...sponsors} slug={slug} />}
 
       <SecondaryBanner title="Call for Proposals and Fair Pricing">
         Visit our <Anchor href="/cfp">CfP page</Anchor> for more information on
@@ -107,10 +81,6 @@ export default function Event({
         <Anchor href="/pricing">Pricing page</Anchor> to understand what we
         charge and why.
       </SecondaryBanner>
-
-      <SessionsList sessions={sessions} />
-
-      {sponsors && <SponsorStacksList {...sponsors} slug={slug} />}
 
       {geolocation && <FindUs geolocation={geolocation} slug={slug} />}
 

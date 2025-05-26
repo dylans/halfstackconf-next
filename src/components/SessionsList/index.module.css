@@ -7,11 +7,31 @@
   text-align: center;
 }
 
+.p {
+  margin: 0 2rem 1.5rem;
+  max-width: 800px;
+  text-align: left;
+}
+
 .sessions {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  padding: 0 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 0 2rem;
+  list-style: none;
+}
+
+@media (width >= 768px) {
+  .sessions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 1200px) {
+  .sessions {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+  }
 }
 
 .sessionCard:nth-of-type(2n) {

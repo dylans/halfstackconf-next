@@ -1,23 +1,34 @@
-import React from "react";
 import Link from "next/link";
 import { Card } from "../Card";
 import styles from "./index.module.css";
 
-export function RecapVideo() {
+interface RecapVideoProps {
+  trailerUrl: string;
+  eventName: string;
+  linkText?: string;
+}
+
+export function RecapVideo({
+  trailerUrl,
+  eventName,
+  linkText = "Watch Video",
+}: RecapVideoProps) {
+  const watchUrl = trailerUrl.replace("/embed/", "/watch?v=");
+
   return (
     <Card
       as={Link}
-      bottom="Watch Video"
+      bottom={linkText}
       className={styles.videoCard}
       direction="left-to-right"
-      href="https://www.youtube.com/watch?v=RfXtq8EUSms"
+      href={watchUrl}
       target="_blank"
     >
       <div className={styles.videoWrapper}>
         <iframe
           className={styles.videoIframe}
-          src="https://www.youtube.com/embed/RfXtq8EUSms"
-          title="HalfStack Vienna Recap Video"
+          src={trailerUrl}
+          title={`${eventName} Trailer`}
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

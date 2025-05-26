@@ -18,10 +18,26 @@
   text-align: center;
 }
 
-@media (width < 700px) {
+@media (width < 900px) {
   .labeledIcons {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 1rem;
+  }
+
+  .labeledIcon {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .label {
+    text-align: left;
+  }
+
+  .icon {
+    width: 40px !important;
+    height: 40px !important;
+    flex-shrink: 0;
   }
 }

@@ -49,7 +49,10 @@ export default function Index({
             </p>
           </div>
         )}
-        <RecapVideo />
+        <RecapVideo
+          trailerUrl="https://www.youtube.com/embed/RfXtq8EUSms"
+          eventName="HalfStack Vienna"
+        />
         <ExpectationPhotos />
         <Newsletter />
         <SponsorStacksList {...sponsors} />

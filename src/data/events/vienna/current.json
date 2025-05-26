@@ -5,8 +5,7 @@
   "date": "12th of September 2025",
   "dateString": "2025-09-12",
   "description": [
-    "Up to 200 Front-end / Web / JavaScript / Mobile / IoT developers and decision makers",
-    "Mostly from the Vienna area, with some from throughout the Europe, the UK, and the US"
+    "Join up to 200 awesome JS and web people in the old Ankersaal bread factory for an amazing day of fun. A mix of Vienna and visiting presenters telling great stories, never vendor pitches, great food and drinks, and an afterparty with our infamous JS Pub Quiz and karaoke."
   ],
   "faqs": [
     [
@@ -52,9 +51,35 @@
       "title": "Nonviolent Communication in Software Testing"
     },
     {
+      "by": "Katrin Freihofner",
+      "description": [
+        "Master the art of efficient decision-making and turn slow, ineffective engineering decisions into a powerful competitive advantage."
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/katrin-freihofner/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "Eliminate the Engineering Department of Redundancy Department"
+    },
+    {
+      "by": "Nik Graf",
+      "description": [
+        "Offline-first apps for people who like their data like their coffee—local and strong."
+      ],
+      "socials": [
+        {
+          "href": "https://bsky.app/profile/nikgraf.bsky.social",
+          "icon": "bluesky"
+        }
+      ],
+      "title": "Mine, Cached, and Unclouded"
+    },
+    {
       "by": "Edouard Maleix",
       "description": [
-        "Before this clever time, we will share more closer to the event."
+        "We will share more closer to the event, but there will definitely be cats."
       ],
       "socials": [
         {

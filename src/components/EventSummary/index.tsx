@@ -13,7 +13,6 @@ export function EventSummary({
   afterparty,
   date,
   location,
-  trailer,
 }: EventSummaryProps) {
   return (
     <div className={styles.eventInfo}>
@@ -34,18 +33,6 @@ export function EventSummary({
             },
           ]}
         />
-        {trailer && (
-          <iframe
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className={styles.trailer}
-            frameBorder="0"
-            height="337"
-            src={trailer}
-            title="Event Trailer"
-            width="600"
-          ></iframe>
-        )}
       </BodyArea>
     </div>
   );

@@ -5,7 +5,7 @@
   margin-bottom: 3.5rem;
   position: relative;
   z-index: 1;
-  height: 100%;
+  background-color: transparent !important;
 }
 
 .videoWrapper {
@@ -14,6 +14,7 @@
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   width: 100%;
   overflow: hidden;
+  border-radius: 12px;
 }
 
 .videoIframe {

@@ -2,10 +2,23 @@
   background-image: var(--background-outline);
   background-position: center center;
   background-size: cover;
+  margin-top: -110px;
+  position: relative;
+  z-index: 10;
 }
 
 .contents {
-  padding: 5rem 2rem;
+  padding: 55px 2rem 2rem;
+}
+
+@media (width < 900px) {
+  .eventInfo {
+    margin-top: 0;
+  }
+
+  .contents {
+    padding: 2rem;
+  }
 }
 
 .trailer {

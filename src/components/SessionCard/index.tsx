@@ -66,10 +66,15 @@ export function SessionCard({
         )}
         direction={direction}
       >
-        <TintedImage
-          className={styles.image}
-          src={`/speakers/${hash}.jpg?v=8`}
-        />
+        <div className={styles.imageContainer}>
+          <Image
+            alt={`${by}`}
+            className={styles.image}
+            src={`/speakers/${hash}.jpg?v=8`}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
+        </div>
         <div className={styles.textContents}>
           <Text
             as={Anchor}
@@ -80,24 +85,18 @@ export function SessionCard({
           >
             {by}
           </Text>
-          <details className={styles.details} open={open}>
-            <Text
-              as="summary"
-              className={styles.summary}
-              onClick={setHashAndExpand}
-            >
+          <div className={styles.details}>
+            <Text as="h3" className={styles.title}>
               {title}
             </Text>
-            <Text as="p">
+            <Text as="p" className={styles.description}>
               {(description ?? defaultDescription).map((line, i) =>
-                line ? (
-                  <React.Fragment key={i}>{line} </React.Fragment>
-                ) : (
-                  <br key={i} />
-                )
+                line ? <span key={i}>{line} </span> : <br key={i} />
               )}
             </Text>
-          </details>
+          </div>
+        </div>
+        <div className={styles.redBar}>
           {socials && (
             <div className={styles.socialLinks}>
               {socials.map(({ icon, href }) => (
@@ -109,9 +108,9 @@ export function SessionCard({
                 >
                   <Image
                     alt={`${by}'s ${icon}`}
-                    height={32}
+                    height={20}
                     src={`/icons/${icon}.png?v=2`}
-                    width={32}
+                    width={20}
                   />
                 </Link>
               ))}
