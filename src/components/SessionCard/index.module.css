@@ -1,5 +1,6 @@
 .cardArea {
   position: relative;
+  height: 100%;
 }
 
 .hasher {
@@ -43,7 +44,7 @@
 
 .textContents {
   padding: 1rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 2.5rem;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -93,6 +94,8 @@
   color: var(--color-primary);
   margin: 0;
   flex: 1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .socialLinks {
