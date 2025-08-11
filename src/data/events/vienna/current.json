@@ -92,6 +92,23 @@
         }
       ],
       "title": "Purr-mission Denied: Securing Your App with ReBAC"
+    },
+    {
+      "by": "Michael Bromley",
+      "description": [
+        "Something I've been thinking about a lot recently. Simplicity is the most prized property we can strive towards when programming & building. high-level stuff I think would be relevant to any dev."
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/michael-bromley-ab1704156/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://bsky.app/profile/michlbrmly.dev",
+          "icon": "bluesky"
+        }
+      ],
+      "title": "The Importance of Simplicity"
     }
   ],
   "sponsors": {
