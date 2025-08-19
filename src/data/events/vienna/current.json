@@ -2,8 +2,8 @@
   "afterparty": "Afterparty (includes JS Pub Quiz!)",
   "catchphrase": "HalfStack Vienna will return in 2025 at Ankersaal near the Hauptbahnhof.",
   "code": "halfstack-vienna-2025",
-  "date": "12th of September 2025",
-  "dateString": "2025-09-12",
+  "date": "TBD 2026",
+  "dateString": "2026-TBD",
   "description": [
     "Join up to 200 awesome JS and web people in the old Ankersaal bread factory for an amazing day of fun. A mix of Vienna and visiting presenters telling great stories, never vendor pitches, great food and drinks, and an afterparty with our infamous JS Pub Quiz and karaoke."
   ],
@@ -11,23 +11,27 @@
     [
       "Where should I stay?",
       "If you're not from Vienna, note that HalfStack Vienna is near the HbF (main train station). Vienna has many hotels and Airbnb options that are well connected via u-bahn, trains, and buses."
+    ],
+    [
+      "When will HalfStack Vienna occur?",
+      "We've had to delay from 2025 to the Spring of 2026. We'll announce the exact date soon."
     ]
   ],
   "geolocation": [48.171534, 16.390938],
   "location": "Ankersaal, Absberggasse 27, 1100 Vienna",
-  "schedule": "Plan to arrive between 09:00 and 09:30 on the 12th of September & stay late for an amazing day of JavaScript goodness!",
+  "schedule": "Plan to arrive between 09:00 and 09:30 on the day of the event & stay late for an amazing day of JavaScript goodness!",
   "sessions": [
     {
       "by": "HalfStack",
       "description": [
-        "This is the start of our 2025 lineup. We will announce more presenters between now and the event."
+        "This is the start of our 2026 lineup. We will announce more presenters between now and the event."
       ],
       "title": "More to be revealed"
     },
     {
       "by": "Carmen Huidobro",
       "description": [
-        "We have been delighted by building your own Dance Dance Revolution game and more in the past. We will soon share what Carmen has in store for us in 2025!"
+        "We have been delighted by building your own Dance Dance Revolution game and more in the past. We will soon share what Carmen has in store for us in 2026!"
       ],
       "socials": [
         {
@@ -165,5 +169,5 @@
     ]
   },
   "trailer": "https://www.youtube.com/embed/RfXtq8EUSms",
-  "year": 2025
+  "year": 2026
 }
