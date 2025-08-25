@@ -17,14 +17,6 @@
   "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late! We have announced our first few presenters, with more to be revealed soon.",
   "sessions": [
     {
-      "by": "HalfStack",
-      "description": [""],
-      "socials": [
-        { "href": "https://twitter.com/halfstackconf", "icon": "twitter" }
-      ],
-      "title": "We have announced our first few presenters, with more to be revealed soon."
-    },
-    {
       "by": "Jo Franchetti",
       "description": [
         "Jo has amazed the HalfStack community with the LED Christmas jumper, LED mask captioning, and a serverless seance. This year Jo will delight us with their adventures in writing a procgen/generative roleplay game for the web."
@@ -53,6 +45,14 @@
         }
       ],
       "title": "Shift left on API client generation"
+    },
+    {
+      "by": "HalfStack",
+      "description": [""],
+      "socials": [
+        { "href": "https://twitter.com/halfstackconf", "icon": "twitter" }
+      ],
+      "title": "We have announced our first few presenters, with more to be revealed soon."
     }
   ],
   "sponsors": {
