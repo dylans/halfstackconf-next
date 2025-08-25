@@ -14,7 +14,7 @@
   ],
   "geolocation": [51.52036, -0.07319200000006276],
   "location": "93 Feet East, London",
-  "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late! These are our 2024 presenters. We'll announce the 2025 sessions throughout the year.",
+  "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late! We have announced our first few presenters, with more to be revealed soon.",
   "sessions": [
     {
       "by": "HalfStack",
@@ -22,230 +22,30 @@
       "socials": [
         { "href": "https://twitter.com/halfstackconf", "icon": "twitter" }
       ],
-      "title": "Our 2024 schedule is shown here, 2025 to be announced starting in August 2025"
-    },
-    {
-      "by": "Rowdy Rabouw",
-      "description": [
-        "Javascript is extremely versatile. We use it to build front-end, back-end, desktop, and mobile apps. But did you know you can even create music with it?!",
-        "Rowdy will show you how easy and fun it is to code your own music with the Web Audio API. As a bonus, he will throw in the Web MIDI API and Web Bluetooth API to really get the party started. Let’s turn up the bass!"
-      ],
-      "socials": [
-        {
-          "href": "https://www.linkedin.com/in/rowdyrabouw",
-          "icon": "linkedin"
-        },
-        {
-          "href": "https://rowdy.codes/",
-          "icon": "site"
-        },
-        {
-          "href": "https://x.com/rowdyrabouw",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Beats in the Browser"
-    },
-    {
-      "by": "Ramona Schwering",
-      "description": [
-        "Inspired by the game Plants vs. Zombies, Ramona will help us create a secure environment for your web application through test automation."
-      ],
-      "socials": [
-        {
-          "href": "https://www.linkedin.com/in/ramona-schwering/",
-          "icon": "linkedin"
-        },
-        {
-          "href": "https://www.ramona.codes/",
-          "icon": "site"
-        },
-        {
-          "href": "https://twitter.com/leichteckig",
-          "icon": "twitter"
-        },
-        {
-          "href": "https://github.com/leichteckig",
-          "icon": "github"
-        }
-      ],
-      "title": "Plants vs Thieves"
-    },
-    {
-      "by": "Nico Martin",
-      "description": [
-        "Machine learning models are interpreting the world and generative AI is taking over more and more of our tasks. What if we could use all this magic directly on our devices?",
-        "With WebAssembly and WebGPU, we have the tools to make all this possible. It's time to get ready for some unexpected examples of how to use AI in the browser!"
-      ],
-      "socials": [
-        {
-          "href": "https://www.linkedin.com/in/martinnico/",
-          "icon": "linkedin"
-        },
-        {
-          "href": "https://nico.dev/",
-          "icon": "site"
-        },
-        {
-          "href": "https://twitter.com/nic_o_martin",
-          "icon": "twitter"
-        },
-        {
-          "href": "https://github.com/nico-martin",
-          "icon": "github"
-        }
-      ],
-      "title": "From ML to LLM: on-device AI in the browser"
-    },
-    {
-      "by": "Carly Richmond",
-      "description": [
-        "Carly loves baking shows. And there's a particular one that circulates in social media that you need to determine if it's real or a cake.",
-        "She struggles to pick which one is the cake that leads her to build a model to better find the cakes using JavaScript.",
-        "In this talk, let's test your cake identification skills against the machine learning model Carly made and use the pre-existing models."
-      ],
-      "title": "Is it (F)ake?! Image Classification with TensorFlow.js"
-    },
-    {
-      "by": "Tiger Oakes and Daphne Oakes",
-      "description": [
-        "Have you hosted a murder mystery party but dreaded the paper puzzles and constant character confusion?",
-        "For Halloween, Tiger and Daphne tricked out their party with Node.js by building an electromagnetic chest, IoT-powered dramatic deaths, and a digital character sheet",
-        "They relied on JavaScript to enhance the immerse role-playing game and elevated their home into an escape room. Come learn how to use your programming skills to become the ultimate party host!"
-      ],
-      "socials": [
-        {
-          "href": "https://linkedin.com/in/tigeroakes",
-          "icon": "linkedin"
-        },
-        {
-          "href": "https://linkedin.com/in/thebetterdaphne/",
-          "icon": "linkedin"
-        },
-        {
-          "href": "https://tigeroakes.com/",
-          "icon": "site"
-        },
-        {
-          "href": "https://daphneoakes.com/",
-          "icon": "site"
-        },
-        {
-          "href": "https://twitter.com/Not_Woods",
-          "icon": "twitter"
-        },
-        {
-          "href": "https://twitter.com/thebetterdaphne",
-          "icon": "twitter"
-        },
-        {
-          "href": "https://github.com/NotWoods",
-          "icon": "github"
-        }
-      ],
-      "title": "How to automate your murder mystery: immersive games in your home"
-    },
-    {
-      "by": "Joe Hart",
-      "description": [
-        "Previously Joe has delighted HalfStack community with voice-based Flappy Bird, head-to-head Tetris, and other hilarious game adventures. We'll soon reveal Joe's session details."
-      ],
-      "title": "To be revealed"
+      "title": "We have announced our first few presenters, with more to be revealed soon."
     },
     {
       "by": "Jo Franchetti",
       "description": [
-        "Jo has amazed the HalfStack community with the LED Christmas jumper, LED mask captioning, and a serverless seance. We'll soon reveal Jo's session details."
+        "Jo has amazed the HalfStack community with the LED Christmas jumper, LED mask captioning, and a serverless seance. This year Jo will delight us with their adventures in writing a procgen/generative roleplay game for the web."
       ],
-      "title": "To be revealed"
+      "title": "RolePlAI"
     },
     {
-      "by": "Leo Riviera",
+      "by": "Rob Bateman",
       "description": [
-        "Leo will explore the Cult of Done Manifesto and how it relates to software and other creative endeavors."
+        "Rob has wowed us with his previous sessions over the past decade on building complex game engines and games in the web. This year Rob take us down the journey of circles. Circles are one of the most straightforward geometric shapes, containing a certain pleasing symmetry and simplicity adored by both artists and the natural world alike. They are also an incredibly useful programming tool, in everything from function derivation and sound reproduction, to places as unexpected as algorithmic drawing and compression routines. In this session we will explore some of the lesser known applications of the humble circle, and see just how deep the rabbit hole goes."
       ],
-      "socials": [
-        {
-          "href": "https://github.com/leoriviera",
-          "icon": "github"
-        },
-        {
-          "href": "https://linkedin.com/in/leoriviera",
-          "icon": "linkedin"
-        }
-      ],
-      "title": "The Cult of Done"
+      "title": "Circles All The Way Down"
     },
     {
-      "by": "Ana Rodrigues",
+      "by": "Ramona Schwering",
       "description": [
-        "Voice interfaces surround us daily, helping us with some tasks. But let's forget productivity for a second and experiment with our voice on the Web.",
-        "We will look at the current state of the Web Speech API, explore its potential in Karaoke, and have some fun!"
+        "Eduardo is a regular attendee at HalfStack, and will take the stage for the first time this year. Well, first time if you ignore his excellent karaoke at the afterparty last year. Generate once, use everywhere",
+        "Modern development often suffers from two fundamental misalignments: Frontend and Backend teams are racing toward the same feature, but from opposite directions, and almost always at different speeds. And boilerplate duplication efforts across multiple projects when syncing data between the Frontend and Backend.",
+        "This session explores how we can eliminate that friction by treating the API contract as the source of truth and using it to generate the frontend client SDK automatically that can be shared across your development ecosystem (Web, Mobile, Backoffice, clients, etc). We are talking about real client code: fully-typed, runtime-validated, error-handling-capable, built instantly from a single file."
       ],
-      "socials": [
-        { "href": "https://ohhelloana.blog/", "icon": "site" },
-        {
-          "href": "https://front-end.social/@anarodrigues",
-          "icon": "mastodon"
-        },
-        {
-          "href": "https://bsky.app/profile/ohhelloana.blog",
-          "icon": "bluesky"
-        }
-      ],
-      "title": "Unlocking Fun Experiments: Exploring the Web Speech API"
-    },
-    {
-      "by": "Christian Heilmann",
-      "description": ["To be revealed"],
-      "socials": [
-        { "href": "https://christianheilmann.com/", "icon": "site" },
-        { "href": "https://twitter.com/codepo8", "icon": "twitter" }
-      ],
-      "title": "To be revealed"
-    },
-    {
-      "by": "Rachel Nabors",
-      "description": [
-        "Rachel Lee Nabors makes their HalfStack debut! More details to be revealed soon"
-      ],
-      "socials": [
-        { "href": "https://nearestnabors.com/", "icon": "site" },
-        { "href": "https://x.com/rachelnabors", "icon": "twitter" }
-      ],
-      "title": "To be revealed"
-    },
-    {
-      "by": "Jonathan Fielding",
-      "description": [
-        "Jonathan has made plenty of mistakes in his growing mountain of side project fails. Learn from his failures, so you don't have to make the same ones, and maybe find some success in your own projects!"
-      ],
-      "socials": [
-        { "href": "https://twitter.com/JonthanFielding", "icon": "twitter" }
-      ],
-      "title": "Learning from Side Project Failures"
-    },
-    {
-      "by": "Fortune Ikechi",
-      "description": [
-        "Node.js is all about speed and efficiency, but its magic lies in the hidden world of the event loop. In this session, we will dive deep into the inner workings of the event loop, exploring how it processes tasks and the potential pitfalls that can hinder performance.",
-        "We will discuss strategies for optimizing event loop utilization, including best practices for asynchronous programming and avoiding blocking operations. By the end of this session, you will have a solid grasp of the event loop and be equipped with the knowledge to create Node.js applications that consistently deliver exceptional performance.",
-        "The session will be in quiz mode– we will be interacting with the audience asking quickfire questions- the first to answer wins a prize."
-      ],
-      "socials": [
-        { "href": "https://twitter.com/Codedog_", "icon": "twitter" }
-      ],
-      "title": "Can you tame the Node.js Event Loop?"
-    },
-    {
-      "by": "Niels Leenheer",
-      "description": [
-        "Niels has shown some of the most amazing web API with hardware demos over the years at HalfStack. He's back again to share something fun with us."
-      ],
-      "socials": [
-        { "href": "https://twitter.com/html5test", "icon": "twitter" }
-      ],
-      "title": "To be revealed"
+      "title": "Shift left on API client generation"
     }
   ],
   "sponsors": {
@@ -272,16 +72,6 @@
       }
     ],
     "half": [
-      {
-        "href": "https://www.tubular.io/",
-        "name": "Tubular",
-        "src": "/logos/tubular.svg"
-      },
-      {
-        "href": "https://wearedhd.com",
-        "name": "DHD",
-        "src": "/logos/dhd.svg"
-      },
       {
         "href": "https://openjsf.org/",
         "name": "Open JS Foundation",
