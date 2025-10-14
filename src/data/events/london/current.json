@@ -61,6 +61,36 @@
       "title": "Photoplop: The World’s Worst Image Editor™"
     },
     {
+      "by": "Leo Riviera",
+      "description": [
+        "This year, Leo Riviera takes to the HalfStack stage again to share how they smashed their first Principal Engineer role at a growing startup.",
+        "They'll take time to explore how their responsibilities have shifted from writing great code to enabling others to write great software, and what it means to balance autonomy with alignment.",
+        "Or something like that."
+      ],
+      "socials": [
+        {
+          "href": "https://github.com/leoriviera",
+          "icon": "github"
+        },
+        {
+          "href": "https://linkedin.com/in/leoriviera",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "How to Principal Engineer and Influence People"
+    },
+    {
+      "by": "Niels Leenheer",
+      "description": [
+        "From Lego Robots to Web Bluetooth Grocery Stores, Niels repeatedly delights us with his creative storytelling. This year Niels brings those skills to talk about Baseline",
+        "With the constant barrage of new features in CSS and JavaScript, it is quite a challenge to determine whether a feature is safe for use in your projects. It is great to be on the cutting edge of what is possible with the web platform, but we all want our project to just work - and not rely on a specific browser."
+      ],
+      "socials": [
+        { "href": "https://twitter.com/html5test", "icon": "twitter" }
+      ],
+      "title": "Baseline 2025: which features are safe to use on the web today?"
+    },
+    {
       "by": "HalfStack",
       "description": [""],
       "socials": [
