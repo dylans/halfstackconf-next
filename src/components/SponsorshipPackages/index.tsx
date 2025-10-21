@@ -3,6 +3,7 @@ import Image from "next/image";
 import { BodyArea } from "../BodyArea";
 import { InvertedArea } from "../InvertedArea";
 import { Text } from "../Text";
+import giftIcon from "./assets/gift.png";
 import styles from "./index.module.css";
 
 const packages = [
@@ -45,7 +46,7 @@ export const SponsorshipPackages = ({ currency = "$" }) => {
     <InvertedArea className={styles.sponsorshipPackages}>
       <BodyArea>
         <Text as="h2" className={styles.h2} fontSize="extra-large">
-          <Image alt="" height={96} src="/icons/gift.png" width={96} />
+          <Image alt="" height={96} src={giftIcon} width={96} />
           Packages
         </Text>
         <div className={styles.contents}>
