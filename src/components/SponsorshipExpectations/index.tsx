@@ -5,8 +5,8 @@ import { BodyArea } from "../BodyArea";
 import { InvertedArea } from "../InvertedArea";
 import { RoundLink } from "../RoundLink";
 import { Text } from "../Text";
-import whatToExpect1 from "./assets/whatToExpect1.jpg";
-import whatToExpect2 from "./assets/whatToExpect2.jpg";
+import whatToExpect1 from "./assets/whatToExpect3.jpg";
+import whatToExpect2 from "./assets/whatToExpect4.jpg";
 import styles from "./index.module.css";
 
 export interface SponsorshipExpectationsProps {
