@@ -98,6 +98,20 @@
       "title": "Vector Search: A New Hope"
     },
     {
+      "by": "Steven Goodwin",
+      "description": [
+        "With everyone being caught up with generative AI, it's probably time to look back and do something different - how can you compose music using your own creativity, and not an AI system that's a bad mimic of existing work?"
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/marquisdegeek/",
+          "icon": "linkedin"
+        },
+        { "href": "https://marquisdegeek.com/", "icon": "website" }
+      ],
+      "title": "Generating music with Open tools, APIs, and NO AI!"
+    },
+    {
       "by": "HalfStack",
       "description": [""],
       "socials": [
