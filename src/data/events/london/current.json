@@ -21,12 +21,23 @@
       "description": [
         "Jo has amazed the HalfStack community with the LED Christmas jumper, LED mask captioning, and a serverless seance. This year Jo will delight us with their adventures in writing a procgen/generative roleplay game for the web."
       ],
+      "socials": [
+        { "href": "https://x.com/ThisIsJoFrank", "icon": "twitter" },
+        {
+          "href": "https://www.linkedin.com/in/thisisjofrank/",
+          "icon": "linkedin"
+        }
+      ],
       "title": "RolePlAI"
     },
     {
       "by": "Rob Bateman",
       "description": [
         "Rob has wowed us with his previous sessions over the past decade on building complex game engines and games in the web. This year Rob take us down the journey of circles. Circles are one of the most straightforward geometric shapes, containing a certain pleasing symmetry and simplicity adored by both artists and the natural world alike. They are also an incredibly useful programming tool, in everything from function derivation and sound reproduction, to places as unexpected as algorithmic drawing and compression routines. In this session we will explore some of the lesser known applications of the humble circle, and see just how deep the rabbit hole goes."
+      ],
+      "socials": [
+        { "href": "https://x.com/robnet", "icon": "twitter" },
+        { "href": "https://www.linkedin.com/in/robnet/", "icon": "linkedin" }
       ],
       "title": "Circles All The Way Down"
     },
@@ -94,6 +105,18 @@
       "by": "Carly Richmond",
       "description": [
         "Join Carly your Jedi master on a trip across the galaxy to learn how vector search works and why it's an important tool that stops AI agents straying to the dark side and hallucinating."
+      ],
+      "socials": [
+        { "href": "https://x.com/CarlyLRichmond", "icon": "twitter" },
+        {
+          "href": "https://www.linkedin.com/in/carly-richmond/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://bsky.app/profile/carlyrichmond.bsky.social",
+          "icon": "bluesky"
+        },
+        { "href": "https://carlyrichmond.com/", "icon": "website" }
       ],
       "title": "Vector Search: A New Hope"
     },
