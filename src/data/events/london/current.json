@@ -136,11 +136,13 @@
     },
     {
       "by": "HalfStack",
-      "description": [""],
+      "description": [
+        "We have space for a few lightning sessions and a couple of surprises!"
+      ],
       "socials": [
         { "href": "https://twitter.com/halfstackconf", "icon": "twitter" }
       ],
-      "title": "We have announced our first few presenters, with more to be revealed soon."
+      "title": "Lightning Sessions and a Few Surprises"
     }
   ],
   "sponsors": {
