@@ -5,7 +5,7 @@
   "date": "January 30th 2026",
   "dateString": "2026-01-30",
   "description": [
-    "225 web and JS people filling the gorgeous Majestic Theatre in Gilbert, Arizona. A mix of local and visiting presenters from around the world, no vendor pitches, amazing food and beverages, plus our legendary afterparty with the JS Pub Quiz, karaoke, and retro tech movie."
+    "160 web and JS people filling the gorgeous Majestic Theatre in Gilbert, Arizona. A mix of local and visiting presenters from around the world, no vendor pitches, amazing food and beverages, plus our legendary afterparty with the JS Pub Quiz, karaoke, and retro tech movie."
   ],
   "faqs": [
     [
@@ -21,32 +21,15 @@
     {
       "by": "HalfStack",
       "description": [
-        "This is our 2025 lineup. We will announce our 2026 presenters closer to the event."
+        "This is our first wave of presenters for 2026. We will continue announcing more details as the event approaches"
       ],
 
-      "title": "2025 lineup"
-    },
-    {
-      "by": "Jen Looper",
-      "description": [
-        "Jen delivered some of the most amazing HalfStack talks in New York and online, and will join us in Phoenix to share a much different take on AI. Jen has done amazing work over the years supporting communities at Telerik, Microsoft and AWS, and is passionate about supporting new engineers in their quest to learn more about web technologies."
-      ],
-      "socials": [
-        {
-          "href": "https://www.jenlooper.com/",
-          "icon": "site"
-        },
-        {
-          "href": "https://x.com/jenlooper",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Cultural heritage and AI"
+      "title": "2026 lineup"
     },
     {
       "by": "William Blankenship",
       "description": [
-        "William wowed us in 2022 with an incredible JS & AI talk when that was a new topic. Last year William showed us the idea of building an easy to use peer-to-peer social network. We can't wait to reveal what William has planned for 2025!"
+        "William wowed us in 2022 with an incredible JS & AI talk when that was a new topic. Last year William showed us the idea of building an easy to use peer-to-peer social network. We can't wait to reveal what William has planned for 2026!"
       ],
       "socials": [
         {
@@ -59,8 +42,7 @@
     {
       "by": "Luis Montes",
       "description": [
-        "The Nintendo Game Boy brought significant joy to the world in the 1990s. Today, Anberic, Miyoo, Powkiddy and others are creating super affordable handheld retro gaming devices.",
-        "But any good web engineer would of course look at these devices and think, how do we create games for these devices using JS and web tech? Luis will show and tell us about this adventure!"
+        "Luis creates amazing ideas that combine gaming, emerging web standards, and hardware. We'll soon share what Luis has planned for HalfStack Phoenix!"
       ],
       "socials": [
         {
@@ -72,97 +54,29 @@
           "icon": "twitter"
         }
       ],
-      "title": "JS Games on Retro Handheld Devices"
-    },
-    {
-      "by": "Malak Janus",
-      "description": [
-        "While we've become exceptionally good at creating junior engineers through bootcamps and university programs, we're not as skilled at helping them grow into confident mid-level developers. This talk explores practical strategies for engineering teams to nurture junior developers, from implementing structured daily routines to embracing the \"absurdity\" of real-world software development constraints."
-      ],
-      "title": "How to Train Your Dragon"
-    },
-    {
-      "by": "Bekah Rice",
-      "description": [
-        "Bekah will do a music related performance... that's all we're saying for now!"
-      ],
       "title": "To be revealed"
     },
     {
-      "by": "Rene Rubalcava",
-      "description": [
-        "Rene has wowed us with his combination of maps, music, and data viz. We'll soon share what he's planning for HalfStack Phoenix!"
-      ],
+      "by": "Malak Janus",
+      "description": ["To be revealed"],
+      "title": "To be revealed"
+    },
+    {
+      "by": "Chris DeMars",
+      "description": ["To be revealed"],
       "socials": [
         {
-          "href": "https://bsky.app/profile/odoenet.bsky.social",
-          "icon": "bluesky"
-        },
-        {
-          "href": "https://twitter.com/odoenet",
+          "href": "https://twitter.com/saltnburnem",
           "icon": "twitter"
         }
-      ],
-      "title": "Map Along a Beat Path"
-    },
-    {
-      "by": "Luke Karrys",
-      "description": ["Find out more at HalfStack on January 31st!"],
-      "socials": [
-        {
-          "href": "https://bsky.app/profile/lukekarrys.com",
-          "icon": "bluesky"
-        }
-      ],
-      "title": "Performing Laparoscopic Lockfile Surgery"
-    },
-    {
-      "by": "Dylan Schiemann",
-      "description": [
-        "A look at how HalfStack founder Dylan Schiemann tackled a new frontier: An indoor soccer DIY project."
-      ],
-      "socials": [
-        {
-          "href": "https://bsky.app/profile/dylanks.bsky.social",
-          "icon": "bluesky"
-        },
-        {
-          "href": "https://x.com/dylans/",
-          "icon": "twitter"
-        }
-      ],
-      "title": "When JavaScript Engineers do DIY Projects"
-    },
-    {
-      "by": "Mariko Kosaka",
-      "description": [
-        "Knowing what new features and APIs you can safely use can be a challenge, will it work in the browsers you need to support? Baseline helps with that, giving developers a way to know whether a feature is ready to use. We will dive into what it means for a feature to be Baseline, and cover some of the key features now included in Baseline, helping you create more beautiful and capable sites and applications."
-      ],
-      "socials": [
-        {
-          "href": "https://www.linkedin.com/in/kosamari/",
-          "icon": "linkedin"
-        }
-      ],
-      "title": "Baseline - New web features you can use today"
-    },
-    {
-      "by": "Niels Leenheer",
-      "description": [
-        "Niels has shown some of the most amazing web API with hardware demos over the years at HalfStack. He's back again to share something fun with us."
-      ],
-      "socials": [
-        { "href": "https://twitter.com/html5test", "icon": "twitter" }
       ],
       "title": "To be revealed"
     },
     {
       "by": "Olu Ayandosu",
-      "description": [
-        "Embracing imperfection leads to real progress. There's a special kind of irony in watching smart people wait for the perfect moment to start. We optimize our lives down to the minute. Automating bills, planning schedules, finding the fastest route to work. Yet we hesitate at the edge of beginning something new."
-      ],
+      "description": ["To be revealed"],
       "socials": [{ "href": "https://x.com/0lu", "icon": "twitter" }],
-      "title": "Begin"
+      "title": "To be revealed"
     },
     {
       "by": "HalfStack",
