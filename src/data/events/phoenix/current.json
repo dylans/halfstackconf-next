@@ -63,14 +63,16 @@
     },
     {
       "by": "Chris DeMars",
-      "description": ["To be revealed"],
+      "description": [
+        "Have you ever rewatched a shaky video over and over trying to tell if something was a UFO? Chris has too and will explore a data-driven way to get to the bottom of it all, enhancing our understanding of close encounters."
+      ],
       "socials": [
         {
           "href": "https://twitter.com/saltnburnem",
           "icon": "twitter"
         }
       ],
-      "title": "To be revealed"
+      "title": "Close Encounters of the Data Kind: Exploring UFO Sightings"
     },
     {
       "by": "Olu Ayandosu",
