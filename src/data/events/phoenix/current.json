@@ -159,12 +159,17 @@
         "src": "/logos/vlt.svg"
       },
       {
-        "href": "http://iceddev.com/",
+        "href": "https://iceddev.com/",
         "name": "IcedDev",
         "src": "/logos/iceddev.svg"
       },
       {
-        "href": "http://frostails.com",
+        "href": "https://magnoliadevelopment.io/",
+        "name": "Magnolia Development",
+        "src": "/logos/magnolia.svg"
+      },
+      {
+        "href": "https://frostails.com",
         "name": "Frostails",
         "src": "/logos/frostails.png"
       },
