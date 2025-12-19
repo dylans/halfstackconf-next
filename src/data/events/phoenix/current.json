@@ -27,14 +27,12 @@
       "title": "2026 lineup"
     },
     {
-      "by": "William Blankenship",
-      "description": [
-        "William wowed us in 2022 with an incredible JS & AI talk when that was a new topic. Last year William showed us the idea of building an easy to use peer-to-peer social network. We can't wait to reveal what William has planned for 2026!"
-      ],
+      "by": "Luke Karrys",
+      "description": ["To be revealed"],
       "socials": [
         {
-          "href": "https://twitter.com/retrohack3r",
-          "icon": "twitter"
+          "href": "https://bsky.app/profile/lukekarrys.com",
+          "icon": "bluesky"
         }
       ],
       "title": "To be revealed"
