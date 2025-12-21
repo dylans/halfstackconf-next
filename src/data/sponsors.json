@@ -64,6 +64,11 @@
     },
     { "href": "https://nx.dev/", "name": "Nx", "src": "/logos/nx.svg" },
     {
+      "href": "https://arcjet.com/",
+      "name": "Arcjet",
+      "src": "/logos/arcjet.svg"
+    },
+    {
       "href": "https://platformatic.dev",
       "name": "Platformatic",
       "src": "/logos/platformatic.svg"
