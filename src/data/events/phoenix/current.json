@@ -40,7 +40,7 @@
     {
       "by": "Luis Montes",
       "description": [
-        "Luis creates amazing ideas that combine gaming, emerging web standards, and hardware. We'll soon share what Luis has planned for HalfStack Phoenix!"
+        "Luis creates amazing ideas that combine things that shouldn't be combined. You'll need to show up to find out more."
       ],
       "socials": [
         {
@@ -52,7 +52,7 @@
           "icon": "twitter"
         }
       ],
-      "title": "To be revealed"
+      "title": "Hold me closer Tony Danza"
     },
     {
       "by": "Malak Janus",
@@ -85,6 +85,14 @@
       ],
 
       "title": "The UI of AI"
+    },
+    {
+      "by": "Tim Gailey",
+      "description": [
+        "It's about making design about less hand-wavy and pretty, and more oriented and anchored in measurable outcomes that are specific and intentional"
+      ],
+
+      "title": "Design Decisions with Receipt"
     },
     {
       "by": "HalfStack",
