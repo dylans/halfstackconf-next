@@ -28,14 +28,16 @@
     },
     {
       "by": "Luke Karrys",
-      "description": ["To be revealed"],
+      "description": [
+        "Luke shares their adventures in building a Sonos NFC controller for their kids"
+      ],
       "socials": [
         {
           "href": "https://bsky.app/profile/lukekarrys.com",
           "icon": "bluesky"
         }
       ],
-      "title": "To be revealed"
+      "title": "Tap a card, play some music"
     },
     {
       "by": "Luis Montes",
