@@ -37,7 +37,7 @@
           "icon": "bluesky"
         }
       ],
-      "title": "Tap a card, play some music"
+      "title": "Making an NFC Jukebox (or Why I Like Building for Kids)"
     },
     {
       "by": "Luis Montes",
@@ -158,19 +158,9 @@
         "href": "https://www.sibi.ai/?utm_source=halfstack&utm_medium=sponsorship&utm_campaign=halfstack_conference_2025",
         "name": "Sibi",
         "src": "/logos/sibi.svg"
-      },
-      {
-        "href": "https://www.herodevs.com/",
-        "name": "HeroDevs",
-        "src": "/logos/herodevs.svg"
       }
     ],
     "half": [
-      {
-        "href": "https://www.vlt.sh/",
-        "name": "vlt",
-        "src": "/logos/vlt.svg"
-      },
       {
         "href": "https://iceddev.com/",
         "name": "IcedDev",
