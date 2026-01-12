@@ -1,7 +1,6 @@
 import clsx from "clsx";
 import Image from "next/image";
 
-import { Text } from "../Text";
 import whatToExpect1 from "./assets/whatToExpect1.jpg";
 import whatToExpect2 from "./assets/whatToExpect2.jpg";
 import styles from "./index.module.css";

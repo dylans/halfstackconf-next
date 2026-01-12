@@ -10,7 +10,6 @@ import { hashify } from "../../utils";
 import { Anchor } from "../Anchor";
 import { Card, CardDirection } from "../Card";
 import { Text } from "../Text";
-import { TintedImage } from "../TintedImage";
 import styles from "./index.module.css";
 
 const directionStyles = {
@@ -36,7 +35,7 @@ export function SessionCard({
   title,
 }: SessionCardProps) {
   const hash = hashify(by);
-  const [open, setOpen] = useState(false);
+  const [_open, setOpen] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -45,7 +44,7 @@ export function SessionCard({
     }
   }, [hash]);
 
-  const setHashAndExpand = (event: React.SyntheticEvent) => {
+  const _setHashAndExpand = (event: React.SyntheticEvent) => {
     setOpen((previous) => !previous);
 
     void router.push("#" + hash);
@@ -70,9 +69,9 @@ export function SessionCard({
           <Image
             alt={`${by}`}
             className={styles.image}
-            src={`/speakers/${hash}.jpg?v=8`}
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            src={`/speakers/${hash}.jpg?v=8`}
           />
         </div>
         <div className={styles.textContents}>

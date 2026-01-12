@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 
 import { ExpectationPhotos } from "~/components/ExpectationPhotos";
 import { Footer } from "~/components/Footer";
@@ -13,7 +12,6 @@ import { TextLink } from "~/components/TextLink";
 import { eventOrder } from "~/data/events";
 
 import { getEventDataCurrentAndDefault } from "../data";
-import { EventDataJoined } from "../data/types";
 import { ReturnedProps } from "../utils";
 
 const CURRENT_YEAR = new Date().getFullYear();
@@ -43,15 +41,17 @@ export default function Index({
               color: "var(--color-primary)",
             }}
           >
-            <p>We're finalizing our upcoming events. Please check back soon!</p>
+            <p>
+              We&apos;re finalizing our upcoming events. Please check back soon!
+            </p>
             <p>
               <TextLink href="/pastevents">View past events</TextLink>
             </p>
           </div>
         )}
         <RecapVideo
-          trailerUrl="https://www.youtube.com/embed/RfXtq8EUSms"
           eventName="HalfStack Vienna"
+          trailerUrl="https://www.youtube.com/embed/RfXtq8EUSms"
         />
         <ExpectationPhotos />
         <Newsletter />

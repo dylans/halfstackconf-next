@@ -2,8 +2,6 @@ import { EventDataJoined } from "~/data/types";
 
 import { EventCard } from "../../EventCard";
 import { EventTheme } from "../../EventTheme";
-import { TextLink } from "../../TextLink";
-import { Text } from "../../Text";
 import styles from "./index.module.css";
 
 export interface EventsListProps {

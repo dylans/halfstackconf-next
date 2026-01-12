@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 
 import { Anchor } from "~/components/Anchor";
 import { Banner } from "~/components/Banner";
@@ -11,13 +10,13 @@ import { EventSummary } from "~/components/EventSummary";
 import { EventTheme } from "~/components/EventTheme";
 import { ExpectationPhotos } from "~/components/ExpectationPhotos";
 import { FindUs } from "~/components/FindUs";
-import { VideoEmbed } from "~/components/VideoEmbed";
 import { SecondaryBanner } from "~/components/SecondaryBanner";
 import { SessionsList } from "~/components/SessionsList";
 import { SplitPromo } from "~/components/SplitPromo";
 import { SponsorStacksList } from "~/components/SponsorStacksList";
 import { Text } from "~/components/Text";
 import { Tito } from "~/components/TicketsOffer/Tito";
+import { VideoEmbed } from "~/components/VideoEmbed";
 
 import { getEventDataCurrentAndDefault, getEvents } from "../../data";
 import { ReturnedParams, ReturnedProps } from "../../utils";

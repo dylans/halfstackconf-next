@@ -62,12 +62,12 @@ export function useTitoWidget(event: string) {
           <p>
             <a
               href={`https://ti.to/${event}`}
-              target="_blank"
               rel="noopener noreferrer"
               style={{
                 color: "var(--color-primary)",
                 textDecoration: "underline",
               }}
+              target="_blank"
             >
               Buy tickets directly on Tito →
             </a>

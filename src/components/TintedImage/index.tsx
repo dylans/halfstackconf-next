@@ -5,11 +5,11 @@ import styles from "./index.module.css";
 
 export interface TintedImageProps {
   className?: string;
-  src: string;
-  sizes?: string;
-  width?: number;
-  height?: number;
   fill?: boolean;
+  height?: number;
+  sizes?: string;
+  src: string;
+  width?: number;
 }
 
 export function TintedImage({
@@ -30,12 +30,12 @@ export function TintedImage({
           alt=""
           className={styles.image}
           fill={fill}
-          width={!fill ? width : undefined}
           height={!fill ? height : undefined}
           onError={() => setErrored(true)}
           quality={100}
           sizes={sizes}
           src={src}
+          width={!fill ? width : undefined}
         />
       )}
     </div>

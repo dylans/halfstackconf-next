@@ -1,5 +1,4 @@
 import { Banner } from "../../Banner";
-import { BannerText } from "../../BannerText";
 import { Text } from "../../Text";
 import styles from "./index.module.css";
 

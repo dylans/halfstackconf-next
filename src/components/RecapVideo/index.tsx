@@ -1,11 +1,12 @@
 import Link from "next/link";
+
 import { Card } from "../Card";
 import styles from "./index.module.css";
 
 interface RecapVideoProps {
-  trailerUrl: string;
   eventName: string;
   linkText?: string;
+  trailerUrl: string;
 }
 
 export function RecapVideo({
@@ -26,12 +27,12 @@ export function RecapVideo({
     >
       <div className={styles.videoWrapper}>
         <iframe
-          className={styles.videoIframe}
-          src={trailerUrl}
-          title={`${eventName} Trailer`}
-          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
+          className={styles.videoIframe}
+          frameBorder="0"
+          src={trailerUrl}
+          title={`${eventName} Trailer`}
         ></iframe>
       </div>
     </Card>
