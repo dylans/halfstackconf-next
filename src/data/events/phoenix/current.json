@@ -99,6 +99,14 @@
       "title": "Design Decisions with Receipt"
     },
     {
+      "by": "Alex Monahan",
+      "description": [
+        "Alex will show us how to render incredibly responsive data visualizations in the browser and much more."
+      ],
+
+      "title": "Open source libraries for 200 FPS in-browser data visualization"
+    },
+    {
       "by": "HalfStack",
       "description": [
         "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz and prizes! Then we'll have dinner and watch a retro tech movie, and we'll conclude with karaoke!"
