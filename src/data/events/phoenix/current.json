@@ -123,19 +123,9 @@
   "sponsors": {
     "community": [
       {
-        "href": "https://www.meetup.com/Phoenix-TypeScript/",
-        "name": "PHX TS",
-        "src": "/logos/phxts.svg"
-      },
-      {
         "href": "https://www.meetup.com/Phoenix-JavaScript/",
         "name": "PHX JS",
         "src": "/logos/phxjs.svg"
-      },
-      {
-        "href": "https://www.thecoderschool.com/locations/gilbert/",
-        "name": "theCoderSchool Gilbert",
-        "src": "/logos/thecoderschool.png"
       },
       {
         "href": "https://codebar.io/",
