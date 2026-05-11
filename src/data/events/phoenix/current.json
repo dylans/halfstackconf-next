@@ -1,9 +1,9 @@
 {
   "afterparty": "Afterparty (includes Retro Tech Movie!)",
-  "catchphrase": "HalfStack Phoenix returns in early 2026 at the Majestic Theater Gilbert.",
-  "code": "halfstack-phoenix-2026",
-  "date": "January 30th 2026",
-  "dateString": "2026-01-30",
+  "catchphrase": "HalfStack Phoenix returns in early 2027 at the Majestic Theater Gilbert.",
+  "code": "halfstack-phoenix-2027",
+  "date": "January TBD, 2027",
+  "dateString": "2027-01-31",
   "description": [
     "160 web and JS people filling the gorgeous Majestic Theatre in Gilbert, Arizona. A mix of local and visiting presenters from around the world, no vendor pitches, amazing food and beverages, plus our legendary afterparty with the JS Pub Quiz, karaoke, and retro tech movie."
   ],
@@ -11,113 +11,22 @@
     [
       "Where should I stay?",
       "If you're not from the Phoenix area, note that Phoenix is very spread out, and we picked the Majestic Theatre because it's an amazing experience, but it is not centrally located. There are 2 hotels within a 2 minute walk of the venue as well as Airbnb options."
+    ],
+    [
+      "When will HalfStack Phoenix occur?",
+      "HalfStack Phoenix 2027 is tentatively scheduled for January 2027. We will announce the exact date soon."
     ]
   ],
   "geolocation": [33.317108, -111.688454],
   "location": "Majestic Theater, Gilbert",
-  "packet": "https://app.livingspec.com/accept-invitation?code=7ca49d8f-e83e-4f76-9f5b-96cbab5cd884",
   "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz and movie afterparty. Plan to arrive between 9:00-9:45am and stay late!",
   "sessions": [
     {
       "by": "HalfStack",
       "description": [
-        "This is our first wave of presenters for 2026. We will continue announcing more details as the event approaches"
+        "This is the start of our 2027 lineup. We will continue announcing more details as the event approaches."
       ],
-
-      "title": "2026 lineup"
-    },
-    {
-      "by": "Luke Karrys",
-      "description": [
-        "Luke shares their adventures in building a Sonos NFC controller for their kids"
-      ],
-      "socials": [
-        {
-          "href": "https://bsky.app/profile/lukekarrys.com",
-          "icon": "bluesky"
-        }
-      ],
-      "title": "Making an NFC Jukebox (or Why I Like Building for Kids)"
-    },
-    {
-      "by": "Luis Montes",
-      "description": [
-        "Luis creates amazing ideas that combine things that shouldn't be combined. You'll need to show up to find out more."
-      ],
-      "socials": [
-        {
-          "href": "https://bsky.app/profile/monteslu.com",
-          "icon": "bluesky"
-        },
-        {
-          "href": "https://twitter.com/monteslu",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Hold me closer Tony Danza"
-    },
-    {
-      "by": "Malak Janus",
-      "description": [
-        "Malak has wowed us over the years with their sessions on accessibility and design. Prepare to be amazed again."
-      ],
-      "title": "Accessibility is still more than screenreaders"
-    },
-    {
-      "by": "Chris DeMars",
-      "description": [
-        "Have you ever rewatched a shaky video over and over trying to tell if something was a UFO? Chris has too and will explore a data-driven way to get to the bottom of it all, enhancing our understanding of close encounters."
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/saltnburnem",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Close Encounters of the Data Kind: Exploring UFO Sightings"
-    },
-    {
-      "by": "Olu Ayandosu",
-      "description": ["To be revealed"],
-      "socials": [{ "href": "https://x.com/0lu", "icon": "twitter" }],
-      "title": "To be revealed"
-    },
-    {
-      "by": "Mike Wolfson",
-      "description": [
-        "First, the mobile revolution forced us to master touch. Now, AI is driving the next tectonic shift. This session explores the emerging conversational and adaptive UIs that move beyond static screens to dynamic dialogue."
-      ],
-
-      "title": "The UI of AI"
-    },
-    {
-      "by": "Tim Gailey",
-      "description": [
-        "It's about making design about less hand-wavy and pretty, and more oriented and anchored in measurable outcomes that are specific and intentional"
-      ],
-
-      "title": "Design Decisions with Receipt"
-    },
-    {
-      "by": "Alex Monahan",
-      "description": [
-        "Alex will show us how to render incredibly responsive data visualizations in the browser and much more."
-      ],
-
-      "title": "Open source libraries for 200 FPS in-browser data visualization"
-    },
-    {
-      "by": "HalfStack",
-      "description": [
-        "We will kick off the afterparty with Battledecks, a tech improv game. You have 5 minutes to pitch a fake tech startup from a randomly generated slide deck. Then we'll proceed in teams with our unique JS Pub Quiz and prizes! Then we'll have dinner and watch a retro tech movie, and we'll conclude with karaoke!"
-      ],
-      "socials": [
-        {
-          "href": "https://twitter.com/halfstackconf",
-          "icon": "twitter"
-        }
-      ],
-      "title": "Afterparty (Dinner, JS Pub Quiz, Retro Tech movie, and Karaoke)"
+      "title": "2027 lineup"
     }
   ],
   "sponsors": {
@@ -188,6 +97,5 @@
       }
     ]
   },
-  "trailer": "https://www.youtube.com/embed/F2EsnpOQnE4",
-  "year": 2026
+  "year": 2027
 }
