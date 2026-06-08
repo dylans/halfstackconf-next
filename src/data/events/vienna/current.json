@@ -146,6 +146,11 @@
         "href": "https://www.it-schulungen.com/",
         "name": "IT-Schulungen",
         "src": "/logos/itschulungen.png"
+      },
+      {
+        "href": "https://conf.zurichjs.com/?utm_source=halfstack-vienna&utm_medium=partner&utm_campaign=zurichjs-conf-2026",
+        "name": "ZurichJS Conf",
+        "src": "/logos/zurichjsconf.svg"
       }
     ],
     "featured": [
@@ -163,11 +168,6 @@
         "href": "https://platogo.com/",
         "name": "Platogo",
         "src": "/logos/platogo.svg"
-      },
-      {
-        "href": "https://sentry.io/welcome",
-        "name": "Sentry",
-        "src": "/logos/sentry.svg"
       }
     ],
     "half": [
