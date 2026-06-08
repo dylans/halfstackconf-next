@@ -40,19 +40,6 @@
       "title": "The Feature that Didn't Need to be Smart"
     },
     {
-      "by": "Maros Kutschy",
-      "description": [
-        "Maros will guide us through the principles of Nonviolent Communication and demonstrate how we can apply them to enhance our daily work."
-      ],
-      "socials": [
-        {
-          "href": "https://www.linkedin.com/in/maros-kutschy-83100878/",
-          "icon": "linkedin"
-        }
-      ],
-      "title": "Nonviolent Communication in Software Testing"
-    },
-    {
       "by": "Niels Leenheer",
       "description": [
         "Let's take CSS where it has not gone before. What would happen if you took the classic game DOOM and tried to recreate it in CSS? Every wall, floor, ceiling, barrel, imp and fireball is a <div>. Thousands of them in total, all positioned in 3D space using CSS 3D transforms that will almost bring browsers to their knees. Sprinkle on a good dose of CSS trigonometry functions, animations, filters, clipping paths, animations and transitions… and a bit of JavaScript too, and you'll get a fully playable game – even with network multiplayer support."
