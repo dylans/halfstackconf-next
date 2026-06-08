@@ -27,7 +27,9 @@
     {
       "by": "Carmen Huidobro",
       "description": [
-        "We have been delighted by building your own Dance Dance Revolution game and more in the past. We will soon share what Carmen has in store for us in 2026!"
+        "A more and more common story: You're asked to add AI to a product. Not a chatbot. Not an AI platform. Just one small feature that needed to be smarter.",
+        "In this session Carmen shares practical lessons from shipping a small LLM feature in production: how to keep the architecture simple, how to set guardrails, how to ethically communicate with your values, and how to decide when AI is actually the right tool.",
+        "This isn't the first time a big technology hype catches up to us and might creep us out at first, and this session will look at this history, too."
       ],
       "socials": [
         {
@@ -35,7 +37,7 @@
           "icon": "bluesky"
         }
       ],
-      "title": "To be revealed"
+      "title": "The Feature that Didn't Need to be Smart"
     },
     {
       "by": "Maros Kutschy",
@@ -51,17 +53,17 @@
       "title": "Nonviolent Communication in Software Testing"
     },
     {
-      "by": "Katrin Freihofner",
+      "by": "Niels Leenheer",
       "description": [
-        "Master the art of efficient decision-making and turn slow, ineffective engineering decisions into a powerful competitive advantage."
+        "Let's take CSS where it has not gone before. What would happen if you took the classic game DOOM and tried to recreate it in CSS? Every wall, floor, ceiling, barrel, imp and fireball is a <div>. Thousands of them in total, all positioned in 3D space using CSS 3D transforms that will almost bring browsers to their knees. Sprinkle on a good dose of CSS trigonometry functions, animations, filters, clipping paths, animations and transitions… and a bit of JavaScript too, and you'll get a fully playable game – even with network multiplayer support."
       ],
       "socials": [
         {
-          "href": "https://www.linkedin.com/in/katrin-freihofner/",
-          "icon": "linkedin"
+          "href": "https://twitter.com/html5test",
+          "icon": "twitter"
         }
       ],
-      "title": "Eliminate the Engineering Department of Redundancy Department"
+      "title": "CSS is DOOMed!"
     },
     {
       "by": "Nik Graf",
@@ -109,6 +111,23 @@
         }
       ],
       "title": "The Importance of Simplicity"
+    },
+    {
+      "by": "Eduardo Aparicio Cardenes",
+      "description": [
+        "Once upon a time, a little iFrame dreamed of becoming a mighty platform. Like a mammoth with strange companions, it first faced the 'manual deployment' beast, then wrestled with QA until outside-in testing arrived. A monorepo brought order to chaos. And finally, like a leap off a building, it soared with performance. Let's dive into that journey, with fewer mishaps!"
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/byeduardoac",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/eacardenes/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "The Little iFrame That Wanted to Become the Biggest Payment Platform"
     }
   ],
   "sponsors": {
