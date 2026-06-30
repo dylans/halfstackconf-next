@@ -10,5 +10,9 @@ export type ReturnedProps<Getter extends (...args: never) => unknown> = Awaited<
   : never;
 
 export function hashify(text: string) {
-  return text.toLowerCase().replaceAll(" ", "-");
+  return text
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .replaceAll(" ", "-");
 }

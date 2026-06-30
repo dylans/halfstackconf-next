@@ -25,6 +25,34 @@
       "title": "More to be revealed"
     },
     {
+      "by": "Adrián Bolonio",
+      "description": [
+        "Imagine a game where you don't need a screen to play, that's exactly The A11y Game.",
+        "The A11y Game is a screen-reader-first mystery adventure, where the screen reader support isn't an afterthought, it's the platform and the main character. You, a blind detective navigate rooms through sensory description, examine objects by 'touch' and 'smell', catch liars in the silences between words. The pixel art is a decorative overlay you can switch off without losing a single clue.",
+        "Adrián digs into what's under the hood: a decoupled engine with a data-driven episode registry. Full keyboard support, ARIA live narration, focus-managed transitions, and multilingual content.",
+        "Come for the murder mystery, stay for the semantics, the focus management, the architecture of the game, and why the screen reader deserves to be designed for, not designed around."
+      ],
+      "socials": [
+        {
+          "href": "http://adrianbolonio.com/",
+          "icon": "site"
+        },
+        {
+          "href": "https://twitter.com/bolonio",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://github.com/bolonio",
+          "icon": "github"
+        },
+        {
+          "href": "https://www.linkedin.com/in/adrianbolonio/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "The A11y Game: when the screen reader is the main character"
+    },
+    {
       "by": "Carmen Huidobro",
       "description": [
         "A more and more common story: You're asked to add AI to a product. Not a chatbot. Not an AI platform. Just one small feature that needed to be smarter.",
