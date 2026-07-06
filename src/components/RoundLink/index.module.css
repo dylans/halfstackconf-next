@@ -1,13 +1,13 @@
 .roundLink {
   background: var(--color-bright);
   border-radius: 9999px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 10%);
   color: var(--color-dark);
   display: inline-block;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
   transition: var(--transition-medium) all;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .roundLink.sizeSmall {
@@ -28,7 +28,7 @@
 .roundLink:hover,
 a:hover .roundLink {
   background-color: var(--color-subtle);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 15px rgb(0 0 0 / 15%);
   transform: translateY(-2px);
 }
 

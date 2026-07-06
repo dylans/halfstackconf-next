@@ -10,17 +10,17 @@
 .p {
   margin: 0 auto 1.5rem;
   max-width: 1200px;
-  text-align: center;
   padding: 0 2rem;
+  text-align: center;
 }
 
 .sessions {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  padding: 0 2rem;
-  list-style: none;
   align-items: stretch;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+  list-style: none;
+  padding: 0 2rem;
 }
 
 @media (width >= 768px) {

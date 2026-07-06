@@ -21,11 +21,11 @@
 }
 
 .heading {
+  color: var(--color-primary);
   font-size: var(--font-size-large);
   margin: 1rem 0 1.5rem;
   text-align: center;
   text-transform: uppercase;
-  color: var(--color-primary);
 }
 
 .h2 {
@@ -44,18 +44,18 @@
   gap: 1rem;
   justify-content: center;
   margin: 0 auto 0.5rem;
+  max-width: 1000px;
   user-select: none;
   width: 100%;
-  max-width: 1000px;
 }
 
 .photoArea {
   border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
   height: 10rem;
   overflow: hidden;
   position: relative;
   width: 100%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .photo {

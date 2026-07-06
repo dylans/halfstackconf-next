@@ -26,8 +26,8 @@
   }
 
   .labeledIcon {
-    flex-direction: row;
     align-items: center;
+    flex-direction: row;
     gap: 1rem;
   }
 
@@ -36,8 +36,8 @@
   }
 
   .icon {
-    width: 40px !important;
-    height: 40px !important;
     flex-shrink: 0;
+    height: 40px !important;
+    width: 40px !important;
   }
 }

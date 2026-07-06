@@ -1,19 +1,19 @@
 .videoWrapper {
-  position: relative;
-  width: 100%;
-  max-width: 100vw;
-  min-height: 333px;
   aspect-ratio: 16 / 9;
-  overflow: hidden;
   border-radius: 12px;
   box-sizing: border-box;
+  max-width: 100vw;
+  min-height: 333px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
 
 .videoIframe {
+  border-radius: 12px;
+  height: 100%;
+  left: 0;
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
-  border-radius: 12px;
 }
