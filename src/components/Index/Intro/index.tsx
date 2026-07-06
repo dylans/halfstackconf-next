@@ -6,7 +6,7 @@ export function Intro() {
   return (
     <>
       <Banner size="medium" vibrant>
-        <Text className={styles.tagline}>
+        <Text as="h1" className={styles.tagline}>
           Fun, creative events with engaging topics for awesome web and JS
           people
         </Text>

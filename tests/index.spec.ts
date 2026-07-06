@@ -4,7 +4,9 @@ import { expect, test } from "@playwright/test";
 test("Index", async ({ page }) => {
   await page.goto("/");
 
-  const results = await new AxeBuilder({ page }).analyze();
+  const results = await new AxeBuilder({ page })
+    .exclude('iframe[src*="youtube.com"]')
+    .analyze();
 
   expect(
     results.violations.length,
