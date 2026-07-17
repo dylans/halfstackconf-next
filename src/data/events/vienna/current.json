@@ -130,6 +130,32 @@
         }
       ],
       "title": "The Little iFrame That Wanted to Become the Biggest Payment Platform"
+    },
+    {
+      "by": "Ramona Schwering",
+      "description": [
+        "For many developers, learning about security on the web can seem scary or boring. However, this is not one of those sessions - Ramona will draw her sketch notes on secure web development live on stage, together with you. ❤️",
+        "In this visual session, Ramona will use live sketch-noting to imagine your app as a masterpiece in an art gallery... or at least a handy security sketchbook. She'll draw villains like XSS and Broken Access Control, and then you'll sketch the defenses to stop them together! You'll leave with a sketch note handout drawn live on stage and practical steps for making your website both beautiful and bulletproof. Let's do this!"
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/ramona-schwering/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://www.ramona.codes/",
+          "icon": "site"
+        },
+        {
+          "href": "https://twitter.com/leichteckig",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://github.com/leichteckig",
+          "icon": "github"
+        }
+      ],
+      "title": "Artful Defense: Let's Sketch Web Security"
     }
   ],
   "sponsors": {
