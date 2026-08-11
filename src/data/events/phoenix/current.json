@@ -15,7 +15,7 @@
   ],
   "geolocation": [33.317108, -111.688454],
   "location": "Majestic Theater, Gilbert",
-  "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz and movie afterparty. Plan to arrive between 9:00-9:45am and stay late!",
+  "schedule": "HalfStack starts around 10am, includes approximately 8-10 sessions, lightning talks from the audience, breaks, lunch, dinner, and the JS Pub Quiz and movie afterparty. Plan to arrive between 9:00-9:45am and stay late!",
   "sessions": [
     {
       "by": "HalfStack",
@@ -23,6 +23,19 @@
         "Presenters for HalfStack Phoenix 2027 will be announced soon."
       ],
       "title": "2027 lineup coming soon"
+    },
+    {
+      "by": "Lightning",
+      "description": [
+        "Want to share something you've been working on lately? Spend 2-3 minutes on stage sharing your project! First-come, first-served sign-ups on the day of the event."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/halfstackconf",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Lightning Talks"
     }
   ],
   "sponsors": {
