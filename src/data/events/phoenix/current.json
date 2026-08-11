@@ -1,9 +1,9 @@
 {
   "afterparty": "Afterparty (includes Retro Tech Movie!)",
-  "catchphrase": "HalfStack Phoenix returns in early 2027 at the Majestic Theater Gilbert.",
+  "catchphrase": "HalfStack Phoenix returns February 5th, 2027 at the Majestic Theater Gilbert.",
   "code": "halfstack-phoenix-2027",
-  "date": "January TBD, 2027",
-  "dateString": "2027-01-31",
+  "date": "February 5th 2027",
+  "dateString": "2027-02-05",
   "description": [
     "160 web and JS people filling the gorgeous Majestic Theatre in Gilbert, Arizona. A mix of local and visiting presenters from around the world, no vendor pitches, amazing food and beverages, plus our legendary afterparty with the JS Pub Quiz, karaoke, and retro tech movie."
   ],
@@ -11,10 +11,6 @@
     [
       "Where should I stay?",
       "If you're not from the Phoenix area, note that Phoenix is very spread out, and we picked the Majestic Theatre because it's an amazing experience, but it is not centrally located. There are 2 hotels within a 2 minute walk of the venue as well as Airbnb options."
-    ],
-    [
-      "When will HalfStack Phoenix occur?",
-      "HalfStack Phoenix 2027 is tentatively scheduled for January 2027. We will announce the exact date soon."
     ]
   ],
   "geolocation": [33.317108, -111.688454],
@@ -24,9 +20,9 @@
     {
       "by": "HalfStack",
       "description": [
-        "This is the start of our 2027 lineup. We will continue announcing more details as the event approaches."
+        "Presenters for HalfStack Phoenix 2027 will be announced soon."
       ],
-      "title": "2027 lineup"
+      "title": "2027 lineup coming soon"
     }
   ],
   "sponsors": {
