@@ -88,6 +88,7 @@ export interface EventVideo {
 
 export interface EventDataHistorical extends EventDataBase {
   otherEvents?: Record<EventSlug, number[]>;
+  sessions?: EventSession[];
   videos?: EventVideo[];
 }
 

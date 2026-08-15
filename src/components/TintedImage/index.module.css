@@ -1,8 +1,12 @@
 .overlay {
   background: rgb(0 0 255 / 20%);
   height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
   user-select: none;
   width: 100%;
+  z-index: 1;
 }
 
 .image {

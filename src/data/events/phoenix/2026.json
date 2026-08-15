@@ -19,14 +19,6 @@
   "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz and movie afterparty. Plan to arrive between 9:00-9:45am and stay late!",
   "sessions": [
     {
-      "by": "HalfStack",
-      "description": [
-        "This is our first wave of presenters for 2026. We will continue announcing more details as the event approaches"
-      ],
-
-      "title": "2026 lineup"
-    },
-    {
       "by": "Luke Karrys",
       "description": [
         "Luke shares their adventures in building a Sonos NFC controller for their kids"
@@ -79,7 +71,12 @@
     {
       "by": "Olu Ayandosu",
       "description": ["To be revealed"],
-      "socials": [{ "href": "https://x.com/0lu", "icon": "twitter" }],
+      "socials": [
+        {
+          "href": "https://x.com/0lu",
+          "icon": "twitter"
+        }
+      ],
       "title": "To be revealed"
     },
     {
@@ -87,7 +84,6 @@
       "description": [
         "First, the mobile revolution forced us to master touch. Now, AI is driving the next tectonic shift. This session explores the emerging conversational and adaptive UIs that move beyond static screens to dynamic dialogue."
       ],
-
       "title": "The UI of AI"
     },
     {
@@ -95,7 +91,6 @@
       "description": [
         "It's about making design about less hand-wavy and pretty, and more oriented and anchored in measurable outcomes that are specific and intentional"
       ],
-
       "title": "Design Decisions with Receipt"
     },
     {
@@ -103,8 +98,12 @@
       "description": [
         "Alex will show us how to render incredibly responsive data visualizations in the browser and much more."
       ],
-
       "title": "Open source libraries for 200 FPS in-browser data visualization"
+    },
+    {
+      "by": "Aaron Murray",
+      "description": ["Aaron explores prompt oriented development."],
+      "title": "Prompt Oriented Development"
     },
     {
       "by": "HalfStack",
@@ -189,5 +188,55 @@
     ]
   },
   "trailer": "https://www.youtube.com/embed/F2EsnpOQnE4",
+  "videos": [
+    {
+      "by": "Luke Karrys",
+      "href": "https://www.youtube.com/watch?v=q_-aXHa4EJI",
+      "thumbnail": "/speakers/luke-karrys.jpg",
+      "title": "Making an NFC Jukebox (or Why I Like Building for Kids)"
+    },
+    {
+      "by": "Luis Montes",
+      "href": "https://www.youtube.com/watch?v=iziFDm7UEok",
+      "thumbnail": "/speakers/luis-montes.jpg",
+      "title": "Hold me closer Tony Danza"
+    },
+    {
+      "by": "Malak Janus",
+      "href": "https://www.youtube.com/watch?v=EwvpiDOm5DQ",
+      "thumbnail": "/speakers/malak-janus.jpg",
+      "title": "Accessibility is still more than screenreaders"
+    },
+    {
+      "by": "Chris DeMars",
+      "href": "https://www.youtube.com/watch?v=9Qy1KDbKHPI",
+      "thumbnail": "/speakers/chris-demars.jpg",
+      "title": "Close Encounters of the Data Kind: Exploring UFO Sightings"
+    },
+    {
+      "by": "Mike Wolfson",
+      "href": "https://www.youtube.com/watch?v=wWSTzRbMXMY",
+      "thumbnail": "/speakers/mike-wolfson.jpg",
+      "title": "The UI of AI"
+    },
+    {
+      "by": "Tim Gailey",
+      "href": "https://www.youtube.com/watch?v=AF9awu5akQE",
+      "thumbnail": "/speakers/tim-gailey.jpg",
+      "title": "Design Decisions with Receipt"
+    },
+    {
+      "by": "Alex Monahan",
+      "href": "https://www.youtube.com/watch?v=nFbik_zXC_k",
+      "thumbnail": "/speakers/alex-monahan.jpg",
+      "title": "Open source libraries for 200 FPS in-browser data visualization"
+    },
+    {
+      "by": "Aaron Murray",
+      "href": "https://www.youtube.com/watch?v=UJPHpQ37ruE",
+      "thumbnail": "/speakers/aaron-murray.jpg",
+      "title": "Prompt Oriented Development"
+    }
+  ],
   "year": 2026
 }

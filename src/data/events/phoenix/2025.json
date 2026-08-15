@@ -20,12 +20,6 @@
   "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz and movie afterparty. Plan to arrive between 9:00-9:45am and stay late!",
   "sessions": [
     {
-      "by": "HalfStack",
-      "description": [""],
-
-      "title": "We've announced our first seven presenters. Check back regularly as we build an amazing day of fun!"
-    },
-    {
       "by": "Jen Looper",
       "description": [
         "Jen delivered some of the most amazing HalfStack talks in New York and online, and will join us in Phoenix to share a much different take on AI. Jen has done amazing work over the years supporting communities at Telerik, Microsoft and AWS, and is passionate about supporting new engineers in their quest to learn more about web technologies."
@@ -53,7 +47,7 @@
           "icon": "twitter"
         }
       ],
-      "title": "To be revealed"
+      "title": "AI Your Data"
     },
     {
       "by": "Luis Montes",
@@ -85,7 +79,7 @@
       "description": [
         "Bekah will do a music related performance... that's all we're saying for now!"
       ],
-      "title": "To be revealed"
+      "title": "The Undeniable Virtue of Doing Less"
     },
     {
       "by": "Rene Rubalcava",
@@ -151,16 +145,24 @@
         "Niels has shown some of the most amazing web API with hardware demos over the years at HalfStack. He's back again to share something fun with us."
       ],
       "socials": [
-        { "href": "https://twitter.com/html5test", "icon": "twitter" }
+        {
+          "href": "https://twitter.com/html5test",
+          "icon": "twitter"
+        }
       ],
-      "title": "To be revealed"
+      "title": "Resilience"
     },
     {
       "by": "Olu Ayandosu",
       "description": [
         "Embracing imperfection leads to real progress. There's a special kind of irony in watching smart people wait for the perfect moment to start. We optimize our lives down to the minute. Automating bills, planning schedules, finding the fastest route to work. Yet we hesitate at the edge of beginning something new."
       ],
-      "socials": [{ "href": "https://x.com/0lu", "icon": "twitter" }],
+      "socials": [
+        {
+          "href": "https://x.com/0lu",
+          "icon": "twitter"
+        }
+      ],
       "title": "Begin"
     },
     {
@@ -251,5 +253,73 @@
     ]
   },
   "trailer": "https://www.youtube.com/embed/F2EsnpOQnE4",
+  "videos": [
+    {
+      "by": "Jen Looper",
+      "href": "https://www.youtube.com/watch?v=0ku-xumLIGw",
+      "thumbnail": "/speakers/jen-looper.jpg",
+      "title": "Cultural heritage and AI"
+    },
+    {
+      "by": "William Blankenship",
+      "href": "https://www.youtube.com/watch?v=BOZU4OZtbks",
+      "thumbnail": "/speakers/william-blankenship.jpg",
+      "title": "AI Your Data"
+    },
+    {
+      "by": "Luis Montes",
+      "href": "https://www.youtube.com/watch?v=KjqhKVQJmrs",
+      "thumbnail": "/speakers/luis-montes.jpg",
+      "title": "JS Games on Retro Handheld Devices"
+    },
+    {
+      "by": "Malak Janus",
+      "href": "https://www.youtube.com/watch?v=WA0e7X9ii0E",
+      "thumbnail": "/speakers/malak-janus.jpg",
+      "title": "How to Train Your Dragon"
+    },
+    {
+      "by": "Bekah Rice",
+      "href": "https://www.youtube.com/watch?v=3TQA_IPZQXs",
+      "thumbnail": "/speakers/bekah-rice.jpg",
+      "title": "The Undeniable Virtue of Doing Less"
+    },
+    {
+      "by": "Rene Rubalcava",
+      "href": "https://www.youtube.com/watch?v=I2DBvmOA7Us",
+      "thumbnail": "/speakers/rene-rubalcava.jpg",
+      "title": "Map Along a Beat Path"
+    },
+    {
+      "by": "Luke Karrys",
+      "href": "https://www.youtube.com/watch?v=L0TEwrfaUL4",
+      "thumbnail": "/speakers/luke-karrys.jpg",
+      "title": "Performing Laparoscopic Lockfile Surgery"
+    },
+    {
+      "by": "Dylan Schiemann",
+      "href": "https://www.youtube.com/watch?v=bhghs91o6Hg",
+      "thumbnail": "/speakers/dylan-schiemann.jpg",
+      "title": "When JavaScript Engineers do DIY Projects"
+    },
+    {
+      "by": "Mariko Kosaka",
+      "href": "https://www.youtube.com/watch?v=TiJcHGtiVN8",
+      "thumbnail": "/speakers/mariko-kosaka.jpg",
+      "title": "Baseline - New web features you can use today"
+    },
+    {
+      "by": "Niels Leenheer",
+      "href": "https://www.youtube.com/watch?v=yJ6YUMoN-rU",
+      "thumbnail": "/speakers/niels-leenheer.jpg",
+      "title": "Resilience"
+    },
+    {
+      "by": "Olu Ayandosu",
+      "href": "https://www.youtube.com/watch?v=KK0C2RXnObo",
+      "thumbnail": "/speakers/olu-ayandosu.jpg",
+      "title": "Begin"
+    }
+  ],
   "year": 2025
 }

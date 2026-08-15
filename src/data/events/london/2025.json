@@ -1,0 +1,210 @@
+{
+  "catchphrase": "Join us for the original HalfStack event this November in London!",
+  "code": "halfstack-london-2025",
+  "date": "12th of November 2025",
+  "dateString": "2025-11-12",
+  "description": [
+    "200 brilliant JS and web people gathering in Shoreditch for a day that's actually worth your time. Local London talent plus presenters from around the world, zero sales nonsense, proper food and drinks, and an afterparty featuring our notorious JS Pub Quiz and karaoke."
+  ],
+  "faqs": [
+    [
+      "Does HalfStack London have last minute tickets available?",
+      "Not always. We love our venue but we're constrained by its size. Get your ticket early to save and avoid disappointment!"
+    ]
+  ],
+  "geolocation": [51.52036, -0.07319200000006276],
+  "location": "93 Feet East, London",
+  "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late! We have announced our first few presenters, with more to be revealed soon.",
+  "sessions": [
+    {
+      "by": "Jo Franchetti",
+      "description": [
+        "Jo has amazed the HalfStack community with the LED Christmas jumper, LED mask captioning, and a serverless seance. This year Jo will delight us with their adventures in writing a procgen/generative roleplay game for the web."
+      ],
+      "socials": [
+        {
+          "href": "https://x.com/ThisIsJoFrank",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/thisisjofrank/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "RolePlAI"
+    },
+    {
+      "by": "Rob Bateman",
+      "description": [
+        "Rob has wowed us with his previous sessions over the past decade on building complex game engines and games in the web. This year Rob take us down the journey of circles. Circles are one of the most straightforward geometric shapes, containing a certain pleasing symmetry and simplicity adored by both artists and the natural world alike. They are also an incredibly useful programming tool, in everything from function derivation and sound reproduction, to places as unexpected as algorithmic drawing and compression routines. In this session we will explore some of the lesser known applications of the humble circle, and see just how deep the rabbit hole goes."
+      ],
+      "socials": [
+        {
+          "href": "https://x.com/robnet",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/robnet/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "Circles All The Way Down"
+    },
+    {
+      "by": "Eduardo Aparicio Cardenes",
+      "description": [
+        "Eduardo is a regular attendee at HalfStack, and will take the stage for the first time this year. Well, first time if you ignore his excellent karaoke at the afterparty last year. Generate once, use everywhere",
+        "Modern development often suffers from two fundamental misalignments: Frontend and Backend teams are racing toward the same feature, but from opposite directions, and almost always at different speeds. And boilerplate duplication efforts across multiple projects when syncing data between the Frontend and Backend.",
+        "This session explores how we can eliminate that friction by treating the API contract as the source of truth and using it to generate the frontend client SDK automatically that can be shared across your development ecosystem (Web, Mobile, Backoffice, clients, etc). We are talking about real client code: fully-typed, runtime-validated, error-handling-capable, built instantly from a single file."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/byeduardoac",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/eacardenes/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "Shift left on API client generation"
+    },
+    {
+      "by": "David Benson",
+      "description": [
+        "Processing image data in \"unexpected\" ways and how we are ultimately capable of far more than we may believe.",
+        "Or yet another tale where a simple request, \"Convert these images\", leads to an adventure down a rabbit hole of doing something really stupid with JS in the browser."
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/dmbenson1978/",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "Photoplop: The World’s Worst Image Editor™"
+    },
+    {
+      "by": "Leo Riviera",
+      "description": [
+        "This year, Leo Riviera takes to the HalfStack stage again to share how they smashed their first Principal Engineer role at a growing startup.",
+        "They'll take time to explore how their responsibilities have shifted from writing great code to enabling others to write great software, and what it means to balance autonomy with alignment.",
+        "Or something like that."
+      ],
+      "socials": [
+        {
+          "href": "https://github.com/leoriviera",
+          "icon": "github"
+        },
+        {
+          "href": "https://linkedin.com/in/leoriviera",
+          "icon": "linkedin"
+        }
+      ],
+      "title": "How to Principal Engineer and Influence People"
+    },
+    {
+      "by": "Niels Leenheer",
+      "description": [
+        "From Lego Robots to Web Bluetooth Grocery Stores, Niels repeatedly delights us with his creative storytelling. This year Niels brings those skills to talk about Baseline",
+        "With the constant barrage of new features in CSS and JavaScript, it is quite a challenge to determine whether a feature is safe for use in your projects. It is great to be on the cutting edge of what is possible with the web platform, but we all want our project to just work - and not rely on a specific browser."
+      ],
+      "socials": [
+        {
+          "href": "https://twitter.com/html5test",
+          "icon": "twitter"
+        }
+      ],
+      "title": "Baseline 2025: which features are safe to use on the web today?"
+    },
+    {
+      "by": "Carly Richmond",
+      "description": [
+        "Join Carly your Jedi master on a trip across the galaxy to learn how vector search works and why it's an important tool that stops AI agents straying to the dark side and hallucinating."
+      ],
+      "socials": [
+        {
+          "href": "https://x.com/CarlyLRichmond",
+          "icon": "twitter"
+        },
+        {
+          "href": "https://www.linkedin.com/in/carly-richmond/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://bsky.app/profile/carlyrichmond.bsky.social",
+          "icon": "bluesky"
+        },
+        {
+          "href": "https://carlyrichmond.com/",
+          "icon": "website"
+        }
+      ],
+      "title": "Vector Search: A New Hope"
+    },
+    {
+      "by": "Steven Goodwin",
+      "description": [
+        "With everyone being caught up with generative AI, it's probably time to look back and do something different - how can you compose music using your own creativity, and not an AI system that's a bad mimic of existing work?"
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/marquisdegeek/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://marquisdegeek.com/",
+          "icon": "website"
+        }
+      ],
+      "title": "Generating music with Open tools, APIs, and NO AI!"
+    }
+  ],
+  "sponsors": {
+    "featured": [
+      {
+        "href": "https://livingspec.com",
+        "name": "Living Spec",
+        "src": "/logos/livingspec.svg"
+      },
+      {
+        "href": "https://platformatic.dev",
+        "name": "Platformatic",
+        "src": "/logos/platformatic.svg"
+      },
+      {
+        "href": "https://nx.dev",
+        "name": "Nx",
+        "src": "/logos/nx.svg"
+      },
+      {
+        "href": "https://platogo.com/",
+        "name": "Platogo",
+        "src": "/logos/platogo.svg"
+      }
+    ],
+    "half": [
+      {
+        "href": "https://openjsf.org/",
+        "name": "Open JS Foundation",
+        "src": "/logos/openjsfoundation.svg"
+      },
+      {
+        "href": "https://ti.to/",
+        "name": "Tito",
+        "src": "/logos/tito.svg"
+      },
+      {
+        "href": "http://codebar.io/",
+        "name": "codebar",
+        "src": "/logos/codebar.svg"
+      },
+      {
+        "href": "https://womencodingcommunity.com/",
+        "name": "Women Coding Community",
+        "src": "/logos/womencodingcommunity.svg"
+      }
+    ]
+  },
+  "trailer": "https://www.youtube.com/embed/iETEhv6A8_o",
+  "year": 2025
+}

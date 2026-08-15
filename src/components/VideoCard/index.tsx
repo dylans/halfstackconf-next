@@ -39,7 +39,12 @@ export function VideoCard<As extends React.ElementType>({
           {title}
         </Text>
       </div>
-      <TintedImage className={styles.thumbnail} src={thumbnail} />
+      <TintedImage
+        className={styles.thumbnail}
+        fill
+        sizes="(max-width: 768px) 50vw, 33vw"
+        src={thumbnail}
+      />
     </Card>
   );
 }

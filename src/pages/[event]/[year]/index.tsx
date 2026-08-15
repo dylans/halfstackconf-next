@@ -8,6 +8,7 @@ import { Columns } from "~/components/Columns";
 import { EventHeader } from "~/components/EventHeader";
 import { EventTheme } from "~/components/EventTheme";
 import { Footer } from "~/components/Footer";
+import { SessionsList } from "~/components/SessionsList";
 import { SponsorStacksList } from "~/components/SponsorStacksList";
 import { Text } from "~/components/Text";
 import { VideoCard } from "~/components/VideoCard";
@@ -23,10 +24,15 @@ export default function EventYear({
   event,
   name,
   otherEvents,
+  sessions,
   sponsors,
   videos,
   year,
 }: ReturnedProps<typeof getStaticProps>) {
+  const sessionsWithoutVideos = sessions?.filter(
+    (session) => !videos?.some((video) => video.by === session.by)
+  );
+
   return (
     <EventTheme event={event}>
       <Head>
@@ -91,6 +97,12 @@ export default function EventYear({
             </ul>
           </>
         )}
+
+        <SessionsList
+          intro={null}
+          sessions={sessionsWithoutVideos}
+          title={videos?.length ? "More Sessions" : "Presenters"}
+        />
 
         {sponsors && <SponsorStacksList {...sponsors} slug={event} />}
       </BodyArea>
