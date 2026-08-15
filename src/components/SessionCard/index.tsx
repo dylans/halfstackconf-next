@@ -70,6 +70,10 @@ export function SessionCard({
             alt={`${by}`}
             className={styles.image}
             fill
+            onError={(event) => {
+              event.currentTarget.srcset = "";
+              event.currentTarget.src = "/speakers/halfstack.jpg";
+            }}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={`/speakers/${hash}.jpg?v=9`}
           />

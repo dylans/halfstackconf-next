@@ -20,12 +20,6 @@
   "schedule": "HalfStack starts around 10am, includes approximately 10 sessions, breaks, lunch, dinner, and the JS Pub Quiz afterparty. Plan to arrive between 9:00-9:45am and stay late!",
   "sessions": [
     {
-      "by": "HalfStack Events",
-      "description": [""],
-
-      "title": "Our 2024 sessions. Check back closer to the event for 2025 sessions."
-    },
-    {
       "by": "William Blankenship",
       "description": [
         "What if we could invert ownership and identity in a social network, where users retained full control of their online presence?",
@@ -44,7 +38,6 @@
       "by": "Ben Ilegbodu",
       "description": [
         "Tired of generic chatbots fumbling through product recommendations? Imagine an AI assistant with an intimate understanding of your catalog and an uncanny knack for knowing what your customers crave. OpenAI's recently released Function Calls API unlocks this superpower, seamlessly fusing GPT's conversational elegance with your unique data.",
-
         "This session, for CEOs, engineers, PMs, and innovators, will delve into building custom AI assistants that respond dynamically to customer preferences. We'll explore how to leverage your data to personalize every interaction, leaving scaling limitations behind. Join us as we learn effective methods for building secure, searchable shopping chatbots using this cutting-edge API and discover best practices for designing conversational flows that delight customers and drive conversions. By the end, you'll be ready to embrace the future of AI-driven commerce, where every customer feels like a VIP and every purchase is a curated delight."
       ],
       "socials": [
@@ -86,9 +79,7 @@
       "by": "Ian Ruebbelke and Lukas Ruebbelke",
       "description": [
         "Programming is a skill set with many obvious benefits for pursuing the discipline in earnest. For a 12-year-old, most of these reasons are not applicable or interesting, so a different incentive system is required. Because we do not have the luxury of a fully formed prefrontal cortex to paint a vivid picture of the future glory that awaits us when we finally pull into the Delayed Gratification Station™, we must focus on the experience itself. How do we make programming a fulfilling and exciting activity purely on the merits of it being a fulfilling and exciting activity? This can be a bit circular, but such are the machinations of preteens.",
-
         "Since we are now deviating from sound and sensible grow-up logic, what if we could use programming as a delivery mechanism to hide the unpleasant and bitter taste of other educational responsibilities? What if programming could be so fun that we could sneak in math, science, language arts, etc. lessons, and NO ONE WOULD EVEN NOTICE!?",
-
         "Lukas (grown-up) and Ian (hatchling) Ruebbelke will share a framework that they have worked out (under duress at times) to make programming more fun and education less visible in their academic journey."
       ],
       "socials": [
@@ -116,7 +107,6 @@
       "by": "Todd Libby",
       "description": [
         "In the ever-evolving landscape of technology, individuals often find themselves entangled in the demanding web of responsibilities and burnout, particularly in the realm of accessibility. This abstract explores the profound experience of leaving the fast-paced world of technology, focusing on the challenges and burnout associated with the pursuit of making digital spaces inclusive for all. As professionals navigate the intricate web of accessibility, they encounter not only technical challenges but also grapple with the toll it takes on their well-being. The discussion delves into personal narratives of burnout, shedding light on the importance of recognizing the signs, embracing change, and ultimately embarking on a journey of retirement from the tech world.",
-
         "Retirement, in this context, symbolizes not just the end of a career but a deliberate choice to reclaim one's life and well-being. The transition from the tech industry to retirement is examined through the lens of personal growth, self-discovery, and the pursuit of a more balanced and fulfilling life. By intertwining the narratives of leaving tech and navigating burnout in the realm of accessibility, this abstract aims to provoke thoughtful reflections on the intersections of professional identity, well-being, and the pursuit of a more meaningful and sustainable future beyond the confines of a demanding career."
       ],
       "socials": [
@@ -281,56 +271,48 @@
       "thumbnail": "/speakers/william-blankenship.jpg",
       "title": "Alice in Wonderland: Peer to Peer Social Networks"
     },
-
     {
       "by": "Ben Ilegbodu",
       "href": "https://www.youtube.com/watch?v=LUR23f95G8g",
       "thumbnail": "/speakers/ben-ilegbodu.jpg",
       "title": "GPT-powered AI Shopping: From Search to Delight"
     },
-
     {
-      "by": "Anjali Nenneli",
+      "by": "Anjali Nennelli",
       "href": "https://www.youtube.com/watch?v=Q27_CydVTek",
       "thumbnail": "/speakers/anjali-nennelli.jpg?v=2",
       "title": "Crossroads of Cognition: The Emergence of Artificial General Intelligence and Its Implications"
     },
-
     {
-      "by": "Dylan and Otto Schiemann",
+      "by": "Otto Schiemann and Dylan Schiemann",
       "href": "https://www.youtube.com/watch?v=y-7Uwzucoy4",
       "thumbnail": "/speakers/otto-schiemann-and-dylan-schiemann.jpg",
       "title": "Introducing Capystroids ... feat. HalfStack's Youngest Ever Speaker!"
     },
-
     {
-      "by": "Ian and Lukas Ruebbelke",
+      "by": "Ian Ruebbelke and Lukas Ruebbelke",
       "href": "https://www.youtube.com/watch?v=AMkn_y9DSDI",
       "thumbnail": "/speakers/ian-ruebbelke-and-lukas-ruebbelke.jpg",
       "title": "Programming and Covert Learning Modalities"
     },
-
     {
       "by": "Malak Janus",
       "href": "https://www.youtube.com/watch?v=aDu4HLCGN64",
       "thumbnail": "/speakers/malak-janus.jpg",
       "title": "Accessibility: More Than Just Screen Readers"
     },
-
     {
       "by": "Todd Libby",
       "href": "https://www.youtube.com/watch?v=dUqc_vcrtpQ",
       "thumbnail": "/speakers/todd-libby.jpg",
       "title": "Breaking the Loop: A Journey Beyond Tech & Exploring the Grounding Day of Life"
     },
-
     {
       "by": "Kate Pond",
       "href": "https://www.youtube.com/watch?v=ub6dwsC95zY",
       "thumbnail": "/speakers/kate-pond.jpg",
       "title": "Figuring out what you want, and getting it!"
     },
-
     {
       "by": "Luis Montes",
       "href": "https://www.youtube.com/watch?v=t27sStqQMUk",
