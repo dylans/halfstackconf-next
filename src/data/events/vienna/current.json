@@ -156,6 +156,23 @@
         }
       ],
       "title": "Artful Defense: Let's Sketch Web Security"
+    },
+    {
+      "by": "Ruben Marcus",
+      "description": [
+        "Ruben built CS Brasil, a browser FPS that grew into a real product experiment: 2,191 players across 27 countries, bots, telemetry, regression checks, and a game loop evolved with AI agents. This talk isn't “AI wrote my game” — it's about the harness behind it: isolated builders, critics with clean context, browser verification, and the invariants that stop plausible garbage from shipping."
+      ],
+      "socials": [
+        {
+          "href": "https://www.linkedin.com/in/rubenmarcus/",
+          "icon": "linkedin"
+        },
+        {
+          "href": "https://rubenmarcus.dev/",
+          "icon": "site"
+        }
+      ],
+      "title": "Building a Browser FPS with AI Agents"
     }
   ],
   "sponsors": {
