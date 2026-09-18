@@ -160,7 +160,7 @@
     {
       "by": "Ruben Marcus",
       "description": [
-        "Ruben built CS Brasil, a browser FPS that grew into a real product experiment: 2,191 players across 27 countries, bots, telemetry, regression checks, and a game loop evolved with AI agents. This talk isn't “AI wrote my game” — it's about the harness behind it: isolated builders, critics with clean context, browser verification, and the invariants that stop plausible garbage from shipping."
+        "Ruben built CS Brasil, a browser FPS that grew into a real product experiment: 2,191 players across 27 countries, bots, telemetry, regression checks, and a game loop evolved with AI agents. This talk isn't “AI wrote my game”. It's about the harness behind it: isolated builders, critics with clean context, browser verification, and the invariants that stop plausible garbage from shipping."
       ],
       "socials": [
         {
