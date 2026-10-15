@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@react-google-maps/api": "^2.18.1",
     "clsx": "^1.2.1",
     "next": "13.4.3",
     "react": "18.2.0",

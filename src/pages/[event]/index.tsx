@@ -9,7 +9,6 @@ import { EventHeader } from "~/components/EventHeader";
 import { EventSummary } from "~/components/EventSummary";
 import { EventTheme } from "~/components/EventTheme";
 import { ExpectationPhotos } from "~/components/ExpectationPhotos";
-import { FindUs } from "~/components/FindUs";
 import { SecondaryBanner } from "~/components/SecondaryBanner";
 import { SessionsList } from "~/components/SessionsList";
 import { SplitPromo } from "~/components/SplitPromo";
@@ -29,7 +28,6 @@ export default function Event({
     date = "TBD",
     dateString,
     description,
-    geolocation,
     location,
     name,
     sessions,
@@ -80,8 +78,6 @@ export default function Event({
         <Anchor href="/pricing">Pricing page</Anchor> to understand what we
         charge and why.
       </SecondaryBanner>
-
-      {geolocation && <FindUs geolocation={geolocation} slug={slug} />}
 
       <EventFooter slug={slug} />
     </EventTheme>
